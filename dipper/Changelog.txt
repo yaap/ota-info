@@ -1,0 +1,25 @@
+ROM:
+• Merge android-11.0.0_r31 tag (February SPL).
+• Add missing FORCE_STOP_PACKAGES permission to systemUI.
+• Fix any potential workspace issues with Launcher3.
+• Reduce app label text size in Launcher3.
+• Switch back to OSS Apex.
+• Set Google Photos as System Gallery.
+• Update Chinese translation.
+• Small bug fixes.
+
+Device:
+• Merge 4.9.255
+• Merge LA.UM.9.3.r1-00700-sdm845.0 for kernel
+• Deploy libwfdaac_proprietary for miracast
+• Pack libwfdaac_vendor for WFD
+• Drop prebuilt libwfdaac_vendor.so
+• Import renderscript drivers from crosshatch
+• Clean up display stack
+• Drop bitness from graphics composer service
+• Configure SQLite to operate in MEMORY mode
+• Create and symlink a dummy /metadata/apex
+• Generate the apex image
+• Update HotwordEnrollment blobs
+• Disable config_fillMainBuiltInDisplayCutout
+
