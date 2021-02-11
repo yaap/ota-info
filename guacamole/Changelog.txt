@@ -1,0 +1,21 @@
+Since 03/Feb
+
+ROM:
+• Merged new per app network isolation
+• Added burn-in protection to gestural navbar
+• Added a delete button to screenshot
+• Added per app force full screen for notch
+• Added a shortcut to running services in QS footer
+• Disabled useless AOSP system update preference
+• Disabled user avatar in about phone
+• Allow editing all APN types
+• Possibly fixed the black wallpaper bug
+• Some other minor bug fixes
+
+Device:
+• Address a few SELinux denials
+• Update CarrierConfig from R
+• Disable world_phone and cdma choices
+• Switch to QTI Thermal HAL
+• Enable persist.rcs.supported
+• Update soundtrigger & time service blobs from OB2
