@@ -1,25 +1,23 @@
-ROM:
-• Merge android-11.0.0_r31 tag (February SPL).
-• Add missing FORCE_STOP_PACKAGES permission to systemUI.
-• Fix any potential workspace issues with Launcher3.
-• Reduce app label text size in Launcher3.
-• Switch back to OSS Apex.
-• Set Google Photos as System Gallery.
-• Update Chinese translation.
-• Small bug fixes.
+Device Changelog:
+• Switch to qti bt
+• Fix WFD
+• parts: Add vector icons
+• iorap: Turn pinner on for camera
+• Add FPS Counter
+• Kernel Merged 4.9.257
+• Kernel Merged LA.UM.9.8.r1-03600-SDM710.0
+• Enabled NTFS/exFAT drivers in kernel
+• Kernel: Add sysfs node in dpu driver to provide fps 
 
-Device:
-• Merge 4.9.255
-• Merge LA.UM.9.3.r1-00700-sdm845.0 for kernel
-• Deploy libwfdaac_proprietary for miracast
-• Pack libwfdaac_vendor for WFD
-• Drop prebuilt libwfdaac_vendor.so
-• Import renderscript drivers from crosshatch
-• Clean up display stack
-• Drop bitness from graphics composer service
-• Configure SQLite to operate in MEMORY mode
-• Create and symlink a dummy /metadata/apex
-• Generate the apex image
-• Update HotwordEnrollment blobs
-• Disable config_fillMainBuiltInDisplayCutout
+ROM Changelog:
+• Merged new per app network isolation
+• Added burn-in protection to gestural navbar
+• Added a delete button to screenshot
+• Added per app force full screen for notch
+• Added a shortcut to running services in QS footer
+• Disabled useless AOSP system update preference
+• Disabled user avatar in about phone
+• Allow editing all APN types
+• Possibly fixed the black wallpaper bug
+• Some other minor bug fixes
 
