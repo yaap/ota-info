@@ -1,21 +1,15 @@
-Since 03/Feb
+Since 21/Feb
 
 ROM:
-• Merged new per app network isolation
-• Added burn-in protection to gestural navbar
-• Added a delete button to screenshot
-• Added per app force full screen for notch
-• Added a shortcut to running services in QS footer
-• Disabled useless AOSP system update preference
-• Disabled user avatar in about phone
-• Allow editing all APN types
-• Possibly fixed the black wallpaper bug
-• Some other minor bug fixes
+• Merged tag r33 (March security patch)
+• Allow scheduling AOD (sunset to sunrise & custom times)
+• Added LOS recovery
+• Reorder custom vibration pattern in settings
+• Phone ringtone setting for multi sim
+• Let legacy apps scale to the full screen ratio
+• Other minor fixes
 
 Device:
-• Address a few SELinux denials
-• Update CarrierConfig from R
-• Disable world_phone and cdma choices
-• Switch to QTI Thermal HAL
-• Enable persist.rcs.supported
-• Update soundtrigger & time service blobs from OB2
+• Rework dex flags
+• Update relevant blobs from OB3
+• Update Adreno blobs from LA.UM.9.1.r1-08600-SMxxx0.0
