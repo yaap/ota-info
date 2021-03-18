@@ -1,15 +1,19 @@
-Since 21/Feb
+Since 02/Mar:
 
 ROM:
-• Merged tag r33 (March security patch)
-• Allow scheduling AOD (sunset to sunrise & custom times)
-• Added LOS recovery
-• Reorder custom vibration pattern in settings
-• Phone ringtone setting for multi sim
-• Let legacy apps scale to the full screen ratio
-• Other minor fixes
+• Add support for mixed sun & time for AOD schedule
+• Allow choosing volume panel position
+• Fix bluetooth output icon in volume panel
+• Launch output selector on bluetooth output icon in volume panel
+• (When media is not playing / on long press, it'll still open BT settings)
+• Add a YAAP default wallpaper
+• Make YASP & YASP about icons really dynamic
+• Make YASP & YASP about icons themable
+• Refactored network traffic monitor code
+• Fix font size on 5x5 grid (L3)
+• Merged a new qcom-caf tag
+• Some other small fixes
+• Update Chinese translations
 
 Device:
-• Rework dex flags
-• Update relevant blobs from OB3
-• Update Adreno blobs from LA.UM.9.1.r1-08600-SMxxx0.0
+• Update ueventd & bootscripts from LA.UM.9.1.r1-09100-SMxxx0.0
