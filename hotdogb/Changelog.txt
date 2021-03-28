@@ -1,19 +1,20 @@
-Since 02/Mar:
-
 ROM:
-• Add support for mixed sun & time for AOD schedule
-• Allow choosing volume panel position
-• Fix bluetooth output icon in volume panel
-• Launch output selector on bluetooth output icon in volume panel
-• (When media is not playing / on long press, it'll still open BT settings)
-• Add a YAAP default wallpaper
-• Make YASP & YASP about icons really dynamic
-• Make YASP & YASP about icons themable
-• Refactored network traffic monitor code
-• Fix font size on 5x5 grid (L3)
-• Merged a new qcom-caf tag
-• Some other small fixes
-• Update Chinese translations
+• Updated and enabled backuptool
+• SimpleDeviceConfig: Compact cached app heaps in the background & enable cached app freezer
+• Add and enable performance mode in A/B update by default
+• Merge latest caf tags wherever relevant
+• Update icon pack implementation (no more weird icon mask)
+• Fix blur issues in Launcher3 while opening app drawer
+• Fixes for AutoAODService
+• Don't show FOD icon/pad keyguard if strong auth is required
+• Tons of FODCircleView improvements
 
-Device:
-• Update ueventd & bootscripts from LA.UM.9.1.r1-09100-SMxxx0.0
+Device: 
+• Added missing c2_configs
+• Addressed more SEpolicy denials
+• Switch back to OpenGL for Skia backend
+• Update blobs from OB4 and LA.UM.9.1.r1-09100-SMxxx0.0
+• Start using perf QTI component
+• Change userdata fsync mode to strict for f2fs
+• Fix sensors race condition
+• Set gain of vibrator to 0x55 on boot
