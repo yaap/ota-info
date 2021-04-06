@@ -1,20 +1,21 @@
 ROM:
-• Updated and enabled backuptool
-• SimpleDeviceConfig: Compact cached app heaps in the background & enable cached app freezer
-• Add and enable performance mode in A/B update by default
-• Merge latest caf tags wherever relevant
-• Update icon pack implementation (no more weird icon mask)
-• Fix blur issues in Launcher3 while opening app drawer
-• Fixes for AutoAODService
-• Don't show FOD icon/pad keyguard if strong auth is required
-• Tons of FODCircleView improvements
+• Merged r34 tag (April security patch)
+• Make OpenDelta even faster
+• Set share menu ranked items to 8 (from 4)
+• Change official tag
+• Sepolicy fixes
+• Fixed Verizon (and other sub mvnos support)
+• Many other small changes and fixes all around
 
-Device: 
-• Added missing c2_configs
-• Addressed more SEpolicy denials
-• Switch back to OpenGL for Skia backend
-• Update blobs from OB4 and LA.UM.9.1.r1-09100-SMxxx0.0
-• Start using perf QTI component
-• Change userdata fsync mode to strict for f2fs
-• Fix sensors race condition
-• Set gain of vibrator to 0x55 on boot
+Device:
+A big rebase has been done so I am going to summarise it.
+• Switched to FBE v2 encryption.
+• Enabled inlinecrypt encryption now.
+• Disabled sdcardfs and enabled project_id and f2fs casefolding.
+• Removed ext4 support entirely, you can only use f2fs now.
+• Added different vibration haptics are alert slider
+• WiFi Display is working now.
+• Updated to OOS 11 blobs throughout and switched to R kernel
+• Widevine L1 works perfectly 
+
+NOTE: You must clean flash and format data/internal storage to f2fs.
