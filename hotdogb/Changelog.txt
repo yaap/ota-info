@@ -1,21 +1,26 @@
 ROM:
-• Merged r34 tag (April security patch)
-• Make OpenDelta even faster
-• Set share menu ranked items to 8 (from 4)
-• Change official tag
-• Sepolicy fixes
-• Fixed Verizon (and other sub mvnos support)
-• Many other small changes and fixes all around
+• Imporve & maintain FOD view code (run better, get rid of deprecations used...)
+• Add 2nd sim ringtone to the backup array
+• Fixed user icon padding in QS
+• Slightly improve AOD schedule code
+• Support all time locales in YASP for AOD schedule
+• New caf tag merged where relevant
+• Many other small improvements (APN configs, fw_native, Settings and more)
 
 Device:
-A big rebase has been done so I am going to summarise it.
-• Switched to FBE v2 encryption.
-• Enabled inlinecrypt encryption now.
-• Disabled sdcardfs and enabled project_id and f2fs casefolding.
-• Removed ext4 support entirely, you can only use f2fs now.
-• Added different vibration haptics are alert slider
-• WiFi Display is working now.
-• Updated to OOS 11 blobs throughout and switched to R kernel
-• Widevine L1 works perfectly 
+• Fix sensors race condition
+• Fix proximity sensor for OnePlus 7T
+• Add and enable secure_element for supported devices
+• Add model detection (will properly show model number and fix HDR in Netflix :D)
+• Enable incremental FS
+• Update overlays to latest qssi tags
+• Checkout Media and WiFi configs to LA.UM.9.1.r1-09200-SMxxx0.0
+• Fix oneplus typos and missing permissions
+• Address any remaining denials
 
-NOTE: You must clean flash and format data/internal storage to f2fs.
+Kernel:
+• Rebase properly on OOS source
+• Merge Linux kernel 4.14.230
+• Merge CAF tag LA.UM.9.1.r1-09200-SMxxx0.0 across kernel and submodules.
+• Fix any issues with HBM and Panel Modes in DeviceSettings
+• Begin forward porting all the relevant changes from before
