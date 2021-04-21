@@ -1,26 +1,15 @@
 ROM:
-• Imporve & maintain FOD view code (run better, get rid of deprecations used...)
-• Add 2nd sim ringtone to the backup array
-• Fixed user icon padding in QS
-• Slightly improve AOD schedule code
-• Support all time locales in YASP for AOD schedule
-• New caf tag merged where relevant
-• Many other small improvements (APN configs, fw_native, Settings and more)
+• Refactor network traffic monitor code
+• Add YAAP build info in about phone
+• Add user avatar to setting's search bar
+• Use OOS FOD icon
+• Many fixes to Launcher
+• Disable Play System Updater
+• Some other small fixes
 
 Device:
-• Fix sensors race condition
-• Fix proximity sensor for OnePlus 7T
-• Add and enable secure_element for supported devices
-• Add model detection (will properly show model number and fix HDR in Netflix :D)
-• Enable incremental FS
-• Update overlays to latest qssi tags
-• Checkout Media and WiFi configs to LA.UM.9.1.r1-09200-SMxxx0.0
-• Fix oneplus typos and missing permissions
-• Address any remaining denials
-
-Kernel:
-• Rebase properly on OOS source
-• Merge Linux kernel 4.14.230
-• Merge CAF tag LA.UM.9.1.r1-09200-SMxxx0.0 across kernel and submodules.
-• Fix any issues with HBM and Panel Modes in DeviceSettings
-• Begin forward porting all the relevant changes from before
+• Switch a decent chunk of blobs to LA.UM.9.1.r1-09100-SMxxx0.0
+• Remove unused blobs and multilibs
+• Implement OOS Style QTI Vibrator HAL
+• Fix any other remaining permission or selinux denials
+• Update blobs from 11.0.0.2
