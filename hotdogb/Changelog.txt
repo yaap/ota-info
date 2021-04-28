@@ -1,15 +1,16 @@
 ROM:
-• Refactor network traffic monitor code
-• Add YAAP build info in about phone
-• Add user avatar to setting's search bar
-• Use OOS FOD icon
-• Many fixes to Launcher
-• Disable Play System Updater
+• Save and load the preferences for screen recorder
+• Add back delete action for screen recorder
+• Add blinking dot & low quality options for screen recorder
+• Enable iorapd
+• Some performance enhancements all around
+• Some minor fixes to recovery
+• Address some SElinux denials
+• Update Chinese translation
 • Some other small fixes
 
 Device:
-• Switch a decent chunk of blobs to LA.UM.9.1.r1-09100-SMxxx0.0
-• Remove unused blobs and multilibs
-• Implement OOS Style QTI Vibrator HAL
-• Fix any other remaining permission or selinux denials
-• Update blobs from 11.0.0.2
+• Fix any NFC wakelocks
+• Switch back to Q vibrator HAL + fwk hack
+• Update VibrationEffects in KeyHandler
+• Address NFC Secure Element denials
