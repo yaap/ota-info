@@ -1,43 +1,47 @@
-Device Changelog:
-1. Fixed Perf HAL ( Battery drain is normal now )
-2. Remove duplicates in read_ahead_kb values
-3. Update performance values in xml file
-4. Build libplatformconfig from source
-5. Mark HDR as SDR
+Device:
+1. Switch to libperfmgr
+2. Clean up some sepolicies
+3. Move dummy metadata to init
+4. Update ims apk from LA.QSSI.11.0.r1-010400-qssi.0
+5. Ditch VR HAL
+6. Drop I/O prefetcher
+7. Add SchedTune configuration
+8. Reduce boot partition size
+9. Build disabled VBMeta image for all targets
+10. conf_files: use AOSP FLAC decoder
+11. Update performance values in xml file
+12. audio: Enable Stereo channel support for voip over audio path
+13. ini: Remove TDLS INI from ini file
+14. Add back ro.vendor.extension_library definition
+15. Switch to Etude Kernel by jjpprrrr
 
-Kernel Changelog:
-1. Switch to proton clang to build
-3. Introduce & Enable SchedTune Assist
-4. Sched improves
-5. Other changes, check the kernel source
-
-ROM Changelog:
-• Merged tag r33 (March security patch)
-• Allow scheduling AOD (sunset to sunrise & custom times)
-• Added LOS recovery
-• Reorder custom vibration pattern in settings
-• Phone ringtone setting for multi sim
-• Let legacy apps scale to the full screen ratio
-• Other minor fixes
-• Add support for mixed sun & time for AOD schedule.
-• Allow choosing volume panel position.
-• Fix Bluetooth output icon in volume panel.
-• Launch output selector on Bluetooth output icon in volume panel (When media is not playing / on long press, it'll still open BT settings).
-• Add a YAAP default wallpaper.
-• Make YASP & YASP about icons really dynamic.
-• Make YASP & YASP about icons themeable.
-• Refactored network traffic monitor code.
-• Fix font size on 5x5 grid (L3).
-• Merged a new CAF tags wherever relevant.
-• Some other small fixes.
-• Update Chinese translations.
-• SimpleDeviceConfig: Compact cached app heaps in the background & enable cached app freezer
-• Added back A/B performance mode for OpenDelta
-• Added backuptool for addon.d support
-• Merge latest caf tags wherever relevant
-• Update icon pack implementation (no more weird icon mask)
-• Fix blur issues in Launcher3 while opening app drawer
-• AOD Schedule now works when doze is disabled
-• Improved FOD visibility conditions
-• Improved FOD icon dimming code
-• Hide FOD when we can't unlock with it
+ROM:
+* Merged r34 tag (April security patch)
+* Make OpenDelta even faster
+* Set share menu ranked items to 8 (from 4)
+* Change official tag
+* Sepolicy fixes
+* Fixed Verizon (and other sub mvnos support)
+* Many other small changes and fixes all around
+* Imporve & maintain FOD view code (run better, get rid of deprecations used...)
+* Add 2nd sim ringtone to the backup array
+* Fixed user icon padding in QS
+* Slightly improve AOD schedule code
+* Support all time locales in YASP for AOD schedule
+* Many other small improvements (APN configs, fw_native, Settings and more)
+* Refactor network traffic monitor code
+* Add YAAP build info in about phone
+* Add user avatar to setting's search bar
+* Use OOS FOD icon
+* Many fixes to Launcher
+* Disable Play System Updater
+* Some other small fixes
+* Save and load the preferences for screen recorder
+* Add back delete action for screen recorder
+* Add blinking dot & low quality options for screen recorder
+* Enable iorapd
+* Some performance enhancements all around
+* Some minor fixes to recovery
+* Address some SElinux denials
+* Update Chinese translation
+* Some other small fixes
