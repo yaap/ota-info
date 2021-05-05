@@ -1,16 +1,12 @@
 ROM:
-• Save and load the preferences for screen recorder
-• Add back delete action for screen recorder
-• Add blinking dot & low quality options for screen recorder
-• Enable iorapd
-• Some performance enhancements all around
-• Some minor fixes to recovery
-• Address some SElinux denials
-• Update Chinese translation
+• Merged android-11.0.0_r37 (a.k.a. May SPL)
+• Merged latest CAF tags wherever relevant
+• Fix off-screen hotword detection
 • Some other small fixes
 
 Device:
-• Fix any NFC wakelocks
-• Switch back to Q vibrator HAL + fwk hack
-• Update VibrationEffects in KeyHandler
-• Address NFC Secure Element denials
+• Update vendor blobs to LA.UM.9.1.r1-09200-SMxxx0.0
+• Add Natural and Vivid display modes
+• Re-introduce set/restore colour modes for FOD
+• Fix wakelock on AoD
+• Set doze auto brightness scale to 80%
