@@ -1,0 +1,71 @@
+ROM:
+
+• Merged latest CAF tags wherever relevant
+
+• Fix off-screen hotword detection
+
+• Some other small fixes
+
+• Improve some OpenDelta code
+
+• Use SHA-256 instead of MD5 when verifying downloaded build
+
+• Only show user avatar on settings search bar when multi user is enabled
+
+• Always enable navbar inverse toggle
+
+• Add option to change icon & font sizes in launcher
+
+• Disable drag handle in launcher
+
+• Some other small tweaks to launcher
+
+• Update some APNs
+
+• Support more file systems on external storage
+
+• Remove aosp's 'show battery percentage' setting
+
+• Disable downgrade check
+
+• Backuptool fixes for a-only dynamic
+
+• Add appinfo bottom sheet in launcher
+
+• Add uninstall option to shortcuts
+
+• Fix colors in launcher
+
+
+
+Kernel:
+
+• Switch to PELT and UCLAMP for sched (thanks to @RealJohnGalt for this)
+
+• Disable some debugging in WiFi driver
+
+• Fix brightness mapping for userspace
+
+• Implement Oneplus fuse short-circuit, really improves I/O speeds
+
+     and a lot of other changes, check our kernel git  to see more detailed changes.
+
+
+
+Device: 
+
+• Lower minimum brightness in overlay
+
+• Remove redundant Enable doze check in custom doze options
+
+• Fix recording in google recorder and make sure recording is not muffled
+
+• Update system blobs from LA.QSSI.11.0.r1-11600-qssi.0
+
+• Import hotword blobs from Hentai OS
+
+• Fix wake up sources denials
+
+• Import some doze overlays from stock
+
+• Fix padding for carrier text
