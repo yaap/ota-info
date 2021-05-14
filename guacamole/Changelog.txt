@@ -1,15 +1,13 @@
 ROM:
-• Improve some OpenDelta code
-• Use SHA-256 instead of MD5 when verifying downloaded build
-• Only show user avatar on settings search bar when multi user is enabled
-• Always enable navbar inverse toggle
-• Add option to change icon & font sizes in launcher
-• Disable drag handle in launcher
-• Some other small tweaks to launcher
-• Update some APNs
-• Support more file systems on external storage
-• Some other minor fixes & improvements
+• Merged latest CAF tags wherever relevant
+• Add AppInfo Bottom Sheet in Launcher
+• Add uninstall option to shortcuts in Launcher
+• Add an option to record screen for longer
 
-Device:
-• Fix Wi-Fi Range issues (both 5GHz and 2.4GHz)
-• Add raise to wake and pocket gestures
+Device: 
+• Update device paddings/overlays (7T Only)
+• Update more blobs to LA.UM.9.1.r1-09200-SMxxx0.0
+• Remove unused blobs and services
+
+Kernel:
+https://t.me/jgop7t/99
