@@ -1,0 +1,16 @@
+Device:
+- Switched to Neutrino Kernel by @ return_of_octobot
+- Updated blobs from OnePlus 9R
+- FOD improvements
+- Added vibration strength customization
+- Enabled burn-in protection on Ambient Display
+- Removed "HD supported" notification for all carriers
+- Switched to Pixel 5 fingerprint
+
+ROM:
+- Added primary theme customization
+- Added option for longer screenrecordings
+- Added font & icon size options to launcher
+- Improved expanded volume panel
+- Merged LA.UM.9.14.r1-16300-LAHAINA.0 in relevant repos
+- Tons of minor fixes in YASP, Launcher, Settings etc.
