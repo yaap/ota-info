@@ -1,13 +1,18 @@
 ROM:
+• Improve volume dialog code & fix the expand animation
+• Simplify OpenDelta auto download network option
+• Make emergency tile in powermenu look better
+• Swipe down to expand statusbar in Launcher3
+• Add an option to choose primary overlay (bg dark color)
+• Many minor visual fixes in settings (and other minor changes)
 • Merged latest CAF tags wherever relevant
-• Add AppInfo Bottom Sheet in Launcher
-• Add uninstall option to shortcuts in Launcher
-• Add an option to record screen for longer
+• Bug fixes in recovery
+• Updated some APNs
+• Some other minor changes
 
-Device: 
-• Update device paddings/overlays (7T Only)
-• Update more blobs to LA.UM.9.1.r1-09200-SMxxx0.0
-• Remove unused blobs and services
-
-Kernel:
-https://t.me/jgop7t/99
+Device:
+• Update FOD zOrder
+• Optimize native executables for Cortex-A76 CPU
+• Re-introduce cleaned up raise to wake implementation
+• Add Wake Device Action to off screen gestures
+• Cleanup/update more blobs

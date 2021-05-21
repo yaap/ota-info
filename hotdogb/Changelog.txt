@@ -1,15 +1,18 @@
 ROM:
-• Improve some OpenDelta code
-• Use SHA-256 instead of MD5 when verifying downloaded build
-• Only show user avatar on settings search bar when multi user is enabled
-• Always enable navbar inverse toggle
-• Add option to change icon & font sizes in launcher
-• Disable drag handle in launcher
-• Some other small tweaks to launcher
-• Update some APNs
-• Support more file systems on external storage
-• Some other minor fixes & improvements
+• Improve volume dialog code & fix the expand animation
+• Simplify OpenDelta auto download network option
+• Make emergency tile in powermenu look better
+• Swipe down to expand statusbar in Launcher3
+• Add an option to choose primary overlay (bg dark color)
+• Many minor visual fixes in settings (and other minor changes)
+• Merged latest CAF tags wherever relevant
+• Bug fixes in recovery
+• Updated some APNs
+• Some other minor changes
 
 Device:
-• Fix Wi-Fi Range issues (both 5GHz and 2.4GHz)
-• Add raise to wake and pocket gestures
+• Update FOD zOrder
+• Optimize native executables for Cortex-A76 CPU
+• Re-introduce cleaned up raise to wake implementation
+• Add Wake Device Action to off screen gestures
+• Cleanup/update more blobs
