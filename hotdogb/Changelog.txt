@@ -1,13 +1,15 @@
 ROM:
-• Auto close power menu after 1m
-• Display download speed in notification (DownloadProvider)
-• Add pause & resume to DownloadProvider notification
-• Some other minor changes, fixes and improvements
+• Merged latest CAF tags wherever relevant
+• Backport hw_random changes from aosp-master
+• Fixups for SBC-Dual Channel
+• Globally spoof release-keys for build tags
 
 Device:
-• Cleanup rootdir scripts
-• Cleanup and update blobs to LA.UM.9.1.r1-09600-SMxxx0.0 and 11.0.1.1
-• Fix phone calls for T-Moblie SIM
+• Actually use correction for ALS
+• Drop secure_element stack
+• Include OpSoundTuner and Dolby
+• Upstream Bluetooth header to LA.QSSI.11.0.r1-12100-qssi.0
+• Change fod pressed colour for 7t (re-enroll fingerprint)
 
 Kernel:
-Too long changelog to post really, check on @jgop7t v1.0b8 - v1.0b12
+• Too long changelog to post really, check on @jgop7t v1.0b13 - v1.0b15
