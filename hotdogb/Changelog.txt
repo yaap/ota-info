@@ -5,11 +5,8 @@ ROM:
 • Globally spoof release-keys for build tags
 
 Device:
-• Actually use correction for ALS
+• Test new ALS Correction algorithm
 • Drop secure_element stack
-• Include OpSoundTuner and Dolby
-• Upstream Bluetooth header to LA.QSSI.11.0.r1-12100-qssi.0
-• Change fod pressed colour for 7t (re-enroll fingerprint)
 
 Kernel:
 • Too long changelog to post really, check on @jgop7t v1.0b13 - v1.0b15
