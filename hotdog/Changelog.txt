@@ -1,0 +1,12 @@
+ROM:
+• Merged latest CAF tags wherever relevant
+• Backport hw_random changes from aosp-master
+• Fixups for SBC-Dual Channel
+• Globally spoof release-keys for build tags
+
+Device:
+• Test new ALS Correction algorithm
+• Drop secure_element stack
+
+Kernel:
+• Too long changelog to post really, check on @jgop7t v1.0b13 - v1.0b15
