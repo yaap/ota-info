@@ -1,49 +1,24 @@
 ROM:
+• Backport hw_random changes from aosp-master
+• Fixups for SBC-Dual Channel
+• Globally spoof release-keys for build tags
+• Display download speed in notification (DownloadProvider)
+• Some other minor changes, fixes and improvements
+• Merge June SPL and latest caf tags wherever relevant
+• Fix statusbar colour issues on Launcher3
+• Add machine learning back gesture
+• Fixups for Volume Dialog Animation
+• Fixups for Icon Overlays
 
-• Improve volume dialog code & fix the expand animation
+Device:
+• Improved the QDCM display config
+• Updated device fingerprint to June
+• Added back FM
+• Disabled NFC for Indian devices
+• Removed useless blobs from vendor and added a missing blob
+• Updated stock blobs from CN MIUI 12.5.4.0
+• Improved pop-up behavior
 
-• Simplify OpenDelta auto download network option
-
-• Make emergency tile in powermenu look better
-
-• Swipe down to expand statusbar in Launcher3
-
-• Add an option to choose primary overlay (bg dark color)
-
-• Many minor visual fixes in settings (and other minor changes)
-
-• Merged latest CAF tags wherever relevant
-
-• Bug fixes in recovery
-
-• Updated some APNs
-
-• Some other minor changes
-
-• Add a one minute timeout to global actions dialog
-
-• Add support to manually pause/resume download 
-
-• Remove background tint from emergency tile
-
-
-
-Device
-
-• Set Bluetooth device names based on region
-
-• Simplify recovery updater script
-
-• Switch to c2 media codec over omx
-
-• Update some audio props from stock
-
-• Update vendor blobs from LA.UM.9.1.r1-09600-SMxxx0.0
-
-• add support for ntfs and exfat file systems in kernel
-
-• Merge linux stable tag 4.14.233 into kernel
-
-• Properly fix handling of wired headphone buttons in kernel and remove userspace keylayout file
-
-• Redo charger driver in kernel and add a overheat mitigation driver for usb in kernel
+Kernel:
+• Merge LA.UM.9.1.r1-10200-SMxxx0.0 tag
+• Merge .235
