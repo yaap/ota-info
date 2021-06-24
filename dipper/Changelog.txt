@@ -1,47 +1,14 @@
-Device:
-1. Switch to libperfmgr
-2. Clean up some sepolicies
-3. Move dummy metadata to init
-4. Update ims apk from LA.QSSI.11.0.r1-010400-qssi.0
-5. Ditch VR HAL
-6. Drop I/O prefetcher
-7. Add SchedTune configuration
-8. Reduce boot partition size
-9. Build disabled VBMeta image for all targets
-10. conf_files: use AOSP FLAC decoder
-11. Update performance values in xml file
-12. audio: Enable Stereo channel support for voip over audio path
-13. ini: Remove TDLS INI from ini file
-14. Add back ro.vendor.extension_library definition
-15. Switch to Etude Kernel by jjpprrrr
-
 ROM:
-* Merged r34 tag (April security patch)
-* Make OpenDelta even faster
-* Set share menu ranked items to 8 (from 4)
-* Change official tag
-* Sepolicy fixes
-* Fixed Verizon (and other sub mvnos support)
-* Many other small changes and fixes all around
-* Imporve & maintain FOD view code (run better, get rid of deprecations used...)
-* Add 2nd sim ringtone to the backup array
-* Fixed user icon padding in QS
-* Slightly improve AOD schedule code
-* Support all time locales in YASP for AOD schedule
-* Many other small improvements (APN configs, fw_native, Settings and more)
-* Refactor network traffic monitor code
-* Add YAAP build info in about phone
-* Add user avatar to setting's search bar
-* Use OOS FOD icon
-* Many fixes to Launcher
-* Disable Play System Updater
-* Some other small fixes
-* Save and load the preferences for screen recorder
-* Add back delete action for screen recorder
-* Add blinking dot & low quality options for screen recorder
-* Enable iorapd
-* Some performance enhancements all around
-* Some minor fixes to recovery
-* Address some SElinux denials
-* Update Chinese translation
-* Some other small fixes
+Fix issues for slower brightness ramp rates
+Revert "display: Don't animate screen brightness when turning the screen on" as this causes some issues with AoD
+
+Device:
+Switch to user build
+Nuke deprecated bluetooth flag
+Migrate to Health 2.1 HAL
+Drop SSR blobs and set SSR restart_level in init.qcom.rc
+Fixed up sepolicies
+Fixed notification light crazy blinking
+Merged 4.9.273
+Etude Op.11 No.5
+Other changes & improvements
