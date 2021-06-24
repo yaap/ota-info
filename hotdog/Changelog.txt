@@ -1,12 +1,10 @@
 ROM:
-• Merged latest CAF tags wherever relevant
-• Backport hw_random changes from aosp-master
-• Fixups for SBC-Dual Channel
-• Globally spoof release-keys for build tags
+Fix issues for slower brightness ramp rates
+Revert "display: Don't animate screen brightness when turning the screen on" as this causes some issues with AoD
 
 Device:
-• Test new ALS Correction algorithm
-• Drop secure_element stack
-
-Kernel:
-• Too long changelog to post really, check on @jgop7t v1.0b13 - v1.0b15
+Reset sensors to LOS (until the appropriate fixes get merged on PA)
+Re-add 32-bit SCVE and VPP blobs
+Remove strongbox components (should fix for apps that don't respect the feature xml)
+Set TARGET_2ND_ARCH_VARIANT to match TARGET_ARCH_VARIANT
+Set bluetooth name based on project name
