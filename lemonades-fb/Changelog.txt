@@ -1,0 +1,10 @@
+ROM:
+• Add support for wiping dynamic partitions in recovery
+• Make flashing progress notifications persistent in OpenDelta
+• Remove local file flash switch in OpenDelta
+• Other layout and bugfuxes for OpenDelta
+• Adjust biometric promopt for FOD devices
+• Fix clock icon in Kai & Victor icon packs
+• Various other optimizations and bugfixes.
+
+Device:
