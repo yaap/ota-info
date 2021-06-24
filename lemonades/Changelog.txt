@@ -1,5 +1,12 @@
 ROM:
-• Add support for wiping dynamic partitions in recovery • Make flashing progress notifications persistent in OpenDelta • Remove local file flash switch in OpenDelta • Other layout and bugfuxes for OpenDelta • Adjust biometric promopt for FOD devices • Fix clock icon in Kai & Victor icon packs • Various other optimizations and bugfixes.
+Fix issues for slower brightness ramp rates
+Revert "display: Don't animate screen brightness when turning the screen on" as this causes some issues with AoD
 
 Device:
-Initial unified build for OnePlus 8T/9R Fixed issues with NFC Switched to YAAP kernel Reworked DeviceSettings Added color modes from stock Updated blobs from OnePlus 9R dump & LA.UM.9.12.r1-10800-SMxx50.0
+Debloated init from useless services and oneplus additions
+Update init from LA.UM.9.12.r1-11800-SMxx50.QSSI12.0
+Build nfc stack from source
+Remove Oneplus framework stuff
+Drop unused pixelworks hal
+Fix charging time in lock screen while dash charging
+Update audio fx blobs from LA.UM.9.12.r1-10800-SMxx50.0
