@@ -8,4 +8,4 @@ Re-add 32-bit SCVE and VPP blobs
 Remove strongbox components (should fix for apps that don't respect the feature xml)
 Set TARGET_2ND_ARCH_VARIANT to match TARGET_ARCH_VARIANT
 Set bluetooth name based on project name
-
+Fix rounded corner drawables for OP7
