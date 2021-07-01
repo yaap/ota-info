@@ -1,6 +1,13 @@
 ROM:
-Fix issues for slower brightness ramp rates
-Revert "display: Don't animate screen brightness when turning the screen on" as this causes some issues with AoD
+• Bugfixes for launcher3 blur
+• Reset inactive WiFi state icon to AOSP
+• Do not show FODCircleView on top of assistant UI
+• VibratorService: bypass AppOps check
+• Redo custom fonts
+• Strip leftovers from DU Themes
+• Fix default QS/Volume Panel having black background instead of "almost black"
+• OpenDelta: Add progress to download notification and fix grammar in some places
+
 
 Device:
 Switch to user build
