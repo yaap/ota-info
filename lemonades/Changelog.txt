@@ -1,12 +1,17 @@
 ROM:
-Fix issues for slower brightness ramp rates
-Revert "display: Don't animate screen brightness when turning the screen on" as this causes some issues with AoD
+• Bugfixes for launcher3 blur
+• Reset inactive WiFi state icon to AOSP
+• Do not show FODCircleView on top of assistant UI
+• VibratorService: bypass AppOps check
+• Redo custom fonts
+• Strip leftovers from DU Themes
+• Fix default QS/Volume Panel having black background instead of "almost black"
+• OpenDelta: Add progress to download notification and fix grammar in some places
+
 
 Device:
-Debloated init from useless services and oneplus additions
-Update init from LA.UM.9.12.r1-11800-SMxx50.QSSI12.0
-Build nfc stack from source
-Remove Oneplus framework stuff
-Drop unused pixelworks hal
-Fix charging time in lock screen while dash charging
-Update audio fx blobs from LA.UM.9.12.r1-10800-SMxx50.0
+• Clean up doze ui by removing dup aod perf and the giant compund button
+• Match doze settings theme with the rest of the settings and get rid of icons
+• Dynamically disable options based on if Ambient display is enabled and AOD is disabled
+• Remove more oneplus bloat in init and clean up sepolicy rules
+• Add toasts for alert slider changes
