@@ -1,20 +1,11 @@
 ROM:
-• Bugfixes for launcher3 blur
-• Reset inactive WiFi state icon to AOSP
-• Do not show FODCircleView on top of assistant UI
-• VibratorService: bypass AppOps check
-• Redo custom fonts
-• Strip leftovers from DU Themes
-• Fix default QS/Volume Panel having black background instead of "almost black"
-• OpenDelta: Add progress to download notification and fix grammar in some places
-
+• Merged r39 (aka July sec patch)
+• Merged caf tag where relevant
+• Brightness transition animation improvements
+• Show FOD when assistant requests unlock
+• Some other minor fixes
 
 Device:
-• Use uncompressed dtb-less Image
-• Update themes and toggles for CustomDoze
-• DeviceSettings: general code improvements
-• PanelModes: update layout
-• Update media props to LA.QSSI.11.0.r1-12300-qssi.0
-• Enable AAC frame control for bluetooth
-• Enable TWS plus feature using persist property
-• Add support for low power adaptive control feature
+• New ALS correction algorithm (now with all necessary platform patches)
+• Patch fingerprint blobs for 7T Series
+• Update blobs to LA.UM.9.1.r1-10200-SMxxx0.0
