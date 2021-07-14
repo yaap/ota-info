@@ -1,9 +1,7 @@
 ROM:
-• Merged r39 (aka July sec patch)
-• Merged caf tag where relevant
-• Brightness transition animation improvements
-• Show FOD when assistant requests unlock
-• Some other minor fixes
+• Show bluetooth battery % on statusbar for all supported devices
+• Add SIM data switch QS tile
+• Minor code improvements here and there
 
 Device:
-
+• Update to LA.UM.9.1.r1-10200-SMxxx0.0
