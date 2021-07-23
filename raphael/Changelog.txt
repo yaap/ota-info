@@ -1,7 +1,6 @@
 ROM:
-• Show bluetooth battery % on statusbar for all supported devices
-• Add SIM data switch QS tile
-• Minor code improvements here and there
+• Refactor & fix visibility handling in NetworkTraffic
+• Add OpenDelta to power whitelist
+• Merge latest CAF tags wherever relevant
 
 Device:
-• Update to LA.UM.9.1.r1-10200-SMxxx0.0
