@@ -1,8 +1,14 @@
 ROM:
-• Refactor & fix visibility handling in NetworkTraffic
-• Add OpenDelta to power whitelist
+• Merge r40 aka August SPL
+• Fix pulse not stopping on screen off
+• Long-press volume dialog's ringer for sound settings
+• Automatically generate FOD padding on keyguard and biometric prompt
+• Add option for NFC icon in statusbar
+• Show ICCID by default in SIM Status
+• Refactor YASP, OpenDelta
+• OpenDelta: Scoped storage and target 11's sdk
+• Use user chosen font in more places
 • Merge latest CAF tags wherever relevant
 
 Device:
-• Only force hotdogg to single sim
-• Inline post_boot scripts to LA.UM.9.1.r1-10600-SMxxx0.0
+• Fixup doze switch removal
