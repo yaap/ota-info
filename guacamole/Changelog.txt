@@ -1,9 +1,9 @@
 ROM:
-• Merge r40 aka August SPL
-• Automatically generate FOD padding on keyguard and biometric prompt
-• Add option for NFC icon in statusbar
-• Show ICCID by default in SIM Status
-• Merge latest CAF tags wherever relevant
+• Update custom vibration patterns
+• OpenDelta: Dismiss download notification when done
+• Merged CAF tag where relevant
+• Allow setting RGB balances manually
+• Save last known location for sunset & sunrise times
+• Some other minor stuff all around
 
 Device:
-• Fixup doze switch removal
