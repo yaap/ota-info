@@ -1,9 +1,6 @@
 ROM:
-• Update custom vibration patterns
-• OpenDelta: Dismiss download notification when done
-• Merged CAF tag where relevant
-• Allow setting RGB balances manually
-• Save last known location for sunset & sunrise times
+• Merge tag 'android-11.0.0_r43' aka Sept SPL wherever relevant
+• Merged latest CAF tags wherever relevant
 • Some other minor stuff all around
 
 Device:
