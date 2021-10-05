@@ -1,12 +1,12 @@
 ROM:
-• Update custom vibration patterns
-• OpenDelta: Dismiss download notification when done
-• Merged CAF tag where relevant
-• Allow setting RGB balances manually
-• Save last known location for sunset & sunrise times
-• Some other minor stuff all around
+• Merged r48 (aka Oct SPL)
+• AOD QS tile: Always toggle on/off on long press
+• Reworked statusbar burn-in protection
+• Fixed QS auto brightness icon not updating randomly
+• Fixed safetynet check for some devices
+• Minor fixes in launcher and some others
 
 Device:
-• Merged 4.14.202 in kernel
-• Merged LA.UM.9.1.r1-10700-SMxxx0.QSSI12.0 in kernel
-• Updated fingerprint from coral August
+• Merged 4.14.248 (https://git.kernel.org/stable/h/v4.14.248) & LA.UM.9.1.r1-11200-SMxxx0.0  in kernel
+• Updated Build fingerprint to Coral October
+• Updated GPS configs from LA.UM.9.1.r1-11100-SMxxx0.0
