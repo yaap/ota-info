@@ -1,8 +1,10 @@
 ROM:
-• Merge tag 'android-11.0.0_r43' aka Sept SPL wherever relevant
-• Merged latest CAF tags wherever relevant
-• Some other minor stuff all around
+• Merged r48 (aka Oct SPL)
+• AOD QS tile: Always toggle on/off on long press
+• Reworked statusbar burn-in protection
+• Fixed QS auto brightness icon not updating randomly
+• Fixed safetynet check for some devices
+• Minor fixes in launcher and some others
 
 Device:
-• Update to OOS 11.3.0.1
-• Fix panel modes activity not being scrollable in devicesettings
+Updated fingerprint from coral to Oct SPL
