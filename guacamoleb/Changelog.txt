@@ -1,10 +1,4 @@
 ROM:
-• Merged r48 (aka Oct SPL)
-• AOD QS tile: Always toggle on/off on long press
-• Reworked statusbar burn-in protection
-• Fixed QS auto brightness icon not updating randomly
-• Fixed safetynet check for some devices
-• Minor fixes in launcher and some others
 
 Device:
-• Updated fingerprint from coral to Oct SPL
+• Updated kernel to 1.17
