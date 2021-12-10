@@ -1,1 +1,2 @@
-Hotfix for bluetooth
+Hotfix for proximity sensor
+Some other minor bugfixes all around
