@@ -1,2 +1,14 @@
-Hotfix for proximity sensor
-Some other minor bugfixes all around
+ROM:
+Added back media art as keyguard background
+Added back arrow keys while typing
+Allow toggling QS media player
+Allow backing up brightness slider settings
+OpenDelta: Properly resume showing A/B update progress in all cases
+OpenDelta: Correctly split % between A/B flashing stages
+Fixed built in AOSP recovery model detection (you can now use it to sideload)
+Fixed a SystemUI crash that happens once after setup
+
+Device:
+Kernel changes
+Better brightness behavior on AOD
+Fixed the bluetooth errors (was a local issue)
