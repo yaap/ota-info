@@ -1,14 +1,12 @@
 ROM:
-Added back media art as keyguard background
-Added back arrow keys while typing
-Allow toggling QS media player
-Allow backing up brightness slider settings
-OpenDelta: Properly resume showing A/B update progress in all cases
-OpenDelta: Correctly split % between A/B flashing stages
-Fixed built in AOSP recovery model detection (you can now use it to sideload)
-Fixed a SystemUI crash that happens once after setup
+Merged r18 (Dec security patch)
+Fixed top brightness slider padding bug
+New misc & notifications icons in YASP
+Some other minor fixes
 
 Device:
 Kernel changes
-Better brightness behavior on AOD
-Fixed the bluetooth errors (was a local issue)
+Fixed Google Pay
+New panel modes preference screen
+Improved forced 60Hz switch again
+Fixed the forced 60Hz bug on some boots
