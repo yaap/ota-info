@@ -1,12 +1,12 @@
 ROM:
-Merged r18 (Dec security patch)
-Fixed top brightness slider padding bug
-New misc & notifications icons in YASP
-Some other minor fixes
+Tap battery icon to open battery settings
+Added a toggle for secure QS tiles on keyguard
+Dismiss power menu when restarting SystemUI
+Fixed brightness slider settings not applying correctly
+Fixed top row of apps getting cut in Launcher3
+Fixed a crash when showing popup menu for some apps in Launcher3
+Reverted IME arrows (touch issue that wasn't easily fixable)
+Some other minor bug fixes and improvements
 
 Device:
 Kernel changes
-Fixed Google Pay
-New panel modes preference screen
-Improved forced 60Hz switch again
-Fixed the forced 60Hz bug on some boots
