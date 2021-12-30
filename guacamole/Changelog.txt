@@ -1,12 +1,12 @@
 ROM:
-Tap battery icon to open battery settings
-Added a toggle for secure QS tiles on keyguard
-Dismiss power menu when restarting SystemUI
-Fixed brightness slider settings not applying correctly
-Fixed top row of apps getting cut in Launcher3
-Fixed a crash when showing popup menu for some apps in Launcher3
-Reverted IME arrows (touch issue that wasn't easily fixable)
-Some other minor bug fixes and improvements
+Add PowerUsageFeatureGoogle (Whole new battery settings page)
+Add a new default wallpaper
+Enable AOSP AOD burn-in protection
+Implement new smartspace (also "fixes" AOD padding)
+Fix brightness slider icon being white occasionally
+Fix not being able to set a lockscreen wallpaper
+Update APN(s) from CAF
+Some other minor stuff all around
 
 Device:
 Kernel changes
