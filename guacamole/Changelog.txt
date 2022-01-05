@@ -1,12 +1,23 @@
 ROM:
-Add PowerUsageFeatureGoogle (Whole new battery settings page)
-Add a new default wallpaper
-Enable AOSP AOD burn-in protection
-Implement new smartspace (also "fixes" AOD padding)
-Fix brightness slider icon being white occasionally
-Fix not being able to set a lockscreen wallpaper
-Update APN(s) from CAF
-Some other minor stuff all around
+Merged r26 (aka Jan security patch)
+Show a notification when gaming macro is on
+Use google sans for the lockscreen clock
+Fixed media art on lockscreen (for real this time)
+Spoof pixel XL for google photos (aka unlimited hack)
+recovery: Added an option to switch slots
+recovery: Show the current active slot
+Retain custom recovery for A-only devices
+Improved PixelPropsUtils code
+Updated prebuilt google sound files
+Some random small stuff
 
 Device:
-Kernel changes
+Improve AOD brightness
+A lot of kernel changes
+Includes but not limited to:
+    Solved crashdump after flash
+    Fixes dt2w randomly dying for some users
+    Fixes recent active power regression
+    Fixes almost one month old jitter regression
+    FOD is faster
+    A lot of other bugs fixed
