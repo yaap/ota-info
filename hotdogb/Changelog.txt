@@ -1,23 +1,14 @@
 ROM:
-Merged r26 (aka Jan security patch)
-Show a notification when gaming macro is on
-Use google sans for the lockscreen clock
-Fixed media art on lockscreen (for real this time)
-Spoof pixel XL for google photos (aka unlimited hack)
-recovery: Added an option to switch slots
-recovery: Show the current active slot
-Retain custom recovery for A-only devices
-Improved PixelPropsUtils code
-Updated prebuilt google sound files
-Some random small stuff
+Added QS battery estimates (and a toggle for it)
+Added extreme battery saver
+Fixed the wrong model bug in pixel props utils
+Fixed advanced reboot not working on keyguard when not secure
+Don't use SimpleDeviceConfig on builds with google services
+Improved gmscompat for vanilla builds
+Many other small fixes
 
 Device:
-Improve AOD brightness
-A lot of kernel changes
-Includes but not limited to:
-    Solved crashdump after flash
-    Fixes dt2w randomly dying for some users
-    Fixes recent active power regression
-    Fixes almost one month old jitter regression
-    FOD is faster
-    A lot of other bugs fixed
+Updated blobs from OOS 11.0.5.1
+Fixed refresh rate switch removal on unsupported devices
+Kernel changes:
+Fixed the idle crashdump + others
