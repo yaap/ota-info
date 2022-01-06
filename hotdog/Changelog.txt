@@ -1,8 +1,5 @@
 ROM:
-• Update to November SPL
-• Fix touch on notif area not closing panel when dt2s on statusbar was enabled
-
+Initial A12 build
 
 Device:
-• Updated kernel to 1.24 (should fix any crashdumps, check t.me/jgop7t for detailed kernel changelog)
-• Fix gsi compatibilty (note: alert slider, fod, popup would still be dead)
+Initial A12 build
