@@ -1,5 +1,14 @@
 ROM:
-Initial A12 build
+Added QS battery estimates (and a toggle for it)
+Added extreme battery saver
+Fixed the wrong model bug in pixel props utils
+Fixed advanced reboot not working on keyguard when not secure
+Don't use SimpleDeviceConfig on builds with google services
+Improved gmscompat for vanilla builds
+Many other small fixes
 
 Device:
-Initial A12 build
+Updated blobs from OOS 11.0.5.1
+Fixed refresh rate switch removal on unsupported devices
+Kernel changes:
+Fixed the idle crashdump + others
