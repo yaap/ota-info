@@ -1,1 +1,2 @@
-• Initial Build
+• Fixed recovery/fastbootd
+• Add SafetyRegulatoryInfo
