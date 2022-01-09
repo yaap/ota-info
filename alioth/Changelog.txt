@@ -1,2 +1,5 @@
-• Fixed recovery/fastbootd
-• Add SafetyRegulatoryInfo
+• Updated status bar paddings
+• Fixed screen time in App Info
+• Hide Mainline Module Version conditionally
+• Added toggle for location privacy indicator
+• Added ability to turn gaming macro off when screen turns off
