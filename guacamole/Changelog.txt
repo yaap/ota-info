@@ -1,14 +1,14 @@
 ROM:
-Added QS battery estimates (and a toggle for it)
-Added extreme battery saver
-Fixed the wrong model bug in pixel props utils
-Fixed advanced reboot not working on keyguard when not secure
-Don't use SimpleDeviceConfig on builds with google services
-Improved gmscompat for vanilla builds
-Many other small fixes
+Added a toggle for changing the location of the location indicator
+Added an ability to turn off gaming macro with the screen
+Added a toggle for floating rotation button (Display > auto-rotate)
+Added back time spent in app info
+Enabled smart auto-rotate
+Fixed default animation scale value
+Fixed volume dialog loosing tint when animating out
+Few other minor stuff
 
 Device:
-Updated blobs from OOS 11.0.5.1
-Fixed refresh rate switch removal on unsupported devices
+Updated adreno blobs
 Kernel changes:
-Fixed the idle crashdump + others
+fixed the idle crashdump for good + others
