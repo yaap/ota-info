@@ -1,3 +1,15 @@
-• Add support for Miracast
-• Added a toggle for floating rotation button (Display > auto-rotate)
-• Enabled smart auto-rotate
+• Merged r27 (Jan P6 tag) (fixes flicker when unlocking)
+• Added statusbar clock position setting
+• Added a switch to force small keyguard clock
+• Added internet tile to secure tiles
+• Made location tile be affected by the secure tiles switch
+• Correctly list all secure tiles in settings
+• Gaming macro: Added night light & brightness level
+• Gaming macro: Only restore enabled settings
+• Gaming macro: Don't stay on when rebooting
+• OpenDelta: Fixed reboot is still pending after it's already done
+• Launcher3: Fixed header protection height calculation
+• Made auto brightness preference observe actual values in runtime
+• Fixed location indicator randomly changing positions
+• Toggle location indicator on runtime (no reboot)
+• A few other all around improvements
