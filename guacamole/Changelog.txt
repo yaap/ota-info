@@ -1,14 +1,25 @@
 ROM:
-Added a toggle for changing the location of the location indicator
-Added an ability to turn off gaming macro with the screen
-Added a toggle for floating rotation button (Display > auto-rotate)
-Added back time spent in app info
-Enabled smart auto-rotate
-Fixed default animation scale value
-Fixed volume dialog loosing tint when animating out
-Few other minor stuff
+Merged r27 (Jan P6 tag)
+Added statusbar clock position setting
+Added a switch to force small keyguard clock
+Added internet tile to secure tiles
+Made location tile be affected by the secure tiles switch
+Correctly list all secure tiles in settings
+Gaming macro: Added night light & brightness level
+Gaming macro: Only restore enabled settings
+Gaming macro: Don't stay on when rebooting
+OpenDelta: Fixed reboot is still pending after it's already done
+Launcher3: Fixed header protection height calculation
+Made auto brightness preference observe actual values in runtime
+Fixed WiFi display screen mirroring
+Fixed location indicator randomly changing positions
+Toggle location indicator on runtime (no reboot)
+A few other all around
 
 Device:
-Updated adreno blobs
+Flattened APEXs for performance
 Kernel changes:
-fixed the idle crashdump for good + others
+    Fixed PD
+    Decreased boot time
+    Improved zram performance
+    And much more
