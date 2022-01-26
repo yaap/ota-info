@@ -1,25 +1,15 @@
 ROM:
-Merged r27 (Jan P6 tag)
-Added statusbar clock position setting
-Added a switch to force small keyguard clock
-Added internet tile to secure tiles
-Made location tile be affected by the secure tiles switch
-Correctly list all secure tiles in settings
-Gaming macro: Added night light & brightness level
-Gaming macro: Only restore enabled settings
-Gaming macro: Don't stay on when rebooting
-OpenDelta: Fixed reboot is still pending after it's already done
-Launcher3: Fixed header protection height calculation
-Made auto brightness preference observe actual values in runtime
-Fixed WiFi display screen mirroring
-Fixed location indicator randomly changing positions
-Toggle location indicator on runtime (no reboot)
-A few other all around
+Only disable QS battery click when needed
+Apply monet on the fingerprint ripple animation
+Gaming macro: Also toggle night light schedule mode
+Gaming macro: Show what we affect in the notification
+OpenDelta: Improved pending reboot check once again
+Fixed clock position not persisting a reboot
+Fixed some rare settings crash when connecting to WFD
+Some other fixes and improvements all around
 
 Device:
-Flattened APEXs for performance
-Kernel changes:
-    Fixed PD
-    Decreased boot time
-    Improved zram performance
-    And much more
+Allow muting media when slider is set to silent
+Improved ALS correction (auto brightness)
+Improved fingerprint sensor times
+Kernel changes: Gulch v2.08 state
