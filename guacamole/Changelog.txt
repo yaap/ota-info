@@ -1,15 +1,13 @@
 ROM:
-Only disable QS battery click when needed
-Apply monet on the fingerprint ripple animation
-Gaming macro: Also toggle night light schedule mode
-Gaming macro: Show what we affect in the notification
-OpenDelta: Improved pending reboot check once again
-Fixed clock position not persisting a reboot
-Fixed some rare settings crash when connecting to WFD
-Some other fixes and improvements all around
+Moved all power button gestures into a single settings page
+Moved lift to check phone setting outside
+Converted one-handed mode setting to a PrimarySwitch
+United all gesture settings and move to YASP
+Various fixes & improvements to telephony stack
+Launcher3: Made the DT2S toggle work without app restart
+Few other minor improvements & fixes
 
 Device:
-Allow muting media when slider is set to silent
-Improved ALS correction (auto brightness)
-Improved fingerprint sensor times
-Kernel changes: Gulch v2.08 state
+Kernel changes:
+    Gulch v2.11
+    Includes proper PD behavior (data and charging)
