@@ -9,7 +9,6 @@ Fixed some rare settings crash when connecting to WFD
 Some other fixes and improvements all around
 
 Device:
-Allow muting media when slider is set to silent
-Improved ALS correction (auto brightness)
-Improved fingerprint sensor times
-Kernel changes: Gulch v2.08 state
+Kernel changes:
+    Gulch v2.11
+    Includes proper PD behavior (data and charging)
