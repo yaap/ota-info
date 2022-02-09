@@ -1,13 +1,13 @@
 ROM:
-Moved all power button gestures into a single settings page
-Moved lift to check phone setting outside
-Converted one-handed mode setting to a PrimarySwitch
-United all gesture settings and move to YASP
-Various fixes & improvements to telephony stack
-Launcher3: Made the DT2S toggle work without app restart
-Few other minor improvements & fixes
+Merged r29 (Feb SPL)
+Gaming macro: Added an ability to stop battery saver
+Gaming macro: Allow a more granular control over brightness level
+OpenDelta: Added support for A-only devices using AOSP recovery
+Fixed updating A only with updateable apex
+LTO more modules for performance improvement
+Other minor stuff
 
 Device:
-Kernel changes:
-    Gulch v2.11
-    Includes proper PD behavior (data and charging)
+Fixed a bug in which panel modes change after unlocking with FOD
+DeviceSettings: Fixed refresh rate switch initial state
+Kernel changes: V2.13 state (includes Feb ASB)
