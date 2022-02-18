@@ -1,14 +1,26 @@
 ROM:
-Merged r29 (Feb SPL)
-Gaming macro: Added an ability to stop battery saver
-Gaming macro: Allow a more granular control over brightness level
-OpenDelta: Added support for A-only devices using AOSP recovery
-Fixed updating A only with updateable apex
-LTO more modules for performance improvement
-Other minor stuff
+Gaming macro: Allow setting ringer mode
+Gaming macro: Open the settings page on long click & initially
+Gaming macro: Deactivate on shutdown
+Launcher3: Updated lawnicon
+Launcher3: Follow A12 style in settings
+Launcher3: Categorized settings
+Launcher3: Fixes and improvements to app search UI
+NetworkTraffic: Rework layout and positioning + code improvements
+NetworkTraffic: Solve tinting issues
+NetwrokTraffic: Show under privacy icon on QS header
+Brought back vim and nano
+Show build date and security patch in the summary of android version
+Updated clang compiler to 14.0.2
+Updated qssi repos from R to S
+Fixed FOD dimlayer, panel modes getting stuck issues
+Fixed circle battery QS tinting
+Merged new CAF tag where relevant
+Many fixes picked from sv2 tag
+Many other minor stuff all around
 
 Device:
-Updated ALS (Brightness sensor) position
-Fixed a bug in which panel modes change after unlocking with FOD
-DeviceSettings: Fixed refresh rate switch initial state
-Kernel changes: V2.13 state (includes Feb ASB)
+Added a missing WFD blob, updated WFD stack and enabled QTI WFD
+Update blobs to newer caf tag
+Fixed wrong bluetooth MAC address (some device may need re-pairing)
+Kernel changes
