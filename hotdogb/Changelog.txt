@@ -1,28 +1,12 @@
 ROM:
-Gaming macro: Allow setting ringer mode
-Gaming macro: Open the settings page on long click & initially
-Gaming macro: Deactivate on shutdown
-Launcher3: Updated lawnicon
-Launcher3: Follow A12 style in settings
-Launcher3: Categorized settings
-Launcher3: Fixes and improvements to app search UI
-NetworkTraffic: Rework layout and positioning + code improvements
-NetworkTraffic: Solve tinting issues
-NetwrokTraffic: Show under privacy icon on QS header
-Brought back vim and nano
-Show build date and security patch in the summary of android version
-Updated clang compiler to 14.0.2
-Updated qssi repos from R to S
-Fixed FOD dimlayer, panel modes getting stuck issues
-Fixed circle battery QS tinting
-Merged new CAF tag where relevant
-Many fixes picked from sv2 tag
-Many other minor stuff all around
+Added kdrag0n's repainter service
+Added 3-button navbar inverse toggle
+Added 3-button navbar layout options
+Enabled recording in google dialer
+OpenDelta: Resume downloads when interrupted
+Only cut network traffic if there is no room in the statusbar
+Launch SysUI tuner from YASP and disable it by default
+Few other minor stuff all around
 
 Device:
-Reduced end padding on statusbar
-Fixed FOD positioning
-Added a missing WFD blob, updated WFD stack and enabled QTI WFD
-Update blobs to newer caf tag
-Fixed wrong bluetooth MAC address (some device may need re-pairing)
-Kernel changes: v2.14 state
+Kernel changes: v2.15 state
