@@ -1,12 +1,9 @@
 ROM:
-Added kdrag0n's repainter service
-Added 3-button navbar inverse toggle
-Added 3-button navbar layout options
-Enabled recording in google dialer
-OpenDelta: Resume downloads when interrupted
-Only cut network traffic if there is no room in the statusbar
-Launch SysUI tuner from YASP and disable it by default
-Few other minor stuff all around
+Luancher3: Added lens button in recents
+Improve some AOD Schedule code and solve a rare bug
+Minor stuff
 
 Device:
-Kernel changes: v2.15 state
+Reverted bsp blobs update (caused audio issues for some)
+Adreno blobs updated (fixes vulkan)
+Kernel: updated to v2.17
