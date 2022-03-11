@@ -1,9 +1,19 @@
 ROM:
-Luancher3: Added lens button in recents
-Improve some AOD Schedule code and solve a rare bug
-Minor stuff
+Merged Android 12.1 (aka Sv2, 12L etc)
+Reverts that were done for 12.1 (either for now or forever):
+    * Clear all button at the bottom of recents
+    * Monet settings (will probably come back)
+    * SmartSpace (will probably come back)
+    * White QS tile area
+Added volume key cursor control
+Added new GmsCompat on vanilla builds
+Many other small improvements all over the place
 
 Device:
-Reverted bsp blobs update (caused audio issues for some)
-Adreno blobs updated (fixes vulkan)
-Kernel: updated to v2.17
+Updated blobs from 11.0.6.1
+Updated graphics blobs
+Updated physical button locations (for animations and such)
+Reverted ALS correction algo (caused dips and other issues)
+Ignore CNE in location privacy indicator
+Switch to vulkan skia backend
+Kernel: 2.19 state
