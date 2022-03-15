@@ -1,19 +1,14 @@
 ROM:
-Merged Android 12.1 (aka Sv2, 12L etc)
-Reverts that were done for 12.1 (either for now or forever):
-    * Clear all button at the bottom of recents
-    * Monet settings (will probably come back)
-    * SmartSpace (will probably come back)
-    * White QS tile area
-Added volume key cursor control
-Added new GmsCompat on vanilla builds
-Many other small improvements all over the place
+Exclude bluetooth app from location indicator
+Fixed sysui and intent filter crash suppression
+Fixed lags in screen record
+vanilla: Many gmscompat fixes and improvements
+vanilla: Switched to ExactCalculator
+
 
 Device:
-Updated blobs from 11.0.6.1
-Updated graphics blobs
-Updated physical button locations (for animations and such)
-Reverted ALS correction algo (caused dips and other issues)
-Ignore CNE in location privacy indicator
-Switch to vulkan skia backend
-Kernel: 2.19 state
+Regen blobs from msmnile and qssi12
+Fixed WFD
+Fixed some FOD issues
+Kernel: 2.21 state
+
