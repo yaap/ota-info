@@ -1,14 +1,22 @@
 ROM:
-Exclude bluetooth app from location indicator
-Fixed sysui and intent filter crash suppression
-Fixed lags in screen record
-vanilla: Many gmscompat fixes and improvements
-vanilla: Switched to ExactCalculator
-
+Merged r2 (P6 AOSP tag)
+Added delete chip to screenshot UI
+Added volume panel position setting
+Added back kdrag0n's monet with settings
+Added back smartspace
+Removed fake navbar
+Removed separate WiFi & Cell QS tiles
+Removed custom force small clock (AOSP has an option now)
+Fixed wrong FOD icon location on prompt
+Fixed bluetooth battery level not showing in some cases
+Launcher3: Added back clear all below recents
+Launcher3: Enabled colors for popup menu
+Launcher3: Improved search bar UI
+Launcher3: Updated lawnicons
+Settings: Improved OpenDelta package detection
+Updated Chinese translations
+Other minor changes all across
 
 Device:
-Regen blobs from msmnile and qssi12
-Fixed WFD
-Fixed some FOD issues
-Kernel: 2.21 state
-
+Updated few stacks to qssi12/msmnile
+Kernel: 2.23 state
