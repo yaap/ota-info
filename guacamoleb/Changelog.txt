@@ -1,22 +1,17 @@
 ROM:
-Merged r2 (P6 AOSP tag)
-Added delete chip to screenshot UI
-Added volume panel position setting
-Added back kdrag0n's monet with settings
-Added back smartspace
-Removed fake navbar
-Removed separate WiFi & Cell QS tiles
-Removed custom force small clock (AOSP has an option now)
-Fixed wrong FOD icon location on prompt
-Fixed bluetooth battery level not showing in some cases
-Launcher3: Added back clear all below recents
-Launcher3: Enabled colors for popup menu
-Launcher3: Improved search bar UI
-Launcher3: Updated lawnicons
-Settings: Improved OpenDelta package detection
-Updated Chinese translations
-Other minor changes all across
+Added quick mute gesture
+Added back gesture height settings
+Added back alarm & vibrate icons on keyguard status bar
+Added back 'Do not validate' option in CA certificate
+Show the media volume stream when our main is notifications
+Fixed additional rows when volume panel is on left
+Fixed an edge case causing an infinite loop when using AOD schedule
+Updated gapps from raven (SP2A.220305.013.A3, Mar 2022)
+Some other small things
 
 Device:
-Updated few stacks to qssi12/msmnile
-Kernel: 2.23 state
+DeviceSettings: Made switches and QS tiles be synced
+Added more top padding to fps overlay
+Made fps QS tile more reliable
+Lower keyguard indication text
+Kernel: Revert audio merge for testing
