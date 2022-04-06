@@ -1,17 +1,7 @@
 ROM:
-Added quick mute gesture
-Added back gesture height settings
-Added back alarm & vibrate icons on keyguard status bar
-Added back 'Do not validate' option in CA certificate
-Show the media volume stream when our main is notifications
-Fixed additional rows when volume panel is on left
-Fixed an edge case causing an infinite loop when using AOD schedule
-Updated gapps from raven (SP2A.220305.013.A3, Mar 2022)
-Some other small things
+Merged r4 (April SPL)
+Launcher3: Fixed closing animations to drawer
 
 Device:
-DeviceSettings: Made switches and QS tiles be synced
-Added more top padding to fps overlay
-Made fps QS tile more reliable
-Lower keyguard indication text
-Kernel: Revert audio merge for testing
+Minor stuff
+Kernel: 2.26 state
