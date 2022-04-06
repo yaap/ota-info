@@ -1,0 +1,6 @@
+ROM:
+Merged r4 (April SPL)
+Launcher3: Fixed closing animations to drawer
+
+Device:
+Initial
