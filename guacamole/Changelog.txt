@@ -1,7 +1,16 @@
 ROM:
-Merged r4 (April SPL)
-Launcher3: Fixed closing animations to drawer
+Fixed a settings crash for side fp devices
+Extended tap to show in about to wifi and bluetooth mac
+Made share sheet display twice the app rows
+Launcher3: Add kill action to app shortcut popup
+Launcher3: Press home again to open the drawer
+Launcher3: Open app animations for notifications as well
+Various gmscompat improvements (vanilla)
+Updated lmkd
+Switched to los 19.1 repos
+Some other small things
 
 Device:
-Minor stuff
-Kernel: 2.26 state
+Added support for F2FS compression
+Switched to QTI WFD
+Kernel: 2.35 state
