@@ -1,16 +1,13 @@
 ROM:
-Fixed a settings crash for side fp devices
-Extended tap to show in about to wifi and bluetooth mac
-Made share sheet display twice the app rows
-Launcher3: Add kill action to app shortcut popup
-Launcher3: Press home again to open the drawer
-Launcher3: Open app animations for notifications as well
-Various gmscompat improvements (vanilla)
-Updated lmkd
-Switched to los 19.1 repos
-Some other small things
+Added back charging animation
+Extended protecting sensitive info to MAC
+Fixed YASP icon showing in random places
+Launcher3: Use themed icon for photon camera as well
+gmscompat fixes and improvements (vanilla only)
+AOSP dialer fixes and improvements (vanilla only)
+Some other minor changes
 
 Device:
-Added support for F2FS compression
-Switched to QTI WFD
-Kernel: 2.35 state
+Fixes related to f2fs compression 
+Fixed statusbar paddings
+Kernel: 2.40 state
