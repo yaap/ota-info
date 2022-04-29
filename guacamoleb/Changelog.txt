@@ -1,13 +1,9 @@
 ROM:
-Added back charging animation
-Extended protecting sensitive info to MAC
-Fixed YASP icon showing in random places
-Launcher3: Use themed icon for photon camera as well
-gmscompat fixes and improvements (vanilla only)
-AOSP dialer fixes and improvements (vanilla only)
+Added statusbar brightness control
+OpenDelta: Use MiB/s on 1 MiB/s instead of 10
+Launcher3: Added dock searchbar and a toggle
+Fixed launching camera from screen off gestures
 Some other minor changes
 
 Device:
-Fixes related to f2fs compression 
-Fixed statusbar paddings
-Kernel: 2.40 state
+Kernel: v2.44 state
