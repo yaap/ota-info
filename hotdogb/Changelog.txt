@@ -1,9 +1,11 @@
 ROM:
-Added statusbar brightness control
-OpenDelta: Use MiB/s on 1 MiB/s instead of 10
-Launcher3: Added dock searchbar and a toggle
-Fixed launching camera from screen off gestures
+Merged r5 (May security patch)
+Exempt bluetooth and phone from privacy indicator
+Launcher3: Fixed a random gesture freeze
+YASP: Added russian translation
 Some other minor changes
 
 Device:
-Kernel: v2.44 state
+Enabled fuse passthrough
+Use erofs in read only partitions
+Kernel: v2.51a2 state
