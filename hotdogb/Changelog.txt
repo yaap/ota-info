@@ -1,11 +1,8 @@
 ROM:
-Merged r5 (May security patch)
-Exempt bluetooth and phone from privacy indicator
-Launcher3: Fixed a random gesture freeze
-YASP: Added russian translation
-Some other minor changes
+Added wallpaper color palette picker
+Fixed hang on screen off with aod on
 
 Device:
-Enabled fuse passthrough
-Use erofs in read only partitions
-Kernel: v2.51a2 state
+Significantly improved erofs performance
+Kernel: v2.55 state
+
