@@ -1,11 +1,12 @@
 ROM:
-Long press to copy WiFi p/w from share page
-Added Bromite SystemWebView
+Replaced AOSP camera with PhotonCamera
+Many improvements to refresh rate voting
+Fixed updating keyguard icon pack on runtime
+Some other minor fixes, crash preventions
+vanilla only:
+-Many improvements and fixes to dialer
+-GMScompat improvements and fixes
 
 Device:
-Switched back to hooked dim for FOD
-Fixed screen stuck off on fingerprint error
-Maybe fixed diag full port mode
-Kernel: v2.60 state:
-- Erofs deadlock fix (many crashes reported after last build) + fixup backports with no more adapting hacks for 4.14 support.
-- More fixes to OP power issues. Improve some android auto and other PD data situations. Also fix charge passthrough on some devices such as Razer Kishi.
+Partially dynamic refresh rate (switch to 60 when possible w/o harming UX)
+Kernel: v2.69a4 state
