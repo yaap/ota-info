@@ -1,12 +1,7 @@
 ROM:
-Replaced AOSP camera with PhotonCamera
-Many improvements to refresh rate voting
-Fixed updating keyguard icon pack on runtime
-Some other minor fixes, crash preventions
-vanilla only:
--Many improvements and fixes to dialer
--GMScompat improvements and fixes
+Merged r8 (Jun SPL)
+Fixed broken touch on additional volume rows on landscape
 
 Device:
-Partially dynamic refresh rate (switch to 60 when possible w/o harming UX)
-Kernel: v2.69a4 state
+Reverted Partially dynamic refresh rate
+Kernel: v2.80 state
