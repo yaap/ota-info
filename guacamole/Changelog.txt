@@ -1,23 +1,15 @@
 ROM:
-Merged r10 (Jul SPL)
-Brought back white QS & Power Menu on White UI
-Allow sending any file via Bluetooth
-Adapted Bluetooth file history page to S style
-Adapted SystemUI tuner prefs page to S style
-Launcher3: Fixed searchbar colors in white UI
-Fixed QS label sometimes getting stuck when collapsed
-Fixed not being able to add contacts in emergency info
-Fixed screen turning back on right after sleep
-Use user chosen font in more places
-Use LOS 19.1 APNs
-Minor memory allocation fixes & improvements
-Many vanilla related changes (Refer to John's builds)
-Few other minor changes
+OpenDelta: Reliability and general improvements
+Settings: Added an ability to clear learned auto brightness
+Brought back accidentally dropped screen recorder stutter fixes
 
 Device:
-Added KProfiles support
-Fixed Wifi Display audio
-Fixed statusbar padding once again (for SPL)
-Use OOS 11 vibration effects
-Updated blobs from 11.0.8.1
-Kernel: v2.86 state
+Switched back to skia gl backend from vk. Fixes:
+    -Video playback issues on select Instagram app versions
+    -Initial lag on telegram cold start
+    -Lags in various other apps
+    -Improves consistency
+Kernel V2.89 state. Includes, but is not limited to:
+    -Crash fix for binder related crash
+    -Fuse append fix
+    -Fully correct USB pd/accessory/pass through charge fix
