@@ -1,15 +1,12 @@
 ROM:
-OpenDelta: Reliability and general improvements
-Settings: Added an ability to clear learned auto brightness
-Brought back accidentally dropped screen recorder stutter fixes
+Introduce Vanilla OTA support.
+framework/native: fixes/improvements incl screen record lag fix.
+Dialer: improve UI.
+framework: fix longpress on screen cast tile.
+framework: fix messaging notifications during doze.
+Settings: Add back Sandboxed Play Store shortcut in Settings -> Apps.
+Prebuilts: bump Lawnchair + Lawnicons.
 
 Device:
-Switched back to skia gl backend from vk. Fixes:
-    -Video playback issues on select Instagram app versions
-    -Initial lag on telegram cold start
-    -Lags in various other apps
-    -Improves consistency
-Kernel V2.89 state. Includes, but is not limited to:
-    -Crash fix for binder related crash
-    -Fuse append fix
-    -Fully correct USB pd/accessory/pass through charge fix
+Kernel V2.90a1 state.
+Kernel: move to rolling clang master toolchain.
