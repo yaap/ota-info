@@ -1,12 +1,11 @@
 ROM:
-Introduce Vanilla OTA support.
-framework/native: fixes/improvements incl screen record lag fix.
-Dialer: improve UI.
-framework: fix longpress on screen cast tile.
-framework: fix messaging notifications during doze.
-Settings: Add back Sandboxed Play Store shortcut in Settings -> Apps.
-Prebuilts: bump Lawnchair + Lawnicons.
+gmscompat: new fixes and improvements.
+dexopt: optimizations.
+system_server: disable debugging feature.
+fingerprint: fixup dim staying on lockscreen until unlock after any quick fod tap.
+Settings/Display: make toggling auto rotate easier.
 
 Device:
-Kernel V2.90a1 state.
-Kernel: move to rolling clang master toolchain.
+Kernel V2.94 state.
+Kernel: bump toolchain.
+guacamoles and hotdogg: fix showing camera helper option in OnePlus Settings.
