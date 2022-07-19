@@ -1,15 +1,13 @@
 ROM:
-OpenDelta: Reliability and general improvements
-Settings: Added an ability to clear learned auto brightness
-Brought back accidentally dropped screen recorder stutter fixes
+Open cast settings upon long clicking the cast tile
+Cleanup cast tile code of old redundancy
+Settings: Use PrimarySwitchPreference for auto rotate
+Better tune package manager dex
+Added an ability to limit Ambient/AOD refresh rate
+Many other small fixes and improvements all around
 
 Device:
-Switched back to skia gl backend from vk. Fixes:
-    -Video playback issues on select Instagram app versions
-    -Initial lag on telegram cold start
-    -Lags in various other apps
-    -Improves consistency
-Kernel V2.89 state. Includes, but is not limited to:
-    -Crash fix for binder related crash
-    -Fuse append fix
-    -Fully correct USB pd/accessory/pass through charge fix
+Prevent UDFPS dimming from getting stuck on keyguard
+Limit Ambient/AOD refresh rate to 60Hz
+Some other minor improvements
+Kernel: v2.96 state
