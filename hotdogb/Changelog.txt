@@ -1,11 +1,18 @@
 ROM:
-gmscompat: new fixes and improvements.
-dexopt: optimizations.
-system_server: disable debugging feature.
-fingerprint: fixup dim staying on lockscreen until unlock after any quick fod tap.
-Settings/Display: make toggling auto rotate easier.
+Fix power menu after dark/light mode toggle.
+Update all qcom repos to newest respective tags.
+gmscompat: update to newest upstream revision (like 3 grapheneos rebases newer). Fixes many small bugs.
+Settings/Privacy: add ability to disable location indicator.
+Settings: misc improvements.
+Implement for testing: duress encryption support. This will wipe your device on entry of your duress unlock code.
+vendor: update live caption configs from Pixel 6.
+hidl interfaces: use lto by default. Many of these are (1) small, (2) performance sensitive.
+Stub out thin lto in favor of full lto treewide for specified modules. We don't care about compile times for runtime performance.
 
 Device:
-Kernel V2.94 state.
+Kernel V2.100 state.
 Kernel: bump toolchain.
-guacamoles and hotdogg: fix showing camera helper option in OnePlus Settings.
+Disable unused atrace.
+fod: latency optimization.
+vendor: update blobs.
+wfd: fix inconsistency on connect.
