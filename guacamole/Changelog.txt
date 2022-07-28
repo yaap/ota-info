@@ -1,18 +1,8 @@
 ROM:
-Fix power menu after dark/light mode toggle.
-Update all qcom repos to newest respective tags.
-gmscompat: update to newest upstream revision (like 3 grapheneos rebases newer). Fixes many small bugs.
-Settings/Privacy: add ability to disable location indicator.
-Settings: misc improvements.
-Implement for testing: duress encryption support. This will wipe your device on entry of your duress unlock code.
-vendor: update live caption configs from Pixel 6.
-hidl interfaces: use lto by default. Many of these are (1) small, (2) performance sensitive.
-Stub out thin lto in favor of full lto treewide for specified modules. We don't care about compile times for runtime performance.
+Drop possibly buggy duress pin which was in testing.
 
 Device:
-Kernel V2.100 state.
-Kernel: bump toolchain.
-Disable unused atrace.
-fod: latency optimization.
-vendor: update blobs.
-wfd: fix inconsistency on connect.
+Kernel V2.101 state.
+fod: remove 10ms post illumination delay. This was an old workaround for hooked dim issues we haven't had for quite awhile.
+auto brightness: testing various improvements.
+night mode: kang color calibration from pixel.
