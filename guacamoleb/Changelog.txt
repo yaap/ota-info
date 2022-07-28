@@ -1,13 +1,16 @@
 ROM:
-Open cast settings upon long clicking the cast tile
-Cleanup cast tile code of old redundancy
-Settings: Use PrimarySwitchPreference for auto rotate
-Better tune package manager dex
-Added an ability to limit Ambient/AOD refresh rate
-Many other small fixes and improvements all around
+Merged new caf tags where relevant
+Allow turning off location privacy indicator
+Allow accessing mobile network settings on airplane mode
+Updated live captions configs from pixel 6
+Fixed a bug where power menu would not change theme
+Fixed alarm statusbar icon not showing after a reboot
+Use thin lto for hidls by default
+Use full lto for some performance critical modules
+Few other minor fixes
 
 Device:
-Prevent UDFPS dimming from getting stuck on keyguard
-Limit Ambient/AOD refresh rate to 60Hz
-Some other minor improvements
-Kernel: v2.96 state
+Updated blobs from HOS
+Updated adreno blobs
+Use a higher priority scheduler for biometrics
+Kernel: v2.100 state
