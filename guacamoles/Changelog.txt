@@ -1,19 +1,12 @@
 ROM:
-Added an ability to show Wi-Fi standard over wifi icon
-Added an ability to control hotspot timeout
-Added an ability to control hotspot clients
-Unlocked more hotspot bands
-Improved app spoofing of network permission if denied
-OpenDelta: Added ability to pause/resume downloads & rework related UI
-OpenDelta: Fixed checksum validation for existing files
-OpenDelta: Always show a progress bar when we re-check the file
-OpenDelta: Target latest SDK and clean a lot of code
-Fixed some theming related issues in settings
-Many other small changes
+OpenDelta: Added pause & cancel buttons to download notification
+OpenDelta: A load of bug and behavioral fixes
+Misc performance and latency related backports
+Some other minor fixes / improvements
 
 Device:
-Added support for increased touch sensitivity
-Removed FOD 10ms post illumination delay (old workaround)
-Night mode color calibration from pixel
-Tweaked msm_irqbalance
-Kernel: v2.103 state
+Fixed 5g selection on carrier config (w/o google carrier settings)
+Visual improvements to fps overlay
+Fixed a few dlopen errors
+Kernel: v2.108 state
+- Significant power efficiency improvements
