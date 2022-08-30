@@ -1,12 +1,16 @@
 ROM:
-OpenDelta: Added pause & cancel buttons to download notification
-OpenDelta: A load of bug and behavioral fixes
-Misc performance and latency related backports
-Some other minor fixes / improvements
+OpenDelta: Show the changelog of the next version
+OpenDelta: Redesign to fit A12's style better
+OpenDelta: Improve download notification behavior
+OpenDelta: Significant performance and reliability improvements
+Fixed network traffic monitor showing huge values on screen on
+Few other minor things
+
 
 Device:
-Fixed 5g selection on carrier config (w/o google carrier settings)
-Visual improvements to fps overlay
-Fixed a few dlopen errors
-Kernel: v2.108 state
-- Significant power efficiency improvements
+kernel v1.22 state:
+- Includes FOD flashbang fixes & bl artifact fixes
+- Bumped toolchain.
+erofs: inlined big pcluster with flash block size
+Removed hacks around enrollment, improved experience
+
