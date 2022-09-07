@@ -1,16 +1,8 @@
 ROM:
-OpenDelta: Show the changelog of the next version
-OpenDelta: Redesign to fit A12's style better
-OpenDelta: Improve download notification behavior
-OpenDelta: Significant performance and reliability improvements
-Fixed network traffic monitor showing huge values on screen on
+Added a fastbootd option in recovery
+Adapted volume panel to unlinked ring & notification volume
+OpenDelta: Refactor some code, minor bugfixes
 Few other minor things
 
-
 Device:
-kernel v1.22 state:
-- Includes FOD flashbang fixes & bl artifact fixes
-- Bumped toolchain.
-erofs: inlined big pcluster with flash block size
-Removed hacks around enrollment, improved experience
-
+kernel v2.127 state
