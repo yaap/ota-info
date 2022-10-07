@@ -1,8 +1,21 @@
 ROM:
-Added a fastbootd option in recovery
-Adapted volume panel to unlinked ring & notification volume
-OpenDelta: Refactor some code, minor bugfixes
-Few other minor things
+Rebased on top of A13
+
+Added features:
+- Camera & Mic privacy indicators toggle
+- Privacy indicator toggles don't require a reboot
+- Option to use HEVC in screen recording
+- Other things all around
+
+Dropped features:
+- not coming back:
+    - timeout for notification pulse (never worked properly anyways)
+    - combined signal icons toggle (forced combined)
+    - custom monet toggles (improved ThemePicker)
+- maybe coming back:
+    - white qs
 
 Device:
-kernel v2.127 state
+Adapted to A13
+*Everything is working in same state as A12
+Kernel: v2.143 state
