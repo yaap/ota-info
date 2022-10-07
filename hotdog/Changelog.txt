@@ -1,14 +1,20 @@
 ROM:
-OpenDelta: Show the changelog of the next version
-OpenDelta: Redesign to fit A12's style better
-OpenDelta: Improve download notification behavior
-OpenDelta: Significant performance and reliability improvements
-Fixed network traffic monitor showing huge values on screen on
-Few other minor things
+Rebased on top of A13 + new grapheneos gmscompat.
+
+Added features:
+- Camera & Mic privacy indicators toggle.
+- Privacy indicator toggles don't require a reboot.
+- Option to use HEVC in screen recording.
+- Other things all around, performance + stability improvements.
+
+Dropped features:
+- not coming back:
+    - timeout for notification pulse (never worked properly anyway).
+    - combined signal icons toggle (forced combined).
+    - custom monet toggles (improved themepicker, amoled dark option being worked on).
+- maybe coming back:
+    - dual tone + white QS.
 
 Device:
-kernel v2.124 state:
-- Includes FOD flashbang fixes & bl artifact fixes
-- Bumped toolchain.
-erofs: inlined big pcluster with flash block size
-Removed hacks around enrollment, improved experience
+Adapted to A13. Everything is working in same state as A12. No bluetooth, audio, hotspot, or fod issues.
+Kernel: v2.143 state.
