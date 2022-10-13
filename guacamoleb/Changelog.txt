@@ -1,11 +1,11 @@
 ROM:
-Fixed headlight font theming in settings
-Minor multitasking improvement
-Reverted white power menu (made UI mode switching slow)
-Spoof walleye to GMS and PlayStore
-* May have to wipe GMS, PlayStore & Wallet data
-  For wallet to work
+recovery: Don't format /data when attempting to install from internal
+Improved dynamic refresh rate algo
+OpenDelta: Fixed A/B install not working for some
+* People who fail would still have to sideload this one instead
 
 Device:
-Fixed NightLight temperature range
-Kernel: v2.144 state
+Enabled VRR (Variable Refresh Rate)
+Kprofiles: properly reflect in UI balanced is default.
+Kernel: v2.147 state
+- FOD improvements and more
