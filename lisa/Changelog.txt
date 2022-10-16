@@ -1,1 +1,7 @@
-Initial build
+Device:
+- Enabled IMS Features (VoLTE&etc)
+- Added MIUI Camera
+- Fixed WFD Issues
+
+System:
+- See previous changelogs in channel
