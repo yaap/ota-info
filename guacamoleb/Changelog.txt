@@ -1,20 +1,31 @@
 ROM:
-Rebased on top of A13 + new grapheneos gmscompat.
-
-Added features:
-- Camera & Mic privacy indicators toggle.
-- Privacy indicator toggles don't require a reboot.
-- Option to use HEVC in screen recording.
-- Other things all around, performance + stability improvements.
-
-Dropped features:
-- not coming back:
-    - timeout for notification pulse (never worked properly anyway).
-    - combined signal icons toggle (forced combined).
-    - custom monet toggles (improved themepicker, amoled dark option being worked on).
-- maybe coming back:
-    - dual tone + white QS.
+Vanilla: gmscompat updated from GrapheneOS
+Vanilla: Dialer VVM updates and fixes
+Vanilla: Notify support for Google contact sync
+Vanilla: all LineageOS apps updated from sync
+Vanilla: dropped Turbo + Flipendo to resolve no gms provider Settings crashes
+recovery: Don't format /data when attempting to install from internal
+Improved dynamic refresh rate algo
+OpenDelta: Fixed A/B install not working for some
+* People who fail would still have to sideload this one instead
+Enabled QR tile
+Added ability to toggle app network perm upon install
+Added a toggle for auto granting sensors permissions
+Added more info in app info page
+Added back some CLI tools: bash, openssh
+Added force close to recent shortcuts
+Launcher3: Updated lawnicons and many visual improvements
+Launcher3/lawnicons: Monochrome app icons override lawnicons when possible
+Blacklisted some reader-type apps from using high refresh rates
+Fixed accidental breakage of app refresh rate voting
+Fixed Wifi Display crashes
+Other things all around incl misc performance optimizations
 
 Device:
-Adapted to A13. Everything is working in same state as A12. No bluetooth, audio, hotspot, or fod issues.
-Kernel: v2.143 state.
+Enabled VRR (Variable Refresh Rate)
+Kprofiles: properly reflect in UI balanced is default.
+Kernel: v2.148 state
+- Fixed a flicker that happens on low brightness
+- Better optimize dc dim
+- fod fixes and more
+- Toolchain bumped (fresh llvm 16 build from today)
