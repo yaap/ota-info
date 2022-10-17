@@ -1,11 +1,18 @@
 ROM:
-recovery: Don't format /data when attempting to install from internal
-Improved dynamic refresh rate algo
-OpenDelta: Fixed A/B install not working for some
-* People who fail would still have to sideload this one instead
+Enabled QR tile
+Added ability to toggle app network perm upon install
+Added a toggle for auto granting sensors permissions
+Added more info in app info page
+Added back some CLI tools: bash, openssh
+Added force close to recent shortcuts
+Launcher3: Updated lawnicons and many visual improvements
+Launcher3: Use monochrome icons when possible
+Blacklisted some apps from using high refresh rates
+Fixed accidental breakage of app refresh rate voting
+Fixed Wifi Display crashes
+Other things all around
 
 Device:
-Enabled VRR (Variable Refresh Rate)
-Kprofiles: properly reflect in UI balanced is default.
-Kernel: v2.147 state
-- FOD improvements and more
+Kernel: v2.148 state
+- Fixed a flicker that happens on low brightness
+- Better optimize dc dim
