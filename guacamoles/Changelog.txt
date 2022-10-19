@@ -1,18 +1,13 @@
 ROM:
-Enabled QR tile
-Added ability to toggle app network perm upon install
-Added a toggle for auto granting sensors permissions
-Added more info in app info page
-Added back some CLI tools: bash, openssh
-Added force close to recent shortcuts
-Launcher3: Updated lawnicons and many visual improvements
-Launcher3: Use monochrome icons when possible
-Blacklisted some apps from using high refresh rates
-Fixed accidental breakage of app refresh rate voting
-Fixed Wifi Display crashes
-Other things all around
+Merged r11 (Huge AOSP tag)
+Launcher3: Fixed random gesture freezes
+Launcher3: Added smartspace + toggle
+OpenDelta: Removed all .delta code & refactored
+Changed default QR provider for the QS tile
+Updated pcam to our own built one
+Fixed Verizon sims not detecting
+Other minor things all around
 
 Device:
-Kernel: v2.148 state
-- Fixed a flicker that happens on low brightness
-- Better optimize dc dim
+Fixed AOD getting frozen
+Kernel: v2.149 state
