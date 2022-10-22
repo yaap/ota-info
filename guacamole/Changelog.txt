@@ -1,13 +1,19 @@
 ROM:
-Merged r11 (Huge AOSP tag)
-Launcher3: Fixed random gesture freezes
-Launcher3: Added smartspace + toggle
-OpenDelta: Removed all .delta code & refactored
-Changed default QR provider for the QS tile
-Updated pcam to our own built one
-Fixed Verizon sims not detecting
-Other minor things all around
+Added combined signal icons toggle
+Fixed doze on charge settings switch
+PhotonCamera: Tuned some values and fixed clean launch
+Launcher3: Updated lawnicons
+OpenDelta:
+- Fixed check function with existing file
+- Added proper strings for all A/B errors
+- Added a proper string for download SHA mismatch
+- Further refactor & other improvements
+Many other things all around
 
 Device:
-Fixed AOD getting frozen
-Kernel: v2.149 state
+Fixed laser auto focus
+Corrected FOD sizes and position
+- Warmly recommended to enroll again
+Kernel: v2.151 state
+- More FOD improvements/fixes particularly for 7T.
+- Make sure we never crashdump when modem crashes
