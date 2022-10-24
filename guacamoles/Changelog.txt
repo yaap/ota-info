@@ -1,31 +1,32 @@
 ROM:
-Vanilla: gmscompat updated from GrapheneOS
-Vanilla: Dialer VVM updates and fixes
-Vanilla: Notify support for Google contact sync
-Vanilla: all LineageOS apps updated from sync
-Vanilla: dropped Turbo + Flipendo to resolve no gms provider Settings crashes
-recovery: Don't format /data when attempting to install from internal
-Improved dynamic refresh rate algo
-OpenDelta: Fixed A/B install not working for some
-* People who fail would still have to sideload this one instead
-Enabled QR tile
-Added ability to toggle app network perm upon install
-Added a toggle for auto granting sensors permissions
-Added more info in app info page
-Added back some CLI tools: bash, openssh
-Added force close to recent shortcuts
-Launcher3: Updated lawnicons and many visual improvements
-Launcher3/lawnicons: Monochrome app icons override lawnicons when possible
-Blacklisted some reader-type apps from using high refresh rates
-Fixed accidental breakage of app refresh rate voting
-Fixed Wifi Display crashes
-Other things all around incl misc performance optimizations
+Merged r11 (Huge AOSP tag)
+Added a black background toggle
+- Please note repainter clashes with this
+Launcher3: use icons from Pixel Launcher Mod by TeamFiles
+- Adds almost 1200 new icons, which also better fit app monochrome icons.
+- Please note this requires themed icons to be toggled off/on to use new.
+Launcher3: Added smartspace + toggle
+Launcher3: Fixed opening weather from smartspace.
+Launcher3: Fixed random gesture freezes
+Launcher: other bugfixes.
+OpenDelta: Removed all .delta code & refactored
+Updated pcam to our own built one
+Fixed Verizon sims not detecting
+Added combined signal icons toggle
+Fixed doze on charge settings switch
+PhotonCamera: Tuned some values and fixed clean launch
+Other minor things all around
+OpenDelta:
+- Fixed check function with existing file
+- Added proper strings for all A/B errors
+- Added a proper string for download SHA mismatch
+- Further refactor & other improvements
 
 Device:
-Enabled VRR (Variable Refresh Rate)
-Kprofiles: properly reflect in UI balanced is default.
-Kernel: v2.148 state
-- Fixed a flicker that happens on low brightness
-- Better optimize dc dim
-- fod fixes and more
-- Toolchain bumped (fresh llvm 16 build from today)
+Fixed laser auto focus
+Fixed AOD getting frozen
+Corrected FOD sizes and position
+- Warmly recommended to enroll again
+Kernel: v2.151 state
+- More FOD improvements/fixes particularly for 7T.
+- Make sure we never crashdump when modem crashes
