@@ -1,18 +1,13 @@
 ROM:
-Added combined signal icons toggle
-Fixed doze on charge settings switch
-PhotonCamera: Tuned some values and fixed clean launch
-Launcher3: Updated lawnicons
-OpenDelta:
-- Fixed check function with existing file
-- Added proper strings for all A/B errors
-- Added a proper string for download SHA mismatch
-- Further refactor & other improvements
-Many other things all around
+Added a black background toggle
+- Please note repainter clashes with this
+Launcher3: Do not restrict number of search results
+Launcher3: Fixed opening weather from smartspace
+Launcher3: Other visual & bug fixes
+Launcher3: Use icons from pixel launcher mod by TeamFile
+- Toggle themed icons to use the new ones
+Updated pcam
+Few other minor changes
 
 Device:
-Corrected FOD sizes and position
-- Warmly recommended to enroll again
-Kernel: v2.151 state
-- More FOD improvements/fixes particularly for 7T.
-- Make sure we never crashdump when modem crashes
+Kernel: v2.155 state
