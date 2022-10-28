@@ -1,13 +1,13 @@
 ROM:
-Added a black background toggle
-- Please note repainter clashes with this
-Launcher3: Do not restrict number of search results
-Launcher3: Fixed opening weather from smartspace
-Launcher3: Other visual & bug fixes
-Launcher3: Use icons from pixel launcher mod by TeamFile
-- Toggle themed icons to use the new ones
-Updated pcam
-Few other minor changes
+Added a bluetooth dialog for the QS tile
+OpenDelta: Show missed builds changelogs as well
+OpenDelta: Fix file flashing from Download / Document folders
+Launcher3: Added a toggle to theme app drawer icons as well
+Set minimum volume instead of muting in QuickMute gesture
+Few more minor changes
 
 Device:
-Kernel: v2.155 state
+Kernel v2.156 state:
+- Fixed aftermarket batteries range
+- Fixed a rare crash which made it into last build
+Few more minor changes
