@@ -1,7 +1,9 @@
-Device:
-- Enabled IMS Features (VoLTE&etc)
-- Added MIUI Camera
-- Fixed WFD Issues
+ROM:
+Too big tom fit in
+Please check: https://katb.in/yiyaqivucid
 
-System:
-- See previous changelogs in channel
+Device:
+Fixed Hotspot
+Switched to AOSP WFD
+Reduced reserved size of partitions
+MIUI Camera's 64MP mode is no longer supported
