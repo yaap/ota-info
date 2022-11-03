@@ -1,13 +1,18 @@
 ROM:
-Added a bluetooth dialog for the QS tile
-OpenDelta: Show missed builds changelogs as well
-OpenDelta: Fix file flashing from Download / Document folders
-Launcher3: Added a toggle to theme app drawer icons as well
-Set minimum volume instead of muting in QuickMute gesture
-Few more minor changes
+Allow setting per-channel notification vibration pattern
+- Note that if the app uses its own - it won't show up
+Added a switch for VRR
+Added an animation to playback control gesture settings
+Fixed bluetooth panel see all button
+Fixed a memory leak in ringer
+Rewrote flashlight blink on incoming call
+- Should address the issue where it keeps blinking for some
+Launcher3: Added hide top shadow option
+Launcher3: Added scale animation to recents
+Launcher3: Reorganized settings & misc changes
+Updated photon camera
+Force YouTube, Disney+ and more to run at 60Hz
+A huge amount of other changes & improvements
 
 Device:
-Kernel v2.156 state:
-- Fixed aftermarket batteries range
-- Fixed a rare crash which made it into last build
-Few more minor changes
+Kernel v2.157 state
