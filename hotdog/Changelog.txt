@@ -1,30 +1,32 @@
 ROM:
-Platform now built with Global LTO + AOSP Clang 15.0.2.
-- Offers small but consistent performance improvements across the board.
-Added a bluetooth dialog for the QS tile
-OpenDelta: Show missed builds changelogs as well
-OpenDelta: Fix file flashing from Download / Document folders
-Launcher3: Added a toggle to theme app drawer icons as well
-Set minimum volume instead of muting in QuickMute gesture
-Allow setting per-channel notification vibration pattern
-- Note that if the app uses its own - it won't show up
-Added a switch for VRR
-Added an animation to playback control gesture settings
-Fixed bluetooth panel see all button
-Fixed a memory leak in ringer
-Rewrote flashlight blink on incoming call
-- Should address the issue where it keeps blinking for some
-Launcher3: Added hide top shadow option
-Launcher3: Added scale animation to recents
-Launcher3: Reorganized settings & misc changes
-Updated photon camera
-Force YouTube, Disney+ and more to run at 60Hz
-A huge amount of other changes & improvements
+Merged r11 (Huge AOSP tag)
+Added a black background toggle
+- Please note repainter clashes with this
+Launcher3: use icons from Pixel Launcher Mod by TeamFiles
+- Adds almost 1200 new icons, which also better fit app monochrome icons.
+- Please note this requires themed icons to be toggled off/on to use new.
+Launcher3: Added smartspace + toggle
+Launcher3: Fixed opening weather from smartspace.
+Launcher3: Fixed random gesture freezes
+Launcher: other bugfixes.
+OpenDelta: Removed all .delta code & refactored
+Updated pcam to our own built one
+Fixed Verizon sims not detecting
+Added combined signal icons toggle
+Fixed doze on charge settings switch
+PhotonCamera: Tuned some values and fixed clean launch
+Other minor things all around
+OpenDelta:
+- Fixed check function with existing file
+- Added proper strings for all A/B errors
+- Added a proper string for download SHA mismatch
+- Further refactor & other improvements
 
 Device:
-Testing sunfish blkio tuning.
-Kernel v2.158 state:
-- Fixed aftermarket batteries range
-- Fixed a rare crash which made it into last build
-- Merged 4.14.278
-- Few more minor changes
+Fixed laser auto focus
+Fixed AOD getting frozen
+Corrected FOD sizes and position
+- Warmly recommended to enroll again
+Kernel: v2.151 state
+- More FOD improvements/fixes particularly for 7T.
+- Make sure we never crashdump when modem crashes
