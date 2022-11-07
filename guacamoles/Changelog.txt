@@ -1,6 +1,10 @@
+Since last build was broken and removed for hotdog* devices, this changelog is old + new changelog.
 ROM:
-Platform now built with Global LTO + AOSP Clang 15.0.2.
+GmsCompat: updated from upstream GrapheneOS.
+Storage Scopes: introduce Storage Scopes from GrapheneOS. Also resolves GmsCompat Play Store OBB issues.
+Platform now built with AOSP Clang 15.0.3.
 - Offers small but consistent performance improvements across the board.
+lmkd: usability backports.
 Added a bluetooth dialog for the QS tile
 OpenDelta: Show missed builds changelogs as well
 OpenDelta: Fix file flashing from Download / Document folders
@@ -23,7 +27,8 @@ A huge amount of other changes & improvements
 
 Device:
 Testing sunfish blkio tuning.
-Kernel v2.158 state:
+Kernel v2.159 state:
+- Switch to LMKD. Resolves our overly aggressive A13 memory experience, allows leaving games in background for hours again.
 - Fixed aftermarket batteries range
 - Fixed a rare crash which made it into last build
 - Merged 4.14.278
