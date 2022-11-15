@@ -1,11 +1,16 @@
 ROM:
-Merged android-13.0.0_r13 (Nov SPL)
-Added storage scopes from GrapheneOS
-Fixed edge lightning AOD switch
-Build using clang 15.0.2
-OpenDelta: Always notify for download completion
-Some other changes
+Added pocket judge from AOSPA
+Added USB tethering QS tile
+OpenDelta: Fixed some errors & improved some code
+Also disable forced low refresh rate apps blacklist when disabling VRR
+- Re-toggle for it to take effect
+Forgotten on last changelog:
+- Fixed cast statusbar icon showing for no reason
+Other minor changes
 
 Device:
-Kernel v2.159 state:
-- Switch to LMKD: Resolves our overly aggressive A13 memory experience
+Sunfish blkio tuning
+Kernel v2.164 state:
+- Merged 4.14.299
+- Bugfix: Enable CachedAppOptimizer dependency.
+- Bugfix: resolve incorrect colors on panel on/unlock some users randomly faced
