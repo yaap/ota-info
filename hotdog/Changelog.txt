@@ -1,14 +1,7 @@
 ROM:
-Bring in pocket mode (settings/display)
-Disable high refresh blacklist if VRR is disabled to fully restore non VRR behavior
-GmsCompat: bring in upstream GrapheneOS changes
-Dialer: Improved monet/material you theming
-Dialer: Phone lookup support
-Add usb tether qs tile
+Now built with our optimized Global LTO for all
+OpenDelta: fixed some errors and improved code
 Misc improvements and optimizations
 
 Device:
-Sunfish blkio tuning
-Kernel v2.162 state:
-- Merged 4.14.299
-- Few more minor changes
+Kernel v2.164 state
