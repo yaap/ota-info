@@ -1,16 +1,11 @@
 ROM:
-Added pocket judge from AOSPA
-Added USB tethering QS tile
-OpenDelta: Fixed some errors & improved some code
-Also disable forced low refresh rate apps blacklist when disabling VRR
-- Re-toggle for it to take effect
-Forgotten on last changelog:
-- Fixed cast statusbar icon showing for no reason
-Other minor changes
+Added default notification vibration pattern customizations
+OpenDelta: Added support for local file flash sum verification
+Fixed ambient edge lightning not always triggering
+Enable and use global LTO
+Use AOSP Clang 16.0.1
+Many other improvements & fixes
 
 Device:
-Sunfish blkio tuning
-Kernel v2.164 state:
-- Merged 4.14.299
-- Bugfix: Enable CachedAppOptimizer dependency.
-- Bugfix: resolve incorrect colors on panel on/unlock some users randomly faced
+Fixed default bluetooth device name
+Kernel v2.165 state
