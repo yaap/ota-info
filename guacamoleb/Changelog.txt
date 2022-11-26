@@ -1,11 +1,13 @@
 ROM:
-Added default notification vibration pattern customizations
-OpenDelta: Added support for local file flash sum verification
-Fixed ambient edge lightning not always triggering
-Enable and use global LTO
-Use AOSP Clang 16.0.1
-Many other improvements & fixes
+Added a toggle for in-call notifications
+Added a toggle for NFC related sounds
+Added a proper secondary label to data switch tile
+Reworked and fixed the switching logic of data switch tile
+Fixed instant apps crashing system server
+Fixed playback issues affecting some streaming apps
+YASP: Updated Chinese (Taiwan) translations
+Other misc changes
 
 Device:
-Fixed default bluetooth device name
-Kernel v2.165 state
+Added some left padding to statusbar
+Kernel v2.167 state
