@@ -1,16 +1,8 @@
 ROM:
-Improved Global LTO tuning + potential bugs
-Use AOSP Clang 16.0.1
-Updated gmscompat from upstream (various issues fixed from last build)
-Contacts, Messaging, Matlog: UI updates and improvements
-wfd: fully resolve other cases of screen cast icon being stuck when disconnected
-lz4: update
-erofs-utils: update
-Added default notification vibration pattern customizations
-OpenDelta: Added support for local file flash sum verification
-Fixed ambient edge lightning not always triggering
-Many other improvements & fixes
+Fixed and improved memory management
+Various optimizations and improvements
 
 Device:
-Fixed default bluetooth device name
-Kernel v2.165 state
+Kernel v2.171 state
+Fixed post reboot lag, more improved memory management
+Various optimizations and improvements
