@@ -1,13 +1,10 @@
 ROM:
-Added a toggle for in-call notifications
-Added a toggle for NFC related sounds
-Added a proper secondary label to data switch tile
-Reworked and fixed the switching logic of data switch tile
-Fixed instant apps crashing system server
-Fixed playback issues affecting some streaming apps
-YASP: Updated Chinese (Taiwan) translations
-Other misc changes
+Made black background toggle apply to more apps
+- Re-toggle to see the changes
+Fixed and improved memory management
+Other small changes
 
 Device:
-Added some left padding to statusbar
-Kernel v2.167 state
+Fixed post reboot lag
+Various optimizations and improvements
+Kernel v2.171 state
