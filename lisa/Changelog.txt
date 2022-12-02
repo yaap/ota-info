@@ -1,9 +1,6 @@
 ROM:
-Too big tom fit in
-Please check: https://katb.in/yiyaqivucid
+too big to fit, see:
+https://katb.in/inevuwotofi
 
 Device:
-Fixed Hotspot
-Switched to AOSP WFD
-Reduced reserved size of partitions
-MIUI Camera's 64MP mode is no longer supported
+Switched to erofs
