@@ -1,8 +1,23 @@
 ROM:
-Fixed and improved memory management
-Various optimizations and improvements
+Merged r16 (aka Dec SPL, aka QPR1)
+- Huge tag with tons of bugfixes & new features
+- see: https://support.google.com/pixelphone/thread/191508547
+Reverted back to AOSP's battery usage history
+Fixed LS clock font for r16
+Added support for devices to interface with pocket mode
+ExactCalculator: Material You theming
+Added monet engine settings to YASP:
+- Allows choosing theme style, color source & a custom accent/b.g color
+- In addition allows controlling accent luminance and chroma
+Fixed dark background not applying widely after a reboot
+OpenDelta: Keep the CPU awake when installing an AB update (+ toggle)
+Other small changes
 
 Device:
-Kernel v2.171 state
-Fixed post reboot lag, more improved memory management
-Various optimizations and improvements
+Fixed key events being randomly ignored / delayed
+Fixed slider when pocket mode is enabled & triggered
+Improve display event latency + jank
+Kernel v2.174 state
+- Likely fixed random panel mode changes
+- Various fixes for external modem (5g variant) behaviors
+- More memory management improvements
