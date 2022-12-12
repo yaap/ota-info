@@ -1,23 +1,22 @@
 ROM:
-Merged r16 (aka Dec SPL, aka QPR1)
-- Huge tag with tons of bugfixes & new features
-- see: https://support.google.com/pixelphone/thread/191508547
-Reverted back to AOSP's battery usage history
-Fixed LS clock font for r16
-Added support for devices to interface with pocket mode
-ExactCalculator: Material You theming
-Added monet engine settings to YASP:
-- Allows choosing theme style, color source & a custom accent/b.g color
-- In addition allows controlling accent luminance and chroma
-Fixed dark background not applying widely after a reboot
-OpenDelta: Keep the CPU awake when installing an AB update (+ toggle)
-Other small changes
+Gmscompat: updated from upstream, adds ability to disable gms and play store update restriction
+LatinIME: better material you color palette
+LatinIME: support swipe
+Moved font and icon options to Wallpaper & style
+- Adds a preview to both
+Fixed DT2S on lockscreen being way less reliable after r16 merge
+AOD Schedule:
+- Properly handle reboots if the user manually toggled
+- Properly listen to time only settings changes
+- Don't disable AOD on boot for users who have it disabled.
+- Some other small fixes, code improvements
+Improved network traffic monitor visibility and reliability
+- Fully resolves the screen on value bug and more
+OpenDelta: Better handle server errors when resuming a download
+Pocket Judge: Affect torch power button gestures
+Pocket Judge: Don't affect calls
+- Fixes vibration pattern suddenly stopping
+Many other changes all around
 
 Device:
-Fixed key events being randomly ignored / delayed
-Fixed slider when pocket mode is enabled & triggered
-Improve display event latency + jank
-Kernel v2.174 state
-- Likely fixed random panel mode changes
-- Various fixes for external modem (5g variant) behaviors
-- More memory management improvements
+Kernel v2.176 state
