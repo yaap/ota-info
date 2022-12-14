@@ -1,14 +1,14 @@
 ROM:
-Fixed lockscreen clock font not shrinking
-Improved network traffic monitor visibility and reliability
-- Fully resolves the screen on value bug and more
-Bring back GSans for lockscreen clock font
-Launcher3: Fixed results overlapping in search
-OpenDelta: Better handle server errors when resuming a download
-Pocket Judge: Affect torch power button gestures
-Pocket Judge: Don't affect calls
-- Fixes vibration pattern suddenly stopping
+Misc fixes and improvements to network traffic monitor
+Fixed DT2S on lockscreen being way less reliable after r16 merge
+Moved font and icon options to Wallpaper & style
+- Adds a preview to both
+AOD Schedule:
+- Properly handle reboots if the user manually toggled
+- Properly listen to time only settings changes
+- Don't disable AOD on boot for users who have it disabled
+- Some other small fixes, code improvements
 Many other changes all around
 
 Device:
-Kernel v2.175 state
+Kernel v2.177 state
