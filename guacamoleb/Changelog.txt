@@ -1,14 +1,18 @@
 ROM:
-Misc fixes and improvements to network traffic monitor
-Fixed DT2S on lockscreen being way less reliable after r16 merge
-Moved font and icon options to Wallpaper & style
-- Adds a preview to both
-AOD Schedule:
-- Properly handle reboots if the user manually toggled
-- Properly listen to time only settings changes
-- Don't disable AOD on boot for users who have it disabled
-- Some other small fixes, code improvements
-Many other changes all around
+Launcher3: More QSB layout fixes
+Launcher3: Other layout fixes
+PixelPropsUtils: Minor code improvements for performance
+PixelPropsUtils: Only spoof walleye to gms.unstable
+- Makes playstore see us as the device we are again
+- Makes the rest of GMS (+gapps) see us as cheetah
+- Please clear playstore's data for the changes to take effect
+Force enable new QS player UI again
+Automatically grant matlog access to logs
+Solved a rare threading bug with network traffic monitor
+Bump clang version
+Many other changes all over the place
 
 Device:
-Kernel v2.177 state
+Kernel v2.183~ state:
+- Missing new "exemption" FOD improvements in standalone releases (due to final few bugs)
+- A few sane fod improvements are included
