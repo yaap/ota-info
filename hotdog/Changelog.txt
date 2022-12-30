@@ -1,18 +1,18 @@
 ROM:
-Launcher3: More QSB layout fixes
-Launcher3: Other layout fixes
-PixelPropsUtils: Minor code improvements for performance
-PixelPropsUtils: Only spoof walleye to gms.unstable
-- Makes playstore see us as the device we are again
-- Makes the rest of GMS (+gapps) see us as cheetah
-- Please clear playstore's data for the changes to take effect
-Force enable new QS player UI again
-Automatically grant matlog access to logs
-Solved a rare threading bug with network traffic monitor
-Bump clang version
-Many other changes all over the place
+Allow keeping volume dialog on the right for landscape
+Made unlock ripple animation 2x faster
+Added HarmonyOS font
+Don't spoof anything to GMS (only unstable)
+- Fixes some related google app errors
+- May have to wipe playstore's data again to get certified
+ThemePicker: Improve Icon & Font selection UI
+Show the alarm icon on QS header again
+Maybe fixed power button sometime not responding after a long idle
+Few other minor changes
 
 Device:
-Kernel v2.183~ state:
-- Missing new "exemption" FOD improvements in standalone releases (due to final few bugs)
-- A few sane fod improvements are included
+kernel: v2.189 state:
+- neither panel modes or night light or extra dim or app overlays impact fod performance in any way.
+  Depending on device and original enrolled preferred panel mode,
+  you may want to re enroll for best fod performance.
+  As an example, hotdogb + natural was previously the worst performing.
