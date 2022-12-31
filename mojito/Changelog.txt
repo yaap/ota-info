@@ -1,0 +1,16 @@
+ROM:
+Initial build. For those on the beta:
+Allow keeping volume dialog on the right for landscape
+Made unlock ripple animation 2x faster
+Added HarmonyOS font
+Don't spoof anything to GMS (only unstable)
+- Fixes some related google app errors
+- May have to wipe playstore's data again to get certified
+ThemePicker: Improve Icon & Font selection UI
+Show the alarm icon on QS header again
+Maybe fixed power button sometime not responding after a long idle
+Few other minor changes
+
+Device:
+Initial build. For those on the beta:
+https://bin.cyberknight777.dev/PvTG
