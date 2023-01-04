@@ -1,18 +1,15 @@
 ROM:
-Allow keeping volume dialog on the right for landscape
-Made unlock ripple animation 2x faster
-Added HarmonyOS font
-Don't spoof anything to GMS (only unstable)
-- Fixes some related google app errors
-- May have to wipe playstore's data again to get certified
-ThemePicker: Improve Icon & Font selection UI
-Show the alarm icon on QS header again
-Maybe fixed power button sometime not responding after a long idle
-Few other minor changes
+Merged r23 (aka Jan SPL)
+Network traffic monitor:
+- Resize the font when there is no more room
+- Fixed improper tinting on lock screen
+Updated Chinese translation
+Some other small changes
 
 Device:
-kernel: v2.189 state:
-- neither panel modes or night light or extra dim or app overlays impact fod performance in any way.
-  Depending on device and original enrolled preferred panel mode,
-  you may want to re enroll for best fod performance.
-  As an example, hotdogb + natural was previously the worst performing.
+kernel: v2.190 state:
+- fod/display: workaround to resolve CSC flicker (like with screen off anim with night light or extra dim)
+- fod/display: CSC optimizations
+- fixed the bug where huge values would show for upload at times
+- fixed a post boot lag
+* CSC = Color Space Correction
