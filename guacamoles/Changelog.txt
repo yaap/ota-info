@@ -1,22 +1,35 @@
 ROM:
-Gmscompat: updated from upstream, adds ability to disable gms and play store update restriction
-LatinIME: better material you color palette
-LatinIME: support swipe
-Moved font and icon options to Wallpaper & style
-- Adds a preview to both
-Fixed DT2S on lockscreen being way less reliable after r16 merge
-AOD Schedule:
-- Properly handle reboots if the user manually toggled
-- Properly listen to time only settings changes
-- Don't disable AOD on boot for users who have it disabled.
-- Some other small fixes, code improvements
-Improved network traffic monitor visibility and reliability
-- Fully resolves the screen on value bug and more
-OpenDelta: Better handle server errors when resuming a download
-Pocket Judge: Affect torch power button gestures
-Pocket Judge: Don't affect calls
-- Fixes vibration pattern suddenly stopping
-Many other changes all around
+Merged r23 (aka Jan SPL)
+Gmscompat: updated from upstream
+Network traffic monitor:
+- Resize the font when there is no more room
+- Fixed improper tinting on lock screen
+Updated Chinese translation
+Allow keeping volume dialog on the right for landscape
+Made unlock ripple animation 2x faster
+Added HarmonyOS font
+Don't spoof anything to GMS (only unstable)
+- Fixes some related google app errors
+- May have to wipe playstore's data again to get certified
+ThemePicker: Improve Icon & Font selection UI
+Show the alarm icon on QS header again
+Maybe fixed power button sometime not responding after a long idle
+OpenDelta: Show meaningful strings for download errors
+OpenDelta: Some other minor fixes, code improvements
+Few other minor changes
 
 Device:
-Kernel v2.176 state
+Temporarily drop DC Dimming (needs kernel reimplementation)
+Reduce keyguard indication bottom margin to 10dp
+Kernel v2.191 state:
+ - Fix 60hz jank
+ - New FOD implementation fixes the following:
+   - OP fod bug of rarely fod stuck on until press
+   - Flash at some quick VRR transitions like rotating in a forced 60hz app
+   - hbm/dim timing across devices without any per-panel hacks -- no more dim before hbm to mitigate flashbangs on 7t panel for instance
+   - FOD performance difference between tap and longpress.
+   - Nothing impacts fp pressed performance any longer, be it: extra dim, night light, panel mode changes, or anything else.
+ - TODO still:
+   - Tuned per panel dim luts (currently all are using 7p dim lut, which is surprisingly not bad
+   - Reimplement DC Dim (tried few quick workarounds, really just need full reimplementation)
+   - Make udfps screen off sensor trigger fp pressed (currently sensor works, but does not "wake").
