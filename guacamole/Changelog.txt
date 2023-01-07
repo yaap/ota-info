@@ -1,15 +1,23 @@
 ROM:
-Merged r23 (aka Jan SPL)
-Network traffic monitor:
-- Resize the font when there is no more room
-- Fixed improper tinting on lock screen
-Updated Chinese translation
-Some other small changes
+Allow separately controlling ambient display and wake for notifications
+- Now wake for notifications switch actually controls what it says
+- Renamed the AOSP switch to reflect what it actually does - disables ambient
+Spoof cheetah to gms.persistent as well
+- should enable some pixel features w/o breaking apps
+- may have to wipe meet's data to get it working again
+OpenDelta: Show meaningful strings for download errors
+OpenDelta: Some other minor fixes, code improvements
+Some other minor changes
 
 Device:
-kernel: v2.190 state:
-- fod/display: workaround to resolve CSC flicker (like with screen off anim with night light or extra dim)
-- fod/display: CSC optimizations
-- fixed the bug where huge values would show for upload at times
-- fixed a post boot lag
-* CSC = Color Space Correction
+Fixed DC dimming restoring reverted on boot
+Reduce keyguard indication bottom margin to 10dp
+kernel: v2.191 state:
+- Fixed HDR playback colors
+- Fixed 60hz jank
+- New FOD implementation that fixes the following:
+* OP fod bug of rarely fod stuck on until press
+* Flash at some quick VRR transitions like rotating in a forced 60hz app
+* hbm/dim timing across devices without any per-panel hacks -- no more dim before hbm to mitigate flashbangs on 7t panel for instance
+* FOD performance difference between tap and longpress
+* Nothing impacts fp pressed performance any longer, be it: extra dim, night light, panel mode changes, or anything else
