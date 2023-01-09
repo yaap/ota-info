@@ -1,0 +1,29 @@
+ROM:
+Merged r23 (aka Jan SPL)
+Gmscompat: updated from upstream
+Network traffic monitor:
+- Resize the font when there is no more room
+- Fixed improper tinting on lock screen
+Updated Chinese translation
+Allow separately controlling ambient display and wake for notifications
+- Now wake for notifications switch actually controls what it says
+- Renamed the AOSP switch to reflect what it actually does - disables ambient
+Spoof cheetah to gms.persistent as well
+- should enable some pixel features w/o breaking apps
+- may have to wipe meet's data to get it working again
+OpenDelta: Show meaningful strings for download errors
+OpenDelta: Some other minor fixes, code improvements
+Made pocket mode protect incoming calls as well:
+* Will now actually overlay above dialer UI without killing vibrations
+* Fixed a bug where fod would not be available after a call from pocket
+* Other minor code fixes to pocket mode
+Some other minor changes
+
+Device:
+KProfiles 5.0.1
+Re-order SEPolicy for KProfiles Frontend
+Setup dalvik vm configs properly
+Disallow aux cam usage for Owlgram
+Rebrand to sunny
+Refactor libinit for clarity
+Fix vertical statusbar padding.
