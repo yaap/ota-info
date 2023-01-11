@@ -1,23 +1,16 @@
 ROM:
-Allow separately controlling ambient display and wake for notifications
-- Now wake for notifications switch actually controls what it says
-- Renamed the AOSP switch to reflect what it actually does - disables ambient
-Spoof cheetah to gms.persistent as well
-- should enable some pixel features w/o breaking apps
-- may have to wipe meet's data to get it working again
-OpenDelta: Show meaningful strings for download errors
-OpenDelta: Some other minor fixes, code improvements
-Some other minor changes
+Allow blinking flashlight for notifications (by default and per channel)
+Added statusbar notification count
+Made pocket mode protect incoming calls as well:
+* Will now actually overlay above dialer UI without killing vibrations
+* Fixed a bug where UDFPS would not be available after a call from pocket
+* Other minor code fixes to pocket mode
+Updated gapps from Jan pixel image
+Few other small things
 
 Device:
-Fixed DC dimming restoring reverted on boot
-Reduce keyguard indication bottom margin to 10dp
-kernel: v2.191 state:
-- Fixed HDR playback colors
-- Fixed 60hz jank
-- New FOD implementation that fixes the following:
-* OP fod bug of rarely fod stuck on until press
-* Flash at some quick VRR transitions like rotating in a forced 60hz app
-* hbm/dim timing across devices without any per-panel hacks -- no more dim before hbm to mitigate flashbangs on 7t panel for instance
-* FOD performance difference between tap and longpress
-* Nothing impacts fp pressed performance any longer, be it: extra dim, night light, panel mode changes, or anything else
+New screen off UDFPS -- done without the old wake hack, we now have a proper screen off UDFPS sensor like used on new a13 devices
+- The toggle has moved to YASP->Gestures, so set to your preference
+Kernel v2.197 state:
+- UDFPS improvements
+- Power improvements -- also extend kprofiles functionality with better changes per kprofile
