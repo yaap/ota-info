@@ -1,19 +1,19 @@
 ROM:
-Made wireless adb notification to open the correct setting page
-Fixed forced small clock when media player is disabled on lock screen
-Enabled camera & flashlight bottom keyguard shortcuts
-- For those we don't have wallet / home
-Launcher3:
-- Brought back and fixed search showing more than 5 results
-- Fixed a common crash when not using QSB
-- Fixed recent apps/app switch being jankier than expected
-Updated Russian translations all across
-Few other small things
+YASP: Added missing pages to search (including main)
+YASP: Correct pages that were added twice
+YASP: Be more inline with settings (ex: toggle visibility animations)
+Enabled QR lock screen bottom shortcut
+Made dark background toggle affect more things
+Added an option to set / hide lock screen bottom shortcuts
+Layout fixes in Wallpaper & style
+Fixed doze on charge not turning off until the screen is woken
+Auto AOD service is now independent of doze and screen wakes
+Improve app open performance
+Other things all around
 
 Device:
-Bring back DC dimming with new implementation
-Reverted back to 14dp on keyguard bottom padding
-- no, this is the lowest we can go as it's getting cut on default DPI
-Kernel v2.198 state:
-- Significant power improvements
-- display: new DC dim implementation
+Kernel v2.204 state:
+- Performance and battery improvements
+- Painstakingly tuned fod dim luts for qhd panel devices and also hotdogb -- so pressed brightness is perceivably the same as pre press at any range
+- Fix a rare random full reboot some users could trigger
+- Memory management improvements
