@@ -1,19 +1,11 @@
 ROM:
-YASP: Added missing pages to search (including main)
-YASP: Correct pages that were added twice
-YASP: Be more inline with settings (ex: toggle visibility animations)
-Enabled QR lock screen bottom shortcut
-Made dark background toggle affect more things
-Added an option to set / hide lock screen bottom shortcuts
-Layout fixes in Wallpaper & style
-Fixed doze on charge not turning off until the screen is woken
-Auto AOD service is now independent of doze and screen wakes
-Improve app open performance
-Other things all around
+Added an option to always show the time in media player
+Added an option to enable squiggly progress in media player
+Added a platform-wide overlay to disable color inversion
+Replace Photon camera with Lineage's Aperture
+Use Aperture as the QR scanner
+Fixed toast background not following UI theme in some apps
+Other minor changes
 
 Device:
-Kernel v2.204 state:
-- Performance and battery improvements
-- Painstakingly tuned fod dim luts for qhd panel devices and also hotdogb -- so pressed brightness is perceivably the same as pre press at any range
-- Fix a rare random full reboot some users could trigger
-- Memory management improvements
+No changes
