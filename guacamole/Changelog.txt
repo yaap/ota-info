@@ -1,20 +1,31 @@
 ROM:
-Made wireless adb notification to open the correct setting page
-Enabled camera & flashlight bottom keyguard shortcuts
-- For those we don't have wallet / home
-Fixed forced small clock when media player is disabled on lock screen
-Launcher3:
-- Brought back and fixed search showing more than 5 results
-- Fixed a common crash when not using QSB
-- Fixed recent apps/app switch being jankier than expected
-Updated Russian translations all across
-Few other small things
+GmsCompat: updated from upstream GrapheneOS, bluetooth discovery shim fixes
+Dialer: updated material you styling in some minor but nice ways
+YASP: Added missing pages to search (including main)
+YASP: Correct pages that were added twice
+YASP: Be more inline with settings (ex: toggle visibility animations)
+Enabled QR lock screen bottom shortcut
+Added an option to set / hide lock screen bottom shortcuts
+Added an option to always show the time in media player
+Added an option to enable squiggly progress in media player
+Added a platform-wide overlay to disable color inversion
+Replace Photon camera with Lineage's Aperture
+Use Aperture as the QR scanner
+Fixed toast background not following UI theme in some apps
+Made dark background toggle affect more things
+Layout fixes in Wallpaper & style
+Fixed doze on charge not turning off until the screen is woken
+Auto AOD service is now independent of doze and screen wakes
+Improve app open performance
+Other things all around
 
 Device:
-Bring back DC dimming with new implementation
-Reverted back to 14dp on keyguard bottom padding
-- no, this is the lowest we can go as it's getting cut on default DPI
-Kernel v2.198 state:
-- Significant power improvements
-- display: new DC dim implementation
-- 7T at 90hz now has seamless fod like on 7p (no "flicker")
+Implement new double tap sensor, drop old power hal double tap method -- double tap to wake now works on AOD
+Kernel v2.207 state:
+- Merge Linux Kernel 4.14.303
+- Touchscreen gestures + touchscreen suspend now work on AOD
+- Introduce new double tap interface
+- Performance and battery improvements
+- Painstakingly tuned fod dim luts for qhd panel devices and also hotdogb -- so pressed brightness is perceivably the same as pre press at any range
+- Fix a rare random full reboot some users could trigger
+- Memory management improvements
