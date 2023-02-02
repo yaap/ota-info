@@ -1,6 +1,10 @@
 ROM:
-too big to fit, see:
-https://katb.in/inevuwotofi
+Wayyy too long.
+Please view from here:
+https://t.me/yaapupdates/419
+and down
 
 Device:
-Switched to erofs
+Fixed minium brightness
+Fixed fingerprint unlocking animations
+Added Dolby Vision support
