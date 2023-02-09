@@ -1,17 +1,23 @@
 ROM:
-Added an ability to share VPN connection with hotspot
-Added Chinese connectivity check servers
-Added an icon to private DNS settings
-Made screen off volume key playback control affect remote streams (ex. cast)
-Launcher3: Added back the ability to resize any widget
-Fixed quick mute muting local media stream when casting
-Fixed notification channel flashlight option not retaining disabled state after a reboot
-Refactored connectivity check preference and made it searchable
+Merged r30 (Feb SPL)
+Updated gapps from pixel february images
+Added back the gestures settings page shortcut to System page as well
+Added some missing props to PPU to pass SN/Integrity again
+Kill backuptool.sh
+OpenDelta:
+- Better manage the service's background lifetime
+- Better display the current state, don't jump to unexpected states
+- Rewrote the scheduler to be more reliable and less power consuming
+- Added a toggle for sleep detection
+- Added separate notification channels for update & install progress
+- Default to check and notify, smart mode for scheduler
+- Allow hiding info text by long pressing it
+- Many other misc visual and performance improvements
 Updated Chinese translations
-Many other improvements all around
+Few other small changes
 
 Device:
-Kernel V2.212 state:
-- Fix various fod hbm issues
-- Merge Linux kernel 4.14.204
-- Misc
+DeviceSettings: Added a summary for DC Dimming and HBM
+Kernel v2.213 state:
+- Fixed DC dimming artifacts and issues + minor performance improvement
+- Fixed instability caused by ipa_v3
