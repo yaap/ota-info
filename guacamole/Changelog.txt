@@ -1,31 +1,23 @@
 ROM:
-GmsCompat: updated from upstream GrapheneOS, bluetooth discovery shim fixes
-Dialer: updated material you styling in some minor but nice ways
-YASP: Added missing pages to search (including main)
-YASP: Correct pages that were added twice
-YASP: Be more inline with settings (ex: toggle visibility animations)
-Enabled QR lock screen bottom shortcut
-Added an option to set / hide lock screen bottom shortcuts
-Added an option to always show the time in media player
-Added an option to enable squiggly progress in media player
-Added a platform-wide overlay to disable color inversion
-Replace Photon camera with Lineage's Aperture
-Use Aperture as the QR scanner
-Fixed toast background not following UI theme in some apps
-Made dark background toggle affect more things
-Layout fixes in Wallpaper & style
-Fixed doze on charge not turning off until the screen is woken
-Auto AOD service is now independent of doze and screen wakes
-Improve app open performance
-Other things all around
+Merged r30 (Feb SPL)
+Updated gapps from pixel february images
+Added back the gestures settings page shortcut to System page as well
+Added some missing props to PPU to pass SN/Integrity again
+Kill backuptool.sh
+OpenDelta:
+- Better manage the service's background lifetime
+- Better display the current state, don't jump to unexpected states
+- Rewrote the scheduler to be more reliable and less power consuming
+- Added a toggle for sleep detection
+- Added separate notification channels for update & install progress
+- Default to check and notify, smart mode for scheduler
+- Allow hiding info text by long pressing it
+- Many other misc visual and performance improvements
+Updated Chinese translations
+Few other small changes
 
 Device:
-Implement new double tap sensor, drop old power hal double tap method -- double tap to wake now works on AOD
-Kernel v2.207 state:
-- Merge Linux Kernel 4.14.303
-- Touchscreen gestures + touchscreen suspend now work on AOD
-- Introduce new double tap interface
-- Performance and battery improvements
-- Painstakingly tuned fod dim luts for qhd panel devices and also hotdogb -- so pressed brightness is perceivably the same as pre press at any range
-- Fix a rare random full reboot some users could trigger
-- Memory management improvements
+DeviceSettings: Added a summary for DC Dimming and HBM
+Kernel v2.213 state:
+- Fixed DC dimming artifacts and issues + minor performance improvement
+- Fixed instability caused by ipa_v3
