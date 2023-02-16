@@ -1,23 +1,21 @@
 ROM:
-Merged r30 (Feb SPL)
-Updated gapps from pixel february images
-Added back the gestures settings page shortcut to System page as well
-Added some missing props to PPU to pass SN/Integrity again
-Kill backuptool.sh
-OpenDelta:
-- Better manage the service's background lifetime
-- Better display the current state, don't jump to unexpected states
-- Rewrote the scheduler to be more reliable and less power consuming
-- Added a toggle for sleep detection
-- Added separate notification channels for update & install progress
-- Default to check and notify, smart mode for scheduler
-- Allow hiding info text by long pressing it
-- Many other misc visual and performance improvements
-Updated Chinese translations
-Few other small changes
+Allow showing battery percentage on statusbar only when charging
+Allow more features of the new smartspace to work
+Spoof pixel to snapchat (fixes message delays & adds some features)
+Fixed 60fps video in various camera apps
+Enabled many new google apps features via configs
+Use pixel's charging animation
+Remove video apps from the force 60Hz list
+Force lowest possible screen refresh rate when device is asleep
+- ex: when on AOD for 5s~
+Fixed OpenDelta crashing on download
+Many other small changes, bug fixes and perf improvements
 
 Device:
-DeviceSettings: Added a summary for DC Dimming and HBM
-Kernel v2.213 state:
-- Fixed DC dimming artifacts and issues + minor performance improvement
-- Fixed instability caused by ipa_v3
+Make device settings apply before initial post boot unlock
+Tighten VRR timings
+Kernel v2.218 state:
+- Power improvements
+- UDFPS improvements
+- Improve 60hz FOD down timing
+- Very significant erofs (system/vendor/product) latency improvement
