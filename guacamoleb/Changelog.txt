@@ -1,21 +1,14 @@
 ROM:
-Allow showing battery percentage on statusbar only when charging
-Allow more features of the new smartspace to work
-Spoof pixel to snapchat (fixes message delays & adds some features)
-Fixed 60fps video in various camera apps
-Enabled many new google apps features via configs
-Use pixel's charging animation
-Remove video apps from the force 60Hz list
-Force lowest possible screen refresh rate when device is asleep
-- ex: when on AOD for 5s~
-Fixed OpenDelta crashing on download
-Many other small changes, bug fixes and perf improvements
+Added frameworks boost support from qcom
+Made AOD turn off after 3s (instead of 10s) when in pocket
+Switched to a new (bigger) gapps collection
+Spoof raven to gms.persistent and added some other GMS spoofs
+- Enables many more google app features
+Fixed external File System mounting (ex: thumb drives)
+- Should now support almost every FS
+Fixed some random app crashes caused by spoofing
+Few other small changes
 
 Device:
-Make device settings apply before initial post boot unlock
-Tighten VRR timings
-Kernel v2.218 state:
-- Power improvements
-- UDFPS improvements
-- Improve 60hz FOD down timing
-- Very significant erofs (system/vendor/product) latency improvement
+Enabled frameworks boost support
+Kernel v2.219 state
