@@ -1,23 +1,18 @@
 ROM:
-Merged r30 (Feb SPL)
-Updated gapps from pixel february images
-Added back the gestures settings page shortcut to System page as well
-Added some missing props to PPU to pass SN/Integrity again
-Kill backuptool.sh
-OpenDelta:
-- Better manage the service's background lifetime
-- Better display the current state, don't jump to unexpected states
-- Rewrote the scheduler to be more reliable and less power consuming
-- Added a toggle for sleep detection
-- Added separate notification channels for update & install progress
-- Default to check and notify, smart mode for scheduler
-- Allow hiding info text by long pressing it
-- Many other misc visual and performance improvements
-Updated Chinese translations
-Few other small changes
+GmsCompat synced from upstream GrapheneOS
+Added frameworks boost support from qcom
+Made AOD turn off after 3s (instead of 10s) when in pocket
+Spoof raven to gms.persistent and added some other GMS spoofs
+- Enables many more google app features
+Fixed external File System mounting (ex: thumb drives)
+- Should now support almost every FS
+Fixed some random app crashes caused by spoofing
+Launcher3: Give smartspace proper room according to grid layout
+Dropped storage hack for Google Photos
+Moved to AOSP Clang 17 + llvm 17 binutils
+- Included many platform-wide fixes for likely unsafe runtime lto behavior
+Few other minor changes
 
 Device:
-DeviceSettings: Added a summary for DC Dimming and HBM
-Kernel v2.213 state:
-- Fixed DC dimming artifacts and issues + minor performance improvement
-- Fixed instability caused by ipa_v3
+Enabled frameworks boost support
+Kernel v2.219 state
