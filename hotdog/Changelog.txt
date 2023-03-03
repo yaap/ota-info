@@ -1,18 +1,16 @@
 ROM:
-Build using AOSP clang 17
-Don't enable USB debugging by default
-Stop spoofing for unlimited storage in photos
-OpenDelta: Describe non update engine errors as well
-OpenDelta: Some other minor bugfixes & code improvements
-Kprofiles: Improve sync between tile & settings
-Kprofiles: Settings reliability improvements
-Fixed missing package installer features
-Add touch sensitivity and screen off UDFPS settings to backup
-Update Russian translation
-Some other misc changes
+Sign builds with custom keys
+!! This update MUST be installed manually !!
+- please refer to the group and read #flash if you forgot how.
+- clean flashing IS NOT NEEDED
+Few other changes
 
 Device:
-Disable proximity for sensors
-- should fix dt2w not responding "randomly"
-- yes, pocket mode would still work                           Kernel v2.220 state:
-- Merge Linux kernel 4.14.307
+Fixed UDFPS ripple animation disappearing too early
+Fixed a single boot device settings crash
+Update Media and Adreno blobs
+Allow bootloader relocking (dangerous!)
+- please refer to the group to learn how
+Kernel V2.226 state:
+- Fix for some apps on a kerneltoast mm pid optimization.
+- AOD when in doze uses lower brightness for power
