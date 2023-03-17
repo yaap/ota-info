@@ -1,16 +1,19 @@
 ROM:
-Sign builds with custom keys
-!! This update MUST be installed manually !!
-- please refer to the group and read #flash if you forgot how.
-- clean flashing IS NOT NEEDED
-Few other changes
+Merged r35 (aka March SPL / QPR2)
+Added new lockscreen shortcuts that were added in r35
+- Your old preferences will be reset - please re-set
+Added a notification for percentage based battery saver
+Added Urbanist font
+Fixed '!' symbol cutting signal icons in some themes
+Dropped features due to the merge (will likely not come back):
+- Statusbar brightness control
+- Running services QS icon
+Other minor changes / bugfixes
 
 Device:
-Fixed UDFPS ripple animation disappearing too early
-Fixed a single boot device settings crash
-Update Media and Adreno blobs
-Allow bootloader relocking (dangerous!)
-- please refer to the group to learn how
-Kernel V2.226 state:
-- Fix for some apps on a kerneltoast mm pid optimization.
-- AOD when in doze uses lower brightness for power
+Kernel V2.229 state:
+- Latency improvements across the board, including with app open and fs performance
+- Efficiency improvement
+- Merge Linux Kernel 4.14.309
+- Fixup + optimize DC dim
+- Misc
