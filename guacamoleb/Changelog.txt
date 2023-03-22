@@ -1,22 +1,23 @@
 ROM:
-Gmscompat: updated from upstream, adds ability to disable gms and play store update restriction
-LatinIME: better material you color palette
-LatinIME: support swipe
-Moved font and icon options to Wallpaper & style
-- Adds a preview to both
-Fixed DT2S on lockscreen being way less reliable after r16 merge
-AOD Schedule:
-- Properly handle reboots if the user manually toggled
-- Properly listen to time only settings changes
-- Don't disable AOD on boot for users who have it disabled.
-- Some other small fixes, code improvements
-Improved network traffic monitor visibility and reliability
-- Fully resolves the screen on value bug and more
-OpenDelta: Better handle server errors when resuming a download
-Pocket Judge: Affect torch power button gestures
-Pocket Judge: Don't affect calls
-- Fixes vibration pattern suddenly stopping
-Many other changes all around
+Brought back white QS on light UI
+Fixed toast icon not showing for some system apps
+Fixed statusbar location indicator toggle resetting
+Fixed missing sound for notification, ringtone and alarm by default
+Fixed power for torch gesture rarely skipping power button wakes
+Fixed network traffic monitor not showing on new QS header
+Better handle some edge cases in quick mute gesture
+Merged r35 (aka March SPL / QPR2)
+Added new lockscreen shortcuts that were added in r35
+- Your old preferences will be reset - please re-set
+Added a notification for percentage based battery saver
+Added Urbanist font
+Fixed '!' symbol cutting signal icons in some themes
+Dropped features due to the merge (will likely not come back):
+- Statusbar brightness control
+- Running services QS icon
+Other changes / optimization / bugfixes
 
 Device:
-Kernel v2.176 state
+DeviceSettings: Make it searchable
+DeviceSettings: Target latest SDK
+Kernel V2.233 state
