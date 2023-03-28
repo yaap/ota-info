@@ -1,142 +1,38 @@
 ROM:
-Build using AOSP clang 17.
-Fully switch to ThinLTO as with clang 17 performance is much comparable with FullLTO.
-Upstream arm-optimized coroutines from master.
-Art optimizations.
-Use foreground cpuset for SurfaceFlinger.
-Allow setting bottom keyguard shortcuts.
-Made wireless adb notification to open the correct setting page.
-Fixed forced small clock when media player is disabled on lock screen.
-Enabled camera & flashlight bottom keyguard shortcuts.
-- For those we don't have wallet / home.
-Launcher3:
-- Brought back and fixed search showing more than 5 results.
-- Fixed a common crash when not using QSB.
-- Fixed recent apps/app switch being jankier than expected.
-Updated Russian translations all across.
-Allow blinking flashlight for notifications (by default and per channel).
-Added statusbar notification count.
-Made pocket mode protect incoming calls as well:
-* Will now actually overlay above dialer UI without killing vibrations.
-* Other minor code fixes to pocket mode.
-Updated gapps from Jan pixel image.
-Few other small things.
-YASP: Added missing pages to search (including main).
-YASP: Correct pages that were added twice.
-YASP: Be more inline with settings (ex: toggle visibility animations).
-Enabled QR lock screen bottom shortcut.
-Made dark background toggle affect more things.
-Added an option to set / hide lock screen bottom shortcuts.
-Layout fixes in Wallpaper & style.
-Fixed doze on charge not turning off until the screen is woken.
-Auto AOD service is now independent of doze and screen wakes.
-Improve app open performance.
-Added an option to always show the time in media player.
-Added an option to enable squiggly progress in media player.
-Replace Photon camera with Lineage's Aperture.
-Use Aperture as the QR scanner.
-Fixed toast background not following UI theme in some apps.
-Never animate battery stats change on lock screen indication.
-Never animate lock screen indication when dozing.
-Added an ability to share VPN connection with hotspot.
-Added Chinese connectivity check servers.
-Added an icon to private DNS settings.
-Made screen off volume key playback control affect remote streams (ex. cast).
-Launcher3: Added back the ability to resize any widget.
-Fixed quick mute muting local media stream when casting.
-Fixed notification channel flashlight option not retaining disabled state after a reboot.
-Refactored connectivity check preference and made it searchable.
-Updated Chinese translations.
-Updated gapps from pixel february images.
-Added back the gestures settings page shortcut to System page as well.
-Added some missing props to PPU to pass SN/Integrity again.
-Kill backuptool.sh.
-OpenDelta:
-- Better manage the service's background lifetime.
-- Better display the current state, don't jump to unexpected states.
-- Rewrote the scheduler to be more reliable and less power consuming.
-- Added a toggle for sleep detection.
-- Added separate notification channels for update & install progress.
-- Default to check and notify, smart mode for scheduler.
-- Allow hiding info text by long pressing it.
-- Many other misc visual and performance improvements.
-Allow showing battery % on statusbar only when charging.
-Allow more features of the new smartspace to work.
-Spoof pixel to snapchat (fixes message delays & adds some features).
-Fixed 60fps video in various camera apps.
-Enabled many new google apps features via configs.
-Use pixel's charging animation.
-Remove video apps from the force 60Hz list.
-Force lowest possible screen refresh rate when device is asleep.
-- ex: when on AOD for 5s~.
-Fixed OpenDelta crashing on download.
-some bug fixes and perf improvements.
-Added frameworks boost support from qcom.
-Made AOD turn off after 3s (instead of 10s) when in pocket.
-Switched to a new (bigger) gapps collection.
-Spoof raven to gms.persistent and added some other GMS spoofs.
-- Enables many more google app features.
-Fixed external File System mounting (ex: thumb drives).
-- Should now support almost every FS.
-Fixed some random app crashes caused by spoofing.
-Launcher3: Give smartspace proper room according to grid layout.
-Fixed prevent ringer gesture being gone.
-Fixed google photos edit not opening.
-Fixed missing gsans font file.
-Fixed lock screen clock font being set to the wrong font.
-Don't enable USB debugging by default.
-Stop spoofing for unlimited storage in photos.
-OpenDelta: Describe non update engine errors as well.
-OpenDelta: Some other minor bugfixes & code improvements.
-Kprofiles: Improve sync between tile & settings.
-Kprofiles: Settings reliability improvements.
-Fixed missing package installer features.
-Add touch sensitivity and screen off UDFPS settings to backup.
-Update Russian translation.
-Some other misc changes.
+Sign builds with release-keys.
+!! This update MUST be installed manually !!
+- please refer to the instructions.
+- clean flashing IS NOT NEEDED.
+Merged r35 (aka March SPL / QPR2).
+Added new lockscreen shortcuts that were added in r35.
+- Your old preferences will be reset - please re-set.
+Added a notification for percentage based battery saver.
+Added Urbanist font.
+Fixed '!' symbol cutting signal icons in some themes.
+Dropped features due to the merge (will likely not come back):
+- Statusbar brightness control.
+- Running services QS icon.
+Brought back white QS on light UI.
+Fixed toast icon not showing for some system apps.
+Fixed statusbar location indicator toggle resetting.
+Fixed missing sound for notification, ringtone and alarm by default.
+Fixed power for torch gesture rarely skipping power button wakes.
+Fixed network traffic monitor not showing on new QS header.
+Better handle some edge cases in quick mute gesture.
+Other minor changes / bugfixes.
 
 Device:
-  Kernel: 
-    KProfiles 5.0.2.
-    TP driver cleanup(kudos to fiqri).
-    minor DRM cleanup(kudos to fiqri).
-    Implement simple double tap attribute for modernized dt2w sensor.
-    Enable TouchGestures for double tap attribute to work.
-    Fix touch suspend workqueue.
-    Drop legacy double tap to wake handling(Kills dt2w on roms that use xiaomi touch for it).
-    Simplify event key reporting.
-    Rename gesture macros for sanity.
-    Don't read gestures if TS has not suspended.
-    Report SCHED_CAPACITY_SCALE to the problematic userspace for unity games.
-    Add per-cpu threads for decompression in EROFS for better app launches and boot time.
-    Set scheduler to use SCHED_RR at high priority for lower latency.
-    Drop TEO governor.
-    Drop recent lpm-levels optimizations.
-    Fully switch to WFI for cpuidle(should improve drains).
-    Upgrade ZSTD to latest upstream v1.5.4.
-    Fix HBM parameters to make HBM finally work.
-    Restore brightness value when hbm is turned off.
-    Implement exposure adjustment to have proper DC Dimming working.
-    Adapt exposure adjustment values for sunny to have low flickering and minimal backlight intensity.
+  Kernel:
+    Add cmdline interface to check if dt2w sensor is used.
+    Restore legacy dt2w behaviour.
+    Guard double tap attribute handling(it breaks modernized dt2w if not adapted to this change).
+    Stop building compressed Image as it's redundant.
 
-Re-add IPACM.
-Fix camera interface on ViLTE calls.
-Inherit launch with vendor ramdisk for vAB.
-Drop debugfs related sepolicy, mount flags, onwership changes.
-Drop unused A-only fstab.
-Configure auxiliary cameras for Aperture(some might not work as intended).
-Configure video recording framerates for Aperture.
-Increase autobrightness light debounce.
-Implement a new and modernized double tap to wake sensor(toggle is located in YASP->Gestures).
-Cleanup unused SEPolicy rules.
-Drop XiaomiParts as its redundant.
-Drop dolby/dirac configs as its redundant.
-Set VENDOR_SECURITY_PATCH to 2023-01-05.
-Fix video calling(need further testing).
-Enable CLO's Boost Framework.
-Inherit common perf components from AOSPA.
-Build DisplayFeatures - A package that exposes toggles and QS tiles for HBM and DC Dimming(toggle is located in display).
-Drop mock hidl power stats.
-Disable SF composition prediction model.
-Force device to treat 170M as sRGB in SF.
-Disallow exteraGram and Telegram web apk to use aux cam.
+Latch unsignaled buffers.
+Switch to OSS aptX.
+Fix tile mismatch with DisplayFeatures.
+Add spanish and vietnamese translations for DisplayFeatures.
+Make DisplayFeatures searchable in settings.
+Target latest SDK for DisplayFeatures.
+Add portuguese translation for KProfiles
+Make tile and fragment sync instantly for KProfiles.
