@@ -1,0 +1,38 @@
+ROM:
+Sign builds with release-keys.
+!! This update MUST be installed manually !!
+- please refer to the instructions.
+- clean flashing IS NOT NEEDED.
+Merged r35 (aka March SPL / QPR2).
+Added new lockscreen shortcuts that were added in r35.
+- Your old preferences will be reset - please re-set.
+Added a notification for percentage based battery saver.
+Added Urbanist font.
+Fixed '!' symbol cutting signal icons in some themes.
+Dropped features due to the merge (will likely not come back):
+- Statusbar brightness control.
+- Running services QS icon.
+Brought back white QS on light UI.
+Fixed toast icon not showing for some system apps.
+Fixed statusbar location indicator toggle resetting.
+Fixed missing sound for notification, ringtone and alarm by default.
+Fixed power for torch gesture rarely skipping power button wakes.
+Fixed network traffic monitor not showing on new QS header.
+Better handle some edge cases in quick mute gesture.
+Other minor changes / bugfixes.
+
+Device:
+  Kernel:
+    Add cmdline interface to check if dt2w sensor is used.
+    Restore legacy dt2w behaviour.
+    Guard double tap attribute handling(it breaks modernized dt2w if not adapted to this change).
+    Stop building compressed Image as it's redundant.
+
+Latch unsignaled buffers.
+Switch to OSS aptX.
+Fix tile mismatch with DisplayFeatures.
+Add spanish and vietnamese translations for DisplayFeatures.
+Make DisplayFeatures searchable in settings.
+Target latest SDK for DisplayFeatures.
+Add portuguese translation for KProfiles
+Make tile and fragment sync instantly for KProfiles.
