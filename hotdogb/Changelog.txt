@@ -1,13 +1,20 @@
 ROM:
-Brought back white QS on light UI
-Fixed toast icon not showing for some system apps
-Fixed statusbar location indicator toggle resetting
-Fixed missing sound for notification, ringtone and alarm by default
-Fixed power for torch gesture rarely skipping power button wakes
-Fixed network traffic monitor not showing on new QS header
-Better handle some edge cases in quick mute gesture
-Other minor changes / bugfixes
+screenrecord: Skip the dialog when long pressing the QS tile
+screenrecord: Remember last used blinking dot position
+Fixed high background GMS load/drain
+Fixed many bank apps crashes
+Spoof raven to gms persistent
+- Brings back assistant voice typing and more
+Launcher: fix/revert to pre qpr1 hotseat and qsb spacing to help OCD
+Misc improvements and optimizations
 
 Device:
-DeviceSettings: Make it searchable
-DeviceSettings: Target latest SDK
+Improved ALS correction
+Move to task_profiles for improved performance and efficiency
+Update adreno drivers - fixes a few bugs
+Kernel: V2.235 state:
+- Merge Linux kernel 4.14.311
+- Fix fod at 60hz high brightness sticking
+- Goodix fod: workaround driver issue of occasionally requiring more than one press on screen off or deep AOD
+-- also improves performance in some scenarios
+- Misc improvements + fixes for task profiles
