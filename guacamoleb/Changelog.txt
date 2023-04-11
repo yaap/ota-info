@@ -1,20 +1,24 @@
 ROM:
-screenrecord: Skip the dialog when long pressing the QS tile
-screenrecord: Remember last used blinking dot position
-Fixed high background GMS load/drain
-Fixed many bank apps crashes
-Spoof raven to gms persistent
-- Brings back assistant voice typing and more
-Launcher: fix/revert to pre qpr1 hotseat and qsb spacing to help OCD
-Misc improvements and optimizations
+Merged r41 (AKA April SPL)
+Added an option to display ambient instead of waking
+- For dt2w and pickup gesture
+Remove unlinked ringtone and notification volume
+- Conflicts with AOSP prep for their own impl (wait for A14)
+Use accent color for charging animation 
+Stop spoofing anything to snapchat, as it solves nothing
+Move gms persistent spoofing to cheetah
+Fix ASI live caption and live translate downloads
+- May have to uninstall updates of Android System Intelligence
+Many spoofing related code improvements
+Launcher3: Fixed recents hang
+Launcher3: Few stability improvements
+Updated google apps & configs
+Many other changes & improvements
 
 Device:
-Improved ALS correction
-Move to task_profiles for improved performance and efficiency
-Update adreno drivers - fixes a few bugs
-Kernel: V2.235 state:
-- Merge Linux kernel 4.14.311
-- Fix fod at 60hz high brightness sticking
-- Goodix fod: workaround driver issue of occasionally requiring more than one press on screen off or deep AOD
--- also improves performance in some scenarios
-- Misc improvements + fixes for task profiles
+Use better durations tuning for 90hz devices
+Optimize cpusets for efficiency
+Kernel v2.238 state:
+- Fix FOD intermittently broken immediately after wake or during transition
+- Merge Linux kernel 4.14.312
+- Various improvements
