@@ -1,48 +1,10 @@
 ROM:
-screenrecord: Skip the dialog when long pressing the QS tile
-screenrecord: Remember last used blinking dot position
-Fixed high background GMS load/drain
-Fixed many bank apps crashes
-Spoof raven to gms persistent
-- Brings back assistant voice typing and more
-Launcher: fix/revert to pre qpr1 hotseat and qsb spacing to help OCD
-Merged r41 (AKA April SPL)
-Added an option to display ambient instead of waking
-- For dt2w and pickup gesture
-Remove unlinked ringtone and notification volume
-- Conflicts with AOSP prep for their own impl (wait for A14)
-Use accent color for charging animation
-Stop spoofing anything to snapchat, as it solves nothing
-Move gms persistent spoofing to cheetah
-Fix ASI live caption and live translate downloads
-- Wipe asi data and install updates if available.
-Many spoofing related code improvements
-Launcher3: Fixed recents hang
-Launcher3: Few stability improvements
-Updated google apps & configs
-Added system side support for qcom's power off alarm
-- Tested with google clock, should work with all sane clock apps
-- Shows a silent notification when it's actually set, for easier testing
-Launcher3: Added support for 3rd party icon packs
-Shorten status bar icons entry animation
-Place total time correctly in QS media player
-Other QS media player UI fixes / improvements
-Fingerprint animation UI improvements
-Launcher3: Some bugfixes & UI improvements
-Fixed ASI not being able to download languages after updating
-Fixed some initial values & a summary text in gesture settings page
-Misc improvements and optimizations
-
+Switch to marlin for gms.persistent to fix CTS.
 
 Device:
   Kernel:
-    Re-expose SLMK tunables to userspace.
-    Re-enable userspace CPU boosting.
+    Implement simple single tap attribute for modernized ST2W sensor.
+    Add cmdline interface to check if st2w sensor is used.
+    Restore legacy st2w behaviour.
 
-Rewrite DisplayFeatures for clarity.
-Drop DC Dimming screen off service to make it so that it will remain enabled even at screen off.
-Inherit Adreno Component (updates adreno blobs to V@0530.47).
-Drop KProfilesSunny RRO as its redundant.
-Drop perf blobs listing since its inherited from common.
-Disable Auto Brightness by default to not be blinded during setupwizard.
-Update blobs to V14.0.2.0.SKGMIXM.
+Implement a new and modernized single tap to wake sensor(toggle is located in YASP->Gestures).
