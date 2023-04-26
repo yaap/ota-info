@@ -1,19 +1,17 @@
 ROM:
-Added system side support for qcom's power off alarm
-- Tested with google clock, should work with all sane clock apps
-- Shows a silent notification when it's actually set, for easier testing
-Launcher3: Added support for 3rd party icon packs
-Shorten status bar icons entry animation
-Place total time correctly in QS media player
-Other QS media player UI fixes / improvements
-Fingerprint animation UI improvements
-Launcher3: Some bugfixes & UI improvements
-Fixed ASI not being able to download languages after updating
-Fixed some initial values & a summary text in gesture settings page
-Few other small changes, bugfixes
+Launcher3: Added icon text & size customizations
+Launcher3: Added background opacity customizations
+OpenDelta: Added an ability to pause / cancel an update installation
+OpenDelta: Fixed a rare bug when verifying a local file sum
+OpenDelta: Other small fixes and improvements
+Added the show ambient instead of waking option for single tap sensor as well
+- Irrelevant for OnePlus (we have this in device settings)
+Many other perf / stability related changes
 
 Device:
-Kernel V2.239 state:
-- FOD: Many improvements, improve FOD stability in all scenarios
-- Major power improvement
-- Misc
+Enable background blur support
+Kernel v2.243 state:
+- Fix "random reboots" some users had -- major SSR rework
+- Merge Linux kernel 4.14.313
+- Further improve kprofile performance mode
+- FOD improvement
