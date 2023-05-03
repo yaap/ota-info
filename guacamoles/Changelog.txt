@@ -1,17 +1,18 @@
 ROM:
-Launcher3: Added icon text & size customizations
-Launcher3: Added background opacity customizations
-OpenDelta: Added an ability to pause / cancel an update installation
-OpenDelta: Fixed a rare bug when verifying a local file sum
-OpenDelta: Other small fixes and improvements
-Added the show ambient instead of waking option for single tap sensor as well
-- Irrelevant for OnePlus (we have this in device settings)
-Many other perf / stability related changes
+Merged r43 (aka May SPL)
+OpenDelta: Never fire multiple notifications in a row
+OpenDelta: Make sure we only notify for a new update twice a day
+- per boot
+Launcher3: Dropped blur settings
+Launcher3: Fixed some rare crash
+Fixup lockscreen settings crash
+Some other minor changes
 
 Device:
-Enable background blur support
-Kernel v2.243 state:
-- Fix "random reboots" some users had -- major SSR rework
-- Merge Linux kernel 4.14.313
-- Further improve kprofile performance mode
-- FOD improvement
+Kernel V2.246 state:
+- Merge Linux kernel 4.14.314
+- Improve 60hz on 90hz variants
+- kgsl backports
+- SSR: bring back lost adsp crash handling fix (matched some reboot reports post-modem fix)
+- improve kprofiles perf mode
+- misc
