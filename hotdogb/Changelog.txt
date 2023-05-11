@@ -1,18 +1,15 @@
 ROM:
-Merged r43 (aka May SPL)
-OpenDelta: Never fire multiple notifications in a row
-OpenDelta: Make sure we only notify for a new update twice a day
-- per boot
-Launcher3: Dropped blur settings
-Launcher3: Fixed some rare crash
-Fixup lockscreen settings crash
-Some other minor changes
+Mark recovery as YAAP (strings only)
 
 Device:
-Kernel V2.246 state:
-- Merge Linux kernel 4.14.314
-- Improve 60hz on 90hz variants
-- kgsl backports
-- SSR: bring back lost adsp crash handling fix (matched some reboot reports post-modem fix)
-- improve kprofiles perf mode
-- misc
+Introduce AOSP HBM (display config) support:
+- Auto HBM on a timer with temperature throttling at high enough ambient brightness
+- Better HDR support
+Kernel V2.252 state:
+- finally fix a reboot occurring from rmnet suspend/resume issue
+- Improve kprofile performance mode by skipping schedutil up rate limits when enabled
+- AOD: major AOD/doze power usage decrease
+- MGLRU fixes
+- DC dim: correct fod dim calculation when DC dim is in use
+- Misc perf
+- Changes for AOSP HBM (displayconfig)
