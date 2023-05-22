@@ -1,15 +1,13 @@
 ROM:
-Mark recovery as YAAP (strings only)
+Introduce Contact Scopes (from GrapheneOS)
+Improve network special runtime permission
+Fix AOD wake 60hz issue
+Fix Ukrainian language crashes
+Misc improvements and fixes
 
 Device:
-Introduce AOSP HBM (display config) support:
-- Auto HBM on a timer with temperature throttling at high enough ambient brightness
-- Better HDR support
-Kernel V2.252 state:
-- finally fix a reboot occurring from rmnet suspend/resume issue
-- Improve kprofile performance mode by skipping schedutil up rate limits when enabled
-- AOD: major AOD/doze power usage decrease
-- MGLRU fixes
-- DC dim: correct fod dim calculation when DC dim is in use
-- Misc perf
-- Changes for AOSP HBM (displayconfig)
+Fix auto hbm/hdr (display config) on all devices other than 7T
+Kernel v2.257 state:
+- Stability fixups
+- FOD: Properly skip HBM and dim if auto HBM already enabled
+- Misc
