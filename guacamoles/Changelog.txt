@@ -1,13 +1,8 @@
 ROM:
-Introduce Contact Scopes (from GrapheneOS)
-Improve network special runtime permission
-Fix AOD wake 60hz issue
-Fix Ukrainian language crashes
-Misc improvements and fixes
+Dropped contact scopes due to severe bugs
+Fixed ASI not downloading live translate/caption data for some users
+Misc performance optimizations and fixes
 
 Device:
-Fix auto hbm/hdr (display config) on all devices other than 7T
-Kernel v2.257 state:
-- Stability fixups
-- FOD: Properly skip HBM and dim if auto HBM already enabled
-- Misc
+Fixed "random" reboots (poor modem crash handling)
+Merged AKC and Linux Kernel 4.14.316
