@@ -1,9 +1,10 @@
 ROM:
-Dropped contact scopes due to severe bugs
-Fixed ASI not downloading live translate/caption data for some users
-Misc performance optimizations and fixes
+Add a schedule option for extra dim
+- Similar to what we have for AOD
+Other very minor changes
 
 Device:
-Fixed "random" reboots (poor modem crash handling)
-Expose more HBM range
-Merged AKC and Linux Kernel 4.14.316
+Kernel v3.02 state:
+- Major rebase:
+  - Rebase on Neptune by Harish (codecity001)
+  - Reset sched, use Walt
