@@ -1,24 +1,32 @@
 ROM:
+Merged AOSP tag r52 (AKA Jun SPL, QPR3)
+Moved from gmscompat to microg. This has many pros and cons, including:
+ - google login may no longer work in some apps
+ - safetynet now fully can pass
+ - location is improved, mozilla is used for assisted location
+ - in app purchases and play store no longer supported (can use aurora store)
+Open microg and login to google account again + enable options if previously logged in on gmscompat
+Reverted any kind of special runtime permissions
+- That includes custom storage scopes, internet, sensors etc
+Few other perf improvements and fixes
+Add a schedule option for extra dim
+- Similar to what we have for AOD
+Other very minor changes
 Merged r43 (aka May SPL)
 Updated chromium and webview
-Introduced PicoTTS for vanilla
-OpenDelta: Never fire multiple notifications in a row
-OpenDelta: Make sure we only notify for a new update twice a day
-- per boot
-Launcher3: Dropped blur settings
-Launcher3: Fixed some rare crash
-Fixup lockscreen settings crash
-Some other minor changes
 
 Device:
-Introduce AOSP HBM (display config) support:
-- auto HBM on a timer with temperature throttling at high enough ambient brightness
-- Better HDR support
-Kernel V2.251 state:
-- finally fix a reboot occurring from rmnet suspend/resume issue
-- Improve kprofile performance mode by skipping schedutil up rate limits when enabled
-- AOD: major AOD/doze power usage decrease
-- MGLRU fixes
-- DC dim: correct fod dim calculation when DC dim is in use
-- Misc perf
-- Changes for AOSP HBM (displayconfig)
+Kernel V3.10 state:
+- Major rebase:
+  - Rebase on Neptune by Harish (codecity001)
+  - Reset sched, use Walt
+- touchscreen: bring back optimizations for lower touch latency
+- perf affines: bring back HP (mix of big and prime) affine, tweak some affines for better performance and power efficiency
+- power: bring back aftermarket battery fix
+- power: fix poor PD charge performance since rebase (V3.x)
+- power: fix occasional (dis)charge stats hang (was usually for around a minute)
+- sched improvements
+- Backport uclamp (as in v2.x versions):
+  - fully adapted for usage with walt
+  - compatible with userspace perf
+  - no performance regressions, some latency improvements
