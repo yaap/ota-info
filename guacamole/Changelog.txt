@@ -1,20 +1,19 @@
 ROM:
-Merged AOSP tag r52 (AKA Jun SPL, QPR3)
-Updated gapps from the latest pixel image
-Reverted any kind of special runtime permissions
-- That includes custom storage scopes, internet, sensors etc
-- Solves soft "reboots" some users were having on certain apps
+Added an option to separate ring and notification volume streams
+Allow configuring whether wake gestures trigger on ambient
+Fixed wallpaper picker crashing when selecting a local photo
+Ship calyx patched chromium in gapps version as well
+- with bromite patches and adblocking
+Launcher3: Fixed dev settings won't open
+OpenDelta: Don't crash if performance mode fails setting
 Few other minor changes
 
 Device:
-Kernel V3.10 state:
-- touchscreen: bring back optimizations for lower touch latency
-- perf affines: bring back HP (mix of big and prime) affine, tweak some affines for better performance and power efficiency
-- power: bring back aftermarket battery fix
-- power: fix poor PD charge performance since rebase (V3.x)
-- power: fix occasional (dis)charge stats hang (was usually for around a minute)
-- sched improvements
-- Backport uclamp (as in v2.x versions):
-  - fully adapted for usage with walt
-  - compatible with userspace perf
-  - no performance regressions, some latency improvements
+Kernel V3.12 state:
+- FOD optimization which slightly improves performance and more so improves performance consistency
+- power: charge performance fixes (including screen off pd)
+- block: improvements
+- power efficiency improvements
+- config: correct initial kprofile performance mode to resolve boot time regression
+- kprofiles: restrict latency sensitive and boosted uclamp flags on battery mode
+  - This also results in disabled Walt colocation (which uses these flags) for additionally improved power efficiency at a performance cost
