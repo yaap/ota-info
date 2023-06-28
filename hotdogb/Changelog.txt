@@ -1,19 +1,26 @@
 ROM:
-Added an option to separate ring and notification volume streams
-Allow configuring whether wake gestures trigger on ambient
-Fixed wallpaper picker crashing when selecting a local photo
-Ship calyx patched chromium in gapps version as well
-- with bromite patches and adblocking
-Launcher3: Fixed dev settings won't open
-OpenDelta: Don't crash if performance mode fails setting
-Few other minor changes
+Added a Bluetooth toggle to gaming macro tile
+Added delete and share to screenshot notification actions
+Made lockscreen bottom shortcuts require a long press and vibrate
+Moved gapps and spoofing to redfin
+Fixed location history tracking
+Brought back offloading WM to another thread
 
 Device:
-Kernel V3.12 state:
-- FOD optimization which slightly improves performance and more so improves performance consistency
-- power: charge performance fixes (including screen off pd)
-- block: improvements
-- power efficiency improvements
-- config: correct initial kprofile performance mode to resolve boot time regression
-- kprofiles: restrict latency sensitive and boosted uclamp flags on battery mode
-  - This also results in disabled Walt colocation (which uses these flags) for additionally improved power efficiency at a performance cost
+Don't restore previous mute media volume if it's not still 0
+FOD performance improvement
+Kernel V3.20 state:
+- Merge android kernel common and LK 4.14.319
+- Update wlan submodules
+- Bring back cgroup/freezer v2 from pre-rebase
+- Switch back to lmkd from slmk (meant to sooner but forgot)
+  - Finally in usage less kill crazy, zram gets meaningfully used
+- display: fix an fod issue with dc dim and night light at lower brightness
+- fod and touchscreen: many optimizations
+- Improve boot performance
+- Improve battery and jank on all kprofiles
+- sched/walt: many per-kprofile tunings and improvements
+- kprofiles: support auto kprofiles mode
+- Fix USB tethering after multiple unplug/plug without reboot
+- Fix throttling behavior (missed post rebase)
+- Support modern userspace uclamp implementation only
