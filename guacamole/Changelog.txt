@@ -1,23 +1,11 @@
 ROM:
-Merged AOSP tag r61 (AKA July Security Patch)
-Added monochromatic color option
-- In basic colors (Styles & Wallpapers) and YASP
-Fixed accessible gestures that shouldn't be through settings search
-Updated gapps from the latest redfin images
-Removed YouTube from included apps
-Many other small changes
+No changes
 
 Device:
-Drop QCOM perf, use only in kernel solutions -- significantly improves battery
-Fix previous mistake with uclamp init defaults
-Kernel: v3.24 state:
-- Power efficiency improvements
-- Walt/kprofiles: improve battery and performance kprofile mode migration margins
-- sched/kprofiles: only bump min uclamp on non battery mode
-- dc dim: fix fod press dim tuning
-- single tap: delay single tap gesture and make cancelable
-  - allows OOS like behavior with single tap to ambient, so initial double tap still wakes device
-- fod: another small set of optimizations
-- kprofiles: per-kprofile rcu boost delay (how long to wait before boosting prio when a grace period is being preempted)
-- Merge android kernel common (4.14.320)
-- Merge latest CLO tag across the board
+Fix Bluetooth call bugs from previous build
+Fix lags from previous build (QS etc)
+Kernel V3.25 state:
+- Drop single tap delay change -- needs revision and introduced severe crashes
+- Drop input boosting entirely for a more interactive and power efficient configuration
+  - device side higher top app min clamp fills in for desired performance and fixes earlier reported "qs lag"
+- Improve kprofile performance mode by dropping delay to expedite missed RCU grace periods
