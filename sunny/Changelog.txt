@@ -1,10 +1,14 @@
 ROM:
-Switch to marlin for gms.persistent to fix CTS.
+https://bin.cyberknight777.dev/sYdv
 
 Device:
   Kernel:
-    Implement simple single tap attribute for modernized ST2W sensor.
-    Add cmdline interface to check if st2w sensor is used.
-    Restore legacy st2w behaviour.
-
-Implement a new and modernized single tap to wake sensor(toggle is located in YASP->Gestures).
+    Build kernel fully with GCC.
+    Transition to LMKD.
+    Merge LA.UM.9.1.r1-12900-SMxxx0.0 in kernel.
+    Update F2FS from f2fs-stable.
+Drop PowerOffAlarm.apk to fix reboots.
+Make AoD enter doze.
+Fix ST2W/DT2W on AoD.
+Update blobs from MIUI V14.0.3.0.SKGMIXM.
+Set recovery margin to match notch.
