@@ -1,11 +1,9 @@
 ROM:
-No changes
+Gaming Macro: Make brightness setting behave like the QS slider
+Recovery: Remove left paddings
 
 Device:
-Fix Bluetooth call bugs from previous build
-Fix lags from previous build (QS etc)
-Kernel V3.25 state:
-- Drop single tap delay change -- needs revision and introduced severe crashes
-- Drop input boosting entirely for a more interactive and power efficient configuration
-  - device side higher top app min clamp fills in for desired performance and fixes earlier reported "qs lag"
-- Improve kprofile performance mode by dropping delay to expedite missed RCU grace periods
+Recovery: Shift UI to avoid rounded corners and notches
+Kernel V3.27:
+- bring back single tap delay change
+- bug fixes and many improvements
