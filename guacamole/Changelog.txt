@@ -1,9 +1,10 @@
 ROM:
-Gaming Macro: Make brightness setting behave like the QS slider
-Recovery: Remove left paddings
+Fixed sensitive info hide in about phone for dual SIM
+Removed the flashlight chip from smartspace
+- text will still be displayed and is fully functional
+Removed all apps themed icons (broken in QPR3)
 
 Device:
-Recovery: Shift UI to avoid rounded corners and notches
-Kernel V3.27:
-- bring back single tap delay change
-- bug fixes and many improvements
+Simplify double tap implementation
+Kernel v3.29 state:
+- fixes for reported issues
