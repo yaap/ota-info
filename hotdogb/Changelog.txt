@@ -1,10 +1,14 @@
 ROM:
-Fixed sensitive info hide in about phone for dual SIM
-Removed the flashlight chip from smartspace
-- text will still be displayed and is fully functional
-Removed all apps themed icons (broken in QPR3)
+Make our added wake gestures options work when pulsing as well
+- Includes dt2w and tap to wake when in non LP panel mode
+Disable tap to wake by default
+Bump to AOSP clang 17.0.3
+Few other minor changes
 
 Device:
-Simplify double tap implementation
-Kernel v3.29 state:
-- fixes for reported issues
+Implement AOSP style single tap sensor
+- Now in YASP->Gesture settings instead of OnePlus settings
+Allow darker extra dim
+Kernel V3.30:
+- temporarily drop uclamp idle changes likely responsible for newerish idle crash (revisiting later)
+- bump toolchain to AOSP clang 17.0.3
