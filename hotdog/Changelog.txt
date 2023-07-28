@@ -1,14 +1,26 @@
 ROM:
-Make our added wake gestures options work when pulsing as well
-- Includes dt2w and tap to wake when in non LP panel mode
-Disable tap to wake by default
-Bump to AOSP clang 17.0.3
+Fixed black background toggle affecting day theme background colors
+- Few other edge cases fixes related to that toggle
+Launcher3: Reverted App Info bottom sheet
+- Was buggy and provided worse UX
 Few other minor changes
 
 Device:
-Implement AOSP style single tap sensor
-- Now in YASP->Gesture settings instead of OnePlus settings
-Allow darker extra dim
-Kernel V3.30:
-- temporarily drop uclamp idle changes likely responsible for newerish idle crash (revisiting later)
-- bump toolchain to AOSP clang 17.0.3
+Remove min top-app clamp boost due to new in-kernel uclamp input boost solution (power improvement)
+Kernel V3.37 state:
+- resolve a crash (reboot)
+- More SSR workarounds for possible cases
+- kprofiles: update and move walt kprofiles handling to new notifier
+- Improve jitter on non kprofile battery mode
+- fix a possible case of a stuck boost on kprofiles mode switch
+- implement in-kernel input and launch uclamp boosts
+  - same in effect as the libperfmgr input, launch, and fod min clamp boosts pissels use
+  - improves power savings
+  - does not occur on kprofiles battery mode
+  - multi stage
+- override min clamps on battery kprofile for additional power savings at cost of jank
+- implement camera sensor open tracking and boost camera-daemon min clamp on camera sensor open
+  - improves camera sensor open performance (time to populate viewfinder)
+- resolve jank possible with multi tasking targeted change
+- temporarily drop a merge for known net stability -- will revisit
+- fix possibility of data loss or corruption after a crash or unexpected reboot
