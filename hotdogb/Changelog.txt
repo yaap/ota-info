@@ -1,26 +1,18 @@
 ROM:
-Fixed black background toggle affecting day theme background colors
-- Few other edge cases fixes related to that toggle
-Launcher3: Reverted App Info bottom sheet
-- Was buggy and provided worse UX
+Added configure-able haptics for wake gestures
+Added support for DC Dimming schedule
+Improved in-call vibrations code
+Settings: Don't show AOD as enabled when on charge kicks in
 Few other minor changes
 
 Device:
-Remove min top-app clamp boost due to new in-kernel uclamp input boost solution (power improvement)
-Kernel V3.37 state:
-- resolve a crash (reboot)
-- More SSR workarounds for possible cases
-- kprofiles: update and move walt kprofiles handling to new notifier
-- Improve jitter on non kprofile battery mode
-- fix a possible case of a stuck boost on kprofiles mode switch
-- implement in-kernel input and launch uclamp boosts
-  - same in effect as the libperfmgr input, launch, and fod min clamp boosts pissels use
-  - improves power savings
-  - does not occur on kprofiles battery mode
-  - multi stage
-- override min clamps on battery kprofile for additional power savings at cost of jank
-- implement camera sensor open tracking and boost camera-daemon min clamp on camera sensor open
-  - improves camera sensor open performance (time to populate viewfinder)
-- resolve jank possible with multi tasking targeted change
-- temporarily drop a merge for known net stability -- will revisit
-- fix possibility of data loss or corruption after a crash or unexpected reboot
+Added settings for DC Dimming schedule
+Improve nnapi performance by ~33%
+Misc
+Kernel v3.45 state:
+- fix issues from low storage (regression since rebase)
+- fix hang/crash reports
+- fix DC dim fod behavior completely (no night light DC dim bugs either)
+- fix rare case of single tap to ambient triggering immediately after screen off
+- Improve FOD performance
+- Fixes for lmkd
