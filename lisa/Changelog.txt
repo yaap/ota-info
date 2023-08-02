@@ -1,10 +1,10 @@
 ROM:
 Wayyy too long.
 Please view from here:
-https://t.me/yaapupdates/419
+https://t.me/yaapupdates/501
 and down
 
 Device:
-Fixed minium brightness
-Fixed fingerprint unlocking animations
-Added Dolby Vision support
+Updated to V14.0.10.0.TKOCNXM
+Fixed xiaomi cit sensor service issue
+Misc improvements
