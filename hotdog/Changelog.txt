@@ -1,19 +1,16 @@
 ROM:
-Added configure-able haptics for wake gestures
-Added support for DC Dimming schedule
-Improved in-call vibrations code
-Settings: Don't show AOD as enabled when on charge kicks in
+Fixed incorrect flat appearance of some emoji
+Drop smartspace flashlight chip for everyone
+Implement platform side single tap gesture delay
+- To avoid conflicts with double tap
 Few other minor changes
 
 Device:
-Added settings for DC Dimming schedule
-Improve nnapi performance by ~33%
-Bring back glove mode
-Misc
-Kernel v3.45 state:
-- fix issues from low storage (regression since rebase)
-- fix hang/crash reports
-- fix DC dim fod behavior completely (no night light DC dim bugs either)
-- fix rare case of single tap to ambient triggering immediately after screen off
-- Improve FOD performance
-- Fixes for lmkd
+Fixed upgraded 7T devices that had unexposed touch sensitivity enabled but set previously
+Added a 250ms invocation delay for single tap wake gesture
+Kernel V3.53 state:
+- drop cancelable single tap delay change due to being incorrect, unsafe, and having a rare scheduling bug/crash
+- fix a core_ctl crash during idle migration
+- improve clamp input boosting
+- DC dim bugfix
+- bring back force usb2 fast charge gone since rebase
