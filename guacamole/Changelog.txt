@@ -1,16 +1,18 @@
 ROM:
-Fixed incorrect flat appearance of some emoji
-Drop smartspace flashlight chip for everyone
-Implement platform side single tap gesture delay
-- To avoid conflicts with double tap
-Few other minor changes
+Merged r67 AOSP tag (AKA August security patch)
+Fix waking from AOD doze with a 60hz experience
 
 Device:
-Fixed upgraded 7T devices that had unexposed touch sensitivity enabled but set previously
-Added a 250ms invocation delay for single tap wake gesture
-Kernel V3.53 state:
-- drop cancelable single tap delay change due to being incorrect, unsafe, and having a rare scheduling bug/crash
-- fix a core_ctl crash during idle migration
-- improve clamp input boosting
-- DC dim bugfix
-- bring back force usb2 fast charge gone since rebase
+Fix social media video lag
+Kernel V3.59 state:
+- fix another touchpanel-related crash (last of reported)
+- fod: only optimistically early notify of fod event on 90hz
+  - fixes guacamoleb fingerprint failures
+- fod: improve optimistic early notification
+  - qhd variants at 90hz now notify the earliest, 60hz (incl guacb) notifies the latest
+- bring back android kernel common merge (fixed up a mismerge)
+- sched/core: always boost top-app min clamp on kprofile performance mode
+  - improves heavy emulator + turnip performance outside normal input period (5s)
+    - Zelda breath of the wild 8fps->18~20fps in same scene out/in 5s input period prior
+- improve fod unlock to anim start performance (non batt kprofile)
+- improve app open performance (non batt kprofile)
