@@ -1,6 +1,30 @@
 ROM:
-Too much to list due to build delay
+Fix YT HDR playback lag
+Treat apps installed from aurora store as installed from play store
+LatinIME: many improvements
+Dialer: new LOS improvements
+Launcher: improve all apps search bar
+Launcher: add ability to toggle all apps themed apps
+Launcher: allow widgets to have 1 row as minimum size
+Launcher: enable pagination
+Launcher: expose option to force themed icons
+Launcher: make lens button optional
+Launcher: use more of user-configured font
+Launcher: fix smartspace at higher grid size and lower density
+Launcher: animation improvements
+Fixed black background toggle affecting day theme background colors
+- Few other edge cases fixes related to that toggle
+Fixed incorrect flat appearance of some emoji
+Drop smartspace flashlight chip for everyone
+Implement platform side single tap gesture delay
+- To avoid conflicts with double tap
+Few other minor changes
 
 Device:
-Too much to list due to build delay
-Kernel V3.33 state
+Fix a very significant performance regression
+Improve overall experience
+Kernel v3.69 state:
+- Multitasking improvements
+- Performance improvements
+- Fod improvements
+- Kprofile tuning improvements
