@@ -1,21 +1,24 @@
 ROM:
-Fixed YouTube HDR playback lag
-Use GMS as a configurator with overrides
-Launcher: Improved all apps search bar
-Launcher: Added an ability to toggle all apps themed icons
-Launcher: Allow widgets to have 1 row as minimum size
-Launcher: Enabled pagination
-Launcher: Exposed option to force themed icons
-Launcher: Made lens button optional
-Launcher: Use more of user-configured font
-Launcher: Animation improvements
+Drop using GMS as configurator
+- Fixes some settings not retaining a reboot
+Update device config
+- Improved memory management
+- Improved app launch
+- Added textclassifier manifests and necessary options
+Launcher3: Default enable lens button
+Launcher3: Enabling lens button no longer makes screenshot gone
 
 Device:
-Fix a very significant performance regression
-Improve overall experience
-Kernel v3.69 state:
-- Multitasking improvements
-- Performance improvements
-- FOD improvements
-- Kprofile tuning improvements
-- Idle improvements
+Kernel v3.75 state:
+- Improved walt per-kprofile tuning
+- Many improvements to efficiency
+- re implemented input clamp boosting
+  - Previous bugs and performance regressions resolved
+  - Battery kprofile override also reimplemented
+  - Benefits efficiency tremendously
+- hotdogb and guacamoleb panels: optimize HBM on/off commands
+  - Removes flicker on auto hbm trigger/untrigger on these devices
+  - Allows using a FOD early notifier optimization that was previously unavailable on these devices
+- Decreased hotdogb and guacamoleb AOD power usage tremendously (utilize D-IC supply command)
+- Partial support for color inversion
+- Misc
