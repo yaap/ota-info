@@ -1,20 +1,21 @@
 ROM:
-Add DualSense Edge keylayout
-Add a backup transport selector (in YASP > Misc)
-Ship seedvault backup transport for everyone
-- A FOSS google backup alternative
-Launcher: Revert custom themed icons
+Snapchat and Instagram delays should be fixed
 
 Device:
-Correct two finger screen off gesture title string
-Kernel v3.85 state:
-- merge 4.14.323
-- drop interpolated doze brightness since we now use lower power panel modes on all but qhd variants
-- display: introduce aod mode tracking, also utilize aod modes on lp1 for aod power saving
-- improve fod timing on hotdogb, now completely seamless at 90hz like guacamole
-- improve fod at 60hz and on guacamoleb
-- fix possible 60hz fod failures
-- touchpanel: fix a huge uncaught mistake by oneplus and later oppo
-- drop automatic compaction (missed oversight of mine since rebase)
-- kernel side support for dualsense edge
-- fix external displays
+Further improve NNAPI performance
+Kernel v3.98 state:
+- power efficiency improvements
+- boot performance improvement
+- kprofile performance mode improved
+- jank and "smoothness" improved
+- Merged 4.14.325 and latest CLO tags
+- Drop forgotten GPU OC since rebase
+- Correct 7T initial gpu power level
+- bring back many optimizations from pre rebase (v2.x)
+- fix jitter regression (most pronounced on hotdogb) existing since rebase (all v3.x)
+- bring back some optimizations from pre rebase
+- Many fixes for booting without ever turning off screen (either AOD or simply booting and wanting to use device:
+- Fixes incorrect gamma in all cases
+- Fixes wrong vsync timing at first boot (eg 60hz timing on 90hz, requiring a force 60 or vrr idle event to occur before proper vsync)
+- Fixes hotdogb fod hbm on simpler hbm commands (only in case of not turning off screen since boot)
+- Fixes future custom dimming enable/disable behavior
