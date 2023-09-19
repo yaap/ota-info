@@ -1,16 +1,11 @@
 Rom:
-Update device config
-- improved memory management
-- improved app launch
-- add textclassifier manifests and necessary options
-Launcher3: Default enable lens button
-Launcher3: Enabling lens button no longer makes screenshot gone
+Many updates
+Update microg, many compatibility improvements
 
 Device:
-Kernel v3.71 state:
-- improve walt per-kprofile tuning
-- re implement input clamp boosting
-  - previous bugs and performance regressions resolved
-  - battery kprofile override also reimplemented
-  - benefits efficiency tremendously
-- misc
+Improve nnapi performance
+Improve wifi power usage
+Kernel v3.103 state:
+ - Many power improvements
+ - Many performance improvements
+ - Many fixes
