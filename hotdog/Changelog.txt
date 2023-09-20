@@ -1,21 +1,14 @@
 ROM:
-Snapchat and Instagram delays should be fixed
+Backport September security patch
+Fix gamepad left joystick input
 
 Device:
-Further improve NNAPI performance
-Kernel v3.98 state:
-- power efficiency improvements
-- boot performance improvement
-- kprofile performance mode improved
-- jank and "smoothness" improved
-- Merged 4.14.325 and latest CLO tags
-- Drop forgotten GPU OC since rebase
-- Correct 7T initial gpu power level
-- bring back many optimizations from pre rebase (v2.x)
-- fix jitter regression (most pronounced on hotdogb) existing since rebase (all v3.x)
-- bring back some optimizations from pre rebase
-- Many fixes for booting without ever turning off screen (either AOD or simply booting and wanting to use device:
-- Fixes incorrect gamma in all cases
-- Fixes wrong vsync timing at first boot (eg 60hz timing on 90hz, requiring a force 60 or vrr idle event to occur before proper vsync)
-- Fixes hotdogb fod hbm on simpler hbm commands (only in case of not turning off screen since boot)
-- Fixes future custom dimming enable/disable behavior
+Fix WiFi power saving configuration
+Kernel v3.104 state:
+- Use an in kernel IRQ balancing solution (sbalance):
+  - drop all force affined kthreads and IRQ
+  - drop all pm qos usage
+- Sched overhead improvements
+- qcacld: fix overactive balancing
+- decrease unnecessary IRQ migrations for latency
+- optimizations and fixes
