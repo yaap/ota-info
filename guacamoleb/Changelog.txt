@@ -1,14 +1,8 @@
 ROM:
-Backport September security patch
-Fix gamepad left joystick input
+No changes
 
 Device:
-Fix WiFi power saving configuration
-Kernel v3.104 state:
-- Use an in kernel IRQ balancing solution (sbalance):
-  - drop all force affined kthreads and IRQ
-  - drop all pm qos usage
-- Sched overhead improvements
-- qcacld: fix overactive balancing
-- decrease unnecessary IRQ migrations for latency
-- optimizations and fixes
+Hotfix release:
+Kernel v3.105:
+- bring back pm qos for now -- fixes USB DAC
+- optimize IRQ balancing
