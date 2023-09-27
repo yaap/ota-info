@@ -1,8 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1695330461,
-      "filename": "YAAP-13-Tripoli-hotdogb-20230921.zip"
+      "datetime": 1695853938,
+      "filename": "YAAP-13-Tripoli-hotdogb-20230927.zip",
+      "payload": [
+        {
+          "offset": 3832,
+          "FILE_HASH": "vgrb7hSw+8LYq7RbUp1JUEe1MdKeRLkg96HzLrAbM/U=",
+          "FILE_SIZE": "1890228547",
+          "METADATA_HASH": "stUVBS0empCkC/Y78eYAJzoXFbSsAUIC67hrkfhHMQE=",
+          "METADATA_SIZE": "81296"
+        }
+      ]
     }
   ]
 }
