@@ -1,21 +1,13 @@
 ROM:
-OpenDelta: Added support for stream flashing on A/B devices
-- AKA download and flash at the same time
-- Old behavior can be restored in settings - Useful for unreliable connection
+Backport October security patch
+OpenDelta: Added an option to reflash latest in settings
+- Even if it's not newer
 
 Device:
-DeviceSettings: Added reading mode tile and setting
-- Static brightness and low refresh rate modes for decreasing power usage in semi static display scenarios
-DeviceSettings: Apply touchscreen gesture settings before initial unlock
-- Requires a single time migration so it won't work on the first boot
-DeviceSettings: More reliably sync between tiles and toggles
-DeviceSettings: Fixed some minor bugs, improved a lot of code
-Kernel v3.109 state:
-- balance irqs when CPUs are onlined at wake
-- further tune sbalance since previous improvement
-- fod: small performance improvement
-- Merge Linux kernel 4.14.326
-- guacamoleb: fix higher brightness aod mode + reading mode 2
-- guacamoleb and hotdogb: implement low power reading modes:
-  - utilize static lower power brightness commands
-  - utilize lower power refresh rate
+Added dialogues for the notification slider
+Kernel v3.112 state:
+- madvise backports from pre-v3 
+- bring back zram entropy perf improvement from pre-v3
+- misc perf improvements
+- misc battery improvements
+- misc latency improvements
