@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1695837950,
-      "filename": "YAAP-13-Tripoli-guacamoleb-20230927.zip",
+      "datetime": 1696343719,
+      "filename": "YAAP-13-Tripoli-guacamoleb-20231003.zip",
       "payload": [
         {
           "offset": 3380,
-          "FILE_HASH": "93IZDVD1XKiTG1/WX5yTVu+50TobdXew+vXbioWslyI=",
-          "FILE_SIZE": "1875457450",
-          "METADATA_HASH": "27vmBcyXHUYrb6SFXIEyZSF/EuylJSUt16gMWLh9Crk=",
-          "METADATA_SIZE": "133323"
+          "FILE_HASH": "LMM70AwvlJLB+qZL2bMO7uRsaq89oOeo/o0YdNMG2fI=",
+          "FILE_SIZE": "1875559208",
+          "METADATA_HASH": "iRIr26Le/avmrPGy+lvzmVQA0+7Ypk/G64l5+otq1cI=",
+          "METADATA_SIZE": "133322"
         }
       ]
     }
