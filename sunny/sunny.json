@@ -1,8 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1693376583,
-      "filename": "YAAP-13-Vanilla-sunny-20230830.zip"
+      "datetime": 1700325593,
+      "filename": "YAAP-14-Vanilla-sunny-20231118.zip",
+      "payload": [
+        {
+          "offset": 4143,
+          "FILE_HASH": "xNRdBYGWVUYSL8wC4Whr9EzZauyV096cUacWffP5sCM=",
+          "FILE_SIZE": "1328692296",
+          "METADATA_HASH": "mlHmIGb+V1rADq1dytfHgAAgAsbgi0UB9G/kah8M7D4=",
+          "METADATA_SIZE": "57954"
+        }
+      ]
     }
   ]
 }

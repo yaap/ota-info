@@ -1,47 +1,23 @@
 ROM:
-Gaming Macro: Make brightness setting behave like the QS slider
-Recovery: Remove left paddings
-Fixed sensitive info hide in about phone for dual SIM
-Removed the flashlight chip from smartspace
-- text will still be displayed and is fully functional
-Removed all apps themed icons (broken in QPR3)
-Make our added wake gestures options work when pulsing as well
-- Includes dt2w and tap to wake when in non LP panel mode
-Disable tap to wake by default
-Bump to AOSP clang 17.0.3
-Fixed black background toggle affecting day theme background colors
-- Few other edge cases fixes related to that toggle
-Launcher3: Reverted App Info bottom sheet
-- Was buggy and provided worse UX
-Added configure-able haptics for wake gestures
-Added support for DC Dimming schedule
-Improved in-call vibrations code
-Settings: Don't show AOD as enabled when on charge kicks in
-Fixed incorrect flat appearance of some emoji
-Drop smartspace flashlight chip for everyone
-Merged r67 AOSP tag (AKA August security patch)
-Fixed YouTube HDR playback lag
-Use GMS as a configurator with overrides
-Launcher: Improved all apps search bar
-Launcher: Added an ability to toggle all apps themed icons
-Launcher: Allow widgets to have 1 row as minimum size
-Launcher: Enabled pagination
-Launcher: Exposed option to force themed icons
-Launcher: Made lens button optional
-Launcher: Use more of user-configured font
-Launcher: Animation improvements
-Drop using GMS as configurator
-- Fixes some settings not retaining a reboot
-Update device config
-- Improved memory management
-- Improved app launch
-- Added textclassifier manifests and necessary options
-Launcher3: Default enable lens button
-Launcher3: Enabling lens button no longer makes screenshot gone
+Android 14.
+Bring back 99% of changes from YAAP 13
+Regressions/Dropped features:
+  - Double tap to sleep on lockscreen (to be fixed at some point)
+  - Launcher: dropped some custom settings, added back themed icons (app-shipped override them)
+
+Under the hood:
+Implement flow sensitive afdo to further optimize the system
+Implement mlgo for better app launch perf
+Improve other compiler tunings for a better size/ram/performance tradeoff this cycle
 
 Device:
-Disable client composition cache to reduce stutters.
-Implement FPS overlay.
-Reduce maximum offset of statusbar to reduce aggressiveness of burn-in protection.
-Implement Anti-Flicker Schedule.
-Kernel at r17a5 state.
+Show 4G Icon for all carriers.
+Enable LTE+ icon aswell.
+Switch to 64-bit only.
+Fix PowerOffAlarm.
+Disable phantom process monitoring.
+Allow 5 multiusers.
+Update adreno to V@0728.0.
+Update QTI Perf to SD8G3.
+Sync perf configs with SD8G3.
+Kernel state at r17a9.
