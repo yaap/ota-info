@@ -1,8 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1693376313,
-      "filename": "YAAP-13-Tripoli-sunny-20230830.zip"
+      "datetime": 1700308225,
+      "filename": "YAAP-14-Urshanabi-sunny-20231118.zip",
+      "payload": [
+        {
+          "offset": 4143,
+          "FILE_HASH": "Op76CFAZ3bAcO2X06M+A4DS1IKKVCkE2UDTqbpa3sIY=",
+          "FILE_SIZE": "1941582304",
+          "METADATA_HASH": "vn77cH4GCIRVyeScW9Y8QwypdMaU6BIW13iquFSJ01U=",
+          "METADATA_SIZE": "80853"
+        }
+      ]
     }
   ]
 }
