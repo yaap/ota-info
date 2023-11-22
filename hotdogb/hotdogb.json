@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1696347738,
-      "filename": "YAAP-13-Tripoli-hotdogb-20231003.zip",
+      "datetime": 1700687817,
+      "filename": "YAAP-14-Urshanabi-hotdogb-20231122.zip",
       "payload": [
         {
-          "offset": 3832,
-          "FILE_HASH": "VAv1G82rO5T/6l6JTol/eV6dJoWmvoUbBlyIIpE+0qE=",
-          "FILE_SIZE": "1890233074",
-          "METADATA_HASH": "MkEgPQjj4+wHkUBNB0PPme1AMtD/3TRt28eCBIsaXbQ=",
-          "METADATA_SIZE": "81296"
+          "offset": 4038,
+          "FILE_HASH": "v2IjQ1TsmFtke4E/PG4GZsRHs8vkS8aurGe2XVYR8V8=",
+          "FILE_SIZE": "1979513021",
+          "METADATA_HASH": "vaY4+VqaoUrceUihTsJyU3DsR2AAyXtWWBGhmAWIJhE=",
+          "METADATA_SIZE": "83884"
         }
       ]
     }
