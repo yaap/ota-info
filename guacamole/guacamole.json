@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1696341715,
-      "filename": "YAAP-13-Tripoli-guacamole-20231003.zip",
+      "datetime": 1700678609,
+      "filename": "YAAP-14-Urshanabi-guacamole-20231122.zip",
       "payload": [
         {
-          "offset": 3391,
-          "FILE_HASH": "VOVGzgME/8TtWY2iA7qdM1AizTYEyXpmimsgY2u1XI4=",
-          "FILE_SIZE": "1877994344",
-          "METADATA_HASH": "cMsu6zcbm/Ljqu2ZVJmsAVi0Sv1RnQqbGRAo+0tqnBA=",
-          "METADATA_SIZE": "133325"
+          "offset": 3582,
+          "FILE_HASH": "az0BcRTufd39NN5RMbzSQvOmanMwO28t1xrGI8MtNOk=",
+          "FILE_SIZE": "1966922320",
+          "METADATA_HASH": "gE+obWjaYm1MLgHbEaDIC1WXxOf/uob6y4rY/7SfSfI=",
+          "METADATA_SIZE": "132506"
         }
       ]
     }
