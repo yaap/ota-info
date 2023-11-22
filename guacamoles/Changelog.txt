@@ -1,13 +1,21 @@
 ROM:
-Backport October security patch
-OpenDelta: Added an option to reflash latest in settings
-- Even if it's not newer
+Android 14.
+Bring back 99% of changes from YAAP 13
+Regressions/Dropped features:
+  - Double tap to sleep on lockscreen (TBD)
+  - Battery light customizations
+  - Per notification channel led flash (TBD)
+  - Edge lightning
+  - WiFi standard icons
+  - Launcher: dropped some custom settings, added back themed icons (app-shipped override them)
+
+Under the hood:
+Implement flow sensitive afdo to further optimize the system
+Implement mlgo for better app launch perf
+Improve other compiler tunings for a better size/ram/performance tradeoff this cycle
 
 Device:
-Added dialogues for the notification slider
-Kernel v3.112 state:
-- madvise backports from pre-v3 
-- bring back zram entropy perf improvement from pre-v3
-- misc perf improvements
-- misc battery improvements
-- misc latency improvements
+Telephony updates
+Update adreno
+Decrease likelihood of data loss
+Kernel v3.122 state
