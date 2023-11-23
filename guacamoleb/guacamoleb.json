@@ -1,8 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1695140658,
-      "filename": "YAAP-13-Vanilla-guacamoleb-20230919.zip"
+      "datetime": 1700733325,
+      "filename": "YAAP-14-Vanilla-guacamoleb-20231123.zip",
+      "payload": [
+        {
+          "offset": 3615,
+          "FILE_HASH": "JloU8uxHKIukxEHMB1ZJEhfkf6ppUn/IaBp6IlTVYmM=",
+          "FILE_SIZE": "1418809597",
+          "METADATA_HASH": "bVGys8A3Lb667/zj92KzOUrMhJFPHg/ejH9EB1zPAgI=",
+          "METADATA_SIZE": "131741"
+        }
+      ]
     }
   ]
 }

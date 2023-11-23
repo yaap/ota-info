@@ -1,11 +1,21 @@
-Rom:
-Many updates
-Update microg, many compatibility improvements
+ROM:
+Android 14.
+Bring back 99% of changes from YAAP 13
+Regressions/Dropped features:
+  - Double tap to sleep on lockscreen (TBD)
+  - Battery light customizations
+  - Per notification channel led flash (TBD)
+  - Edge lightning
+  - WiFi standard icons
+  - Launcher: dropped some custom settings, added back themed icons (app-shipped override them)
+
+Under the hood:
+Implement flow sensitive afdo to further optimize the system
+Implement mlgo for better app launch perf
+Improve other compiler tunings for a better size/ram/performance tradeoff this cycle
 
 Device:
-Improve nnapi performance
-Improve wifi power usage
-Kernel v3.103 state:
- - Many power improvements
- - Many performance improvements
- - Many fixes
+Telephony updates
+Update adreno
+Decrease likelihood of data loss
+Kernel v3.122 state

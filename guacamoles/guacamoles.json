@@ -1,8 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1695140658,
-      "filename": "YAAP-13-Vanilla-guacamoles-20230919.zip"
+      "datetime": 1700717683,
+      "filename": "YAAP-14-Vanilla-guacamoles-20231123.zip",
+      "payload": [
+        {
+          "offset": 3620,
+          "FILE_HASH": "3YKrkuY79uTFfL4sc5QjJ92xJL6rps597L3IN6EMPkE=",
+          "FILE_SIZE": "1420756620",
+          "METADATA_HASH": "2Ut7zvvBUaeSbjPUNMvp0OwwMVVrLTXhlly2dJy59nE=",
+          "METADATA_SIZE": "131746"
+        }
+      ]
     }
   ]
 }
