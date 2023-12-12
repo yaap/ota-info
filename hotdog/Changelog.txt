@@ -1,28 +1,16 @@
 ROM:
-Merged Dec SPL (aka QPR1)
-Bring back custom flashlight flash options for calls
-Fix back gesture on videos and keyboard
-Bring back USB tether tile
-Bring back data switch tile
-Bring back screenshot notifications
-Fix & Improve left volume bar
-Significantly improve multitasking and resolve 14 regressions
-Add back date and battery click options
-Fix udfps positioning for app udfps usage
-Clocks: drop Handwritten, sync from Husky, add Metro
-Launcher: Implement quick search bar widget fallbacks for non Google app configurations
-Launcher: Material theme folder background
-Settings: Improve press to show sensitive info
-Settings: Improve search
-OpenDelta: Change AB installation step percentage distribution
-Fix some error in PPU
-Fix device overrides
-  - fixes low power reading mode on guacamoleb and hotdogb
-Moved back to AOSP telephony
-Many performance improvements
-This changelog likely misses other things we forgot about
+Added icon shapes overlays
+Bring back lock screen double tap to sleep
+Fixed regular statusbar battery icon not updating on charge
+Fixed a crash in data switch tile when there are no SIMs
+Fixed icons not being able to change system icons
+Fixed missing progress and icon in fingerprint enroll settings page
+Launcher3: Fixed search isn't google app on clean gapps install
+OpenDelta: Show infinity instead of large time remaining
+Removed lock screen media art toggle
+Removed status bar notification counters
+Some other minor performance improvements
 
 Device:
-Fixed touchscreen gestures not working for some
-Kernel v3.124
-Improve UI performance
+Kernel v3.125
+Fix bottom glitch for udfps enroll in setupwizard
