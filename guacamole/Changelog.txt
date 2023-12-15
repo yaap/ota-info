@@ -1,16 +1,19 @@
 ROM:
-Added icon shapes overlays
-Bring back lock screen double tap to sleep
-Fixed regular statusbar battery icon not updating on charge
-Fixed a crash in data switch tile when there are no SIMs
-Fixed icons not being able to change system icons
-Fixed missing progress and icon in fingerprint enroll settings page
-Launcher3: Fixed search isn't google app on clean gapps install
-OpenDelta: Show infinity instead of large time remaining
-Removed lock screen media art toggle
-Removed status bar notification counters
-Some other minor performance improvements
+Due to display migration, it is recommended to reboot once after first boot
+
+Sort devices by last connection time in QS Bluetooth dialog
+Add airplane mode enhancement toggle
+Kill the fake navbar again - with no known bugs this time
+Fixed other colors option missing in theme picker
+Implement a better fix for the fingerprint enrollment settings page
+OpenDelta: Animate the progress bar
+Settings: Display page UI improvements
+Some other improvements
 
 Device:
-Kernel v3.125
-Fix bottom glitch for udfps enroll in setupwizard
+Kernel v3.126
+Dropped VRR support
+Fixup qdcm for AOSP, use new color management in Display->Colors
+  - fixes switching to DCI P3 properly on P3 photo viewing
+  - fixes HDR properly rendering
+  - more other fixes
