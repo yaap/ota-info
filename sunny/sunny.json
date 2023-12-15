@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1700308225,
-      "filename": "YAAP-14-Urshanabi-sunny-20231118.zip",
+      "datetime": 1702628784,
+      "filename": "YAAP-14-Urshanabi-sunny-20231215.zip",
       "payload": [
         {
-          "offset": 4143,
-          "FILE_HASH": "Op76CFAZ3bAcO2X06M+A4DS1IKKVCkE2UDTqbpa3sIY=",
-          "FILE_SIZE": "1941582304",
-          "METADATA_HASH": "vn77cH4GCIRVyeScW9Y8QwypdMaU6BIW13iquFSJ01U=",
-          "METADATA_SIZE": "80853"
+          "offset": 4127,
+          "FILE_HASH": "mjx6mXOBWcc/eM1V9gxpnYhfqeL348b5cmEjsGm5hRw=",
+          "FILE_SIZE": "1979776406",
+          "METADATA_HASH": "PlaJFHeXVxv6oLxyk8NEnpns6/+OVckIR5AaDfRLT94=",
+          "METADATA_SIZE": "82219"
         }
       ]
     }

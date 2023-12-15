@@ -1,23 +1,46 @@
 ROM:
-Android 14.
-Bring back 99% of changes from YAAP 13
-Regressions/Dropped features:
-  - Double tap to sleep on lockscreen (to be fixed at some point)
-  - Launcher: dropped some custom settings, added back themed icons (app-shipped override them)
-
-Under the hood:
-Implement flow sensitive afdo to further optimize the system
-Implement mlgo for better app launch perf
-Improve other compiler tunings for a better size/ram/performance tradeoff this cycle
+Merged Dec SPL (aka QPR1).
+Bring back custom flashlight flash options for calls.
+Fix back gesture on videos and keyboard.
+Bring back USB tether tile.
+Bring back data switch tile.
+Bring back screenshot notifications.
+Fix & Improve left volume bar.
+Significantly improve multitasking and resolve 14 regressions.
+Add back date and battery click options.
+Fix udfps positioning for app udfps usage.
+Clocks: drop Handwritten, sync from Husky, add Metro.
+Launcher: Implement quick search bar widget fallbacks for non Google app configurations.
+Launcher: Material theme folder background.
+Settings: Improve press to show sensitive info.
+Settings: Improve search.
+OpenDelta: Change AB installation step percentage distribution.
+Fix some error in PPU.
+Fix device overrides.
+Moved back to AOSP telephony.
+Added icon shapes overlays.
+Bring back lock screen double tap to sleep.
+Fixed regular statusbar battery icon not updating on charge.
+Fixed a crash in data switch tile when there are no SIMs.
+Fixed icons not being able to change system icons.
+Fixed missing progress and icon in fingerprint enroll settings page.
+Launcher3: Fixed search isn't google app on clean gapps install.
+OpenDelta: Show infinity instead of large time remaining.
+Removed lock screen media art toggle.
+Removed status bar notification counters.
+Sort devices by last connection time in QS Bluetooth dialog.
+Add airplane mode enhancement toggle.
+Kill the fake navbar again - with no known bugs this time.
+Fixed other colors option missing in theme picker.
+Implement a better fix for the fingerprint enrollment settings page.
+OpenDelta: Animate the progress bar.
+Settings: Display page UI improvements.
+Some other improvements.
 
 Device:
-Show 4G Icon for all carriers.
-Enable LTE+ icon aswell.
-Switch to 64-bit only.
-Fix PowerOffAlarm.
-Disable phantom process monitoring.
-Allow 5 multiusers.
-Update adreno to V@0728.0.
-Update QTI Perf to SD8G3.
-Sync perf configs with SD8G3.
-Kernel state at r17a9.
+Move overlays to product.
+Ship and utilize custom task_profiles.
+Update blobs from MIUI V14.0.8.0.SKGMIXM.
+Set debug.sf.auto_latch_unsignaled to 0.
+Lower background apps to 38 to improve memory performance and decrease battery consumption.
+Kernel state at r17a10.
