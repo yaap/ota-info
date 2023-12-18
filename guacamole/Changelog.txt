@@ -1,19 +1,14 @@
 ROM:
-Due to display migration, it is recommended to reboot once after first boot
-
-Sort devices by last connection time in QS Bluetooth dialog
-Add airplane mode enhancement toggle
-Kill the fake navbar again - with no known bugs this time
-Fixed other colors option missing in theme picker
-Implement a better fix for the fingerprint enrollment settings page
-OpenDelta: Animate the progress bar
-Settings: Display page UI improvements
-Some other improvements
+Allow fine tuning battery saver
+ - Settings -> Battery saver -> Advanced
+Added an option to disable extra dim & schedule with gaming macro
+Don't show freshly non paired devices in QS Bluetooth dialog
+Fixed and imporved screenrecord notifications & actions
+Fixed data switch QS tile unavailable for some after boot
+Fixed airplane mode enhancement toggle
 
 Device:
-Kernel v3.126
-Dropped VRR support
-Fixup qdcm for AOSP, use new color management in Display->Colors
-  - fixes switching to DCI P3 properly on P3 photo viewing
-  - fixes HDR properly rendering
-  - more other fixes
+Kernel v3.127
+Fix wide color mode to be the same as legacy
+Fix UI running at same framerate as video
+Fix extra dim being too intense at lower values
