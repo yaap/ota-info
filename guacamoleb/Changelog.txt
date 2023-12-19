@@ -1,48 +1,13 @@
-Reboot once after OTA due to display migration
 ROM:
-Merged Dec SPL (aka QPR1).
-Bring back custom flashlight flash options for calls.
-Fix back gesture on videos and keyboard.
-Bring back USB tether tile.
-Bring back data switch tile.
-Bring back screenshot notifications.
-Fix & Improve left volume bar.
-Significantly improve multitasking and resolve 14 regressions.
-Add back date and battery click options.
-Fix udfps positioning for app udfps usage.
-Clocks: drop Handwritten, sync from Husky, add Metro.
-Launcher: Implement quick search bar widget fallbacks for non Google app
-configurations.
-Launcher: Material theme folder background.
-Settings: Improve press to show sensitive info.
-Settings: Improve search.
-OpenDelta: Change AB installation step percentage distribution.
-Fix some error in PPU.
-Fix device overrides.
-Moved back to AOSP telephony.
-Added icon shapes overlays.
-Bring back lock screen double tap to sleep.
-Fixed regular statusbar battery icon not updating on charge.
-Fixed a crash in data switch tile when there are no SIMs.
-Fixed icons not being able to change system icons.
-Fixed missing progress and icon in fingerprint enroll settings page.
-Launcher3: Fixed search isn't google app on clean gapps install.
-OpenDelta: Show infinity instead of large time remaining.
-Removed lock screen media art toggle.
-Removed status bar notification counters.
-Sort devices by last connection time in QS Bluetooth dialog.
-Add airplane mode enhancement toggle.
-Kill the fake navbar again - with no known bugs this time.
-Fixed other colors option missing in theme picker.
-Implement a better fix for the fingerprint enrollment settings page.
-OpenDelta: Animate the progress bar.
-Settings: Display page UI improvements.
-Some other improvements.
+Allow fine tuning battery saver
+ - Settings -> Battery saver -> Advanced
+Added an option to disable extra dim & schedule with gaming macro
+Don't show freshly non paired devices in QS Bluetooth dialog
+Fixed data switch QS tile unavailable for some after boot
+Fixed airplane mode enhancement toggle
 
 Device:
-Kernel v3.126
-Dropped VRR support
-Fixup qdcm for AOSP, use new color management in Display->Colors
-  - fixes switching to DCI P3 properly on P3 photo viewing
-  - fixes HDR properly rendering
-  - more other fixes
+Kernel v3.127
+Fix wide color mode to be the same as legacy
+Fix UI running at same framerate as video
+Fix extra dim being too intense at lower values
