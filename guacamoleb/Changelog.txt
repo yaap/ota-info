@@ -1,14 +1,24 @@
 ROM:
-Allow fine tuning battery saver
- - Settings -> Battery saver -> Advanced
-Added an option to disable extra dim & schedule with gaming macro
-Don't show freshly non paired devices in QS Bluetooth dialog
-Fixed and imporved screenrecord notifications & actions
-Fixed data switch QS tile unavailable for some after boot
-Fixed airplane mode enhancement toggle
+Added Data Saver to advanced battery saver settings
+Added an option to disable private DNS while using a VPN
+Added an option to disable Bluetooth after a timeout
+Fixed precise location option missing
+Improved screenshot notification behavior
+- Close QS after last file is deleted
+- Group the notifications
+Improved screen record notifications QS close behavior
+- Make it close QS only after last file is deleted
+- Fix some edge case bug
+Updated our default wallpaper
+Improved multitasking by taking into account zram compression ratio
+Fix edge rounding for app FOD prompt
+Some other minor improvements
 
 Device:
-Kernel v3.127
-Fix wide color mode to be the same as legacy
-Fix UI running at same framerate as video
-Fix extra dim being too intense at lower values
+Removed wide color mode, implement improved saturated mode
+- Also improves boot behavior
+Made slider dialog follow screen orientation
+- Also vastly improved it: refactor, fix many bugs and perf issues
+Kernel v3.129:
+- Fixed DC dim HDR behavior
+- Fixed hitting stall detection due to zram comp algorithm
