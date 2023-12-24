@@ -1,14 +1,14 @@
 {
   "response": [
     {
-      "datetime": 1702944430,
-      "filename": "YAAP-14-Urshanabi-hotdog-20231218.zip",
+      "datetime": 1703448678,
+      "filename": "YAAP-14-Urshanabi-hotdog-20231224.zip",
       "payload": [
         {
           "offset": 4026,
-          "FILE_HASH": "H0U34BEOVZgnKTMv57YE0hg7HQNMKBFmwSVxsz7qaLU=",
-          "FILE_SIZE": "1992564042",
-          "METADATA_HASH": "VSGKr6IiCscOaZZ8XkcOGcyh5eggUz3KNdYaRq9FKaY=",
+          "FILE_HASH": "fUFfLLf1SoS7H4oRsdFyDUPZ6RScpaxScz2s9heG6jc=",
+          "FILE_SIZE": "1992499810",
+          "METADATA_HASH": "SjPpvmGveg65wWyZt0w19STsGJjRPH48w7ZAH+d8eIs=",
           "METADATA_SIZE": "84348"
         }
       ]
