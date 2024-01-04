@@ -1,13 +1,19 @@
 ROM:
-Allow fine tuning battery saver
- - Settings -> Battery saver -> Advanced
-Added an option to disable extra dim & schedule with gaming macro
-Don't show freshly non paired devices in QS Bluetooth dialog
-Fixed data switch QS tile unavailable for some after boot
-Fixed airplane mode enhancement toggle
+Fix Wifi Display (for Miracast)
+Support app cloning (Settings->Apps)
+Long press mobile data in internet tile to go to sim settings
+OpenDelta: Move the info string to a dialog (3 dot menu)
+OpenDelta: Other minor fixups, performance improvements
+Settings: Added back our logo in about and version info
+Spoof a fingerprint that passes PI (for now)
+Many significant performance improvements
+Few other minor fixes
 
 Device:
-Kernel v3.127
-Fix wide color mode to be the same as legacy
-Fix UI running at same framerate as video
-Fix extra dim being too intense at lower values
+Alert slider dialog:
+- Support different orientations
+- Animate movement
+- Fix the timeout bug
+- Fix various other visibility issues
+- Added settings for doze and enablement
+Kernel v3.132
