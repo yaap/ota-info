@@ -1,25 +1,15 @@
 ROM:
-Merged r19 (aka Jan SPL)
-Enable the new privacy dialog (QS)
-Enable app cloning (Settings->Apps)
-Fixed a crash when installing some apks
-Fixed Airplane Mode Enhancement toggle on boot
-Fixed and improved QS brightness slider settings
-Fixed brightness slider randomly appearing on top
-Fixed non dismissing screenrecord / screenshot notification
-Fixed a crash if a non supported monet scheme is selected
-Fixed a SystemUI crash when QS media player is disabled
-Added LOS recorder
-Added back package name to app info
-Dismiss screenshot dialog when touching outside
-Match lock screen ripple animation color with clock
-Removed Repainter service (buggy)
-Removed no longer supported monet schemes from YASP
-Reduce scroll friction
-Launcher3: Add cromite to search fallbacks
-Many other changes, perf improvements
+Added an option to customize volume stream steps
+Allow toggling VoWiFi when roaming
+Reboot to system when long pressing the advanced button
+- Safe mode moved to long pressing the "system" option
+Show APN settings on CDMA carriers
+Increased max fling velocity
+Fixed allow clients to use VPNs toggle
+Reverted some shortened animations accidentally merged
+Build with clang 18
+Imporved app launch performance
+Some other changes
 
 Device:
-Made alert slider dialog text auto resizing
-- for foreign langs which have long strings
-Kernel v3.138
+Kernel v3.140
