@@ -1,29 +1,13 @@
 ROM:
-Merged r19 (aka Jan SPL)
-Added an option to customize volume stream steps
-Allow toggling VoWiFi when roaming
-Show APN settings on CDMA carriers
-Fixed allow clients to use VPNs toggle
-Reverted some shortened animations accidentally merged in 2018
-Fixed a crash when installing some apks
-Fixed Airplane Mode Enhancement toggle on boot
-Fixed and improved QS brightness slider settings
-Fixed brightness slider randomly appearing on top
-Fixed non dismissing screenrecord / screenshot notification
-Fixed a crash if a non supported monet scheme is selected
-Fixed a SystemUI crash when QS media player is disabled
-Added LOS recorder
-Added back package name to app info
-Dismiss screenshot dialog when touching outside
-Match lock screen ripple animation color with clock
-Removed Repainter service (buggy)
-Removed no longer supported monet schemes from YASP
-Reduce scroll friction
-Launcher3: Add cromite to search fallbacks
-Improve app open performance
-Many other changes, perf improvements
+Fixed system crashes caused by a mismerge in art
+Fixed missing package version info on installation dialog
+Fixed a rare lockscreen unlock visual bug
+Fixed some error in battery stats
+Fixed volume steps needing a reboot to restore max volume
+Improved volume level restore after setting new volume steps
+Improve task switch when on HDR media
+Boot + general performance improvement
+Some other minor changes
 
 Device:
-Made alert slider dialog text auto resizing
-- for foreign langs which have long strings
 Kernel v3.140
