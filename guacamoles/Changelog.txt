@@ -1,15 +1,13 @@
 ROM:
-Added an option to customize volume stream steps
-Allow toggling VoWiFi when roaming
-Reboot to system when long pressing the advanced button
-- Safe mode moved to long pressing the "system" option
-Show APN settings on CDMA carriers
-Increased max fling velocity
-Fixed allow clients to use VPNs toggle
-Reverted some shortened animations accidentally merged
-Build with clang 18
-Imporved app launch performance
-Some other changes
+Fixed system crashes caused by a mismerge in art
+Fixed missing package version info on installation dialog
+Fixed a rare lockscreen unlock visual bug
+Fixed some error in battery stats
+Fixed volume steps needing a reboot to restore max volume
+Improved volume level restore after setting new volume steps
+Improve task switch when on HDR media
+Boot + general performance improvement
+Some other minor changes
 
 Device:
 Kernel v3.140
