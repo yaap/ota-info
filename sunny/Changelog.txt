@@ -1,36 +1,33 @@
 ROM:
-Added Data Saver to advanced battery saver settings
-Added an option to disable private DNS while using a VPN
-Added an option to disable Bluetooth after a timeout
-Fixed precise location option missing
-Updated our default wallpaper
-Improved multitasking by taking into account zram compression ratio
-Fix edge rounding for app FOD prompt
-Fix Wifi Display (for Miracast)
-Long press mobile data in internet tile to go to sim settings
-OpenDelta: Move the info string to a dialog (3 dot menu)
-OpenDelta: Other minor fixups, performance improvements
-Settings: Added back our logo in about and version info
-Merged r19 (aka Jan SPL)
-Enable the new privacy dialog (QS)
-Enable app cloning (Settings->Apps)
-Fixed a crash when installing some apks
-Fixed Airplane Mode Enhancement toggle on boot
-Fixed and improved QS brightness slider settings
-Fixed brightness slider randomly appearing on top
-Fixed non dismissing screenrecord / screenshot notification
-Fixed a crash if a non supported monet scheme is selected
-Fixed a SystemUI crash when QS media player is disabled
-Added LOS recorder
-Added back package name to app info
-Dismiss screenshot dialog when touching outside
-Match lock screen ripple animation color with clock
-Removed Repainter service (buggy)
-Removed no longer supported monet schemes from YASP
-Reduce scroll friction
-Launcher3: Add cromite to search fallbacks
-Many other changes, perf improvements
+Added an option to customize volume stream steps.
+Allow toggling VoWiFi when roaming.
+Reboot to system when long pressing the advanced button:
+- Safe mode moved to long pressing the "system" option.
+Show APN settings on CDMA carriers.
+Increased max fling velocity.
+Fixed allow clients to use VPNs toggle.
+Reverted some shortened animations accidentally merged.
+Build with clang 18.
+Imporved app launch performance.
+Fixed system crashes caused by a mismerge in art.
+Fixed missing package version info on installation dialog.
+Fixed a rare lockscreen unlock visual bug.
+Fixed some error in battery stats.
+Fixed volume steps needing a reboot to restore max volume.
+Improved volume level restore after setting new volume steps.
+Improve task switch when on HDR media.
+Boot + general performance improvement.
+Merged AOSP tag r22 (aka Feb SPL).
+Added an option to show network traffic monitor on QS and SB simultaneously.
+Fixed custom navbar layout not instantly applying.
+Fixed network traffic monitor visibility in QS header.
+Fixed network traffic text size setting not affecting QS header.
+recovery: Added a color coded battery indicator.
+recovery: Conditionally remove the install from sdcard menu option.
+Reverted building with clang 18 changes:
+- Should solve the crashes some had.
+Some other minor changes.
 
 Device:
-Bring back QDCM display configs. (reasoning in commit message of DT)
+Move to QTI Health AIDL service.
 Kernel state at r17a10.
