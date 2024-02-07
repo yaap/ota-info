@@ -1,13 +1,14 @@
 ROM:
-Fixed system crashes caused by a mismerge in art
-Fixed missing package version info on installation dialog
-Fixed a rare lockscreen unlock visual bug
-Fixed some error in battery stats
-Fixed volume steps needing a reboot to restore max volume
-Improved volume level restore after setting new volume steps
-Improve task switch when on HDR media
-Boot + general performance improvement
+Merged AOSP tag r22 (aka Feb SPL)
+Added an option to show network traffic monitor on QS and SB simultaneously
+Fixed custom navbar layout not instantly applying
+Fixed network traffic monitor visibility in QS header
+Fixed network traffic text size setting not affecting QS header
+recovery: Added a color coded battery indicator
+recovery: Conditionally remove the install from sdcard menu option
+Reverted building with clang 18 changes
+- Should solve the crashes some had
 Some other minor changes
 
 Device:
-Kernel v3.140
+Kernel v3.141
