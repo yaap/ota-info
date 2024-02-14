@@ -1,14 +1,12 @@
 ROM:
-Merged AOSP tag r22 (aka Feb SPL)
-Added an option to show network traffic monitor on QS and SB simultaneously
-Fixed custom navbar layout not instantly applying
-Fixed network traffic monitor visibility in QS header
-Fixed network traffic text size setting not affecting QS header
-recovery: Added a color coded battery indicator
-recovery: Conditionally remove the install from sdcard menu option
-Reverted building with clang 18 changes
-- Should solve the crashes some had
-Some other minor changes
+Added power menu background blur
+Added recents background transparency & blur
+Added back blur to app open animations
+Drastically improve blur performance
+Introduced a new battery stats page
+Launcher3: Bring back many settings & reorganize
+Fixed more crash reports
+Few other small changes
 
 Device:
-Kernel v3.141
+Kernel v3.142
