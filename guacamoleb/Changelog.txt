@@ -1,21 +1,5 @@
 ROM:
-Moved to patched OPlus Camera
- - Any old camera modules will not work
-Added power menu background blur
-Added recents background transparency & blur
-Added back blur to app open animations
-Drastically improve blur performance
-Introduced a new battery stats page
-Launcher3: Bring back many settings & reorganize
-Added an option to show network traffic monitor on QS and SB simultaneously
-Fixed custom navbar layout not instantly applying
-Fixed network traffic monitor visibility in QS header
-Fixed network traffic text size setting not affecting QS header
-recovery: Added a color coded battery indicator
-recovery: Conditionally remove the install from sdcard menu option
-Dialer: Add smart mute, auto record, migrate to androidx, and other UI improvements
-Fixed more crash reports
-Few other small changes
+Should have fixed camera
 
 Device:
 Kernel v3.143
