@@ -1,12 +1,10 @@
 ROM:
-Added power menu background blur
-Added recents background transparency & blur
-Added back blur to app open animations
-Drastically improve blur performance
-Introduced a new battery stats page
-Launcher3: Bring back many settings & reorganize
-Fixed more crash reports
-Few other small changes
+Stopped using glass blur
+Launcher3: Reverted to AOSP app launch animation
+Fixed more media related crashes
+Fixed settings search bar not rounded when searching
+Few other minor changes, performance improvements
 
 Device:
-Kernel v3.142
+Switched to patched OPlus camera stack
+Kernel v3.143
