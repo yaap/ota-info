@@ -1,5 +1,5 @@
 ROM:
-Should have fixed camera
+Many fixes and improvements
 
 Device:
-Kernel v3.143
+- fixed hotdog camera OIS orientation
