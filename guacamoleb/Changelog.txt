@@ -1,10 +1,13 @@
 ROM:
-Stopped using glass blur
-Launcher3: Reverted to AOSP app launch animation
-Fixed more media related crashes
-Fixed settings search bar not rounded when searching
-Few other minor changes, performance improvements
+Fixed more system crash reports
+Launcher3: Added a toggle for desktop and drawer labels
+Launcher3: Enabled r8 optimization
+Settings: Enabled r8 optimization
+Other small changes
+
+Please note this update must ba applied through OTA and not sideload
+Due to a massive rebase in ART
+Clean flashes are still as usual
 
 Device:
-Switched to patched OPlus camera stack
-Kernel v3.143
+No changes
