@@ -1,13 +1,10 @@
 ROM:
-Fixed more system crash reports
-Launcher3: Added a toggle for desktop and drawer labels
-Launcher3: Enabled r8 optimization
-Settings: Enabled r8 optimization
-Other small changes
-
-Please note this update must ba applied through OTA and not sideload
-Due to a massive rebase in ART
-Clean flashes are still as usual
+Force full dexopt after ota even if profiles exist
+Task profiles group optimizations from pixel
+Camera: full res fixes
+Launcher: make blur radius configurable
+Battery: move and add more battery hardware stats
 
 Device:
-Fixed camera OIS orientation
+Update camera privapp list
+Update ALS display brightness default
