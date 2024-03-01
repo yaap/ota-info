@@ -1,5 +1,10 @@
 ROM:
-Many fixes and improvements
+Bump to AOSP Clang 18.0.1
+Bring back unified LTO backend
+Utilize MFS on many afdo modules
+Many other performance improvements
+Workaround broken ota preopt
+Add new optimizing screen on post ota boot
 
 Device:
-- fixed hotdog camera OIS orientation
+Kernel v3.144
