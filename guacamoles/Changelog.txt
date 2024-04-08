@@ -1,17 +1,18 @@
 ROM:
-Merged r29 (AKA QPR2 / March SPL)
-Merged r30 (AKA April SPL)
-Regressions from merging:
-- Known (AOSP) bug: FOD background sometimes stays on AOD (can restart systemui with AOD on to workaround)
-- We no longer ship MatLog (get any other app from PS or use ADB)
-Added panic trigger to power menu
-Added Panic and Ripple apps
-Added new optimizing screen on post OTA boot
-Fixed large lockscreen clock not showing when media is playing
-Fixed broken OTA preopt
-Fixed battery settings page showing wrong battery capacity
-Increased the max notification icons on AOD to 8
-Many performance improvements
+Fixed floating rotation button toggle
+Fixed big clock behavior on keyguard when media is disabled across reboots
+Fixed a system server crash (causes a "soft reboot")
+  - redone with a real platform side fix
+Fixed bluetooth timeout feature
+Launcher3: Fixed a few crashes
+Settings: Fixed some switches not following new style
+Settings: Reorder the about phone page
+Recovery: Don't format if partition mount fails
+Recovery: Fixed wrong battery information
+Added MatLog back
+Force enable safety center
 
 Device:
+DeviceSettings: Use the new switch style
+Remove support for WiFi Display (broken on AOSP as of now)
 Kernel v3.146
