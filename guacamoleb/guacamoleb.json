@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1712604782,
-      "filename": "YAAP-14-Urshanabi-guacamoleb-20240408.zip",
+      "datetime": 1713111452,
+      "filename": "YAAP-14-Urshanabi-guacamoleb-20240414.zip",
       "payload": [
         {
           "offset": 3292,
-          "FILE_HASH": "kI0G4Qu54OZOp5Oxi+OlibJxyZ3FU+rAlkQGJWAaoio=",
-          "FILE_SIZE": "2042231775",
-          "METADATA_HASH": "xeFz29Cu8yVIaGXAHTFniFCVodiChazRhWnkzd/duEQ=",
-          "METADATA_SIZE": "133719"
+          "FILE_HASH": "eAiAaRYZh2ZB/IDV4cRGN8yu6yZsNWTIHjBgt2dApC8=",
+          "FILE_SIZE": "2042968445",
+          "METADATA_HASH": "AhuyAL2+WW8eyadTkvAskJ29J4ic/vXgnzCme8OceJA=",
+          "METADATA_SIZE": "133720"
         }
       ]
     }
