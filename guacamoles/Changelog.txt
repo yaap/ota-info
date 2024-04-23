@@ -1,36 +1,21 @@
 ROM:
-• Fixed floating rotation button toggle
-• Fixed big clock behavior on keyguard when media is disabled across reboots
-• Fixed a system server crash (causes a "soft reboot")
- - redone with a real platform side fix
-• Fixed bluetooth timeout feature
-• Launcher3: Fixed a few crashes
-• Settings: Fixed some switches not following new style
-• Settings: Reorder the about phone page
-• Recovery: Don't format if partition mount fails
-• Recovery: Fixed wrong battery information
-• Added MatLog back
-• Force enable safety center
-• Added a private DNS mode QS tile
-• Settings: Moved everything in YASP to proper pages
-• Battery stats: Don't re-open the last consumer on startup
-• Made long pressing on QS settings open running services
-• Use a different arrow icon for app added QS tiles
-• Don't show the arrow on AOD QS tile
-• Don't show the arrow on KProfiles QS tile
-• Fixed black background toggle visibility bugs
-• Fixed a few crash on launch apps post QPR2
-• Fixed a SystemUI crash on boot
-• Fixed a Launcher3 crash on boot
-• Improve compatibility with many apps which would crash on open post QPR2
-• Massive performance improvements
-• Other minor improvements & compatibility fixes
+• Added OmniJaws as an alternative to lockscreen smartspace
+• Added an ability to select lockscreen weather provider - including none
+• Added an ability to automatically turn on Bluetooth/WiFi when pressing their QS tiles
+• Added back append app name to screenshot file name
+  - Now with improved code and reliability
+• Improve av1 software decoding performance
+  - Allows up to 1080p60 hdr10 av1 to be played without frame drops
+• OpenDelta: Added a check for updates QS tile
+• OpenDelta: Performance and code improvements
+• screen recorder: Added a quality selector (low/mid/high)
+• screen recorder: Fixed taps switch visibility
+• screen recorder: Always use longer duration (kill the toggle)
+• screen recorder: Other code improvements
+• Dialer: visual voicemail updates, add support for ATT
+• Other minor improvements
 
 Device:
-• DeviceSettings: Use the new switch style
-• Remove support for WiFi Display (broken on AOSP as of now)
-• implement av1 video restrictions since sw decoded
- - YT hdr videos ignoring this is a YouTube app issue affecting everything
-• Hide the unavailable reading mode tile on non hotdogb/guacamoleb
-• DeviceSettings: Hide arrows from QS tiles
-• Kernel v3.147
+• Restrict dav1d av1 resolution
+• Restrict alert slider dialog text to 1 line
+• Kernel v3.150
