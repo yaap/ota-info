@@ -1,21 +1,7 @@
 ROM:
-• Added OmniJaws as an alternative to lockscreen smartspace
-• Added an ability to select lockscreen weather provider - including none
-• Added an ability to automatically turn on Bluetooth/WiFi when pressing their QS tiles
-• Added back append app name to screenshot file name
-  - Now with improved code and reliability
-• Improve av1 software decoding performance
-  - Allows up to 1080p60 hdr10 av1 to be played without frame drops
-• OpenDelta: Added a check for updates QS tile
-• OpenDelta: Performance and code improvements
-• screen recorder: Added a quality selector (low/mid/high)
-• screen recorder: Fixed taps switch visibility
-• screen recorder: Always use longer duration (kill the toggle)
-• screen recorder: Other code improvements
-• Dialer: visual voicemail updates, add support for ATT
-• Other minor improvements
+• Fixed app crashes introduced in last
+• Fixed bluetooth timeout
+• Fixed galaxy watches and many other Bluetooth devices which had issues after QPR2
 
 Device:
-• Restrict dav1d av1 resolution
-• Restrict alert slider dialog text to 1 line
-• Kernel v3.150
+• Kernel v3.152
