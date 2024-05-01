@@ -1,7 +1,14 @@
-ROM:
-• Fixed app crashes introduced in last
-• Fixed bluetooth timeout
-• Fixed galaxy watches and many other Bluetooth devices which had issues after QPR2
+OM:
+• Added a dev option to unlimit screenrecord size
+• Added a new brightness slider background to match volume panel
+• Added new icon packs for OmniJaws
+• Fixed Bluetooth timeout not persisting
+• Fixed wifi display
+• Performance / multitasking improvements
+• Other minor improvements
 
 Device:
-• Kernel v3.152
+• Re-enabled wifi display
+• Kernel v3.156:
+  - Fixed jank/frame drops reported
+  - improved interactivity and efficiency
