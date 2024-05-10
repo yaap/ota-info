@@ -1,23 +1,15 @@
 ROM:
-• Added a dev option to unlimit screenrecord size
-• Added a new brightness slider background to match volume panel
-• Added new icon packs for OmniJaws
-• Added a heads up toggle to settings
-• Limit heads up notifications if there are many at once
-• Made unlock faster
-• Made long pressing heads up tile go to settings
-• Made long pressing QS settings vibrate
-• Support more filesystems for external storage
-• Fixed Bluetooth timeout not persisting
-• Fixed wifi display
-• Fixed allow clients to use VPN tethering toggle
-• Fixed heads up notification defaulting to false on a clean flash
-• Fixed gaming macro tile out of sync when spamming
-• Performance / multitasking improvements
+• Merged AOSP tag r34 (AKA May SPL)
+• Don't run Seedvault if it's not the selected backup transport
+• Allow toggling gaming macro via a setting
+  - Useful if you want to create a tasker profile for it
+  - See group notes for a pre-made tasker scene and info
+• Added a new default provider for OmniJaws (Open-Meteo)
 • Other minor improvements
 
 Device:
-• Re-enabled wifi display
-• Kernel v3.158:
-  - Fixed jank/frame drops reported
-  - improved interactivity and efficiency
+• Kernel v3.163:
+  - Fingerprint: improve screen off fod consistency
+  - Fingerprint: many small code optimizations and cleanups
+  - Merged 4.14.344 (openela)
+  - Sched backports
