@@ -1,14 +1,24 @@
-OM:
-• Added a dev option to unlimit screenrecord size
-• Added a new brightness slider background to match volume panel
-• Added new icon packs for OmniJaws
-• Fixed Bluetooth timeout not persisting
-• Fixed wifi display
-• Performance / multitasking improvements
+ROM:
+• Merged AOSP tag r34 (AKA May SPL)
+• Don't run Seedvault if it's not the selected backup transport
+• Allow toggling gaming macro via a setting
+  - Useful if you want to create a tasker profile for it
+  - See group notes for a pre-made tasker scene and info
+• Added a new default provider for OmniJaws (Open-Meteo)
+• Only force optimize apps used in the last week post OTA boot
+• Use a better fix for the QPR2 AOSP Bluetooth bugs
+• Fixed external (OTG/USB...) extra filesystem support
+• Microg: fix clean install issue
+• OTA App: Fixed the empty state that sometimes show after a crash
+• OTA App: Fixed check button doing nothing in some cases
+• OTA App: Other reliability improvements & bug fixes
 • Other minor improvements
 
 Device:
-• Re-enabled wifi display
-• Kernel v3.156:
-  - Fixed jank/frame drops reported
-  - improved interactivity and efficiency
+• Better low memory killer tuning
+• Fixed third party app and browser camera issues
+• Kernel v3.164:
+  - Fingerprint: improve screen off fod consistency
+  - Fingerprint: many code optimizations and cleanups
+  - Merged 4.14.344 (openela)
+  - Sched backports
