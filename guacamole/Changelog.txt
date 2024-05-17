@@ -1,15 +1,16 @@
 ROM:
-• Merged AOSP tag r34 (AKA May SPL)
-• Don't run Seedvault if it's not the selected backup transport
-• Allow toggling gaming macro via a setting
-  - Useful if you want to create a tasker profile for it
-  - See group notes for a pre-made tasker scene and info
-• Added a new default provider for OmniJaws (Open-Meteo)
-• Other minor improvements
+• Added click actions to OmniJaws on lockscreen (along with a setting)
+• Only force optimize apps used in the last week post OTA boot
+• Use a better fix for the QPR2 AOSP Bluetooth bugs
+• Fixed external (OTG/USB...) extra filesystem support
+• OTA App: Fixed the empty state that sometimes show after a crash
+• OTA App: Fixed check button doing nothing in some cases
+• OTA App: Other reliability improvements & bug fixes
+• Allow a more granular control over window animation scale
+• Spoof a new fingerprint to pass PI
+• Few other small changes
 
 Device:
-• Kernel v3.163:
-  - Fingerprint: improve screen off fod consistency
-  - Fingerprint: many small code optimizations and cleanups
-  - Merged 4.14.344 (openela)
-  - Sched backports
+• Better low memory killer tuning
+• Fixed third party app and browser camera issues
+• Kernel v3.164
