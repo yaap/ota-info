@@ -1,16 +1,13 @@
 ROM:
-• Added click actions to OmniJaws on lockscreen (along with a setting)
-• Only force optimize apps used in the last week post OTA boot
-• Use a better fix for the QPR2 AOSP Bluetooth bugs
-• Fixed external (OTG/USB...) extra filesystem support
-• OTA App: Fixed the empty state that sometimes show after a crash
-• OTA App: Fixed check button doing nothing in some cases
-• OTA App: Other reliability improvements & bug fixes
-• Allow a more granular control over window animation scale
-• Spoof a new fingerprint to pass PI
-• Few other small changes
+• OTA App: Added a custom changelog view
+• Fixed smartspace taps not dismissing keyguard
+• Fixed PlayIntegrity (for now)
+• OmniJaws: new Google weather icon packs
+• Many other improvements / fixes
 
 Device:
-• Better low memory killer tuning
-• Fixed third party app and browser camera issues
-• Kernel v3.164
+• Better memory management
+• Kernel v3.167:
+  - Improved memory management
+  - Power: fixed maximum capacity reporting
+  - Scheduler and efficiency improvements
