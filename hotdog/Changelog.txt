@@ -1,13 +1,19 @@
 ROM:
-• OTA App: Added a custom changelog view
-• Fixed smartspace taps not dismissing keyguard
-• Fixed PlayIntegrity (for now)
-• OmniJaws: new Google weather icon packs
-• Many other improvements / fixes
+• Allow limiting custom app actions in QS media player
+• Allow using QS media player time as next & previous
+• Toggle QS media player squiggle on runtime (no restart)
+• Launcher3: Fixed work tab FAB
+• OTA App: Bypass GitHub cache
+  - be aware of new updates faster
+• OTA App: Improve some error handling and text
+• OTA App: Cache changelogs in changelog view
+• OTA App: Optimize some other code
+• Wallpaper & styles: Add font & icon cards to lock screen tab as well
+• Wallpaper & styles: Many UI / layout improvements
+• Aperture: Merged new version from los
+• Use the new switch style in many more places
+  - OTA App, KProfiles, Wallpaper & styles and more
+• Some other improvements and fixes
 
 Device:
-• Better memory management
-• Kernel v3.167:
-  - Improved memory management
-  - Power: fixed maximum capacity reporting
-  - Scheduler and efficiency improvements
+• Kernel v3.172
