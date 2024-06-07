@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1715877769,
-      "filename": "YAAP-14-Vanilla-guacamole-20240516.zip",
+      "datetime": 1717779461,
+      "filename": "YAAP-14-Vanilla-guacamole-20240607.zip",
       "payload": [
         {
           "offset": 3336,
-          "FILE_HASH": "oFiGliuFLfs5+Uz0mV4zZCiQz4+6YdsQxGN/fbdQoOM=",
-          "FILE_SIZE": "1574984050",
-          "METADATA_HASH": "b2obVuoifBUnkmt5CVWQZKO0dF78fjXHVgloD+HOiqI=",
-          "METADATA_SIZE": "133076"
+          "FILE_HASH": "AxIC5hasLz2nAs0CmZ6qd1CLmFFZ+J7Nf7vPdyTZtKc=",
+          "FILE_SIZE": "1574922877",
+          "METADATA_HASH": "Xj9+/wTKl2wNx6BBgQywc4br4S9k063SwU0pLQQw+hg=",
+          "METADATA_SIZE": "133072"
         }
       ]
     }
