@@ -1,19 +1,9 @@
 ROM:
-• Allow limiting custom app actions in QS media player
-• Allow using QS media player time as next & previous
-• Toggle QS media player squiggle on runtime (no restart)
-• Launcher3: Fixed work tab FAB
-• OTA App: Bypass GitHub cache
-  - be aware of new updates faster
-• OTA App: Improve some error handling and text
-• OTA App: Cache changelogs in changelog view
-• OTA App: Optimize some other code
-• Wallpaper & styles: Add font & icon cards to lock screen tab as well
-• Wallpaper & styles: Many UI / layout improvements
-• Aperture: Merged new version from los
-• Use the new switch style in many more places
-  - OTA App, KProfiles, Wallpaper & styles and more
-• Some other improvements and fixes
+• Merged AOSP tag r50 (AKA QPR3 / June SPL)
+• Add a dev setting to block apps from setting wallpaper dim
+• Fixed an AOSP bug that made wall dim get stuck sometimes
+• Spoof pixel only to what we must to pass PI
+• Few other improvements and fixes
 
 Device:
-• Kernel v3.172
+• Kernel v3.175
