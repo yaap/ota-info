@@ -1,9 +1,15 @@
 ROM:
-• Merged AOSP tag r50 (AKA QPR3 / June SPL)
-• Add a dev setting to block apps from setting wallpaper dim
-• Fixed an AOSP bug that made wall dim get stuck sometimes
-• Spoof pixel only to what we must to pass PI
-• Few other improvements and fixes
+• Adapted the new slider vibrations to work on all devices
+• Enabled the new volume panel (A15 testing flag)
+  - And fix its theme
+• Enabled volume slider haptics (A15 testing flag)
+• Brought back post-OTA boot optimizing dialog
+• Removed buggy cloned apps support
+  - Will delete your cloned app profile, so be sure you're ready
+  - Use an app such as Insular instead
+• Fixed a SystemUI crash at boot
+• Added Glimpse (a photo gallery app)
+• Some more minor improvements and fixes
 
 Device:
-• Kernel v3.175
+• Kernel v3.176
