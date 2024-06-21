@@ -1,34 +1,119 @@
 ROM:
-Added power menu background blur.
-Added recents background transparency & blur.
-Added back blur to app open animations.
-Introduced a new battery stats page.
-Launcher3: Bring back many settings & reorganize.
-Fixed more crash reports.
-Stopped using glass blur.
-Launcher3: Reverted to AOSP app launch animation.
-Fixed more media related crashes.
-Fixed settings search bar not rounded when searching.
-Launcher3: Added a toggle for desktop and drawer labels.
-Launcher3: Enabled r8 optimization.
-Settings: Enabled r8 optimization.
-Force full dexopt after ota even if profiles exist.
-Task profiles group optimizations from pixel.
-Camera: full res fixes.
-Launcher: make blur radius configurable.
-Battery: move and add more battery hardware stats.
-Merged r29. (AKA QPR2 / March SPL)
-Merged r30. (AKA April SPL)
-Added panic trigger to power menu.
-Added Panic and Ripple apps.
-Added new optimizing screen on post OTA boot.
-Fixed large lockscreen clock not showing when media is playing.
-Fixed broken OTA preopt.
-Fixed battery settings page showing wrong battery capacity.
-Increased the max notification icons on AOD to 8.
-Many performance improvements.
+• Fixed floating rotation button toggle.
+• Fixed big clock behavior on keyguard when media is disabled across reboots.
+• Fixed a system server crash (causes a "soft reboot").
+  - redone with a real platform side fix.
+• Fixed bluetooth timeout feature.
+• Launcher3: Fixed a few crashes.
+• Settings: Fixed some switches not following new style.
+• Settings: Reorder the about phone page.
+• Recovery: Don't format if partition mount fails.
+• Recovery: Fixed wrong battery information.
+• Added MatLog back.
+• Force enable safety center.
+• Added a private DNS mode QS tile.
+• Settings: Moved everything in YASP to proper pages.
+• Battery stats: Don't re-open the last consumer on startup.
+• Made long pressing on QS settings open running services.
+• Use a different arrow icon for app added QS tiles.
+• Don't show the arrow on AOD QS tile.
+• Don't show the arrow on KProfiles QS tile.
+• Fixed black background toggle visibility bugs.
+• Fixed a few crash on launch apps post QPR2.
+• Fixed a SystemUI crash on boot.
+• Fixed a Launcher3 crash on boot.
+• Improve compatibility with many apps which would crash on open post QPR2.
+• Removed mimalloc (was causing crashes and media issues).
+• Fixed app crashes introduced in last.
+• Fixed bluetooth timeout.
+• Fixed galaxy watches and many other Bluetooth devices which had issues after QPR2.
+• Added OmniJaws as an alternative to lockscreen smartspace.
+• Added an ability to select lockscreen weather provider - including none.
+• Added an ability to automatically turn on Bluetooth/WiFi when pressing their QS tiles.
+• Added back append app name to screenshot file name.
+  - Now with improved code and reliability.
+• Improve av1 software decoding performance.
+  - Allows up to 1080p60 hdr10 av1 to be played without frame drops.
+• OpenDelta: Added a check for updates QS tile.
+• OpenDelta: Performance and code improvements.
+• screen recorder: Added a quality selector (low/mid/high).
+• screen recorder: Fixed taps switch visibility.
+• screen recorder: Always use longer duration (kill the toggle).
+• screen recorder: Other code improvements.
+• Added a dev option to unlimit screenrecord size.
+• Added a new brightness slider background to match volume panel.
+• Added new icon packs for OmniJaws.
+• Added a heads up toggle to settings.
+• Limit heads up notifications if there are many at once.
+• Made unlock faster.
+• Made long pressing heads up tile go to settings.
+• Made long pressing QS settings vibrate.
+• Support more filesystems for external storage.
+• Fixed Bluetooth timeout not persisting.
+• Fixed wifi display.
+• Fixed allow clients to use VPN tethering toggle.
+• Fixed heads up notification defaulting to false on a clean flash.
+• Fixed gaming macro tile out of sync when spamming.
+• Merged AOSP tag r34 (AKA May SPL).
+• Don't run Seedvault if it's not the selected backup transport.
+• Allow toggling gaming macro via a setting.
+  - Useful if you want to create a tasker profile for it.
+  - See group notes for a pre-made tasker scene and info.
+• Added a new default provider for OmniJaws (Open-Meteo).
+• Added click actions to OmniJaws on lockscreen (along with a setting).
+• Only force optimize apps used in the last week post OTA boot.
+• Use a better fix for the QPR2 AOSP Bluetooth bugs.
+• Fixed external (OTG/USB...) extra filesystem support.
+• OTA App: Fixed the empty state that sometimes show after a crash.
+• OTA App: Fixed check button doing nothing in some cases.
+• OTA App: Other reliability improvements & bug fixes.
+• Microg: fix clean install issue (Vanilla).
+• Allow a more granular control over window animation scale.
+• Spoof a new fingerprint to pass PI.
+• OTA App: Added a custom changelog view.
+• Fixed smartspace taps not dismissing keyguard.
+• Fixed PlayIntegrity (for now).
+• OmniJaws: new Google weather icon packs.
+• Allow limiting custom app actions in QS media player.
+• Allow using QS media player time as next & previous.
+• Toggle QS media player squiggle on runtime (no restart).
+• Launcher3: Fixed work tab FAB.
+• OTA App: Bypass GitHub cache.
+  - be aware of new updates faster.
+• OTA App: Improve some error handling and text.
+• OTA App: Cache changelogs in changelog view.
+• OTA App: Optimize some other code.
+• Wallpaper & styles: Add font & icon cards to lock screen tab as well.
+• Wallpaper & styles: Many UI / layout improvements.
+• Aperture: Merged new version from los.
+• LatinIME: Unicode 15.1 emojis (Vanilla).
+• Microg: update and allow f-droid microg repo updates (Vanilla).
+• Use the new switch style in many more places.
+  - OTA App, KProfiles, Wallpaper & styles, DeskClock, DisplayFeatures and more.
+• Merged AOSP tag r50 (AKA QPR3 / June SPL).
+• Add a dev setting to block apps from setting wallpaper dim.
+• Fixed an AOSP bug that made wall dim get stuck sometimes.
+• Spoof pixel only to what we must to pass PI.
+• Adapted the new slider vibrations to work on all devices.
+• Enabled the new volume panel (A15 testing flag).
+  - And fix its theme.
+• Enabled volume slider haptics (A15 testing flag).
+• Brought back post-OTA boot optimizing dialog.
+• Removed buggy cloned apps support.
+  - Will delete your cloned app profile, so be sure you're ready.
+  - Use an app such as Insular instead.
+• Fixed a SystemUI crash at boot.
+• New SetupWizard (Vanilla).
+• Added Glimpse (a photo gallery app).
+• Added a toggle for brightness & volume haptic feedbacks.
+• Make slider haptics scale with progress & collision speed.
 
 Device:
-Use HintManager for HWUI to reduce CPU load.
-Switch to new AIDL IR service.
-Kernel state at r17b4.
+• Switch to Prebuilt CameraProvider to fix auxiliary camera lenses on Aperture.
+• Adapt Aperture camera overlays for prebuilt CameraProvider.
+• Import vendor.qti.hardware.cacert@1.0.so from MIUI V14.0.8.0 to fix a dlopen error.
+• Deduplicate and remove non-existent packages.
+• Build missing libraries for A14 QPR3.
+• Inherit media-legacy component from qcom/common to make the move to Codec2.
+• Kill Software OMX Codecs and move to Software Codec2 Codecs.
+• Bring back tetheroffload as the hotspot issue regarding tetheroffload is resolved now.
