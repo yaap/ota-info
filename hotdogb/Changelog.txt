@@ -1,15 +1,11 @@
 ROM:
-• Adapted the new slider vibrations to work on all devices
-• Enabled the new volume panel (A15 testing flag)
-  - And fix its theme
-• Enabled volume slider haptics (A15 testing flag)
-• Brought back post-OTA boot optimizing dialog
-• Removed buggy cloned apps support
-  - Will delete your cloned app profile, so be sure you're ready
-  - Use an app such as Insular instead
-• Fixed a SystemUI crash at boot
-• Added Glimpse (a photo gallery app)
+• Added a toggle for brightness & volume haptic feedbacks
+• Made slider haptics scale with progress & collision speed
+• Don't ask for auth when sharing WiFi if unlocked in the last minute
+• Fixed volume dialog timeout setting
+• Fixed battery percentage text only when charging
+• Removed the monochromatic monet theme
 • Some more minor improvements and fixes
 
 Device:
-• Kernel v3.176
+• Kernel v3.178
