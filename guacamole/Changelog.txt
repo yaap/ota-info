@@ -1,11 +1,11 @@
 ROM:
-• Added a toggle for brightness & volume haptic feedbacks
-• Made slider haptics scale with progress & collision speed
-• Don't ask for auth when sharing WiFi if unlocked in the last minute
-• Fixed volume dialog timeout setting
-• Fixed battery percentage text only when charging
-• Removed the monochromatic monet theme
-• Some more minor improvements and fixes
+• Merged r52 (AKA July SPL)
+• Aperture: Updates from LOS
+• ExactCalculator: Allow closing parenthesizes after operation 
+• Enabled and fixed DeviceAsWebcam service
+• Many other improvements and fixes
 
 Device:
-• Kernel v3.178
+• Rework vibration gain levels
+  - Allows more useful intensity settings
+• Kernel v3.182
