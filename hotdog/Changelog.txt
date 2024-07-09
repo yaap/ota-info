@@ -1,20 +1,25 @@
 ROM:
-• Merged AOSP tag r50 (AKA QPR3 / June SPL)
-• Add a dev setting to block apps from setting wallpaper dim
-• Fixed an AOSP bug that made wall dim get stuck sometimes
-• Spoof pixel only to what we must to pass PI
-• Few other improvements and fixes
-• Adapted the new slider vibrations to work on all devices
-• Enabled the new volume panel (A15 testing flag)
-  - And fix its theme
-• Enabled volume slider haptics (A15 testing flag)
-• Brought back post-OTA boot optimizing dialog
-• Removed buggy cloned apps support
-  - Will delete your cloned app profile, so be sure you're ready
-  - Use an app such as Insular instead
-• Fixed a SystemUI crash at boot
-• New SetupWizard
-• Some more minor improvements and fixes
+• Merged r52 (AKA July SPL)
+• Aperture: Updates from LOS
+• ExactCalculator: Allow closing parenthesizes after operation 
+• Enabled and fixed DeviceAsWebcam service
+• Added back custom hotspot settings and allow overriding AP band
+• GamingMacro: Added an option to automatically enable for selected apps
+  - Enable in app info settings per app
+• GamingMacro: Added an option to enable game power mode
+• GamingMacro: Added an option to deactivate on battery saver
+• GamingMacro: Reflect disabled state in tile when disabled externally
+• Added back Turbo (AKA google's device health services)
+  - Battery estimates on QS & auto brightness learning
+• Open app when pressing the app icon in app info
+• Fixed the Bluetooth dialog theme
+• Fixed launching Style & Wallpaper from search
+• Fixed explicit GC on lock/unlock
+• Many other improvements and fixes
 
 Device:
-• Kernel v3.176
+• Kernel v3.183
+• Fixed moving from total silent mode to others using the slider
+• adreno: move to 530.54
+• Rework vibration gain levels
+  - Allows more useful intensity settings
