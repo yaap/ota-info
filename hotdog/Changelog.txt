@@ -1,11 +1,16 @@
 ROM:
-• Merged r52 (AKA July SPL)
-• Aperture: Updates from LOS
-• ExactCalculator: Allow closing parenthesizes after operation 
-• Enabled and fixed DeviceAsWebcam service
-• Many other improvements and fixes
+• Added back custom hotspot settings and allow overriding AP band
+• GamingMacro: Added an option to automatically enable for selected apps
+  - Enable in app info settings per app
+• GamingMacro: Added an option to enable game power mode
+• GamingMacro: Added an option to deactivate on battery saver
+• GamingMacro: Reflect disabled state in tile when disabled externally
+• Added back Turbo (AKA google's device health services)
+  - Battery estimates on QS & auto brightness learning
+• Open app when pressing the app icon in app info
+• Fixed the Bluetooth dialog theme
+• Fixed launching Style & Wallpaper from search
+• Few other minor improvements / fixes
 
 Device:
-• Rework vibration gain levels
-  - Allows more useful intensity settings
-• Kernel v3.182
+• Fixed moving from total silent mode to others using the slider
