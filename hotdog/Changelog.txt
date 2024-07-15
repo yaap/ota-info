@@ -1,16 +1,14 @@
 ROM:
-• Added back custom hotspot settings and allow overriding AP band
-• GamingMacro: Added an option to automatically enable for selected apps
-  - Enable in app info settings per app
-• GamingMacro: Added an option to enable game power mode
-• GamingMacro: Added an option to deactivate on battery saver
-• GamingMacro: Reflect disabled state in tile when disabled externally
-• Added back Turbo (AKA google's device health services)
-  - Battery estimates on QS & auto brightness learning
-• Open app when pressing the app icon in app info
-• Fixed the Bluetooth dialog theme
-• Fixed launching Style & Wallpaper from search
-• Few other minor improvements / fixes
+• Settings: Added a changelog shortcut under android version
+• Settings: revert WiFi hotspot to AOSP and fix extend compatibility (2.4GHz) option
+• Don't ask for auth when sharing hotspot if unlocked in the last minute
+• Launcher3: Make drawer app search transparent
+• Launcher3: Improve some cases where apps would freeze on app switch
+• Launcher3: Prevent some crash
+• Many performance related tweaks and other minor improvements
 
 Device:
-• Fixed moving from total silent mode to others using the slider
+• Reduce default vibration intensities
+• Adreno: move to 530.54
+• Improve haptics latency when under load
+• Kernel v3.184
