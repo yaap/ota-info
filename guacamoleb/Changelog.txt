@@ -1,14 +1,12 @@
 ROM:
-• Settings: Added a changelog shortcut under android version
-• Settings: revert WiFi hotspot to AOSP and fix extend compatibility (2.4GHz) option
-• Don't ask for auth when sharing hotspot if unlocked in the last minute
-• Launcher3: Make drawer app search transparent
-• Launcher3: Improve some cases where apps would freeze on app switch
-• Launcher3: Prevent some crash
-• Many performance related tweaks and other minor improvements
+• OpenDelta: Fixed the initial press on the check QS tile
+• OpenDelta: Fixed force flash when stream flash is off
+• OpenDelta: Improved size fetch fallback for downloads
+• Changed USB/ADB notifications importance so they're more configure-able
+• Many performance & app compatibility related improvements
+  - Do note these break dex patchers and all forms of xposed
+• Few other minor improvements
 
 Device:
-• Reduce default vibration intensities
-• Adreno: move to 530.54
-• Improve haptics latency when under load
-• Kernel v3.184
+• Fixed slow / unreliable fingerprint sensor
+• Kernel v3.185
