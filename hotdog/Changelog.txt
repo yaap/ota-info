@@ -1,11 +1,14 @@
 ROM:
-• OpenDelta: Fixed the initial press on the check QS tile
-• OpenDelta: Fixed force flash when stream flash is off
-• OpenDelta: Improved size fetch fallback for downloads
-• Changed USB/ADB notifications importance so they're more configure-able
-• Many performance & app compatibility related improvements
-  - Do note these break dex patchers and all forms of xposed
+• Added hotspot device manager back
+• Added landscape battery styles
+• Added a dialog to edit the QS footer text on long press
+• Added Roboto font
+• Removed Urbanist font
+• Seedvault: Merged upstream changes
+• Seedvault: Hide icon from launcher
+• Launcher3: Always hide the keyboard when we hide the drawer
+• Fixed hangs that could happen on unlock shortly after boot
 • Few other minor improvements
 
 Device:
-• Kernel v3.185
+• Kernel v3.186
