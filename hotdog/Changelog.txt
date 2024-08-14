@@ -1,25 +1,26 @@
 ROM:
-• Merged r52 (AKA July SPL)
-• Aperture: Updates from LOS
-• ExactCalculator: Allow closing parenthesizes after operation 
-• Enabled and fixed DeviceAsWebcam service
-• Added back custom hotspot settings and allow overriding AP band
-• GamingMacro: Added an option to automatically enable for selected apps
-  - Enable in app info settings per app
-• GamingMacro: Added an option to enable game power mode
-• GamingMacro: Added an option to deactivate on battery saver
-• GamingMacro: Reflect disabled state in tile when disabled externally
-• Added back Turbo (AKA google's device health services)
-  - Battery estimates on QS & auto brightness learning
-• Open app when pressing the app icon in app info
-• Fixed the Bluetooth dialog theme
-• Fixed launching Style & Wallpaper from search
-• Fixed explicit GC on lock/unlock
-• Many other improvements and fixes
+• Merged r55 AOSP tag (AKA Aug SPL)
+• Made landscape battery style thicker, adjust font, color handling and more
+• Fixed landscape battery style invisible fill in some icon packs
+• Fixed circle battery style not showing properly in the chip
+• Refactored the hell out of battery styles code
+• Gaming Macro: Retain state across reboots / power losses
+• Gaming Macro: Better handle deactivating and some edge cases
+• Gaming Macro: Better notification with click action and a stop button
+• Improved first boot time
+• Updated APNs from LOS
+• Added hotspot device manager back
+• Added landscape battery styles
+• Added a dialog to edit the QS footer text on long press
+• Added Roboto font
+• Removed Urbanist font
+• Seedvault: Merged upstream changes
+• Seedvault: Hide icon from launcher
+• Launcher3: Always hide the keyboard when we hide the drawer
+• Fixed hangs that could happen on unlock shortly after boot
+• Few other minor improvements
 
 Device:
-• Kernel v3.183
-• Fixed moving from total silent mode to others using the slider
-• adreno: move to 530.54
-• Rework vibration gain levels
-  - Allows more useful intensity settings
+• Kernel v3.190
+• Enabled QS pull vibration tick
+• Improve vibration gain levels
