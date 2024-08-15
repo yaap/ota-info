@@ -1,18 +1,10 @@
 ROM:
-• Merged r55 AOSP tag (AKA Aug SPL)
-• Made landscape battery style thicker, adjust font, color handling and more
-• Fixed landscape battery style invisible fill in some icon packs
-• Fixed circle battery style not showing properly in the chip
-• Refactored the hell out of battery styles code
-• Gaming Macro: Retain state across reboots / power losses
-• Gaming Macro: Better handle deactivating and some edge cases
-• Gaming Macro: Better notification with click action and a stop button
-• Improved first boot time
-• Updated APNs from LOS
+• Launcher3: Implement long press nav bar to use lens gesture
+• Updated spoof fingerprint to pass Play Integrity again
+• Better scale PS controller touchpad sensitivity
+• Minor fixes for conectivity check setting
+• Improved first boot time again
+• Other minor changes and performance related tweaks
 
 Device:
-• Enabled QS pull tick vibration
-• Improved animation jitter
-• Fixed random over amplified vibrations
-• Fixed random fingerprint flashbang
-• Kernel v3.190
+• Kernel v3.191
