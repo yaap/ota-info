@@ -1,10 +1,13 @@
 ROM:
-• Launcher3: Implement long press nav bar to use lens gesture
-• Updated spoof fingerprint to pass Play Integrity again
-• Better scale PS controller touchpad sensitivity
-• Minor fixes for conectivity check setting
-• Improved first boot time again
-• Other minor changes and performance related tweaks
+• Add 3 fingers to screenshot gesture
+• Gaming macro: Add an ability to toggle 3 fingers gesture
+• Settings: Allow setting network traffic monitor limit by MB/s
+• Settings: Rework our dual target switches to be more inline with AOSP
+• OpenDelta: Improved file picking reliability
+• OpenDelta: Fixed & improved A-only flashing
+• OpenDelta: Better error handling in some cases
+• Update spoof fingerprint to pass Play Integrity again
+• Other minor changes
 
 Device:
-• Kernel v3.191
+• No changes
