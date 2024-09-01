@@ -1,55 +1,17 @@
 ROM:
-• Merged r55 AOSP tag (AKA Aug SPL)
-• Added back custom hotspot settings and allow overriding AP band
-• GamingMacro: Added an option to automatically enable for selected apps
-  - Enable in app info settings per app
-• GamingMacro: Added an option to enable game power mode
-• GamingMacro: Added an option to deactivate on battery saver
-• GamingMacro: Reflect disabled state in tile when disabled externally
-• Added back Turbo (AKA google's device health services)
-  - Battery estimates on QS & auto brightness learning
-• Open app when pressing the app icon in app info
-• Fixed the Bluetooth dialog theme
-• Fixed launching Style & Wallpaper from search
-• Few other minor improvements / fixes
-• Settings: Added a changelog shortcut under android version
-• Settings: revert WiFi hotspot to AOSP and fix extend compatibility (2.4GHz) option
-• Don't ask for auth when sharing hotspot if unlocked in the last minute
-• Launcher3: Make drawer app search transparent
-• Launcher3: Improve some cases where apps would freeze on app switch
-• Launcher3: Prevent some crash
-• OpenDelta: Fixed the initial press on the check QS tile
-• OpenDelta: Fixed force flash when stream flash is off
-• OpenDelta: Improved size fetch fallback for downloads
-• Changed USB/ADB notifications importance so they're more configure-able
-• Added hotspot device manager back
-• Added landscape battery styles
-• Added a dialog to edit the QS footer text on long press
-• Added Roboto font
-• Removed Urbanist font
+• Added a toggle for long press navbar gesture
+• Stronger haptic for long press navbar gesture
+• GamingMacro: Fixed saving state post boot or after a setting change
+• GamingMacro: Reorganized settings
+• GamingMacro: Better error handling
 • Seedvault: Merged upstream changes
-• Seedvault: Hide icon from launcher
-• Launcher3: Always hide the keyboard when we hide the drawer
-• Fixed hangs that could happen on unlock shortly after boot
-• Made landscape battery style thicker, adjust font, color handling and more
-• Fixed landscape battery style invisible fill in some icon packs
-• Fixed circle battery style not showing properly in the chip
-• Refactored the hell out of battery styles code
-• Gaming Macro: Retain state across reboots / power losses
-• Gaming Macro: Better handle deactivating and some edge cases
-• Gaming Macro: Better notification with click action and a stop button
-• Improved first boot time
-• Updated APNs from LOS
- Launcher3: Implement long press nav bar to use lens gesture
-• Updated spoof fingerprint to pass Play Integrity again
-• Better scale PS controller touchpad sensitivity
-• Minor fixes for conectivity check setting
-• Improved first boot time again
-• Many performance & app compatibility related improvements
-  - Do note these break dex patchers and all forms of xposed
-• Few other minor improvements
+•  OTA App: clear old flashed builds from data
+• Switched a graphics driver
+ - Fixes google photos magic editor crashes & probably more
+• Other minor changes
 
 Device:
-* Improvemtns to efficeny 
-• Few other minor improvements
-* Updated to soviet R6.4
+* Moved to NON-ESE NFC
+* Added powerstats hall
+• Other minor changes
+* Updated kernel to soviet R6.5
