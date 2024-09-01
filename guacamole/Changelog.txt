@@ -1,13 +1,13 @@
 ROM:
-• Add 3 fingers to screenshot gesture
-• Gaming macro: Add an ability to toggle 3 fingers gesture
-• Settings: Allow setting network traffic monitor limit by MB/s
-• Settings: Rework our dual target switches to be more inline with AOSP
-• OpenDelta: Improved file picking reliability
-• OpenDelta: Fixed & improved A-only flashing
-• OpenDelta: Better error handling in some cases
-• Update spoof fingerprint to pass Play Integrity again
+• Added a toggle for long press navbar gesture
+• Stronger haptic for long press navbar gesture
+• GamingMacro: Fixed saving state post boot or after a setting change
+• GamingMacro: Reorganized settings
+• GamingMacro: Better error handling
+• Seedvault: Merged upstream changes
+• Switched a graphics driver
+ - Fixes google photos magic editor crashes & probably more
 • Other minor changes
 
 Device:
-• No changes
+• Kernel v3.192
