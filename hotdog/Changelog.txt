@@ -1,13 +1,7 @@
 ROM:
-• Added a toggle for long press navbar gesture
-• Stronger haptic for long press navbar gesture
-• GamingMacro: Fixed saving state post boot or after a setting change
-• GamingMacro: Reorganized settings
-• GamingMacro: Better error handling
-• Seedvault: Merged upstream changes
-• Switched a graphics driver
- - Fixes google photos magic editor crashes & probably more
+• OpenDelta: Cache the fetched changelog
+• OpenDelta: Avoid showing an empty state if file picking fails
 • Other minor changes
 
 Device:
-• Kernel v3.192
+• Kernel v3.193
