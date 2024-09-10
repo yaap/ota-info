@@ -1,0 +1,6 @@
+ROM:
+• Gesture fling boost improvement
+
+Device:
+• Performance improvements
+• Move to stock IMS as a test for some user volte/vowifi issues (and possibly VZW)
