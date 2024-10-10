@@ -1,2 +1,25 @@
+ROM:
+• Merged Android 15.
+• Fixed many of our custom sliders not having a minimum.
+• Fixed monet settings.
+• Fixed screenshot delete action.
+• Fixed wallpaper dim toggle.
+• Fixed a systemui crash at boot.
+• Adapted switch styles in launcher to A15.
+• Launcher3: Allow choosing a specific search provider.
+• Launcher3: Added many more search providers as fallbacks.
+• Launcher3: Add all browser apps with a search widget to providers dynamically.
+• Launcher3: Fixed lens button on vanilla when google is installed.
+• OmniJaws: Added widget transparency setting and improve style.
+• Modern theme for the status bar icon tuner.
+• Move the statusbar tuner to system -> status bar.
+• Some other minor changes.
+
 Device:
-• Build compatible thermal hal
+• NOTE: FOD still is not fully working.
+• NOTE: Brightness bar is not accurate in movement, <50% will be incorrect.
+• Move to erofs.
+• Fixed hardware accelerated vp9 and av1 (fully functional now).
+• Fixed HDR display.
+• Power improvements.
+• AOD brightness sensor (switches between two modes based on ambient brightness).
