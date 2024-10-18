@@ -1,17 +1,31 @@
 ROM:
-• Added a toggle for long press navbar gesture
-• Stronger haptic for long press navbar gesture
-• GamingMacro: Fixed saving state post boot or after a setting change
-• GamingMacro: Reorganized settings
-• GamingMacro: Better error handling
-• Seedvault: Merged upstream changes
-•  OTA App: clear old flashed builds from data
-• Switched a graphics driver
- - Fixes google photos magic editor crashes & probably more
-• Other minor changes
+• Merged Android 15. Known regressions:
+  - Have to re-enroll fingerprints
+  - Battery stats page removed
+  - Launcher3: Smartspace removed
+• Merged r2 (AKA October security patch)
+• Add a toggle (+ overlay) for QS media controls effects
+• Launcher3: Allow choosing a specific search provider
+• Launcher3: Add many more search providers as fallbacks
+• Launcher3: Add all browser apps with a search widget to providers dynamically
+• Launcher3: Fix lens button on vanilla when google is installed
+• Launcher3: Add an option to open the keyboard with the drawer
+• OpenDelta: Add an ability to update certified props
+• Screen record: Also save preferences when dismissing the dialog
+• Recovery: Support flashing via SD card
+• Better handling of network traffic monitor visibility
+• Make secure QS tiles toggle affect internet tile
+• OmniJaws: Add widget transparency setting and improve style
+• Modern theme for the status bar icon tuner
+• Move the statusbar tuner to system -> status bar
+• Fix many of our custom sliders not having a minimum
+• Reverted back to AOSP default for dexopt (much faster post OTA boots)
+• Updated spoofed fingerprint to pass PI (again...)
+• Many other changes
 
 Device:
-* Moved to NON-ESE NFC
-* Added powerstats hall
-• Other minor changes
-* Updated kernel to soviet R6.5
+• Reverted device as webcam
+• Droped Leica camera
+• Updated to soviet R.6.6
+• Fixed Gphotos crashes
+• Other Fixes & improvmnets
