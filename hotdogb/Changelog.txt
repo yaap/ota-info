@@ -1,28 +1,12 @@
 ROM:
-• Merged Android 15. Known regressions:
-  - Have to re-enroll fingerprints
-  - Battery stats page removed
-  - Launcher3: Smartspace removed
-• Merged r2 (AKA October security patch)
-• Add a toggle (+ overlay) for QS media controls effects
-• Launcher3: Allow choosing a specific search provider
-• Launcher3: Add many more search providers as fallbacks
-• Launcher3: Add all browser apps with a search widget to providers dynamically
-• Launcher3: Fix lens button on vanilla when google is installed
-• Launcher3: Add an option to open the keyboard with the drawer
-• OpenDelta: Add an ability to update certified props
-• Screen record: Also save preferences when dismissing the dialog
-• Recovery: Support flashing via SD card
-• Better handling of network traffic monitor visibility
-• Make secure QS tiles toggle affect internet tile
-• OmniJaws: Add widget transparency setting and improve style
-• Modern theme for the status bar icon tuner
-• Move the statusbar tuner to system -> status bar
-• Fix many of our custom sliders not having a minimum
-• Reverted back to AOSP default for dexopt (much faster post OTA boots)
-• Updated spoofed fingerprint to pass PI (again...)
-• Many other changes
+• Add a toggle to allow chroma & luminance to affect secondary colors
+• Adapt to the new A15 fingerprint implementation and start using it
+• Restore the accidentally removed clock position toggle
+• Fix status bar color in settings home page
+• Fix volume panel timeout requiring a restart
+• Fix hide private space toggle not fully hidden
+• Revert black background toggle
+• Few other changes
 
 Device:
-• Reverted device as webcam
-• Kernel v3.195
+No changes
