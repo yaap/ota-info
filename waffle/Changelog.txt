@@ -1,12 +1,27 @@
 ROM:
-• Merged October SPL
-• Restore the accidentally removed clock position
-• Fix volume panel timeout requiring a restart
-• Fix hide private space toggle not fully hidden
-• Revert dark background toggle
-• Few other changes
+• Fix status bar color in settings home page
+• Vastly improve biometric prompt layout
+• Add back monochrome theme
+• Launcher3: Re-launch the keyboard when search becomes empty
+• Launcher3: Use f-droid as an installer for private space on vanilla
+• Fix speech recognition not having any downloadable languages
+• Fix many of our device configs not being properly set
+• Add Ubuntu font
+• Allow controlling ramping ringer properties
+• Fix keyguard crash when using an external display
+• Fix refresh rate limit toggle in advanced battery saver
+• Launcher3: Improve keyboard re-launch behavior and edge cases
+• OpenDelta: Fix flashing a file from external storage
+• OpenDelta: Fix some cases where setting page shows incorrectly
+• Ship YASR instead of LOS' Recorder
+• Many other improvements and bugfixes
 
 Device:
-• Fixed FOD (does not yet work on aod or screen off)
-• Brought in oplus touch, fixes edge mistouch detection
-• Fix factory reset not showing esim erase option
+• FOD: new implementation (still some edge case issues with dim level)
+• FOD: boost on downpress to further improve performance
+• FOD: support screen off FOD (will not work on AOD)
+• Improve auto brightness in many ways incl correction
+• Fix WiFiDisplay and external displays
+• Performance and efficiency improvement
+• Thermal mitigation improvements
+• Fix widevine (will still only ever be L3)
