@@ -1,3 +1,9 @@
+ROM:
+• Ship Twelve music app
+• Performance improvements
+• Add powershare (reverse wireless charge) QS tile
+
 Device:
-• vibrator: move to source built, parse and import all stock effects data
-  - strength configuration in vibration settings now works
+• Fix USB menu
+• Fix hotword (ok/hey google)
+• Fix FOD with PIP
