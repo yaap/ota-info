@@ -1,18 +1,14 @@
 ROM:
-• Add a toggle to allow chroma & luminance to affect secondary colors
-• Adapt to the new A15 fingerprint implementation and start using it
-• Restore the accidentally removed clock position toggle
-• Fix status bar color in settings home page
-• Fix volume panel timeout requiring a restart
-• Fix hide private space toggle not fully hidden
-• Revert black background toggle
-• Vastly improve biometric prompt layout
-• Launcher3: Re-launch the keyboard when search becomes empty
-• Fix speech recognition not having any downloadable languages
-• Fix many of our device configs not being properly set
-• Added Ubuntu font
-• Few other changes
+• Merged r5 (AKA Nov SPL)
+• Allow controlling ramping ringer properties
+• Fix keyguard crash when using an external display
+• Fix refresh rate limit toggle in advanced battery saver
+• Launcher3: Improve keyboard re-launch behaviour and edge cases
+• OpenDelta: Fix flashing a file from external storage
+• OpenDelta: Fix some cases where setting page shows incorrectly
+• Ship YASR instead of LOS' Recorder
+• Updated spoofed fingerprint to pass PI again...
 
 Device:
-* Improved memory manegement
-* Added Device intergrity strong spoof
+• Updated GPU drivers from quest3 to Adreno 786
+• Improved thermal configs to reduce heat while charging & Gaming
