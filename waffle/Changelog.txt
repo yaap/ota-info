@@ -1,9 +1,12 @@
 ROM:
-• Ship Twelve music app
-• Performance improvements
-• Add powershare (reverse wireless charge) QS tile
+• Merge November tag
+• Many performance improvements
+• Support notification waveform vibrations on non frequency control devices
 
 Device:
-• Fix USB menu
-• Fix hotword (ok/hey google)
-• Fix FOD with PIP
+• Logical ID camera fixes
+• Implement a default double pulse waveform vibration for notifications
+• Many haptics improvements
+• Fix Ultra HDR image viewing, improve sdr/hdr dimming map
+• Fix P3 displaying overly warm, along with other display color fixes
+• Utilize thermal trigger only for auto high brightness mode restriction
