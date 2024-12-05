@@ -1,12 +1,13 @@
 ROM:
-• Merge November tag
+• Ship a PDF reader
+• Update microg, microg companion, f-droid (vanilla)
+• Dialer search bar improvement (vanilla)
+• Messaging now supports captcha detector (vanilla)
+• Support floating and resizable windows (shortcut in recents)
+• Launcher3: stability improvements
 • Many performance improvements
-• Support notification waveform vibrations on non frequency control devices
 
 Device:
-• Logical ID camera fixes
-• Implement a default double pulse waveform vibration for notifications
-• Many haptics improvements
-• Fix Ultra HDR image viewing, improve sdr/hdr dimming map
-• Fix P3 displaying overly warm, along with other display color fixes
-• Utilize thermal trigger only for auto high brightness mode restriction
+• Aperture now uses logical id for pinch to switch lenses
+• SELinux enforcing!
+  - Now on gapps should pass play integrity out of box (for now)
