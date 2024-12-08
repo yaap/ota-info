@@ -1,13 +1,7 @@
 ROM:
-• Ship a PDF reader
-• Update microg, microg companion, f-droid (vanilla)
-• Dialer search bar improvement (vanilla)
-• Messaging now supports captcha detector (vanilla)
-• Support floating and resizable windows (shortcut in recents)
-• Launcher3: stability improvements
-• Many performance improvements
+• Fix Play Integrity & SafetyNet out of box
+• Fix floating windows
 
 Device:
-• Aperture now uses logical id for pinch to switch lenses
-• SELinux enforcing!
-  - Now on gapps should pass play integrity out of box (for now)
+• Move to QSSI Ims so we could drop oplus-fwk entirely
+• Fix zram on selinux enforcing
