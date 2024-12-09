@@ -1,7 +1,12 @@
 ROM:
-• Fix Play Integrity & SafetyNet out of box
-• Fix floating windows
+• Floating window improvements
+• Launcher3: add system shortcut to floating window
+• Fix udfps illumination in wrong part of display after screen off from rotation
+• Jank improvements
 
 Device:
-• Move to QSSI Ims so we could drop oplus-fwk entirely
-• Fix zram on selinux enforcing
+• Perfect adaptive brightness:
+ - Auto brightness values adapted from stock
+ - Improved ALS correction
+• Updated system IMS to QSSI15
+• Support up to 4k video on Aperture, make bitrates sane
