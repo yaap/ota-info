@@ -1,12 +1,8 @@
 ROM:
-• Floating window improvements
-• Launcher3: add system shortcut to floating window
-• Fix udfps illumination in wrong part of display after screen off from rotation
-• Jank improvements
+• Vanilla: Fix keyboard in landscape
+• Vanilla: Move OpenEUICC to Settings
 
 Device:
-• Perfect adaptive brightness:
- - Auto brightness values adapted from stock
- - Improved ALS correction
-• Updated system IMS to QSSI15
-• Support up to 4k video on Aperture, make bitrates sane
+• Display: fix SDR dimming and improve ratio lut
+• Display: add support for adaptive screen white balance from RGB sensor (Settings->Display->Display white balance)
+• Display: correct white primaries and default white balance to inline color modes with OOS
