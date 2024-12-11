@@ -1,8 +1,5 @@
 ROM:
-• Vanilla: Fix keyboard in landscape
-• Vanilla: Move OpenEUICC to Settings
+• biometrics: improve fingerprint (udfps) performance
 
 Device:
-• Display: fix SDR dimming and improve ratio lut
-• Display: add support for adaptive screen white balance from RGB sensor (Settings->Display->Display white balance)
-• Display: correct white primaries and default white balance to inline color modes with OOS
+• Display: fully correct sdrHdrRatio map (sdr dimming)
