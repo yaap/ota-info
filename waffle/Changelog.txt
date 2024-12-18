@@ -1,5 +1,11 @@
 ROM:
-• biometrics: improve fingerprint (udfps) performance
+• Merged QPR1 (AKA Dec SPL / Feature drop)
+  - Known regression: Have to re-enroll fingerprints again
+  - To fix inverted dark/light themed icons color simply trigger a monet accent color change once (AOSP bug)
+  - If using transparent app drawer, if swiping up before new app->home animation finishes, it may show dock behind drawer
+• OpenDelta: Fix some rare edge cases
+• Update microg
+• Performance improvements
 
 Device:
-• Display: fully correct sdrHdrRatio map (sdr dimming)
+• Fix fod dimming on min brightness
