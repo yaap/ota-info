@@ -1,30 +1,34 @@
 ROM:
-• Launcher3: Add an option to open the keyboard with the drawer.
-• OpenDelta: Add an ability to update certified props.
-• Screen record: Also save preferences when dismissing the dialog.
-• Recovery: Support flashing via SD card.
-• Better handling of network traffic monitor visibility.
-• Make secure QS tiles toggle affect internet tile.
-• Fix many of our custom sliders not having a minimum.
-• Reverted back to AOSP default for dexopt (much faster post OTA boots).
-• Add a toggle to allow chroma & luminance to affect secondary colors.
-• Restore the accidentally removed clock position toggle.
-• Fix status bar color in settings home page.
-• Fix volume panel timeout requiring a restart.
-• Fix hide private space toggle not fully hidden.
-• Revert black background toggle.
-• Vastly improve biometric prompt layout.
-• Add back monochrome theme.
-• Launcher3: Re-launch the keyboard when search becomes empty.
-• Launcher3: Use f-droid as an installer for private space on vanilla.
-• Fix speech recognition not having any downloadable languages.
-• Fix many of our device configs not being properly set.
-• Add Ubuntu font.
-• Fix keyguard crash when using an external display
-• Launcher3: Improve keyboard re-launch behavior and edge cases
-• OpenDelta: Fix flashing a file from external storage
-• Few other changes.
+• Merged r5. (AKA Nov SPL)
+• Allow controlling ramping ringer properties.
+• Fix keyguard crash when using an external display.
+• Fix refresh rate limit toggle in advanced battery saver.
+• Launcher3: Improve keyboard re-launch behavior and edge cases.
+• OpenDelta: Fix flashing a file from external storage.
+• OpenDelta: Fix some cases where setting page shows incorrectly.
+• Ship YASR instead of LOS' Recorder.
+• Updated spoofed fingerprint to pass PI again...
+• Vanilla: Fix keyboard in landscape.
+• Vanilla: Move OpenEUICC to Settings.
+• Merged QPR1. (AKA Dec SPL / Feature drop)
+  - To fix inverted themed icons color simply trigger a monet accent color change. (AOSP bug)
+• Add LMO Freeform.
+• Floating window improvements.
+• Launcher3: add system shortcut to floating window.
+• Vanilla: Update MicroG.
+• OpenDelta: Fix some rare edge cases.
+• Settings: Vastly improve search in gesture settings.
+• Updated spoofing fp to pass PI.
+• Add circle to search + a toggle
+• Add long press timer statusbar chips to directly end screen record/share.
+• Use our pocket mode for doze gestures as well.
+• screen recorder: Remove stop dot.
+• Settings: Hide EID in about phone.
+• Update China Connectivity Check Server to MIUI.
+• Update certs to pass PI again.
+• Vanilla: Update MicroG to v0.3.6.
+• Jank improvements.
 
 Device:
-• Apply dex2oat optimizations.
-• Kernel state at r17b11.
+• Switch to new Lineage AIDL Fingerprint HAL.
+• Kernel state at r17b12.
