@@ -1,14 +1,19 @@
-ROM:
-• Merged r5 (AKA Nov SPL)
-• Allow controlling ramping ringer properties
-• Fix keyguard crash when using an external display
-• Fix refresh rate limit toggle in advanced battery saver
-• Launcher3: Improve keyboard re-launch behaviour and edge cases
-• OpenDelta: Fix flashing a file from external storage
-• OpenDelta: Fix some cases where setting page shows incorrectly
-• Ship YASR instead of LOS' Recorder
-• Updated spoofed fingerprint to pass PI again...
+• Merged QPR1 (AKA Dec SPL / Feature drop)
+  - Known regression: Have to re-enroll fingerprints again
+  - To fix inverted themed icons color simply trigger a monet accent color change (AOSP bug)
+• Add LMO Freeform
+• OpenDelta: Fix some rare edge cases
+• Settings: Vastly improve search in gesture settings
+• Settings: Hide EID in about phone
+• Add circle to search + a toggle
+• Add long press timer statusbar chips to directly end screen record/share
+• Use our pocket mode for doze gestures as well
+• screen recorder: Remove stop dot
+• Settings: Hide EID in about phone
+• Fix launcher/recents freezes when changing overlays such as theme
+• Fix landscape battery icon entirely black on charging chip
+• Update China Connectivity Check Server to MIUI
+• Update certs to pass PI again
 
 Device:
-• Updated GPU drivers from quest3 to Adreno 786
-• Improved thermal configs to reduce heat while charging & Gaming
+Updated kernel to soviet R6.7
