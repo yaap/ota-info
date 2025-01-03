@@ -1,28 +1,6 @@
-Check notes in device section!
 ROM:
-• Allow limiting minimal % for auto brightness
-• Add circle to search + a toggle
-• Show lens and cts toggles for vanilla users with google app installed
-• Add long press timer statusbar chips to directly end screen record/share
-• Use our pocket mode for doze gestures as well
-• screen recorder: Remove stop dot
-• Settings: Hide EID in about phone
-• Update China Connectivity Check Server to MIUI
-• Update certs to pass PI again.
-• Jank improvements.
-• Update certs to pass PI, AGAIN
-• Vanilla: Update microg and spoofing
-• Performance and jank improvements
+• None
 
 Device:
-• Update blobs and kernel to oos15 base
-• Fix FOD on AOD (doze mode)
-• Fix eSIM adding and removing (sepolicy related)
-• Fix wireless charge stats (sepolicy related)
-• Fix much more sepolicy (displaypanelfeature, urcc, etc)
-• Fix logical camera issues
-• Interaction efficiency improvements
-• Thermal improvements
-• Note: moving device at all triggers ambient display like on stock
-  - need to come up with a way to featurize this behavior with oplus touch
-• Note: double tap and single tap do not yet work, they are still a priority
+• Fix color modes (prop key overrides)
+• Fix camera awb module (occe sepolicy)
