@@ -1,18 +1,17 @@
 ROM:
-• Merged AOSP tag r10 (AKA Jan SPL)
-• Make minimal brightness slider more accurate, especially on low gamma
-• Allow dimming the wallpaper for dark theme and/or night light
-• Re-enable and fix hiding the private space
-• Skip auth for USB mode ctrl when unlocked in the last 60s
-devices
-• Fix Ubuntu font missing weights
-• Other minor improvements
-• Performance and scrolling improvements
+• Fixed system server crash when using auto dim wall pre boot
+• Fixed long press on statusbar cast chip when no timer is shown
+• Launcher: allow configurable widgets to fix loading primary google search bar
+• Possibly fixed a one-time crash right after post update "optimizing apps"
+• Possibly fixed a random system server crash
 
 Device:
-• Move to source built audio hal
-• More aod fod fixes though still not perfect. Will be doing a new implementation of fod press interface with touch gestures
-• Move to source built kernel with 6.1.118 upstream android common kernel merge
-  - Drop some oplus modules which had performance or runtime issues such as
-    apps closing (oplus binder). Also drop support for them in common kernel.
-  - As part of merge, many other oplus adds in common kernel were dropped.
+• Fixed mic input volume too low outside of phone calls
+• Fixed overriding some kernel tuning from init scripts
+• New kernel build:
+  - Merged with upstream common (includes PM autosleep enabled which improves userspace assistance with suspend)
+  - Dropped many oplus sched features/bloat we do not want for improved efficiency and performance
+  - You will notice improved efficiency, and general performance including IO performance. We are no longer the worst performing sd8g3!
+• Fixed various hwc issues:
+  - Fixed crash while screen recording with fod or some other layers
+  - Fixed virtual display scaling issues including on android auto or freeform
