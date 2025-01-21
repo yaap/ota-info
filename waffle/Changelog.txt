@@ -1,17 +1,11 @@
 ROM:
-• Fixed system server crash when using auto dim wall pre boot
-• Fixed long press on statusbar cast chip when no timer is shown
-• Launcher: allow configurable widgets to fix loading primary google search bar
-• Possibly fixed a one-time crash right after post update "optimizing apps"
-• Possibly fixed a random system server crash
+• Fix some Chinese app crashes and ANRs
+• Ship Twelve music app
+• Use monet colors for privacy chip
+• Launcher3: do not show private space apps in search results unless private space unlocked
 
 Device:
-• Fixed mic input volume too low outside of phone calls
-• Fixed overriding some kernel tuning from init scripts
-• New kernel build:
-  - Merged with upstream common (includes PM autosleep enabled which improves userspace assistance with suspend)
-  - Dropped many oplus sched features/bloat we do not want for improved efficiency and performance
-  - You will notice improved efficiency, and general performance including IO performance. We are no longer the worst performing sd8g3!
-• Fixed various hwc issues:
-  - Fixed crash while screen recording with fod or some other layers
-  - Fixed virtual display scaling issues including on android auto or freeform
+•  Fix FOD screen on and general perf
+• Jank and efficiency improvements
+• Utilize stock dumped thermal config for improved thermal mitigation and behavior
+• Kernel: merge 6.1.124
