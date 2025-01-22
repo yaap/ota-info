@@ -1,33 +1,15 @@
 ROM:
-• Merged r5. (AKA Nov SPL)
-• Allow controlling ramping ringer properties.
-• Fix keyguard crash when using an external display.
-• Fix refresh rate limit toggle in advanced battery saver.
-• Launcher3: Improve keyboard re-launch behavior and edge cases.
-• OpenDelta: Fix flashing a file from external storage.
-• OpenDelta: Fix some cases where setting page shows incorrectly.
-• Ship YASR instead of LOS' Recorder.
-• Updated spoofed fingerprint to pass PI again...
-• Vanilla: Fix keyboard in landscape.
-• Vanilla: Move OpenEUICC to Settings.
-• Merged QPR1. (AKA Dec SPL / Feature drop)
-  - To fix inverted themed icons color simply trigger a monet accent color change. (AOSP bug)
-• Add LMO Freeform.
-• Floating window improvements.
-• Launcher3: add system shortcut to floating window.
-• Vanilla: Update MicroG.
-• OpenDelta: Fix some rare edge cases.
-• Settings: Vastly improve search in gesture settings.
-• Updated spoofing fp to pass PI.
-• Add circle to search + a toggle
-• Add long press timer statusbar chips to directly end screen record/share.
-• Use our pocket mode for doze gestures as well.
-• screen recorder: Remove stop dot.
-• Settings: Hide EID in about phone.
-• Update China Connectivity Check Server to MIUI.
-• Update certs to pass PI again.
-• Vanilla: Update MicroG to v0.3.6.
-• Jank improvements.
+• Launcher3: Allow configurable search bar widgets
+    - Fixes google alt widget showing in search bar
+    - You can configure the widget in google app settings
+• Launcher3: Hide private space apps in search when it's hidden
+• Fix some Chinese app crashes and ANRs
+• Ship Twelve music app
+• Use monet colors for the privacy chip
+• Disabled FRP protection
+• Other minor changes
 
 Device:
-• Kernel bump
+• Fix WFD
+• Fix OTG before charging
+• Kernel: efficiency improvements
