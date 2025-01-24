@@ -1,49 +1,51 @@
 ROM:
-• Merged r5. (AKA Nov SPL)
-• Allow controlling ramping ringer properties.
-• Fix keyguard crash when using an external display.
-• Fix refresh rate limit toggle in advanced battery saver.
-• Launcher3: Improve keyboard re-launch behavior and edge cases.
-• OpenDelta: Fix flashing a file from external storage.
-• OpenDelta: Fix some cases where setting page shows incorrectly.
-• Ship YASR instead of LOS' Recorder.
-• Updated spoofed fingerprint to pass PI again...
-• Vanilla: Fix keyboard in landscape.
-• Vanilla: Move OpenEUICC to Settings.
-• Merged QPR1. (AKA Dec SPL / Feature drop)
-  - Known regression: Have to re-enroll fingerprints again.
-  - To fix inverted themed icons color simply trigger a monet accent color change. (AOSP bug)
-• Add LMO Freeform.
-• Floating window improvements.
-• Launcher3: add system shortcut to floating window.
-• Vanilla: Update MicroG.
-• OpenDelta: Fix some rare edge cases.
-• Settings: Vastly improve search in gesture settings.
-• Updated spoofing fp to pass PI.
+• Add circle to search + a toggle.
+• Show lens and cts toggles for vanilla users with google app installed.
+• Add long press timer statusbar chips to directly end screen record/share.
+• Use our pocket mode for doze gestures as well.
+• screen recorder: Remove stop dot.
+• Settings: Hide EID in about phone.
+• Fix launcher/recents freezes when changing overlays such as theme.
+• Fix landscape battery icon entirely black on charging chip.
+• Update China Connectivity Check Server to MIUI.
+• Update certs to pass PI again.
 • Jank improvements.
+• Update certs to pass PI, AGAIN.
+• Vanilla: Update microg and spoofing.
+• Performance and jank improvements.
+• Merged AOSP tag r10. (AKA Jan SPL)
+• Allow limiting minimal % for auto brightness.
+• Allow dimming the wallpaper for dark theme and/or night light.
+• Re-enable and fix hiding the private space.
+• Skip auth for USB mode ctrl when unlocked in the last 60s.
+• Show lens and cts toggles for vanilla users with google app installed.
+• Make minimal brightness slider more accurate, especially on low gamma devices.
+• Fix Ubuntu font missing weights.
+• Fixed system server crash when using auto dim wall pre boot.
+• Fixed long press on statusbar cast chip when no timer is shown.
+• Possibly fixed a one-time crash right after post update "optimizing apps".
+• Possibly fixed a random system server crash.
+• Launcher3: Allow configurable search bar widgets.
+    - Fixes google alt widget showing in search bar.
+    - You can configure the widget in google app settings.
+• Launcher3: Hide private space apps in search when it's hidden.
+• Fix some Chinese app crashes and ANRs.
+• Ship Twelve music app.
+• Use monet colors for the privacy chip.
+• Disable FRP. (Factory reset protection)
+• Use a generic build machine and username for some apps that detect custom OS this way.
+• Improved signal strength reliability for some carriers.
 
 Device:
-• Enable WideColorGamut support.
-• Alleviate audio distortion by a tad bit. (Decrease call volume for issue to be permanently resolved)
-• Silence TRS logspam.
-• Set 1 second timeout to interaction boosts to prevent permanent boost triggers.
-• Build AOSP FMRadio.
-• Offload WM shell to another thread to improve performance.
-• Update GPU blobs from V1TD35H.58 (A15 beta) to fix vulkan rendering.
-• Switch to OSS kernel modules.
-• Switch to OSS DTB.
-• Remove Moto MM modifications and use ZRAM.
-• Drop FocalTech TS support as cancunf does not use this TS panel.
-• Update blobs to U1TDS34.94-12-9-10-1.
-• Switch to custom 2.1 sensors MultiHal.
-• Skip loading Motorola's double/single tap sensors to prevent event keys from being blocked.
-• Implement PoweHAL Double Tap To Wake on NVT and ILITEK.
-• Implement Lineage Touch HAL.
-• Implement TapGestures from YAAP OP7 for single tap gestures on NVT and ILITEK.
-• Set show ambient as the default single tap gesture to match stock behavior.
-• Switch to schedutil as the cpufreq governor at boot and configure rate limits.
-• Drop fpsgo modifications from powerhint.
-• Drop MediaTek scheduler modules.
-• Include recovery ramdisk in vendor_boot to follow AOSP specifications.
-• Switch to DragonHeart kernel.
-• Kernel state at r1a2.
+• Add complete support for moto g64 and moto g64y.
+• FeLiCa Payment support added for Japanese units.
+• Enable SecureNFC support for relevant variants.
+• Fine Tune LMK and VM parameters.
+• Set proper dalvik heap properties for 4/8/12gb RAM units.
+• Update to proper CPUFreq Nodes on powerhint.
+• Drop redundant panel modules and firmware.
+• Implement VolumeSyncronizer for reducing the audio distortion at high volume.
+• Remove thermal_core binary in favor of manually configuring the nodes.
+• Disable game default refresh rate feature as it limits the refresh rate to 60fps in games on Android 15.
+• Refactor boot performance setup.
+• Kernel state at r1b2.
