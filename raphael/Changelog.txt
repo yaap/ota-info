@@ -1,19 +1,29 @@
-• Merged QPR1 (AKA Dec SPL / Feature drop)
-  - Known regression: Have to re-enroll fingerprints again
-  - To fix inverted themed icons color simply trigger a monet accent color change (AOSP bug)
-• Add LMO Freeform
-• OpenDelta: Fix some rare edge cases
-• Settings: Vastly improve search in gesture settings
-• Settings: Hide EID in about phone
-• Add circle to search + a toggle
-• Add long press timer statusbar chips to directly end screen record/share
-• Use our pocket mode for doze gestures as well
-• screen recorder: Remove stop dot
-• Settings: Hide EID in about phone
-• Fix launcher/recents freezes when changing overlays such as theme
-• Fix landscape battery icon entirely black on charging chip
-• Update China Connectivity Check Server to MIUI
-• Update certs to pass PI again
+ROM:
+• Merged AOSP tag r10 (AKA Jan SPL)
+• Allow limiting minimal % for auto brightness
+• Allow dimming the wallpaper for dark theme and/or night light
+• Re-enable and fix hiding the private space
+• Skip auth for USB mode ctrl when unlocked in the last 60s
+• Show lens and cts toggles for vanilla users with google app installed
+• Make minimal brightness slider more accurate, especially on low gamma devices
+• Fix Ubuntu font missing weights
+• Fixed system server crash when using auto dim wall pre boot
+• Fixed long press on statusbar cast chip when no timer is shown
+• Possibly fixed a one-time crash right after post update "optimizing apps"
+• Possibly fixed a random system server crash
+ Launcher3: Allow configurable search bar widgets
+    - Fixes google alt widget showing in search bar
+    - You can configure the widget in google app settings
+• Launcher3: Hide private space apps in search when it's hidden
+• Fix some Chinese app crashes and ANRs
+• Ship Twelve music app
+• Use monet colors for the privacy chip
+• Disable FRP (Factory reset protection)
+• Use a generic build machine and username for some apps that detect custom OS this way
+• Update certs to pass PI, AGAIN
+• Other minor changes
 
 Device:
-Updated kernel to soviet R6.7
+Updated kernel to R6.8
+Improvements to powerhint
+Resolved bunch of selinx denials
