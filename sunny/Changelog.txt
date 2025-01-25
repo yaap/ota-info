@@ -1,34 +1,32 @@
 ROM:
-• Merged r5. (AKA Nov SPL)
-• Allow controlling ramping ringer properties.
-• Fix keyguard crash when using an external display.
-• Fix refresh rate limit toggle in advanced battery saver.
-• Launcher3: Improve keyboard re-launch behavior and edge cases.
-• OpenDelta: Fix flashing a file from external storage.
-• OpenDelta: Fix some cases where setting page shows incorrectly.
-• Ship YASR instead of LOS' Recorder.
-• Updated spoofed fingerprint to pass PI again...
-• Vanilla: Fix keyboard in landscape.
-• Vanilla: Move OpenEUICC to Settings.
-• Merged QPR1. (AKA Dec SPL / Feature drop)
-  - To fix inverted themed icons color simply trigger a monet accent color change. (AOSP bug)
-• Add LMO Freeform.
-• Floating window improvements.
-• Launcher3: add system shortcut to floating window.
-• Vanilla: Update MicroG.
-• OpenDelta: Fix some rare edge cases.
-• Settings: Vastly improve search in gesture settings.
-• Updated spoofing fp to pass PI.
-• Add circle to search + a toggle
-• Add long press timer statusbar chips to directly end screen record/share.
-• Use our pocket mode for doze gestures as well.
-• screen recorder: Remove stop dot.
-• Settings: Hide EID in about phone.
-• Update China Connectivity Check Server to MIUI.
-• Update certs to pass PI again.
-• Vanilla: Update MicroG to v0.3.6.
+• Allow limiting minimal % for auto brightness
+• Allow dimming the wallpaper for dark theme and/or night light
+• Re-enable and fix hiding the private space
+• Skip auth for USB mode ctrl when unlocked in the last 60s
+• Show lens and cts toggles for vanilla users with google app installed
+• Make minimal brightness slider more accurate, especially on low gamma devices
+• Fix Ubuntu font missing weights
+• Update certs to pass PI, AGAIN
+• Merged AOSP tag r10 (AKA Jan SPL)
+• Make minimal brightness slider more accurate, especially on low gamma
+• Fixed system server crash when using auto dim wall pre boot
+• Fixed long press on statusbar cast chip when no timer is shown
+• Possibly fixed a one-time crash right after post update "optimizing apps"
+• Possibly fixed a random system server crash
+• Fix some Chinese app crashes and ANRs
+• Ship Twelve music app
+• Use monet colors for privacy chip
+• Launcher3: Allow configurable search bar widgets
+    - Fixes google alt widget showing in search bar
+    - You can configure the widget in google app settings
+• Launcher3: Hide private space apps in search when it's hidden
+• Disable FRP (Factory reset protection)
+• Use a generic build machine and username for some apps that detect custom OS this way
 • Jank improvements.
 
 Device:
-• Switch to new Lineage AIDL Fingerprint HAL.
-• Kernel state at r17b12.
+• Fixed an issue where VOIP routing is misconfigured.
+• Fixed an issue where auxiliary cameras are zoomed in Aperture.
+• Fixed an issue where WPA3 Hotspot refused to start.
+• Dropped HDR support. (check commit for explanation)
+  - This fixes UI buttons being invisible in WallpaperPicker and PhotoPicker.
