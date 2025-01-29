@@ -1,11 +1,13 @@
 ROM:
-• Fix some Chinese app crashes and ANRs
-• Ship Twelve music app
-• Use monet colors for privacy chip
-• Launcher3: do not show private space apps in search results unless private space unlocked
+• Flashlight tile fixes
+• Fix selecting images from Gallery
+• Fix burn in protection on keyguard slices
+• Update certified props to pass PI (again)
 
 Device:
-•  Fix FOD screen on and general perf
-• Jank and efficiency improvements
-• Utilize stock dumped thermal config for improved thermal mitigation and behavior
-• Kernel: merge 6.1.124
+• Fix flashlight reliability
+• Reimplement adjustable flashlight in a better and more granular way
+• Declare wifi aware support to attempt to fix the find my device drain
+• Set uniform_single_sim to attempt to fix dual psim on esim variants
+• Memory pressure improvements
+• Add missing camera extensions
