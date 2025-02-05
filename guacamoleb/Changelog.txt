@@ -1,17 +1,10 @@
 ROM:
-• Launcher3: Allow configurable search bar widgets
-    - Fixes google alt widget showing in search bar
-    - You can configure the widget in google app settings
-• Launcher3: Hide private space apps in search when it's hidden
-• Fix some Chinese app crashes and ANRs
-• Ship Twelve music app
-• Use monet colors for the privacy chip
-• Disable FRP (Factory reset protection)
-• Use a generic build machine and username for some apps that detect custom OS this way
+• Merged AOSP tag r14 (AKA February security patch)
+• Improve flashlight strength tile reliability and code
+• Improve signal strength reliability for some carriers
+• Fix selecting images from Gallery
+• Update certified props to pass PI (again)
 • Other minor changes
 
 Device:
-• Fix WFD
-• Fix USB gadgets (ex OTG) before charging
-• Fix slider dialog not following set theme properly
-• Kernel: Efficiency improvements
+• Implement adjustable strength flashlight support
