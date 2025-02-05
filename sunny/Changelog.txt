@@ -1,32 +1,9 @@
 ROM:
-• Allow limiting minimal % for auto brightness
-• Allow dimming the wallpaper for dark theme and/or night light
-• Re-enable and fix hiding the private space
-• Skip auth for USB mode ctrl when unlocked in the last 60s
-• Show lens and cts toggles for vanilla users with google app installed
-• Make minimal brightness slider more accurate, especially on low gamma devices
-• Fix Ubuntu font missing weights
-• Update certs to pass PI, AGAIN
-• Merged AOSP tag r10 (AKA Jan SPL)
-• Make minimal brightness slider more accurate, especially on low gamma
-• Fixed system server crash when using auto dim wall pre boot
-• Fixed long press on statusbar cast chip when no timer is shown
-• Possibly fixed a one-time crash right after post update "optimizing apps"
-• Possibly fixed a random system server crash
-• Fix some Chinese app crashes and ANRs
-• Ship Twelve music app
-• Use monet colors for privacy chip
-• Launcher3: Allow configurable search bar widgets
-    - Fixes google alt widget showing in search bar
-    - You can configure the widget in google app settings
-• Launcher3: Hide private space apps in search when it's hidden
-• Disable FRP (Factory reset protection)
-• Use a generic build machine and username for some apps that detect custom OS this way
-• Jank improvements.
+• Merged AOSP tag r14 (AKA February security patch).
+• Improve flashlight strength tile reliability and code.
+• Fix selecting images from Gallery.
+• Update certified props to pass PI (again).
+• Other minor changes.
 
 Device:
-• Fixed an issue where VOIP routing is misconfigured.
-• Fixed an issue where auxiliary cameras are zoomed in Aperture.
-• Fixed an issue where WPA3 Hotspot refused to start.
-• Dropped HDR support. (check commit for explanation)
-  - This fixes UI buttons being invisible in WallpaperPicker and PhotoPicker.
+• Implement adjustable strength flashlight support.
