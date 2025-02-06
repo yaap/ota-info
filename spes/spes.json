@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1738853125,
+      "filename": "YAAP-15-Voyager-spes-20250206.zip",
+      "payload": [
+        {
+          "offset": 3871,
+          "FILE_HASH": "XIA2141APXogahCT+xc2NEPV7y9gl3+EvynF9s7O+JY=",
+          "FILE_SIZE": "2373065665",
+          "METADATA_HASH": "X1u+r+iAliUHw/7j4F5bxlgSo4mTh/eruCFCbS7IbCg=",
+          "METADATA_SIZE": "239424"
+        }
+      ]
+    }
+  ]
+}
