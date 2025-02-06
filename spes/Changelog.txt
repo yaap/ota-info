@@ -1,0 +1,35 @@
+ROM:
+• Merged AOSP tag r14 (AKA February security patch).
+• Improve flashlight strength tile reliability and code.
+• Fix selecting images from Gallery.
+• Update certified props to pass PI (again).
+• Other minor changes.
+
+Device:
+• Initial Official Build for spes/spesn
+• Switch to AIDL Fingerprint HAL
+• Switch to AIDL Thermal HAL
+• Switch to AIDL USB HALs
+• Build DisplayFeatures
+• Fix Fingerprint Sensor Position for fpc/goodix
+• Add support for Doze Single/Double Tap Sensors
+• Apply dex2oat optimization
+• Set dexopt profile to speed
+• Rework LMKD For Better Multitasking
+• Regenerate Vendor with ELF Checks
+• Add entry for mounting sdcard in recovery
+• Add some QTI Memory Optimization props
+• Set default Swappines to 60
+• Improve Thermal Configs
+• Switch to Pixel power-libperfmgr
+• Disable FRP to avoid unknown gsf id for some users
+• Reduce zram size to 50% for all variants
+• Enable zram writeback
+• Add some additional WiFi Configs
+• Imlement Custom Saturation Slider via DisplayFeature AIDL service
+• Implement Thermal Profiles
+• Implement RefreshRate QS Tile
+• Implement TileEntryActivity and redirect to settings fragment after long press on Thermal/Saturation Tiles
+• Disable Default FrameRate limit for games
+• Update sf phase offsets as duration for more smothness
+• Upstream Kernel To EOL 4.19.325
