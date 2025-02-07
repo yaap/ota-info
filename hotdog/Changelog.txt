@@ -1,10 +1,8 @@
 ROM:
-• Merged AOSP tag r14 (AKA February security patch)
-• Improve flashlight strength tile reliability and code
-• Improve signal strength reliability for some carriers
-• Fix selecting images from Gallery
-• Update certified props to pass PI (again)
-• Other minor changes
+• Disable game frame rate restriction by default
+• Disable system wide blurs - was causing bugs and jank
+• Fix a freeform crash
 
 Device:
-• Implement adjustable strength flashlight support
+• Lower maximum possible flashlight strength
+  - so you guys won't burn ur leds
