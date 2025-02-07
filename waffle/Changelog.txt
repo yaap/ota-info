@@ -1,10 +1,8 @@
 ROM:
-• Merged AOSP tag r14 (AKA February security patch)
-• Disable game frame rate restriction by default
-• Other minor changes
+• Fix a freeform crash
 
 Device:
-• Improve thermals by modifying stock dumped thermal config
-• Implement legacy touchscreen gestures for now
-• kernel: bump from AKC
-• Force disable find my device receiver to resolve gapps build drain
+• Improve thermals in stock config
+• Fix ambient display triggering on any movement
+• kernel: minor fingerprint optimization
+• Move to schedutil for interactivity and efficiency
