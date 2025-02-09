@@ -1,8 +1,9 @@
 ROM:
-• Fix a freeform crash
+• Performance improvements
 
 Device:
-• Improve thermals in stock config
-• Fix ambient display triggering on any movement
-• kernel: minor fingerprint optimization
-• Move to schedutil for interactivity and efficiency
+• Optimize for armv9-a/kryo785 (no more SIGILLs) 
+• Fix proper lift sensor, drop custom doze
+• Force full dexopt due to device performance post OTA.
+• Implement Dolby
+• Move vibrator to a Richtap implementation
