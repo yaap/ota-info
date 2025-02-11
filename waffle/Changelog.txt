@@ -1,9 +1,9 @@
 ROM:
-• Performance improvements
+• Nothing
 
 Device:
-• Optimize for armv9-a/kryo785 (no more SIGILLs) 
-• Fix proper lift sensor, drop custom doze
-• Force full dexopt due to device performance post OTA.
-• Implement Dolby
-• Move vibrator to a Richtap implementation
+• Move to AIDL FP hal (from our device now)
+  - You will need to re enroll
+• App launch jank and efficiency improvements
+• Move to patched telephoto bin for focus fix everywhere
+• Use our own device dolby config
