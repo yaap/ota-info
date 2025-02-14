@@ -1,9 +1,13 @@
 ROM:
-• Nothing
+• Improve slider haptics
 
 Device:
-• Move to AIDL FP hal (from our device now)
-  - You will need to re enroll
-• App launch jank and efficiency improvements
-• Move to patched telephoto bin for focus fix everywhere
-• Use our own device dolby config
+• Bring back task profiles for aidl fp
+• Further efficiency improvements
+• Various BT-related fixes
+• TEMP revert modded telephoto bin
+  - Until video on logical id can be fixed on it
+• Revert richtap + improve haptics
+  - Not worth losing customizable effects
+• Should have fixed nearby device/find my device Gapps drain
+• Decrease battery skin temperature thresholds
