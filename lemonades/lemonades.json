@@ -1,8 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1633457176,
-      "filename": "YAAP-11-Rocinante-lemonades-20211005.zip"
+      "datetime": 1739896222,
+      "filename": "YAAP-15-Vanilla-lemonades-20250218.zip",
+      "payload": [
+        {
+          "offset": 4193,
+          "FILE_HASH": "g+3EFz+ITtMwwd7ak6r198+phKhl2e8jbo31wESx0ks=",
+          "FILE_SIZE": "1407552076",
+          "METADATA_HASH": "MxT+2N3HT9RphVOzL3GxWH9cVytpsSwdfJdEz2TXkZE=",
+          "METADATA_SIZE": "141432"
+        }
+      ]
     }
   ]
 }

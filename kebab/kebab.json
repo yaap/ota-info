@@ -1,8 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1622889330,
-      "filename": "YAAP-11-Rocinante-kebab-20210605.zip"
+      "datetime": 1739894615,
+      "filename": "YAAP-15-Vanilla-kebab-20250218.zip",
+      "payload": [
+        {
+          "offset": 4088,
+          "FILE_HASH": "3MOucdsx4iIAHgxlnmnXAG3Nz5PqoHei/ccFLPlhrWM=",
+          "FILE_SIZE": "1406658280",
+          "METADATA_HASH": "+JBrSTnrQFiBUaxe/6GD7EQhaJ9hRDoNIX3UVrH6KGo=",
+          "METADATA_SIZE": "141376"
+        }
+      ]
     }
   ]
 }

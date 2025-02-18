@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1739892368,
+      "filename": "YAAP-15-Vanilla-instantnoodle-20250218.zip",
+      "payload": [
+        {
+          "offset": 4131,
+          "FILE_HASH": "/2eI2Bp8Hp8GJydwgkPZzho80YQpy/PSQFZ+O10KYq8=",
+          "FILE_SIZE": "1476590171",
+          "METADATA_HASH": "iOQGlt26kmolrlgAf9KKRX0NSfma0en88ohfpPHbXFk=",
+          "METADATA_SIZE": "108499"
+        }
+      ]
+    }
+  ]
+}
