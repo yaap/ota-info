@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1739892701,
+      "filename": "YAAP-15-Voyager-instantnoodle-20250218.zip",
+      "payload": [
+        {
+          "offset": 4131,
+          "FILE_HASH": "FUD5SUF33QSmPQ8rry45zRh0T7A0UjO44xj3PoWerP4=",
+          "FILE_SIZE": "1924511080",
+          "METADATA_HASH": "0S1rbhAkbgK5uozcb7ICp0HMebCefGdUV7JCCWLEELg=",
+          "METADATA_SIZE": "142332"
+        }
+      ]
+    }
+  ]
+}
