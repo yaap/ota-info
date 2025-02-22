@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1740246690,
+      "filename": "YAAP-15-Voyager-pdx203-20250223.zip",
+      "payload": [
+        {
+          "offset": 4080,
+          "FILE_HASH": "6Pm8auADt9V7obybQ6UQQ/BYrMc9OtTwE+IYlX1BC0o=",
+          "FILE_SIZE": "1892703182",
+          "METADATA_HASH": "pw2OUgkTHFftklft5Nt8vJ/0B+mmdl3xeBZF4PK8bQk=",
+          "METADATA_SIZE": "136712"
+        }
+      ]
+    }
+  ]
+}

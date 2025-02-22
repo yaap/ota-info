@@ -1,0 +1,16 @@
+ROM:
+• Allow suppressing notifications when the screen is on
+• Aperture: Updates from upstream (LOS)
+• Updated many device configs, includes but not limited to:
+  - notification cooldown, custom VM support, cloud media provider selection
+• ThemePicker: Many visual improvements
+• Few other small changes
+• Update certified fingerprint again....
+
+Device:
+• Make incorrectly shipped high refresh rate props device specific
+• Switch to AIDL boot control HAL
+• Enable A2DP HW offloading for BT (aligned with LOS)
+• Drop Sidesense, Sony preshipped apps
+• Handle HSPC, XperiaSwitcher QS tiles long clicks properly
+• Merge kernel changes from upstream (LOS)
