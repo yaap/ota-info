@@ -1,13 +1,12 @@
 ROM:
-• Improve slider haptics
+• Allow suppressing notifications when the screen is on
+• Aperture: Updates from upstream (LOS)
+• Updated many device configs, includes but not limited to:
+  - notification cooldown, custom VM support, cloud media provider selection
+• Performance improvements
 
 Device:
-• Bring back task profiles for aidl fp
-• Further efficiency improvements
-• Various BT-related fixes
-• TEMP revert modded telephoto bin
-  - Until video on logical id can be fixed on it
-• Revert richtap + improve haptics
-  - Not worth losing customizable effects
-• Should have fixed nearby device/find my device Gapps drain
-• Decrease battery skin temperature thresholds
+• Fingerprint: update to no longer use proxy
+• Telephony changes
+• Alert Slider: many fixes and additions
+• Many other small changes
