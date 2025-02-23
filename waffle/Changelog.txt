@@ -1,12 +1,6 @@
 ROM:
-• Allow suppressing notifications when the screen is on
-• Aperture: Updates from upstream (LOS)
-• Updated many device configs, includes but not limited to:
-  - notification cooldown, custom VM support, cloud media provider selection
-• Performance improvements
+• Update cert props for PI
 
 Device:
-• Fingerprint: update to no longer use proxy
-• Telephony changes
-• Alert Slider: many fixes and additions
-• Many other small changes
+• Support bluetooth LE audio
+• [Testing] improved aggressive VRR
