@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1740351143,
+      "filename": "YAAP-15-Voyager-peridot-20250224.zip",
+      "payload": [
+        {
+          "offset": 4639,
+          "FILE_HASH": "2GpYg3jFE+czQU1updMC8IuHSdkugfOZU+6IKRPHl4c=",
+          "FILE_SIZE": "3448448434",
+          "METADATA_HASH": "x/iiQyD03e7SlVKF3MXhUlDGb+63CoUj+wI1ctPpZ0k=",
+          "METADATA_SIZE": "243978"
+        }
+      ]
+    }
+  ]
+}
