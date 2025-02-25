@@ -1,8 +1,13 @@
 ROM:
-• Disable game frame rate restriction by default
-• Disable system wide blurs - was causing bugs and jank
-• Fix a freeform crash
+• Allow suppressing notifications when the screen is on
+• Aperture: Updates from upstream (LOS)
+• Updated many device configs, includes but not limited to:
+  - notification cooldown, custom VM support, cloud media provider selection
+• ThemePicker: Many visual improvements
+• Launcher: Hide disabled blur settings
+• Launcher: Fix navbar height issue in setup wizard
+• Few other small changes
+• Update certified fingerprint again....
 
 Device:
-• Lower maximum possible flashlight strength
-  - so you guys won't burn ur leds
+• Allow keeping zen mode (DND) in notification slider
