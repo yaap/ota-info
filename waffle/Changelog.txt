@@ -1,6 +1,7 @@
 ROM:
-• Update cert props for PI
+• Fix initial SetupWizard navbar sizing
 
 Device:
-• Support bluetooth LE audio
-• [Testing] improved aggressive VRR
+• Fully disable bluetooth LE audio
+• Memory pressure improvement
+• Add more spammy log tags, particularly for additional media drain
