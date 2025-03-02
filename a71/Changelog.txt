@@ -1,0 +1,18 @@
+Changelog:
+ROM:
+• Merged AOSP tag r14 (AKA February security patch).
+• Improve flashlight strength tile reliability and code.
+• Fix selecting images from Gallery.
+• Allow suppressing notifications when the screen is on
+• Aperture: Updates from upstream (LOS)
+• ThemePicker: Many visual improvements
+• Other minor changes.
+
+Device:
+• Initial Official Build for Galaxy A71
+• Fixed all previous homemade bugs 
+• Fixed voip audio routing
+• Device tree cleanup
+• Build FastCharge App
+• Build SamsungDAP 
+• User Build
