@@ -1,7 +1,17 @@
 ROM:
-• Fix initial SetupWizard navbar sizing
+• GamingMacro: Add support for color mode
+• Performance improvements
 
 Device:
-• Fully disable bluetooth LE audio
-• Memory pressure improvement
-• Add more spammy log tags, particularly for additional media drain
+• BUGFIX: fix recovery
+• BUGFIX: Possibly fix gapps build find my device drain (please test)
+• BUGFIX: Tweak dolby dynamic speaker profile
+• Update to OOS 11.C.65/CPH2581_15.0.0.503
+  - Includes previous debloating and kernel source changes still
+  - Oplus added turbowrite which seems to work
+  - Kernel updated from oplus and AKC
+• Improve auto brightness slightly (still a bandaid)
+• Improve thermals
+• Fix SDR dimming on navbar and status bar elements
+• Update system IMS to LA.QSSI.15.0.r1-14000-qssi.0
+• Misc other changes
