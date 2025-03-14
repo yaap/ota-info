@@ -1,8 +1,9 @@
 ROM:
-• Misc
+• No changes
 
 Device:
-• Kernel: bump for AKC merge and now 6.1.128 and additional minor debloat
-• Vibrations: use parsed richtap vibration effects by popular demand
-  - This is opposed to the stock effects bin parsed effects
-  - Tweaked magnitude options for light/med/strong for better variance
+• Vibrations: New implementation:
+  - Now each strength setting uses different effects (as intended with parsed richtap effects)
+  - Uses common QTI vibrator with device side effects library
+  - Improves slider haptics
+  - Only modified effect is double click (to actually double click)
