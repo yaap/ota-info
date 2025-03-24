@@ -2,8 +2,12 @@ ROM:
 • No changes
 
 Device:
-• Vibrations: New implementation:
-  - Now each strength setting uses different effects (as intended with parsed richtap effects)
-  - Uses common QTI vibrator with device side effects library
-  - Improves slider haptics
-  - Only modified effect is double click (to actually double click)
+• Requires full format and clean install following the new #flash note
+• Kernel: now fully OSS inline built kernel on current aosp clang with many custom changes:
+  - Includes 6.1.131 merged on top of clean msm-kernel (Chandu for doing base bringup)
+  - Fixed thermals by bringing back qcom cpu cooling map
+  - Includes CASS and tweaked scheduler for improved efficiency and interactivity
+  - Utilizes tweaked TEO cpuidle governor for improved idle efficiency
+  - Includes Sbalance
+  - Includes SimpleLMK
+  - Many more misc optimizations/changes
