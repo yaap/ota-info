@@ -1,13 +1,16 @@
 ROM:
-• No changes
+• Merged A15 QPR2 (+ March Security Patch)
+ - Known regressions:
+ - Removed CTS and navbar long press to search for now
+ - Removed lockscreen weather provider toggle for now
+• Generate monochrome icons if themed icons are enabled and a monochrome icon
+does not exist
 
 Device:
-• Requires full format and clean install following the new #flash note
-• Kernel: now fully OSS inline built kernel on current aosp clang with many custom changes:
-  - Includes 6.1.131 merged on top of clean msm-kernel (Chandu for doing base bringup)
-  - Fixed thermals by bringing back qcom cpu cooling map
-  - Includes CASS and tweaked scheduler for improved efficiency and interactivity
-  - Utilizes tweaked TEO cpuidle governor for improved idle efficiency
-  - Includes Sbalance
-  - Includes SimpleLMK
-  - Many more misc optimizations/changes
+• Fix binder buffer spam from camera provider filling buffer until transactions fail
+• Improve efficiency by removing static interaction boosts (no longer necessary)
+• Fix interaction ignoring thermal mitigation
+• Improve interactivity
+• Kernel:
+ - Fix memory management
+ - Backport and utilize EEVDF
