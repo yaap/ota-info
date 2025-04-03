@@ -1,16 +1,13 @@
 ROM:
-• Merged A15 QPR2 (+ March Security Patch)
- - Known regressions:
- - Removed CTS and navbar long press to search for now
- - Removed lockscreen weather provider toggle for now
-• Generate monochrome icons if themed icons are enabled and a monochrome icon
-does not exist
+• Fixed toast theme
+• Fixed rotate floating button toggle
+• Fixed screenshot and screen record notifications
+• Fixed back gesture height settings
+• Removed three button navbar custom settings
 
 Device:
-• Fix binder buffer spam from camera provider filling buffer until transactions fail
-• Improve efficiency by removing static interaction boosts (no longer necessary)
-• Fix interaction ignoring thermal mitigation
-• Improve interactivity
+• Fix new ota branch for Vanilla (this build will need to be manually OTA'd, but future will show up as expected)
 • Kernel:
- - Fix memory management
- - Backport and utilize EEVDF
+- Merge ACK and 6.1.132
+- Finish EEVDF backports up to mainline
+- Efficiency and performance improvements
