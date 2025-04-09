@@ -1,13 +1,9 @@
 ROM:
-• Improve slider haptics
+• No changes
 
 Device:
-• Bring back task profiles for aidl fp
-• Further efficiency improvements
-• Various BT-related fixes
-• TEMP revert modded telephoto bin
-  - Until video on logical id can be fixed on it
-• Revert richtap + improve haptics
-  - Not worth losing customizable effects
-• Should have fixed nearby device/find my device Gapps drain
-• Decrease battery skin temperature thresholds
+• Vibrations: New implementation:
+  - Now each strength setting uses different effects (as intended with parsed richtap effects)
+  - Uses common QTI vibrator with device side effects library
+  - Improves slider haptics
+  - Only modified effect is double click (to actually double click)

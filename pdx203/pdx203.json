@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1740245175,
+      "filename": "YAAP-15-Vanilla-pdx203-20250223.zip",
+      "payload": [
+        {
+          "offset": 4080,
+          "FILE_HASH": "wMqSkPgDnAAm2EodGYGdtnrtr171AK2tr1tOIb559tc=",
+          "FILE_SIZE": "1445210248",
+          "METADATA_HASH": "Vo8+c34+2oAoYkhXAowu9nXu4Z8NY60nx8MmWpDUP7A=",
+          "METADATA_SIZE": "103493"
+        }
+      ]
+    }
+  ]
+}

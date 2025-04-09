@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1738849491,
+      "filename": "YAAP-15-Vanilla-spes-20250206.zip",
+      "payload": [
+        {
+          "offset": 3870,
+          "FILE_HASH": "fzatjyEo2uZWJWJ/j2NRKMVUh+M7wa5cSAiw4KnRs9k=",
+          "FILE_SIZE": "1566015261",
+          "METADATA_HASH": "MHP0FHeqJGIsvnMq0O8MTVEj6PS7wPt1jw2l/CrClxc=",
+          "METADATA_SIZE": "175575"
+        }
+      ]
+    }
+  ]
+}
