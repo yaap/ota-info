@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1739894615,
-      "filename": "YAAP-15-Vanilla-kebab-20250218.zip",
+      "datetime": 1744231933,
+      "filename": "YAAP-15-Vanilla-kebab-20250409.zip",
       "payload": [
         {
-          "offset": 4088,
-          "FILE_HASH": "3MOucdsx4iIAHgxlnmnXAG3Nz5PqoHei/ccFLPlhrWM=",
-          "FILE_SIZE": "1406658280",
-          "METADATA_HASH": "+JBrSTnrQFiBUaxe/6GD7EQhaJ9hRDoNIX3UVrH6KGo=",
-          "METADATA_SIZE": "141376"
+          "offset": 3961,
+          "FILE_HASH": "kiTtu6ijg+G9OGKL3Xb3SQs7OnXPWpbzdY7pUmLo+OY=",
+          "FILE_SIZE": "1385651588",
+          "METADATA_HASH": "9XFkMarKU8q5nDlDlpoT7fp0UVIDZ7sSh3uUNL3v4+o=",
+          "METADATA_SIZE": "138716"
         }
       ]
     }
