@@ -1,13 +1,12 @@
 ROM:
-• Fixed toast theme
-• Fixed rotate floating button toggle
-• Fixed screenshot and screen record notifications
-• Fixed back gesture height settings
-• Removed three button navbar custom settings
+• Fixed 3 button navbar settings
+• Allow hiding text in statusbar network traffic monitor
 
 Device:
-• Fix new ota branch for Vanilla (this build will need to be manually OTA'd, but future will show up as expected)
-• Kernel:
-- Merge ACK and 6.1.132
-- Finish EEVDF backports up to mainline
-- Efficiency and performance improvements
+• Fixed WiFi Display
+• Further improve power efficiency
+• Implemented modern single and double tap wake sensors:
+  - Can be used on ambient
+  - Single and double tap can be used together
+  - Single and double tap are removed from legacy touchscreen gestures
+
