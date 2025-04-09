@@ -1,1 +1,8 @@
-Inital build
+10-04-2025
+Device:
+ Fix Charging status info on lockscreen
+ Make ypos of alert slider match for 8 pro
+ 
+ROM:
+ March Sec Patch
+ Merged YAAP changes after Feb 18th 2025
