@@ -1,13 +1,15 @@
 ROM:
-• Allow suppressing notifications when the screen is on
-• Aperture: Updates from upstream (LOS)
-• Updated many device configs, includes but not limited to:
-  - notification cooldown, custom VM support, cloud media provider selection
-• ThemePicker: Many visual improvements
-• Launcher: Hide disabled blur settings
-• Launcher: Fix navbar height issue in setup wizard
+• Merged A15 QPR2 (+ March Security Patch)
+  - Known regressions:
+  - Removed CTS and navbar long press to search for now
+• Gaming Macro: Allow setting display color mode
+• Gaming Macro: Allow enabling high touch sensitivity
+• Statusbar net monitor: Allow hiding text
+• Fix suppressing notification when the screen is on on boot
+• Get rid of flashlight chip on lock screen, again
+• Updated certified props to pass PI again...
 • Few other small changes
-• Update certified fingerprint again....
 
 Device:
-• Allow keeping zen mode (DND) in notification slider
+• No changes
+• Wifi Display (casting whole screen) is broken for now
