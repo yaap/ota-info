@@ -1,54 +1,6 @@
 ROM:
-• Allow suppressing notifications when the screen is on
-• Aperture: Updates from upstream (LOS)
-• Updated many device configs, includes but not limited to:
-  - notification cooldown, cloud media provider selection
-• ThemePicker: Many visual improvements
-• Launcher: Hide disabled blur settings
-• Launcher: Fix navbar height issue in setup wizard
-• Few other small changes
-• Update certified fingerprint again....
-• Merged A15 QPR2 (+ March Security Patch)
-  - Known regressions:
-  - Removed CTS and navbar long press to search for now
-• Gaming Macro: Allow setting display color mode
-• Gaming Macro: Allow enabling high touch sensitivity
-• Statusbar net monitor: Allow hiding text
-• Fix suppressing notification when the screen is on on boot
-• Get rid of flashlight chip on lock screen, again
-• Updated certified props to pass PI again...
-• Few other small changes
+• Merged AOSP April security patch
+• OmniJaws: Add nothing weather icon pack
 
 Device:
-• Use Uclamp instead of schedtune
-• Switched to stock audio HAL
-  - Better sound calibration on speakers
-  - Media vibration (Dynamic Vibration) implemented
-  - Wind Noise Reduction, Zoom Noise Reduction implemented
-  - Enabled 32 bit audio service again
-• Revert "Enable A2DP HW offloading for BT"
-• Implement OSS XperiaCharger (Battery Care)
-• Drop 360 Reality Audio
-• Fix following settings not being synced across system for multiple user profiles:
-   - Sound Settings ( Wind Noise Reduction, Dynamic Vibration )
-   - Display Settings ( Creator and XR mode )
-• Implement White Balance, Motion Blur Reducer selection in XperiaDisplay
-• Fix XperiaTouch breakage across multiple user profiles
-• Update Dynamic Vibration. Creator/XR mode settings to have UI immediately update with setting changes.
-• Switch to Pixel libperfmgr
-• Update NFC logic for JP carrier models ( fallback now sets it to type-f for Felica )
-• kernel: 
-   - Implement Simple Low Memory Killer
-   - Implement CASS, load balancing improvements
-   - Switch to PELT
-   - Significant improvements to RCU
-   - Significant improvements to scheduler
-   - Commit to EEVDF scheduler
-   - Switched to Uclamp
-   - Checkout binder to android14-5.15, more improvements
-   - Implement KCAL color calibration in kernel
-   - More misc improvements
-   - MASSIVE thanks to @EmanuelCN0 for his work on our kernel
-Known Regressions:
-   - Dynamic Vibration is disabled on Bluetooth.
-   - You need to remove and re-add the "nearby devices" permission for video pro to avoid crashes.
+• No changes
