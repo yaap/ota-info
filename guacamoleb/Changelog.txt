@@ -1,15 +1,7 @@
 ROM:
-• Merged A15 QPR2 (+ March Security Patch)
-  - Known regressions:
-  - Removed CTS and navbar long press to search for now
-• Gaming Macro: Allow setting display color mode
-• Gaming Macro: Allow enabling high touch sensitivity
-• Statusbar net monitor: Allow hiding text
-• Fix suppressing notification when the screen is on on boot
-• Get rid of flashlight chip on lock screen, again
-• Updated certified props to pass PI again...
-• Few other small changes
+• Merged AOSP April security patch
+• OmniJaws: Add nothing weather icon pack
+• Twelve: Fix crash on launch
 
 Device:
-• No changes
-• Wifi Display (casting whole screen) is broken for now
+• Fixed WiFi display (whole screen casting)
