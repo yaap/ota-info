@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1744607408,
+      "filename": "YAAP-15-Voyager-cheetah-20250414.zip",
+      "payload": [
+        {
+          "offset": 4369,
+          "FILE_HASH": "v17RjtKpfEHokLcBpTOfhskQecXTaOLCbUpRxU2TDUU=",
+          "FILE_SIZE": "1951410839",
+          "METADATA_HASH": "PEWSEWR4DCH2Sty4MZ698uZg0GY6PBLrr0zj6hHgc20=",
+          "METADATA_SIZE": "144357"
+        }
+      ]
+    }
+  ]
+}

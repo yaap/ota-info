@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1744600461,
+      "filename": "YAAP-15-Voyager-panther-20250414.zip",
+      "payload": [
+        {
+          "offset": 4406,
+          "FILE_HASH": "6W2OLUqa8d5bcMyaS1mcmnaojMFkJ1NydiFnt+nYmyc=",
+          "FILE_SIZE": "2037022166",
+          "METADATA_HASH": "ENUHlRoRjllN5gT7W2nJxwv0q8byjjOIRGjcwNMDcWQ=",
+          "METADATA_SIZE": "150374"
+        }
+      ]
+    }
+  ]
+}
