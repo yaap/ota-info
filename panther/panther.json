@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1744629196,
+      "filename": "YAAP-15-Vanilla-panther-20250414.zip",
+      "payload": [
+        {
+          "offset": 4406,
+          "FILE_HASH": "PzbIBou9ndqy0IG86a7qH0wEHVdOBNCrMLD1Ygxr6jg=",
+          "FILE_SIZE": "1580378857",
+          "METADATA_HASH": "NamMdGfH0hXGNv6pTJIoSPOul7P5S+vu5UYSwjir2bQ=",
+          "METADATA_SIZE": "154504"
+        }
+      ]
+    }
+  ]
+}
