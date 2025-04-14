@@ -1,12 +1,19 @@
 ROM:
-• Fixed 3 button navbar settings
-• Allow hiding text in statusbar network traffic monitor
+• Merged AOSP April patch
+• Disable new keyguard flags:
+  - Brings back "none" and "omnijaws" for lockscreen weather provider
+  - Fixes AOD clock animations
+  - Fixes FOD icon not showing up on AOD
 
 Device:
-• Fixed WiFi Display
-• Further improve power efficiency
-• Implemented modern single and double tap wake sensors:
-  - Can be used on ambient
-  - Single and double tap can be used together
-  - Single and double tap are removed from legacy touchscreen gestures
-
+• Implement new udfps doze sensor (always on fingerprint):
+  - Fixes nonstop repeat fod being triggered at screen off
+  - Note: it still is sometimes triggered, but it only occurs once rather than repeatedly
+• Basic primitive vibration support:
+  - Slider haptics now behave as on pixels
+  - Vibration effects are the same every boot now
+  - Notification waveform is dropped since we now support real waveforms with amplitude/gain control
+• Kernel:
+  - Merge ACK and 6.1.134
+  - Erofs app open improvement
+  - Display performance and efficiency optimizatio
