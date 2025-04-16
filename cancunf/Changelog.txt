@@ -1,51 +1,53 @@
 ROM:
-• Add circle to search + a toggle.
-• Show lens and cts toggles for vanilla users with google app installed.
-• Add long press timer statusbar chips to directly end screen record/share.
-• Use our pocket mode for doze gestures as well.
-• screen recorder: Remove stop dot.
-• Settings: Hide EID in about phone.
-• Fix launcher/recents freezes when changing overlays such as theme.
-• Fix landscape battery icon entirely black on charging chip.
-• Update China Connectivity Check Server to MIUI.
-• Update certs to pass PI again.
-• Jank improvements.
-• Update certs to pass PI, AGAIN.
-• Vanilla: Update microg and spoofing.
-• Performance and jank improvements.
-• Merged AOSP tag r10. (AKA Jan SPL)
-• Allow limiting minimal % for auto brightness.
-• Allow dimming the wallpaper for dark theme and/or night light.
-• Re-enable and fix hiding the private space.
-• Skip auth for USB mode ctrl when unlocked in the last 60s.
-• Show lens and cts toggles for vanilla users with google app installed.
-• Make minimal brightness slider more accurate, especially on low gamma devices.
-• Fix Ubuntu font missing weights.
-• Fixed system server crash when using auto dim wall pre boot.
-• Fixed long press on statusbar cast chip when no timer is shown.
-• Possibly fixed a one-time crash right after post update "optimizing apps".
-• Possibly fixed a random system server crash.
-• Launcher3: Allow configurable search bar widgets.
-    - Fixes google alt widget showing in search bar.
-    - You can configure the widget in google app settings.
-• Launcher3: Hide private space apps in search when it's hidden.
-• Fix some Chinese app crashes and ANRs.
-• Ship Twelve music app.
-• Use monet colors for the privacy chip.
-• Disable FRP. (Factory reset protection)
-• Use a generic build machine and username for some apps that detect custom OS this way.
-• Improved signal strength reliability for some carriers.
+• Merged AOSP tag r14. (AKA February security patch)
+• Improve flashlight strength tile reliability and code.
+• Fix selecting images from Gallery.
+• Update certified props to pass PI. (again)
+• Disable system wide blurs - was causing bugs and jank.
+• Fix a freeform crash.
+• Improve slider haptics.
+• Allow suppressing notifications when the screen is on.
+• Updated many device configs, includes but not limited to:
+  - notification cooldown, cloud media provider selection.
+• ThemePicker: Many visual improvements.
+• Launcher: Hide disabled blur settings.
+• Launcher: Fix navbar height issue in setup wizard.
+• Update certified fingerprint again....
+• Fix initial SetupWizard navbar sizing.
+• Merged A15 QPR2. (+ March Security Patch)
+  - Known regressions:
+  - Removed CTS and navbar long press to search for now.
+• Gaming Macro: Allow setting display color mode.
+• Gaming Macro: Allow enabling high touch sensitivity.
+• Statusbar net monitor: Allow hiding text.
+• Fix suppressing notification when the screen is on on boot.
+• Get rid of flashlight chip on lock screen, again.
+• Generate monochrome icons if themed icons are enabled and a monochrome icon does not exist.
+• Updated certified props to pass PI again...
+• Merged AOSP April security patch.
+• OmniJaws: Add nothing weather icon pack.
+• Twelve: Fix crash on launch.
+• Bring back Circle To Search.
+• Other minor changes.
 
 Device:
-• Add complete support for moto g64 and moto g64y.
-• FeLiCa Payment support added for Japanese units.
-• Enable SecureNFC support for relevant variants.
-• Fine Tune LMK and VM parameters.
-• Set proper dalvik heap properties for 4/8/12gb RAM units.
-• Update to proper CPUFreq Nodes on powerhint.
-• Drop redundant panel modules and firmware.
-• Implement VolumeSyncronizer for reducing the audio distortion at high volume.
-• Remove thermal_core binary in favor of manually configuring the nodes.
-• Disable game default refresh rate feature as it limits the refresh rate to 60fps in games on Android 15.
-• Refactor boot performance setup.
-• Kernel state at r1b2.
+• Remove debugfs references in init scripts.
+• Optimize native executables for Cortex-A76 CPU.
+• Don't latch unsignaled buffers to reduce jank frames.
+• Tune UCLAMP_MIN range and RT task defaults.
+• Disable OMX as it is deprecated.
+• Disable MTK SecureElement service for non-NFC devices.
+• Update blobs to U1TDS34.94-12-9-10-2.
+• Update AVB rollback index to U1TDS34.94-12-9-10-2.
+• Don't avb chain boot partition as BL expects boot props to be in vbmeta.
+• Move to OSS libfmjni.
+• Pin modified scripts to remove FTS support.
+• Drop dolby to alleviate audio distortion.
+• Add support for IPSEC_TUNNEL_MIGRATION.
+• Allow PinnerService to pin launcher and webview to improve interactivity.
+• Drop redundant cancunn/devonn WMT configurations.
+• Add support for Android 14 January SPL firmware. (U1TDS34.94-12-9-10-2)
+• Ship gpueb.img from U1TDS34.94-12-9-10-2 to retain backwards compatibility with older firmware.
+• Improve audio quality by reducing distortion.
+• Fix NFC for SKU n. (XT2343-1, Samsung NFC)
+• Kernel state at r1b3.
