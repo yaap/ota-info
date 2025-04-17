@@ -1,11 +1,8 @@
 ROM:
-• Bring back Circle to Search
-• Ship talkback on Gapps for visually impaired
+• None
 
 Device:
-• Fully merge and update to OOS 15.0.0.702
-• Update IMS (system) to LA.QSSI.15.0.r1-14500-qssi.0
-• Fix overly round auth ui and split screen
-• Fix battery maximum capacity reporting
-• Kernel (outside of *.702 merge): 
-  - Further improve lz4 performance
+• Significant efficiency improvement, as a result cluster 2 frequency scaling is fixed (no longer unnecessarily stuck at high frequencies)
+• Default notification vibration: bring back custom waveform, now with dynamic frequency adjustment
+• Kernel:
+  - Minor optimizations
