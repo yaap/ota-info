@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1744600461,
-      "filename": "YAAP-15-Voyager-panther-20250414.zip",
+      "datetime": 1744985018,
+      "filename": "YAAP-15-Voyager-panther-20250418.zip",
       "payload": [
         {
           "offset": 4406,
-          "FILE_HASH": "6W2OLUqa8d5bcMyaS1mcmnaojMFkJ1NydiFnt+nYmyc=",
-          "FILE_SIZE": "2037022166",
-          "METADATA_HASH": "ENUHlRoRjllN5gT7W2nJxwv0q8byjjOIRGjcwNMDcWQ=",
-          "METADATA_SIZE": "150374"
+          "FILE_HASH": "lHz6oYgfMcZ8QItMsubR8PFNFvdnfvnKc+s8cY5tgNE=",
+          "FILE_SIZE": "2048999793",
+          "METADATA_HASH": "OzciLduJOh8VR4eE6eKh2B6AbMEgZedd9BBMj8tSkyc=",
+          "METADATA_SIZE": "151346"
         }
       ]
     }
