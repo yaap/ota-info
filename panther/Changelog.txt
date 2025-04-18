@@ -1,15 +1,8 @@
 Changelog:
 ROM:
-• Merged AOSP April security patch
-• OmniJaws: Add nothing weather icon pack
-• Twelve: Fix crash on launch
+• Bring back Circle To Search
+• Ship TalkBack on gapps builds
+• Add back device diagnostics
 
 Device:
-• Initial Official Build
-• Update fingerprint/build description from BP1A.250405.007.B1
-• Update proprietary blobs from BP1A.250405.007.B1
-• Remove RAW flag from mix ports to reduce audio distortion
-• Decommonized gs101 tree
-• Built Settings Overlay
-• Enable seinfo requirement for Google Camera to access accelerators
-• Enable increased touch sensitivity setting
+• Add powershare (reverse wireless charging)
