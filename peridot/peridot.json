@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1744995774,
-      "filename": "YAAP-15-Vanilla-peridot-20250418.zip",
+      "datetime": 1738849491,
+      "filename": "YAAP-15-Vanilla-spes-20250206.zip",
       "payload": [
         {
-          "offset": 4647,
-          "FILE_HASH": "TTsmpiJGqG0o8bM9FnMvXDeT8i5XG6kC8UlM5uVAHUs=",
-          "FILE_SIZE": "2507052353",
-          "METADATA_HASH": "h/xqGIV+XKyMuDFAVXsc95AAChxXc1U9a+UZ/71SVQU=",
-          "METADATA_SIZE": "204168"
+          "offset": 3870,
+          "FILE_HASH": "fzatjyEo2uZWJWJ/j2NRKMVUh+M7wa5cSAiw4KnRs9k=",
+          "FILE_SIZE": "1566015261",
+          "METADATA_HASH": "MHP0FHeqJGIsvnMq0O8MTVEj6PS7wPt1jw2l/CrClxc=",
+          "METADATA_SIZE": "175575"
         }
       ]
     }
