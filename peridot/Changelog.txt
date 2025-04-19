@@ -1,40 +1,29 @@
 ROM:
-• Merged A15 QPR2. (+ April Security Patch)
-• Update certified props to pass PI. (again)
-• Disable system wide blurs - was causing bugs and jank.
-• Fix a freeform crash.
-• Improve slider haptics.
-• ThemePicker: Many visual improvements.
-• Launcher: Hide disabled blur settings.
-• Launcher: Fix navbar height issue in setup wizard.
-• Update certified fingerprint again....
-• Fix initial SetupWizard navbar sizing.
-  - Known regressions:
-  - Removed CTS and navbar long press to search for now.
-• Gaming Macro: Allow setting display color mode.
-• Gaming Macro: Allow enabling high touch sensitivity.
-• Statusbar net monitor: Allow hiding text.
-• Fix suppressing notification when the screen is on on boot.
-• Get rid of flashlight chip on lock screen, again.
-• Generate monochrome icons if themed icons are enabled and a monochrome icon does not exist.
-• Updated certified props to pass PI again...
-• OmniJaws: Add nothing weather icon pack.
-• Twelve: Fix crash on launch.
-• Bring back Circle To Search.
+• Merged AOSP tag r14 (AKA February security patch).
+• Improve flashlight strength tile reliability and code.
+• Fix selecting images from Gallery.
+• Allow suppressing notifications when the screen is on
+• Aperture: Updates from upstream (LOS)
+• Updated many device configs, includes but not limited to:
+  - notification cooldown, custom VM support, cloud media provider selection
+• ThemePicker: Many visual improvements
+• Update certified props to pass PI (again).
 • Other minor changes.
 
 Device:
-• Update Vendor Blobs to HyperOS 2.0.100.0.VNPMIXM
-• Implement Screen Off UDFPS Sensor(aka sofod)
-• Implement Torch Brightness Control
-• Set renderengine backend to skiavk
-• Drop Miui Camera For Now
-• Reduse UI Jittering to 3ms
-• Tune adaptive suspend properties
-• Improve AutoBrightness
-• Enable Qualcomm TrueWireless Stereo
-• Add feature flag for IPSEC_TUNNEL_MIGRATION
-• Label some sepolicy denials
-• Add support of CameraX Vendor Extensions
-• Configure cpusets and schedutil ratelimits
+• Initial Official Build for Peridot
+• Switch to OSS AIDL SM8650 Fingerprint HAL
+• Adapt FP Hal for peridot
+• Setup Correct FOD Position
+• Build MIUI Camera
+• Enable AOSP Bluetooth audio Hal v2
+• Fix Battery And USB OTG detection
+• Implement HTSR, Auto RFR Tile, Saturation Slider, Thermal Profiles, dt2w, Dolby vision 
+• Implement TileEntryActivity for long click on Parts Tiles
+• Label Missing Sepolicy Rules
+• Enable Secure NFC Functionality 
+• Disable Default Game Frame Rate Limit
+• Import Power off alarm blobs
+• Build FastCharge App
+• Fix Mic issues on apps like WhatsApp
 • And many other changes
