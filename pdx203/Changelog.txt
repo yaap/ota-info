@@ -1,6 +1,13 @@
 ROM:
-• Merged AOSP April security patch
-• OmniJaws: Add nothing weather icon pack
+• Twelve: Fix crash on launch
+• Bring back Circle To Search
+• Ship TalkBack on gapps builds
+• Add back device diagnostics
+• Other small changes
 
 Device:
-• No changes
+• Switch to AOSP Wifi Display
+• Kernel:
+   - Checked out binder back to k5.10
+   - Remove some spinlocks
+   - Misc Changes
