@@ -1,15 +1,5 @@
 ROM:
-• Launcher3: Allow configurable search bar widgets
-    - Fixes google alt widget showing in search bar
-    - You can configure the widget in google app settings
-• Launcher3: Hide private space apps in search when it's hidden
-• Fix some Chinese app crashes and ANRs
-• Ship Twelve music app
-• Use monet colors for the privacy chip
-• Disabled FRP protection
-• Other minor changes
+• QPR2 and all changes from YAAP updates gapps builds
 
 Device:
-• Fix WFD
-• Fix OTG before charging
 • Kernel: efficiency improvements
