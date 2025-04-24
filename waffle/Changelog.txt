@@ -1,8 +1,15 @@
 ROM:
-• None
+• Fix a possible Smartspace crash
+• Vanilla: Fix shipping Calyx Chromium
+• Many performance improvements, including but not limited to:
+ - App open performance
+ - Jitter improvement
+ - Multitasking performance
 
 Device:
-• Significant efficiency improvement, as a result cluster 2 frequency scaling is fixed (no longer unnecessarily stuck at high frequencies)
-• Default notification vibration: bring back custom waveform, now with dynamic frequency adjustment
+• Thermal improvement
+• Misc improvements
 • Kernel:
-  - Minor optimizations
+ - As part of platform bump to clang 20, also bump kernel build
+ - Utilize fuzzy profile matched AutoFDO profile for measurable performance gains
+ - Misc
