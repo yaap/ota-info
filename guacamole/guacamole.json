@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1744487807,
-      "filename": "YAAP-15-Voyager-guacamole-20250412.zip",
+      "datetime": 1745580878,
+      "filename": "YAAP-15-Voyager-guacamole-20250425.zip",
       "payload": [
         {
           "offset": 3731,
-          "FILE_HASH": "kjjoK1KMKlfIjO4xkI8QGkmkP++nJA1niYpoMMBRGJU=",
-          "FILE_SIZE": "1920097569",
-          "METADATA_HASH": "A5u4v3t/+afxINn4g4NYjkchxFMqMIfMo+X+u/G/Hlk=",
-          "METADATA_SIZE": "133658"
+          "FILE_HASH": "Wtiy17qRpENMGNq9B1ZzXDX6Eh0FMWG2bvpFaOCLbMI=",
+          "FILE_SIZE": "1935733444",
+          "METADATA_HASH": "nB87Fe6zbCcyi6nYCcCR1z82SpOGsBOd28CsJHpXE/E=",
+          "METADATA_SIZE": "133678"
         }
       ]
     }
