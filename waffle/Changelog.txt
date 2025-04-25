@@ -1,15 +1,7 @@
 ROM:
-• Fix a possible Smartspace crash
-• Vanilla: Fix shipping Calyx Chromium
-• Many performance improvements, including but not limited to:
- - App open performance
- - Jitter improvement
- - Multitasking performance
+• Vanilla: update Messaging app considerably
+• Performance improvements
 
 Device:
-• Thermal improvement
-• Misc improvements
-• Kernel:
- - As part of platform bump to clang 20, also bump kernel build
- - Utilize fuzzy profile matched AutoFDO profile for measurable performance gains
- - Misc
+• Fix usb tethering
+• Interaction jitter improvement
