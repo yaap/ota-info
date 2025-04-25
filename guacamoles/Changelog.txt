@@ -1,7 +1,12 @@
 ROM:
-• Merged AOSP April security patch
-• OmniJaws: Add nothing weather icon pack
-• Twelve: Fix crash on launch
+• Bring back Circle To Search
+• Ship TalkBack on gapps builds
+• Add back device diagnostics
+• Many performance improvements, including but not limited to:
+  - App open performance
+  - Jitter improvement
+  - Multitasking performance
+• Other small changes
 
 Device:
-• Fixed WiFi display (whole screen casting)
+• No changes
