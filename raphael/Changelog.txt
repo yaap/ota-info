@@ -1,11 +1,33 @@
 ROM:
-• Merged AOSP tag r14 (AKA February security patch).
-• Improve flashlight strength tile reliability and code.
-• Fix selecting images from Gallery.
-• Update certified props to pass PI (again).
-• Other minor changes.
+• Merged A15 QPR2 (+ April Security Patch)
+• Disable game frame rate restriction by default
+• Disable system wide blurs - was causing bugs and jank
+• Fix a freeform crash
+• Allow suppressing notifications when the screen is on
+• Aperture: Updates from upstream (LOS)
+• Updated many device configs, includes but not limited to:
+  - notification cooldown, custom VM support, cloud media provider selection
+• ThemePicker: Many visual improvements
+• Launcher: Hide disabled blur settings
+• Launcher: Fix navbar height issue in setup wizard
+• Gaming Macro: Allow setting display color mode
+• Gaming Macro: Allow enabling high touch sensitivity
+• Statusbar net monitor: Allow hiding text
+• Fix suppressing notification when the screen is on on boot
+• Get rid of flashlight chip on lock screen, again
+• OmniJaws: Add nothing weather icon pack
+• Twelve: Fix crash on launch
+• Ship TalkBack on gapps builds
+• Add back device diagnostics
+• Many performance improvements, including but not limited to:
+  - App open performance
+  - Jitter improvement
+  - Multitasking performance
+• Few other small changes
+• Updated certified props to pass PI again...
 
 Device:
-• Implement adjustable strength flashlight support.
-• Migrated to Codec2
-• Added HBM & DC dim toogle in display settings
+• Enabled UFFD memory manegement
+• Fixed GCAM crash
+• Few other small changes
+• Updated kernel to soviet R7.0
