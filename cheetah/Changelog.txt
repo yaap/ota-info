@@ -3,6 +3,11 @@ ROM:
 • Bring back Circle To Search
 • Ship TalkBack on gapps builds
 • Add back device diagnostics
+• Many performance improvements, including but not limited to:
+  - App open performance
+  - Jitter improvement
+  - Multitasking performance
+• Other small changes
 
 Device:
-• Add powershare (reverse wireless charging)
+• cheetah: Enable wifi softap 6ghz support
