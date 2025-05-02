@@ -1,13 +1,18 @@
 ROM:
-• Twelve: Fix crash on launch
-• Bring back Circle To Search
-• Ship TalkBack on gapps builds
-• Add back device diagnostics
+• Add IBM Plex font
+• OTA App: Add an option to check every X hours
+• OTA App: Slightly improve settings page UX
 • Other small changes
 
 Device:
-• Switch to AOSP Wifi Display
+• Disable pocket mode (prevented device from entering deep sleep)
+• Switch product, system, system_ext partitions to erofs
+• Drop Kprofiles
+• Drop Refresh rate tile
+• Apply XperiaDisplay & XperiaCharger settings at LOCKED_BOOT
+• Increase zram size to 50% of ram size
 • Kernel:
-   - Checked out binder back to k5.10
-   - Remove some spinlocks
+   - Improve lz4/zram performance
+   - Improve checksuming performance
    - Misc Changes
+• Other small changes
