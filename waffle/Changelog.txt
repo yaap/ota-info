@@ -1,7 +1,10 @@
 ROM:
-• Vanilla: update Messaging app considerably
-• Performance improvements
+• Support setting haptic effect profile
+• Add IBM Plex font
 
 Device:
-• Fix usb tethering
-• Interaction jitter improvement
+• Add DeviceAsWebcam support
+• vibrator: add crisp and gentle vibrator effects
+  - Allows selecting between richtap/gentle/crisp for effects
+  - They have been strength scaled across all effect profiles
+• Misc improvements
