@@ -1,10 +1,9 @@
 ROM:
-• Support setting haptic effect profile
-• Add IBM Plex font
+• None
 
 Device:
-• Add DeviceAsWebcam support
-• vibrator: add crisp and gentle vibrator effects
-  - Allows selecting between richtap/gentle/crisp for effects
-  - They have been strength scaled across all effect profiles
-• Misc improvements
+• Update firmware and blobs to CPH2581_15.0.0.801
+• Vibrator: improve haptic strengths via fifo-max-mv adjustment
+• Vibrator: increase gentle haptic profile effects by ~20%
+• Vibrator: for gentle profile, add a created gentle primitives base effect
+• Kernel: merge upstream 6.1.137
