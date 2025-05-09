@@ -1,9 +1,10 @@
 ROM:
-• None
+• Fix usb tether tile states
 
 Device:
-• Update firmware and blobs to CPH2581_15.0.0.801
-• Vibrator: improve haptic strengths via fifo-max-mv adjustment
-• Vibrator: increase gentle haptic profile effects by ~20%
-• Vibrator: for gentle profile, add a created gentle primitives base effect
-• Kernel: merge upstream 6.1.137
+• Vibration: add OP13 crisp and gentle haptic effect styles
+• Improve auto brightness
+• Gboard keyboard padding from stock
+• Kernel:
+  - Merge 6.1.138
+  - Jitter/jank improvement
