@@ -1,10 +1,8 @@
 ROM:
-• Fix usb tether tile states
+• Merged May security patch
 
 Device:
-• Vibration: add OP13 crisp and gentle haptic effect styles
-• Improve auto brightness
-• Gboard keyboard padding from stock
+• Moved to AIDL powershare hal
+ - No longer oplus specific due to a simple kernel change
 • Kernel:
-  - Merge 6.1.138
-  - Jitter/jank improvement
+  - Kill some severe spam
