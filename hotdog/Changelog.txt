@@ -1,11 +1,8 @@
 ROM:
-• Bring back Circle To Search
-• Ship TalkBack on gapps builds
-• Add back device diagnostics
-• Many performance improvements, including but not limited to:
-  - App open performance
-  - Jitter improvement
-  - Multitasking performance
+• Merged May security patch
+• Add IBM Plex font
+• OTA App: Add an option to check every X hours
+• OTA App: Slightly improve settings page UX
 • Other small changes
 
 Device:
