@@ -1,8 +1,7 @@
 ROM:
-• Merged May security patch
+• None
 
 Device:
-• Moved to AIDL powershare hal
- - No longer oplus specific due to a simple kernel change
 • Kernel:
-  - Kill some severe spam
+  - Merge new CLO tags and oplus code
+  - Touchpanel: fix boot panic and make wake sensors more robust
