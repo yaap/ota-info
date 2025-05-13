@@ -1,18 +1,8 @@
 ROM:
-• Add IBM Plex font
-• OTA App: Add an option to check every X hours
-• OTA App: Slightly improve settings page UX
-• Other small changes
+• Merged May security patch
 
 Device:
-• Disable pocket mode (prevented device from entering deep sleep)
-• Switch product, system, system_ext partitions to erofs
-• Drop Kprofiles
-• Drop Refresh rate tile
-• Apply XperiaDisplay & XperiaCharger settings at LOCKED_BOOT
-• Increase zram size to 50% of ram size
+• Tune Cpusets
 • Kernel:
-   - Improve lz4/zram performance
-   - Improve checksuming performance
-   - Misc Changes
+   - Misc Changes to sched
 • Other small changes
