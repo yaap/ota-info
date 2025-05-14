@@ -2,6 +2,7 @@ ROM:
 • None
 
 Device:
-• Kernel:
-  - Merge new CLO tags and oplus code
-  - Touchpanel: fix boot panic and make wake sensors more robust
+• Actually fix post boot hang/crash/reboot
+• Fix tap and fod wake sensors not working until reboot rarely
+• Force enable adaptive frame rate (android refresh rate overlay will not reflect this):
+  - TODO: create an interface and settings for controlling this behavior
