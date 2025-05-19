@@ -1,18 +1,9 @@
 ROM:
-• Gaming mode: add high touch polling rate
-• Update certified properties for PI
+• Various performance improvements
 
 Device:
-• Introduce a high touch polling rate toggle (in Display)
-  - To increase touch polling rate from 125hz to 333-500hz
-  - Anyone on test build will need to re-toggle the setting
-• Bluetooth: resync props with OOS
-• Remove Disable VRR toggle
-• Fix another possible case of double tap/single tap/screen off UDFPS not working
-• Remove a crashy prebuilt service which could cause boot issues
-• Kernel:
-  - Add support for modifying touch polling rate
-  - Restore last touch polling rate from suspend on resume
-  - Optimize ADFR
-  - Optimize F2FS writes
-  - Timer backports
+• Fix high touch polling rate restoring on boot
+• Fix bluetooth disconnecting from devices after long idle
+• Radio: move to QTI blobs to de-oplus and no longer look for extra oplus services
+  - As an additional perk, fixes baseband version reporting
+• Kernel: Merge 6.1.139
