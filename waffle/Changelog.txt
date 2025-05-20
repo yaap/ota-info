@@ -1,9 +1,6 @@
 ROM:
-• Various performance improvements
+• None
 
 Device:
-• Fix high touch polling rate restoring on boot
-• Fix bluetooth disconnecting from devices after long idle
-• Radio: move to QTI blobs to de-oplus and no longer look for extra oplus services
-  - As an additional perk, fixes baseband version reporting
-• Kernel: Merge 6.1.139
+• BUGFIX: revert radio changes for fixing receiving SMS
+• Add kernel and device tree support for glove mode (increased touch sensitivity)
