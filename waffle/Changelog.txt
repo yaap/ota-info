@@ -2,5 +2,15 @@ ROM:
 • None
 
 Device:
-• BUGFIX: revert radio changes for fixing receiving SMS
-• Add kernel and device tree support for glove mode (increased touch sensitivity)
+• Move to open source composer and other display parts:
+  - Color modes are not yet implemented
+  - Some display bugs are gone (hdr and screenshots in wrong colorspace)
+  - Improves AOD FOD stability
+  - Move remaining display blobs to qti pineapple blobs
+  - Fully disable pixelworks support even in kernel
+  - Refresh rate overlay for adaptive frame rate now shows "--" when not 60/90/120 (so somewhat reflects this ltpo feature)
+  - Adfr/ARR now has improved behavior and support (for test build users, this means the wrong refresh rate issue is fixed and jank is improved)
+• Fix a "random" post boot issue related to parallel module loading
+• Fix IDmtpService (oplus communication center) for radio
+• Kernel:
+  - Merge 6.1.140 and many backports
