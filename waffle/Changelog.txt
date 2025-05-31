@@ -1,10 +1,5 @@
 ROM:
-• Small app open performance improvement
+• None
 
 Device:
-• Drop parallel module loading in favor of boot stability in tradeoff for boot speed
-• Display color: decrease saturation and make warmer:
-  - "Boosted" now is more apparently saturated than "Natural"
-• Display: improve auto white color balance (still cooler in most situations than off)
-• Improve refresh rate timers for jank on small scrolls 
-• DeviceAsWebcam: fix wrong colors, default to HQ mode
+• Unfortunately revert back to prebuilt display (pixelworks) due to some hw differences in devices breaking color modes, color corrections, night light, etc.
