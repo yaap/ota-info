@@ -2,4 +2,9 @@ ROM:
 • None
 
 Device:
-• Unfortunately revert back to prebuilt display (pixelworks) due to some hw differences in devices breaking color modes, color corrections, night light, etc.
+• Update proprietary files to CPH2581_15.0.0.820
+• Update system IMS to LA.QSSI.15.0.r1-15400-qssi.0
+• Performance and jank improvements
+• Kernel:
+  - Jitter regression fixed
+  - Memory usage improvements
