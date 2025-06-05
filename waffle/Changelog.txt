@@ -2,9 +2,15 @@ ROM:
 • None
 
 Device:
-• Update proprietary files to CPH2581_15.0.0.820
-• Update system IMS to LA.QSSI.15.0.r1-15400-qssi.0
-• Performance and jank improvements
+• Move back to QTI radio (incoming mms/sms fixed since original attempt):
+  - 5G->LTE low signal switching now works properly
+  - Baseband version is now reported correctly
+  - Drops many oplus dependencies
+• Move to QTI vendor IMS
+• Bluetooth: yet again, fix devices like watches disconnecting after long periods
+• Update platform qcom sm8650 tags
 • Kernel:
-  - Jitter regression fixed
-  - Memory usage improvements
+  - Merge 6.1.141
+  - Merge changes from CPH2581_15.0.0.820(EX01)
+  - Merge new CLO tags
+  - Sched fixes backported
