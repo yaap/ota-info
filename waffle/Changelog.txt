@@ -2,15 +2,9 @@ ROM:
 • None
 
 Device:
-• Move back to QTI radio (incoming mms/sms fixed since original attempt):
-  - 5G->LTE low signal switching now works properly
-  - Baseband version is now reported correctly
-  - Drops many oplus dependencies
-• Move to QTI vendor IMS
-• Bluetooth: yet again, fix devices like watches disconnecting after long periods
-• Update platform qcom sm8650 tags
+• Import stock displayconfig changes
 • Kernel:
-  - Merge 6.1.141
-  - Merge changes from CPH2581_15.0.0.820(EX01)
-  - Merge new CLO tags
-  - Sched fixes backported
+  - Debloat a few oplus additions
+  - Move to SimpleLMK for low memory jank improvement
+  - Enable Lazy RCU for efficency
+  - Misc
