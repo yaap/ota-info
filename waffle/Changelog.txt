@@ -1,10 +1,22 @@
 ROM:
-• None
+• Vanilla: add espeak-ng as a default text to speech provider
+• Vanilla: add talkback support:
+  - Utilizes OSS talkback and espeak-ng
+  - includes dual volume button gesture same as proprietary SetupWizard for visually impaired users
 
 Device:
-• Import stock displayconfig changes
+• Set correct model based on oplus identifiers
+• Fix ATFWD (would repeatedly crash prior)
+• Fix DeviceAsWebcam colors again (accidentally dropped fix) and default to HQ mode
+• Optimize dalvik heak values for >=12G ram devices
+• Significant power efficiency improvements:
+  - Do not override minimum frequencies
+  - Remove qcom override of background cpuset on big plus cluster (generated constant util on big plus, making it consistently use higher power consuming frequencies)
+  - On app launch or FOD, only boost up to more efficient frequencies, and ensure true minimum frequency resets
 • Kernel:
-  - Debloat a few oplus additions
-  - Move to SimpleLMK for low memory jank improvement
-  - Enable Lazy RCU for efficency
-  - Misc
+  - Datarmnet-ext: fix a latency regression from Lazy RCU
+  - Schedutil: use quadratic tapering for more efficient and real-world power reflecting headroom calculation
+  - Fix freezer prematurely reching timeout
+  - Block: move IO scheduler to SSG from the latest Samsung sm8650 drop for improved IO performance
+  - Optimize cpumask code at compile time for our cpu count
+  - Various other performance and efficiency optimizations
