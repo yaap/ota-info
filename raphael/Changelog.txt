@@ -1,40 +1,17 @@
-Details:
-
-• Version: 15.0 20250430
-• Type: Stable
-
-Changelog:
-
 ROM:
-• Merged A15 QPR2 (+ April Security Patch)
-• Disable game frame rate restriction by default
-• Disable system wide blurs - was causing bugs and jank
-• Fix a freeform crash
-• Allow suppressing notifications when the screen is on
-• Aperture: Updates from upstream (LOS)
-• Updated many device configs, includes but not limited to:
-  - notification cooldown, custom VM support, cloud media provider selection
-• ThemePicker: Many visual improvements
-• Launcher: Hide disabled blur settings
-• Launcher: Fix navbar height issue in setup wizard
-• Gaming Macro: Allow setting display color mode
-• Gaming Macro: Allow enabling high touch sensitivity
-• Statusbar net monitor: Allow hiding text
-• Fix suppressing notification when the screen is on on boot
-• Get rid of flashlight chip on lock screen, again
-• OmniJaws: Add nothing weather icon pack
-• Twelve: Fix crash on launch
-• Ship TalkBack on gapps builds
-• Add back device diagnostics
-• Many performance improvements, including but not limited to:
-  - App open performance
-  - Jitter improvement
-  - Multitasking performance
-• Few other small changes
-• Updated certified props to pass PI again...
-
+• Merged May security patch
+• Add IBM Plex font
+• OTA App: Add an option to check every X hours
+• OTA App: Slightly improve settings page UX
+• Various performance improvements
+* Disabled Play Integirty spoofing for Full version since it no longer works (Microg still uses legacy checks)
+• Vanilla: add espeak-ng as a default text to speech provider
+• Vanilla: add talkback support:
+  - Utilizes OSS talkback and espeak-ng
+  - includes dual volume button gesture same as proprietary SetupWizard for visually impaired users
+  
 Device:
-• Enabled UFFD memory manegement
-• Fixed GCAM crash
+• Updated Adreno Driver to 797
+• Improved Efficency
+• Updated kernel to soviet R7.1
 • Few other small changes
-• Updated kernel to soviet R7.0
