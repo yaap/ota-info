@@ -16,4 +16,3 @@ Device:
 • Affine kswapd/kcompact to little cores
 • Set default irqaffinity to little cluster
 • Switch to 25Q1-13202328 Kernel (r36 tag)
-
