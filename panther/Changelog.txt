@@ -1,8 +1,18 @@
 Changelog:
 ROM:
-• Merged May security patch
+• Gaming mode: add high touch polling rate
+• Various performance improvements
+• Small app open performance improvements
+• Vanilla: add espeak-ng as a default text to speech provider
+• Vanilla: add talkback support:
+  - Utilizes OSS talkback and espeak-ng
+  - includes dual volume button gesture same as proprietary SetupWizard for visually impaired users
 
 Device:
-• Moved to AIDL PowerShare hal
-• Updated fingerprint/build description from BP1A.250505.005.B1
-• Updated firmware to BP1A.250505.005.B1
+• Use efficient CPU frequencies for FIXED_PERFORMANCE_HINT
+• Relax mid/big cpu boosts
+• Boost min freq when GAME mode is active
+• Decrease swappiness to 40
+• Affine kswapd/kcompact to little cores
+• Set default irqaffinity to little cluster
+• Switch to 25Q1-13202328 Kernel (r36 tag)
