@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1747042014,
-      "filename": "YAAP-15-Voyager-hotdog-20250512.zip",
+      "datetime": 1751382317,
+      "filename": "YAAP-16-Banshee-hotdog-20250701.zip",
       "payload": [
         {
-          "offset": 4108,
-          "FILE_HASH": "eo3hpsWcPRTqztSVrtVzELKs6e7KzA64yVjs5VRixcI=",
-          "FILE_SIZE": "1957799504",
-          "METADATA_HASH": "3XQv30KakmlFKvEEMk7ednKlMDJHMMkr1l/W5tNOSq4=",
-          "METADATA_SIZE": "85581"
+          "offset": 4217,
+          "FILE_HASH": "anS4WOkjiF7NnllgxJJke8zE43+KDSzOwteyDdfrcxM=",
+          "FILE_SIZE": "1991341582",
+          "METADATA_HASH": "SqcdAbxmjpCQmc0XzHLcHqQfaR8vR6bU+/UJlvgpyeo=",
+          "METADATA_SIZE": "86967"
         }
       ]
     }
