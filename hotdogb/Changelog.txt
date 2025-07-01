@@ -1,9 +1,13 @@
 ROM:
-• Merged May security patch
-• Add IBM Plex font
-• OTA App: Add an option to check every X hours
-• OTA App: Slightly improve settings page UX
-• Other small changes
+• Merged Android 16
+- Known regressions:
+  - Can't disable double power camera gesture (AOSP)
+  - Removed LMO Freeform (broken for now)
+  - Hide lock screen weather provider switch for now
+  - WFD doesn't cast audio
+• Make USB tethering tile secure on lock screen
+• Build using a newer clang + kotlinc
+• Many other changes
 
 Device:
-• No changes
+• Reverted some kernel changes that caused a performance regression
