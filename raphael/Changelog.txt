@@ -1,17 +1,13 @@
 ROM:
-• Merged May security patch
-• Add IBM Plex font
-• OTA App: Add an option to check every X hours
-• OTA App: Slightly improve settings page UX
-• Various performance improvements
-* Disabled Play Integirty spoofing for Full version since it no longer works (Microg still uses legacy checks)
-• Vanilla: add espeak-ng as a default text to speech provider
-• Vanilla: add talkback support:
-  - Utilizes OSS talkback and espeak-ng
-  - includes dual volume button gesture same as proprietary SetupWizard for visually impaired users
+• Merged Android 16
+- Known regressions:
+  - Can't disable double power camera gesture (AOSP)
+  - Removed LMO Freeform (broken for now)
+  - Hide lock screen weather provider switch for now
+• Make USB tethering tile secure on lock screen
+• Build using a newer clang + kotlinc
+• Many other changes
   
 Device:
-• Updated Adreno Driver to 797
-• Improved Efficency
-• Updated kernel to soviet R7.1
+• Updated Adreno Driver to LA.UM.9.14.r1-20200-LAHAINA.QSSI13.0
 • Few other small changes
