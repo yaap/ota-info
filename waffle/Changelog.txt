@@ -1,8 +1,13 @@
 ROM:
-• None
+• Android 16 (BP2A) fully merged, following dropped:
+  - Dropped Freeform
+  - Dropped OmniJaws/None keyguard slice support
+• Make USB tethering tile secure on lock screen
 
 Device:
-• Haptic effects: introduce complete primitive effects with crisp/gentle variants:
-  - Solves fallbacks being used for various primitives which were inconsistent/out of place
-  - Now crisp/gentle affect all primitives as well
-• Fully remove all frequency/memory/gpu boosting (only was used in app launch) to improve efficiency and solve app launch jank
+• Haptic effects: improve primitive low tick effect
+• Updates for 16
+• Misc
+• Kernel:
+  - Merge Linux 6.1.142
+  - Misc
