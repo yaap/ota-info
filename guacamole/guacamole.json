@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1747038712,
-      "filename": "YAAP-15-Voyager-guacamole-20250512.zip",
+      "datetime": 1751377848,
+      "filename": "YAAP-16-Banshee-guacamole-20250701.zip",
       "payload": [
         {
-          "offset": 3731,
-          "FILE_HASH": "g5KU18Y6a4bqBF07NXjl4XMG3VjDNooBRGFU9ZiauNg=",
-          "FILE_SIZE": "1936729491",
-          "METADATA_HASH": "AAmGzpj5FfyMq4dsU0lx/A/NzmuyGA6o8Vs9dKCYZio=",
-          "METADATA_SIZE": "133675"
+          "offset": 3832,
+          "FILE_HASH": "1XziK7L88Noa99+GZbODwV22yRkWlxsqMJ+6xnrZLvM=",
+          "FILE_SIZE": "1970154081",
+          "METADATA_HASH": "wZJLf5vHWqLqKRg6ZjZNdEIofa+1K693czN9Vs2Iqkg=",
+          "METADATA_SIZE": "133798"
         }
       ]
     }
