@@ -1,29 +1,55 @@
 ROM:
-• Disable game frame rate restriction by default.
-• Disable system wide blurs - was causing bugs and jank.
-• Fix a freeform crash.
-• Allow suppressing notifications when the screen is on.
-• Aperture: Updates from upstream. (LOS)
-• Updated many device configs, includes but not limited to:
-  - notification cooldown, cloud media provider selection.
-• ThemePicker: Many visual improvements.
-• Launcher: Hide disabled blur settings.
-• Launcher: Fix navbar height issue in setup wizard.
-• Update certified fingerprint again....
-• Merged A15 QPR2. (+ March Security Patch)
-  - Known regressions:
-  - Removed CTS and navbar long press to search for now.
-• Gaming Macro: Allow setting display color mode.
-• Gaming Macro: Allow enabling high touch sensitivity.
-• Statusbar net monitor: Allow hiding text.
-• Fix suppressing notification when the screen is on on boot.
-• Get rid of flashlight chip on lock screen, again.
+• Twelve: Fix crash on launch.
+• Bring back Circle To Search.
+• Ship TalkBack on gapps builds.
+• Add back device diagnostics.
+• Fix a possible Smartspace crash.
+• Vanilla: fix shipping Calyx Chromium.
+• Many performance improvements, including but not limited to:
+  - App open performance.
+  - Jitter improvement.
+  - Multitasking performance.
+• Vanilla: update Messaging app considerably.
 • Updated certified props to pass PI again...
-• Merged AOSP April security patch.
-• OmniJaws: Add nothing weather icon pack.
+• Merged May security patch.
+• Add IBM Plex font.
+• OTA App: Add an option to check every X hours.
+• OTA App: Slightly improve settings page UX.
+• Various performance improvements.
+• Disable Play Integrity spoofing for Full version since it no longer works (Microg still uses legacy checks).
+• Vanilla: add espeak-ng as a default text to speech provider.
+• Vanilla: add talkback support:
+  - Utilizes OSS talkback and espeak-ng.
+  - includes dual volume button gesture same as proprietary SetupWizard for visually impaired users.
+• Merged Android 16.
+- Known regressions:
+  - Removed LMO Freeform (broken for now).
+  - Hide lock screen weather provider switch for now.
+• Make USB tethering tile secure on lock screen.
+• Build using a newer clang + kotlinc.
+• Many other changes.
 
 Device:
-• Enable Userfaultfd GC to improve memory management. (should improve the experience on 4GB RAM variants)
-• Fixed an issue where in-call voice breaks when notification arrives.
-• Kernel state at r17b13.
-• Fix recovery zips. (it can be flashed with latest platform-tools now)
+• Switch to common hardware/xiaomi VINTF fragments.
+• Switch to common AIDL lineage fingerprint HAL.
+• Drop unused lights HAL.
+• Switch to common device compatibility matrix from QCOM.
+• Resolve warnings in the GPS HAL.
+• Convert GPS HAL to blueprint.
+• Migrate mountpoint creation to blueprint.
+• Shim widevine libs with libcrypto_shim.
+• Switch to python extract-utils.
+• Enable and resolve ELF checks.
+• Clean up system IMS stack.
+• Drop prebuilt com.fingerprints.extension@1.0 as we are building the reversed implementation from hardware/xiaomi.
+• Drop media component and switch back to stock media blobs.
+• Clean up media stack.
+• Drop OMX completely and switch to Codec2.
+• Drop all BUILD_BROKEN flags.
+• Upgrade audio HAL to v7.0.
+• Drop first_stage_ramdisk GSI keys as it is redundant.
+• Switch back to prebuilt camera provider to retain camera and flash capabilities on devices where one or more lenses are broken.
+• Update libnotifyaudiohal from ruby V816.0.5.0.UMOMIXM to resolve an issue where the proximity sensor wasn't working.
+• Move back to QTI PerfD HIDL stack as the AIDL stack causes an abundance of logspams.
+• DisplayFeatures: Specify export behavior for BroadcastReceiver.
+• Kernel state at r17b14.
