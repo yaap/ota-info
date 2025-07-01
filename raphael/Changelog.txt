@@ -1,7 +1,6 @@
 ROM:
 • Merged Android 16
 - Known regressions:
-  - Can't disable double power camera gesture (AOSP)
   - Removed LMO Freeform (broken for now)
   - Hide lock screen weather provider switch for now
 • Make USB tethering tile secure on lock screen
