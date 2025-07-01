@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1744372615,
-      "filename": "YAAP-15-Vanilla-sunny-20250411.zip",
+      "datetime": 1751394426,
+      "filename": "YAAP-16-Vanilla-sunny-20250701.zip",
       "payload": [
         {
-          "offset": 4021,
-          "FILE_HASH": "CZmnnOVRXklmXdZmyWDmsxJWoJdZKNVV0mafHrB60w0=",
-          "FILE_SIZE": "1557709293",
-          "METADATA_HASH": "flCcLtAiTf/Oc5GbIzU0dEvPLGuo0p7EofP3aU88elc=",
-          "METADATA_SIZE": "67749"
+          "offset": 4129,
+          "FILE_HASH": "J4BzbDwTTO3I0Vfq4qEh6NfC2iilEBlMdIxIMVNjRwQ=",
+          "FILE_SIZE": "1646671658",
+          "METADATA_HASH": "v3bGMpkS9U93lZ2a3AYbwuvbuv/swrxZDro0rE/QvcQ=",
+          "METADATA_SIZE": "71412"
         }
       ]
     }
