@@ -1,8 +1,33 @@
 ROM:
-• Merged May security patch
+• Gaming mode: add high touch polling rate
+• Update certified props for PI
+• Various performance improvements
+• Disable Play Integrity spoofing for Full version since it no longer works (Microg still uses legacy checks).
+• Small app open performance improvement
+Vanilla: add espeak-ng as a default text to speech provider
+Vanilla: add talkback support:
+ - utilizes OSS talkback and espeak-ng
+ - includes dual volume button gesture same as proprietary SetupWizard for visually impaired users
+• Merged Android 16
+- Known regressions:
+  - Removed LMO Freeform (broken for now)
+  - Hide lock screen weather provider switch for now
+• Make USB tethering tile secure on lock screen
+• Build using a newer clang + kotlinc
+• Many other changes
 
 Device:
-• Tune Cpusets
-• Kernel:
-   - Misc Changes to sched
-• Other small changes
+• Re-tune dolby dax config based on Xperia 1 III
+• Switch to Xperia 1 III's Dolby
+• XperiaTouch: Migrate to High touch rate toggle
+• XperiaCharger: Misc changes to fix service killing
+• Minor improvements
+• kernel:
+   - Improvements to zram
+   - Don't hardcode zram size
+   - Expose zram compressor to sysfs
+   - Improvements to zstd compressor
+   - simple_lmk: Lower vmpressure trigger point
+   - Efficiency improvements
+   - Minor changes
+   - Thanks to EmanuelCN

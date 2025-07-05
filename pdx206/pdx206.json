@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1747089543,
-      "filename": "YAAP-15-Voyager-pdx206-20250513.zip",
+      "datetime": 1751723004,
+      "filename": "YAAP-16-Banshee-pdx206-20250705.zip",
       "payload": [
         {
-          "offset": 3975,
-          "FILE_HASH": "pvy9QfZDJk8FLylR4eltlThia0a7C99Kwpc/xVsMOag=",
-          "FILE_SIZE": "2192868849",
-          "METADATA_HASH": "egs9iA8m+CSuY4wLIO+AWyYryxuOBwTaHwDesj6XXCA=",
-          "METADATA_SIZE": "91299"
+          "offset": 4047,
+          "FILE_HASH": "WEbiPbAZ180awFqUGi+Lu9QN1QlNB9DqEYF0DG9Gg44=",
+          "FILE_SIZE": "2073127566",
+          "METADATA_HASH": "h/cncDDFvweBHYBk+2OdhRZVvbJxKKc6CIMBA5vPITc=",
+          "METADATA_SIZE": "87546"
         }
       ]
     }
