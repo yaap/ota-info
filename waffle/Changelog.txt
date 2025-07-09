@@ -1,13 +1,14 @@
 ROM:
-• Android 16 (BP2A) fully merged, following dropped:
-  - Dropped Freeform
-  - Dropped OmniJaws/None keyguard slice support
-• Make USB tethering tile secure on lock screen
+• Bring back freeform
+• Fix Google breakage of AOD clock animations
+• Fix Google UHDR-specific dim/brightness behavior breakage which has existed on most devices (even pixels) since A15 QPR2
+• Launcher3: fix restart for some settings toggles
+• Disable all capitalized smart reply text
 
 Device:
-• Haptic effects: improve primitive low tick effect
-• Updates for 16
+• Update OOS tracked blobs to CPH2581_15.0.0.832
 • Misc
 • Kernel:
-  - Merge Linux 6.1.142
+  - Merge Linux 6.1.143
+  - Efficiency improvements
   - Misc
