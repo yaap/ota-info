@@ -1,14 +1,15 @@
 ROM:
-• Bring back freeform
-• Fix Google breakage of AOD clock animations
-• Fix Google UHDR-specific dim/brightness behavior breakage which has existed on most devices (even pixels) since A15 QPR2
-• Launcher3: fix restart for some settings toggles
-• Disable all capitalized smart reply text
+• Revert fix for lockscreen clock animations (due to other breakages)
+• Fix our Bluetooth auto on toggle
+• Enable Bluetooth auto turn on tomorrow toggle
+• Settings: Fix missing security hub
+• Allow devices with working TEE to pass BASIC attestation by default
+• Vanilla: update microg, microg companion, F-droid
+• Few other changes
 
 Device:
-• Update OOS tracked blobs to CPH2581_15.0.0.832
+• Make status bar burn in protection far more aggressive
 • Misc
 • Kernel:
-  - Merge Linux 6.1.143
-  - Efficiency improvements
+  - Merge Linux 6.1.145
   - Misc
