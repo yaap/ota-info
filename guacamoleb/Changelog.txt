@@ -1,12 +1,14 @@
 ROM:
-• Merged Android 16
-- Known regressions:
-  - Removed LMO Freeform (broken for now)
-  - Hide lock screen weather provider switch for now
-  - WFD doesn't cast audio
-• Make USB tethering tile secure on lock screen
-• Build using a newer clang + kotlinc
-• Many other changes
+• Bring back freeform
+• Fix locks screen clock animations
+• Fix UHDR-specific brightness bug
+• Fix our Bluetooth auto on toggle
+• Enable Bluetooth auto turn on tomorrow toggle
+• Disable all capitalized smart reply text
+• Launcher3: Fix restart for some settings toggles
+• Settings: Fix missing security hub
+• Allow devices with working TEE to pass BASIC attestation by default
+• Few other changes
 
 Device:
-• Reverted some kernel changes that caused a performance regression
+• Fix the delay in Bluetooth (A2DP) calls sound connection
