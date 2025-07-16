@@ -1,12 +1,12 @@
 ROM:
-• Merged Android 16
-- Known regressions:
-  - Removed LMO Freeform (broken for now)
-  - Hide lock screen weather provider switch for now
-• Make USB tethering tile secure on lock screen
-• Build using a newer clang + kotlinc
-• Many other changes
-  
+• Enable Advanced Protection (Google thing)
+• Allow enabling Desktop Mode (Experimental dev setting)
+• Revert fix for lockscreen clock animations (due to other breakages)
+• Few other minor changes
+
 Device:
-• Updated Adreno Driver to LA.UM.9.14.r1-20200-LAHAINA.QSSI13.0
-• Few other small changes
+* Updated Alarm blobs
+* Updated FM & Radio Stack from LA.QSSI.15.0.r1-14500-qssi.0
+* Exposed Telephoto lens in Aperature camera
+• Few other minor changes
+
