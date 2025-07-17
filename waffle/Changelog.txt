@@ -1,15 +1,18 @@
 ROM:
-• Revert fix for lockscreen clock animations (due to other breakages)
-• Fix our Bluetooth auto on toggle
-• Enable Bluetooth auto turn on tomorrow toggle
-• Settings: Fix missing security hub
-• Allow devices with working TEE to pass BASIC attestation by default
-• Vanilla: update microg, microg companion, F-droid
+• Improve UHDR display consistency across modes
+• Launcher: replace AOSP "Close" action with custom "Kill" action
+• Add Google Sans Flex font
 • Few other changes
 
 Device:
-• Make status bar burn in protection far more aggressive
-• Misc
+• Disable setting region models in recovery (fixes sideloading for many variants)
+• With a huge thanks to Savitar and those who pooled funds together to make it happen:
+  - Full resolution camera output enabled on ultra wide angle (48mp), main (50mp), and telephoto (64mp).
+  - Working auto focus and auto exposure working on all lenses.
+  - Logical ID continues working in Aperture.
+  - Video configs with logical (switchable lenses) continues working with full processing.
+  - Aperture outputs all at 50mp due to using combined logical ID.
+  - Gcam configs are currently being improved for this new configuration.
 • Kernel:
-  - Merge Linux 6.1.145
-  - Misc
+  - Merge latest CLO tags
+  - Performance and efficiency improvements
