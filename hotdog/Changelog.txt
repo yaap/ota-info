@@ -1,14 +1,14 @@
 ROM:
-• Bring back freeform
-• Fix locks screen clock animations
-• Fix UHDR-specific brightness bug
-• Fix our Bluetooth auto on toggle
-• Enable Bluetooth auto turn on tomorrow toggle
-• Disable all capitalized smart reply text
-• Launcher3: Fix restart for some settings toggles
-• Settings: Fix missing security hub
-• Allow devices with working TEE to pass BASIC attestation by default
-• Few other changes
+• Add Google Sans Flex font
+• Improve UHDR display consistency across modes
+• Enable Advanced Protection (Google thing)
+• Allow enabling Desktop Mode (Experimental dev setting)
+• Revert fix for lockscreen clock animations (due to other breakages)
+• Settings: Fix some theming settings that had no default values
+• Settings: Fix some custom sliders with no default value
+• Launcher3: Replace close action with kill
+• Launcher3: Toast the killed app name
+• Few other minor changes
 
 Device:
-• Fix the delay in Bluetooth (A2DP) calls sound connection
+• No changes
