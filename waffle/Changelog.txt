@@ -1,18 +1,6 @@
 ROM:
-• Improve UHDR display consistency across modes
-• Launcher: replace AOSP "Close" action with custom "Kill" action
-• Add Google Sans Flex font
-• Few other changes
+• None
 
 Device:
-• Disable setting region models in recovery (fixes sideloading for many variants)
-• With a huge thanks to Savitar and those who pooled funds together to make it happen:
-  - Full resolution camera output enabled on ultra wide angle (48mp), main (50mp), and telephoto (64mp).
-  - Working auto focus and auto exposure working on all lenses.
-  - Logical ID continues working in Aperture.
-  - Video configs with logical (switchable lenses) continues working with full processing.
-  - Aperture outputs all at 50mp due to using combined logical ID.
-  - Gcam configs are currently being improved for this new configuration.
 • Kernel:
-  - Merge latest CLO tags
-  - Performance and efficiency improvements
+  - BUGFIX: revert CLO tag merge due to audio issues.
