@@ -3,4 +3,4 @@ ROM:
 
 Device:
 • Kernel:
-  - BUGFIX: revert CLO tag merge due to audio issues.
+  - BUGFIX: fix deep sleep and other regressions
