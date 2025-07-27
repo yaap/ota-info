@@ -1,12 +1,10 @@
 ROM:
-• Enable Advanced Protection (Google thing)
-• Allow enabling Desktop Mode (Experimental dev setting)
-• Revert fix for lockscreen clock animations (due to other breakages)
+• Add a toggle for PPU
+• Add a dev option to load a custom keybox
+• Settings: Make our custom slider follow AOSP's style
+• Recovery: Allow reading pstore logs
+• YASR: Update target SDK and dependencies
 • Few other minor changes
 
 Device:
-* Updated Alarm blobs
-* Updated FM & Radio Stack from LA.QSSI.15.0.r1-14500-qssi.0
-* Exposed Telephoto lens in Aperature camera
-• Few other minor changes
-
+Switched to Opensource Audio Hal
