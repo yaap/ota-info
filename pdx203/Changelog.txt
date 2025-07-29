@@ -1,15 +1,33 @@
 ROM:
-• Bring back freeform
-• Fix locks screen clock animations
-• Fix UHDR-specific brightness bug
-• Disable all capitalized smart reply text
-• Launcher3: Fix restart for some settings toggles
+• Revert fix for lockscreen clock animations (due to other breakages)
+• Fix our Bluetooth auto on toggle
+• Enable Bluetooth auto turn on tomorrow toggle
+• Settings: Fix missing security hub
+• Allow devices with working TEE to pass BASIC attestation by default
+• Vanilla: update microg, microg companion, F-droid
 • Few other changes
+• Improve UHDR display consistency across modes
+• Launcher: replace AOSP "Close" action with custom "Kill" action
+• Add Google Sans Flex font
+• Few other changes
+• Add a toggle for PPU
+• Add a dev option to load a custom keybox
+• Settings: Make our custom slider follow AOSP's style
+• Recovery: Allow reading pstore logs
+• YASR: Update target SDK and dependencies
+• YASR: Use a top progress bar in all pages
+• Few other minor changes
 
 Device:
-• Ship Sony camera apps by default again
-   - Downgrade PhotoPro to v1.1.2.A.0.5 from stock  
-   - Upgrade CinemaPro to v1.9.2.A.0.3
-• Fix the issue of audio bugging out during calls when a notification arrives
-• kernel:
-   - Minor changes
+• Revert "Downgrade PhotoPro to v1.1.2.A.0.5 from stock"
+   - Wipe the app's data to fix crashing
+• Enable A2DP hw offloading
+• Increase volume steps to 30 (Align with stock mediavib tuning)
+• Migrate to USB Gadget HAL
+• Drop unneccesary apps
+• Disable FMRadio automatically on non-JP models
+• Other changes
+• Kernel:
+   - Merge Lineage upstream
+   - Improvements to mm and sched
+   - Other minor changes
