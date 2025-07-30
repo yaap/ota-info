@@ -9,8 +9,8 @@ ROM:
 • Few other minor changes
 
 Device:
+• [BUGFIX]: fix and support Google hotword ("hey/okay google")
 • Move to source built audio:
-  - Google hotword is currently unsupported for audio stability (working on supporting it in future builds)
   - Fixes mic input and audio "randomly" dying
   - Improves maintainability for the future
 • Drop dolby due to poor experience and allowing us to use upstream audio configs
