@@ -1,13 +1,12 @@
 ROM:
-• Add Google Sans Flex font
-• Improve UHDR display consistency across modes
-• Enable Advanced Protection (Google thing)
-• Allow enabling Desktop Mode (Experimental dev setting)
-• Revert fix for lockscreen clock animations (due to other breakages)
-• Settings: Fix some theming settings that had no default values
-• Settings: Fix some custom sliders with no default value
-• Launcher3: Replace close action with kill
-• Launcher3: Toast the killed app name
+• Add a toggle for PPU
+• Add a dev option to load a custom keybox
+• Fix prevent ringing gesture
+• Settings: Make our custom slider follow AOSP's style
+• Settings: Fix fingerprint enrollment page
+• Recovery: Allow reading pstore logs
+• YASR: Update target SDK and dependencies
+• YASR: Use a top progress bar in all pages
 • Few other minor changes
 
 Device:
