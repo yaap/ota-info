@@ -1,19 +1,13 @@
 ROM:
-• Add a toggle for PPU
-• Add a dev option to load a custom keybox
-• Settings: Make our custom slider follow AOSP's style
-• Settings: Fix fingerprint enrollment page
-• Recovery: allow reading pstore logs
-• YASR: Update target SDK and dependencies
-• YASR: use a top progress bar in all pages
-• Few other minor changes
+• Fix prevent ringing gesture
+• One other very minor change
 
 Device:
-• [BUGFIX]: fix and support Google hotword ("hey/okay google")
-• Move to source built audio:
-  - Fixes mic input and audio "randomly" dying
-  - Improves maintainability for the future
-• Drop dolby due to poor experience and allowing us to use upstream audio configs
-• Kernel:
-  - Merge Linux kernel 6.1.147
-  - Few other minor changes
+• BUGFIX: Fix voip mic calling
+• Allow keeping zen mode when toggling the slider
+• Allow toggling slider doze trigger
+• Many other improvements and fixes to the slider setting page
+• Follow settings toggle style in touchscreen gestures page
+• Apply touchscreen gestures settings before initial unlock
+ - User needs to unlock once to complete migration (one time)
+• Bump target SDK for touchscreen gestures
