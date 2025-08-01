@@ -1,5 +1,31 @@
 ROM:
-• QPR2 and all changes from YAAP updates gapps builds
+• Android 16 and current SPL
+• Add a toggle for PPU
+• Add a dev option to load a custom keybox
+• Fix prevent ringing gesture
+• Settings: Make our custom slider follow AOSP's style
+• Settings: Fix fingerprint enrollment page
+• Recovery: Allow reading pstore logs
+• YASR: Update target SDK and dependencies
+• YASR: Use a top progress bar in all pages
+• Few other minor changes
+• Add Google Sans Flex font
+• Improve UHDR display consistency across modes
+• Allow enabling Desktop Mode (Experimental dev setting)
+• Revert fix for lockscreen clock animations (due to other breakages)
+• Settings: Fix some theming settings that had no default values
+• Settings: Fix some custom sliders with no default value
+• Fix UHDR-specific brightness bug
+• Fix our Bluetooth auto on toggle
+• Enable Bluetooth auto turn on tomorrow toggle
+• Disable all capitalized smart reply text
+• Launcher3: Fix restart for some settings toggles
+• Settings: Fix missing security hub
+• Allow devices with working TEE to pass BASIC attestation by default
+• Make USB tethering tile secure on lock screen
+• Microg: update
+• Many other small changes
 
 Device:
-• Kernel: efficiency improvements
+• Changes for Android 16
+• Reverted a kernel change which introduced a significant performanceregression

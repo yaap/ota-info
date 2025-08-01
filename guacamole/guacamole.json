@@ -1,17 +1,8 @@
 {
   "response": [
     {
-      "datetime": 1745286153,
-      "filename": "YAAP-15-Vanilla-guacamole-20250421.zip",
-      "payload": [
-        {
-          "offset": 3731,
-          "FILE_HASH": "OB62WNtz9FwOueuQ8JPZJOrmpqClY3nxJU5FxogleDk=",
-          "FILE_SIZE": "1382214597",
-          "METADATA_HASH": "bUSCjK3G330AtjDDz3h6DQzJm7gknn20HZQpgHFEx3g=",
-          "METADATA_SIZE": "132917"
-        }
-      ]
+      "datetime": 1753905600,
+      "filename": "YAAP-16-Vanilla-guacamole-20250801.zip"
     }
   ]
 }
