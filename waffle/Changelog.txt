@@ -1,25 +1,13 @@
 ROM:
-• Add Smooth Display QS tile
-• Fix clock animations during keyguard transitions
-• Fix multi sim numbers not clickable in about page
-• Fix oversized biometric prompt corner radius (AOSP)
-• Refactor Gaming Macro and:
-  - Allow enabling Smooth Display
-  - Fix three finger screenshot gesture toggle not applying
-  - Save and restore some previous states more accurately
-• YASR: Improve unavailable mic handling
-• YASR: Only allow whitelisted (supported) device types
-• YASR: Fixed a bug that made devices be gone on resume
-• YASR: Updated dependencies
-• Few other minor changes
+• Fix prevent ringing gesture
+• One other very minor change
 
 Device:
-• Update proprietary blobs and firmware from CPH2581_15.0.0.840
-• Update System IMS to LA.QSSI.15.0.r1-16100-qssi.0
-• Fix WiFi Display
-• Utilize correct rounded corner radius
-• Improve VOIP (WhatsApp, Telegram, etc) mic quality and fix speaker mode mic processing
-• Should have fixed hotword blocking new bt devices
-• Camera: Expose all resolutions, to allow switching between binned res and full res
-  - Check for new gcam configs in notes
-• Kernel: Performance and efficiency improvements
+• BUGFIX: Fix voip mic calling
+• Allow keeping zen mode when toggling the slider
+• Allow toggling slider doze trigger
+• Many other improvements and fixes to the slider setting page
+• Follow settings toggle style in touchscreen gestures page
+• Apply touchscreen gestures settings before initial unlock
+ - User needs to unlock once to complete migration (one time)
+• Bump target SDK for touchscreen gestures
