@@ -1,12 +1,16 @@
 ROM:
-• Add a toggle for PPU
-• Add a dev option to load a custom keybox
-• Fix prevent ringing gesture
-• Settings: Make our custom slider follow AOSP's style
-• Settings: Fix fingerprint enrollment page
-• Recovery: Allow reading pstore logs
-• YASR: Update target SDK and dependencies
-• YASR: Use a top progress bar in all pages
+• Add Smooth Display QS tile
+• Fix clock animations during keyguard transitions
+• Fix multi sim numbers not clickable in about page
+• Fix oversized biometric prompt corner radius (AOSP)
+• Refactor Gaming Macro and:
+  - Allow enabling Smooth Display
+  - Fix three finger screenshot gesture toggle not applying
+  - Save and restore some previous states more accurately
+• YASR: Improve unavailable mic handling
+• YASR: Only allow whitelisted (supported) device types
+• YASR: Fixed a bug that made devices be gone on resume
+• YASR: Updated dependencies
 • Few other minor changes
 
 Device:
