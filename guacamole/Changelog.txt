@@ -1,16 +1,12 @@
 ROM:
-• Add Smooth Display QS tile
-• Fix clock animations during keyguard transitions
-• Fix multi sim numbers not clickable in about page
-• Fix oversized biometric prompt corner radius (AOSP)
-• Refactor Gaming Macro and:
-  - Allow enabling Smooth Display
-  - Fix three finger screenshot gesture toggle not applying
-  - Save and restore some previous states more accurately
-• YASR: Improve unavailable mic handling
-• YASR: Only allow whitelisted (supported) device types
-• YASR: Fixed a bug that made devices be gone on resume
-• YASR: Updated dependencies
+• Add a gesture to mute media by pressing both volume keys
+• Add a toggle for key-combo screenshot gesture
+• Add a tri-state toggle for customizing wake on charge
+• Add an icon for NR_SA (5G Standalone) data connection
+• Allow toggling charging sound and vibration separately
+• Allow having percent inside the battery icon in collapsed QS with notch
+• Settings: Fix default values in theming page
+• Settings: Fix our custom slider always being continuous
 • Few other minor changes
 
 Device:
