@@ -1,0 +1,11 @@
+ROM:
+• Add a toggle for PPU
+• Add a dev option to load a custom keybox
+• Settings: Make our custom slider follow AOSP's style
+• Recovery: Allow reading pstore logs
+• YASR: Update target SDK and dependencies
+• YASR: Use a top progress bar in all pages
+• Few other minor changes
+
+Device:
+• Switch to EROFS for all partitions
