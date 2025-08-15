@@ -1,55 +1,68 @@
 ROM:
-• Twelve: Fix crash on launch.
-• Bring back Circle To Search.
-• Ship TalkBack on gapps builds.
-• Add back device diagnostics.
-• Fix a possible Smartspace crash.
-• Vanilla: fix shipping Calyx Chromium.
-• Many performance improvements, including but not limited to:
-  - App open performance.
-  - Jitter improvement.
-  - Multitasking performance.
-• Vanilla: update Messaging app considerably.
-• Updated certified props to pass PI again...
-• Merged May security patch.
-• Add IBM Plex font.
-• OTA App: Add an option to check every X hours.
-• OTA App: Slightly improve settings page UX.
-• Various performance improvements.
-• Disable Play Integrity spoofing for Full version since it no longer works (Microg still uses legacy checks).
-• Vanilla: add espeak-ng as a default text to speech provider.
-• Vanilla: add talkback support:
-  - Utilizes OSS talkback and espeak-ng.
-  - includes dual volume button gesture same as proprietary SetupWizard for visually impaired users.
-• Merged Android 16.
-- Known regressions:
-  - Removed LMO Freeform (broken for now).
-  - Hide lock screen weather provider switch for now.
-• Make USB tethering tile secure on lock screen.
-• Build using a newer clang + kotlinc.
-• Many other changes.
+• Bring back freeform.
+• Fix locks screen clock animations.
+• Fix UHDR-specific brightness bug.
+• Fix our Bluetooth auto on toggle.
+• Enable Bluetooth auto turn on tomorrow toggle.
+• Disable all capitalized smart reply text.
+• Launcher3: Fix restart for some settings toggles.
+• Settings: Fix missing security hub.
+• Allow devices with working TEE to pass BASIC attestation by default.
+• Add Google Sans Flex font.
+• Improve UHDR display consistency across modes.
+• Enable Advanced Protection. (Google thing)
+• Allow enabling Desktop Mode. (Experimental dev setting)
+• Revert fix for lockscreen clock animations. (due to other breakages)
+• Settings: Fix some theming settings that had no default values.
+• Settings: Fix some custom sliders with no default value.
+• Launcher3: Replace close action with kill.
+• Launcher3: Toast the killed app name.
+• Add a toggle for PPU.
+• Add a dev option to load a custom keybox.
+• Fix prevent ringing gesture.
+• Settings: Make our custom slider follow AOSP's style.
+• Settings: Fix fingerprint enrollment page.
+• Recovery: Allow reading pstore logs.
+• YASR: Update target SDK and dependencies.
+• YASR: Use a top progress bar in all pages.
+• Add Smooth Display QS tile.
+• Fix clock animations during keyguard transitions.
+• Fix multi sim numbers not clickable in about page.
+• Fix oversized biometric prompt corner radius. (AOSP)
+• Refactor Gaming Macro and:
+  - Allow enabling Smooth Display.
+  - Fix three finger screenshot gesture toggle not applying.
+  - Save and restore some previous states more accurately.
+• YASR: Improve unavailable mic handling.
+• YASR: Only allow whitelisted (supported) device types.
+• YASR: Fixed a bug that made devices be gone on resume.
+• YASR: Updated dependencies.
+• Add a gesture to mute media by pressing both volume keys.
+• Add a toggle for key-combo screenshot gesture.
+• Add a tri-state toggle for customizing wake on charge.
+• Add an icon for NR_SA (5G Standalone) data connection.
+• Allow toggling charging sound and vibration separately.
+• Allow having percent inside the battery icon in collapsed QS with notch.
+• Settings: Fix default values in theming page.
+• Settings: Fix our custom slider always being continuous.
+• Settings: Fix some custom sliders missing minimum value.
+• Add some minor spoofing to PS so keybox is effective.
+• Fixed a rare edge case that'd crash SystemUI.
+• Fixed Launcher3 crashing when changing themes.
+• Fixed a few errors when performing A-only OTA.
+• Vanilla: Update microg to v0.3.9.250932.
+• Vanilla: Drop FDroid privileged extension.
+• Vanilla: Switch to GrapheneOS' Vanadium browser/webview.
+• Few other minor changes.
 
 Device:
-• Switch to common hardware/xiaomi VINTF fragments.
-• Switch to common AIDL lineage fingerprint HAL.
-• Drop unused lights HAL.
-• Switch to common device compatibility matrix from QCOM.
-• Resolve warnings in the GPS HAL.
-• Convert GPS HAL to blueprint.
-• Migrate mountpoint creation to blueprint.
-• Shim widevine libs with libcrypto_shim.
-• Switch to python extract-utils.
-• Enable and resolve ELF checks.
-• Clean up system IMS stack.
-• Drop prebuilt com.fingerprints.extension@1.0 as we are building the reversed implementation from hardware/xiaomi.
-• Drop media component and switch back to stock media blobs.
-• Clean up media stack.
-• Drop OMX completely and switch to Codec2.
-• Drop all BUILD_BROKEN flags.
-• Upgrade audio HAL to v7.0.
-• Drop first_stage_ramdisk GSI keys as it is redundant.
-• Switch back to prebuilt camera provider to retain camera and flash capabilities on devices where one or more lenses are broken.
-• Update libnotifyaudiohal from ruby V816.0.5.0.UMOMIXM to resolve an issue where the proximity sensor wasn't working.
-• Move back to QTI PerfD HIDL stack as the AIDL stack causes an abundance of logspams.
-• DisplayFeatures: Specify export behavior for BroadcastReceiver.
-• Kernel state at r17b14.
+• DisplayFeatures: Implement CABC mode to be utilized on devices that support it.
+• DisplayFeatures: Remove preferences of toggles that are unsupported.
+• DisplayFeatures: Reword summary of DisplayFeatures.
+• DisplayFeatures: Check if tiles are started first to unregister.
+• DisplayFeatures: Only restore preferences if they are available.
+• DisplayFeatures: Completely hide unavailable QS tiles.
+• DisplayFeatures: Store CABC value in SharedPreferences and restore at boot.
+• DisplayFeatures: Don't restore HBM at boot as it is a bad practice.
+• DisplayFeatures: Add French and Spanish translations.
+• Kernel state at r17b15.
