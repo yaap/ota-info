@@ -1,13 +1,12 @@
 ROM:
-• Add a gesture to mute media by pressing both volume keys
-• Add a toggle for key-combo screenshot gesture
-• Add a tri-state toggle for customizing wake on charge
-• Add an icon for NR_SA (5G Standalone) data connection
-• Allow toggling charging sound and vibration separately
-• Allow having percent inside the battery icon in collapsed QS with notch
-• Settings: Fix default values in theming page
-• Settings: Fix our custom slider always being continuous
+• Settings: Fix some custom sliders missing minimum value
+• Add some minor spoofing to PS so keybox is effective
+• Fix no deep sleep after charging
+• Fix a rare edge case that'd crash SystemUI
+• Fix Launcher3 crashing when changing themes
+• Fix a few errors when performing A-only OTA
+• Updater (OTA): Reflect we can't support picking downloads provider files
 • Few other minor changes
 
 Device:
-• No changes
+• More correctly reflect what values are set for touchscreen gestures
