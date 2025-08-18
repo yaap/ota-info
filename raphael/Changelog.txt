@@ -1,10 +1,14 @@
 ROM:
-• Add a toggle for PPU
-• Add a dev option to load a custom keybox
-• Settings: Make our custom slider follow AOSP's style
-• Recovery: Allow reading pstore logs
-• YASR: Update target SDK and dependencies
+• Settings: Fix some custom sliders missing minimum value
+• Add some minor spoofing to PS so keybox is effective
+• Fix no deep sleep after charging
+• Fix a rare edge case that'd crash SystemUI
+• Fix Launcher3 crashing when changing themes
+• Fix a few errors when performing A-only OTA
+• Updater (OTA): Reflect we can't support picking downloads provider files
 • Few other minor changes
 
-Device:
-Switched to Opensource Audio Hal
+Device (OP12):
+• Updated WFD stack for A16
+* Updated some device blobs from Nabu 
+* Included stock firmware
