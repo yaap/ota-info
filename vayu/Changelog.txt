@@ -1,11 +1,29 @@
 ROM:
-• Add a toggle for PPU
-• Add a dev option to load a custom keybox
-• Settings: Make our custom slider follow AOSP's style
-• Recovery: Allow reading pstore logs
-• YASR: Update target SDK and dependencies
-• YASR: Use a top progress bar in all pages
+• Add Smooth Display QS tile
+• Fix clock animations during keyguard transitions
+• Fix multi sim numbers not clickable in about page
+• Fix oversized biometric prompt corner radius (AOSP)
+• Refactor Gaming Macro and:
+  - Allow enabling Smooth Display
+  - Fix three finger screenshot gesture toggle not applying
+  - Save and restore some previous states more accurately
+• YASR: Improve unavailable mic handling
+• YASR: Only allow whitelisted (supported) device types
+• YASR: Fixed a bug that made devices be gone on resume
+• YASR: Updated dependencies
+• Settings: Fix some custom sliders missing minimum value
+• Add some minor spoofing to PS so keybox is effective
+• Fix no deep sleep after charging
+• Fix a rare edge case that'd crash SystemUI
+• Fix Launcher3 crashing when changing themes
 • Few other minor changes
 
 Device:
-• Switch to EROFS for all partitions
+• Unpin IMS blobs (for VOLTE in jio sim)
+• Switch to lz4 for erofs
+• Set erofs pcluster size
+• Fix VTS violations by adding vendor prefixes
+• Update power profile from coral
+• Fix unusally long boot time in first boot
+• Cleanup unused init and sepolicies
+• Misc fixes and improvements
