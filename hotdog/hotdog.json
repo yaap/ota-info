@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1755444605,
-      "filename": "YAAP-16-Banshee-hotdog-20250817.zip",
+      "datetime": 1755716086,
+      "filename": "YAAP-16-Banshee-hotdog-20250820.zip",
       "payload": [
         {
           "offset": 4217,
-          "FILE_HASH": "PjSyrpmzrChjrj0by4n2b7Uip9osCWVpvYCN8yceIxw=",
-          "FILE_SIZE": "2001865239",
-          "METADATA_HASH": "wZt/Nwfk+xWlR8PsuVfiLYnsnTsoU6puwB89kmYUahM=",
-          "METADATA_SIZE": "87365"
+          "FILE_HASH": "fz6NVlivLWAwk9bpl/aYWA/eKtqbEYGkrMSHNjm8g/Q=",
+          "FILE_SIZE": "2001839077",
+          "METADATA_HASH": "ZOZCt3eyqzIQJRR5LvF8hefRXmCACtDsbX9VCISig+s=",
+          "METADATA_SIZE": "87366"
         }
       ]
     }
