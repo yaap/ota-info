@@ -1,14 +1,10 @@
 ROM:
-• Settings: Fix some custom sliders missing minimum value
-• Add some minor spoofing to PS so keybox is effective
-• Fix no deep sleep after charging
-• Fix a rare edge case that'd crash SystemUI
-• Fix Launcher3 crashing when changing themes
-• Fix a few errors when performing A-only OTA
-• Updater (OTA): Reflect we can't support picking downloads provider files
+• Add system-wide support for DC Dimming (+ QS tile)
+• Make internet tile to be added by default on first boot
+• Add support for daily and weekly data usage cycles
+• Fix scrolling jank near the end of it
 • Few other minor changes
 
-Device (OP12):
-• Updated WFD stack for A16
-* Updated some device blobs from Nabu 
-* Included stock firmware
+
+Device:
+• Improvments to reduce scrolling jank
