@@ -8,7 +8,7 @@ ROM:
 • Updater (OTA): Reflect we can't support picking downloads provider files
 • Few other minor changes
 
-Device (OP12):
+Device:
 • Updated WFD stack for A16
-* Updated some device blobs from Nabu 
-* Included stock firmware
+• Updated some device blobs from Nabu 
+• Included stock firmware
