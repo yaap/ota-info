@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1756042964,
+      "filename": "YAAP-16-Vanilla-cheetah-20250824.zip",
+      "payload": [
+        {
+          "offset": 4434,
+          "FILE_HASH": "MUQWdz/0sJQ4L7AMWu+AyMJdL+lY4mNrVyn5HDU9Fr4=",
+          "FILE_SIZE": "1689962635",
+          "METADATA_HASH": "qKO7wp1OGJ5ZgPpV+H3xTrxaDP4G6SMnUOajcJ3aJtU=",
+          "METADATA_SIZE": "126546"
+        }
+      ]
+    }
+  ]
+}
