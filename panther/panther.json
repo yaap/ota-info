@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1756037065,
+      "filename": "YAAP-16-Banshee-panther-20250824.zip",
+      "payload": [
+        {
+          "offset": 4434,
+          "FILE_HASH": "mNYrtsfoAL+OEig5TU//1xrZRkmTzbLVXkl+SO/iQVA=",
+          "FILE_SIZE": "2101932379",
+          "METADATA_HASH": "GvSbirFQIwjOs/tK6cvH6FLR2BhbT58XfxkTEvTdfU8=",
+          "METADATA_SIZE": "155870"
+        }
+      ]
+    }
+  ]
+}
