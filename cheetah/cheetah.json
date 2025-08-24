@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1756039153,
+      "filename": "YAAP-16-Banshee-cheetah-20250824.zip",
+      "payload": [
+        {
+          "offset": 4434,
+          "FILE_HASH": "zuRg8eI/JJVDEMS3ptZWW7wrwtTLEiwVHWndkYJYIgw=",
+          "FILE_SIZE": "2102369475",
+          "METADATA_HASH": "HVYTLtuw8nOCzYCIfUtbmyhWlih+9zj+FI6YtbA8GmQ=",
+          "METADATA_SIZE": "156098"
+        }
+      ]
+    }
+  ]
+}
