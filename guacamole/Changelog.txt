@@ -1,7 +1,12 @@
 ROM:
-• Add system-wide support for DC Dimming (+ QS tile)
-• Make internet tile to be added by default on first boot
+• Add support for daily and weekly data usage cycles
+• Add back OmniJaw as lock screen weather provider
+• Add back all OmniJaw related settings
+• Fix gaming macro showing unavailable color modes on some devices
+• Fix scrolling jank near the end of it
+• Fix emergency info crashing upon action
 • Few other minor changes
 
 Device:
-• No changes
+• Fix gesture / slider events being interpreted as key events
+• Improve gesture / slider events power management and reliability
