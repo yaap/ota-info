@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1756301738,
-      "filename": "YAAP-16-Banshee-guacamole-20250827.zip",
+      "datetime": 1757190288,
+      "filename": "YAAP-16-Banshee-guacamole-20250906.zip",
       "payload": [
         {
           "offset": 3832,
-          "FILE_HASH": "zpxAvjy7hRedgU/pWF6Hj0tH890T8wnehjUo9hfDPbY=",
-          "FILE_SIZE": "1980125699",
-          "METADATA_HASH": "cBe6FuoZNXvzrGEHI3PkRHxHg0Y2VgQ929Vckt3XXHU=",
-          "METADATA_SIZE": "133812"
+          "FILE_HASH": "fXBzqqLm7MTArGlrvXfW9EanJtS2ECVA/iQR/iFa1HI=",
+          "FILE_SIZE": "1980116042",
+          "METADATA_HASH": "3bgkL6b2dfjayqhLNwbd5TDHPZYvOPytak1n6zD3fRA=",
+          "METADATA_SIZE": "133811"
         }
       ]
     }

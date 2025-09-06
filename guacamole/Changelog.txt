@@ -1,12 +1,8 @@
 ROM:
-• Add support for daily and weekly data usage cycles
-• Add back OmniJaw as lock screen weather provider
-• Add back all OmniJaw related settings
-• Fix gaming macro showing unavailable color modes on some devices
-• Fix scrolling jank near the end of it
-• Fix emergency info crashing upon action
+• Fix QS settings long click action
+• Fix QS Internet dialog long click on mobile network action
+• Some visual fixes to lock screen charging indicator
 • Few other minor changes
 
 Device:
-• Fix gesture / slider events being interpreted as key events
-• Improve gesture / slider events power management and reliability
+• No changes
