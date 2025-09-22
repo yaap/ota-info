@@ -1,14 +1,12 @@
 ROM:
-• Settings: Fix some custom sliders missing minimum value
-• Add some minor spoofing to PS so keybox is effective
-• Fix no deep sleep after charging
-• Fix a rare edge case that'd crash SystemUI
-• Fix Launcher3 crashing when changing themes
-• Fix a few errors when performing A-only OTA
-• Updater (OTA): Reflect we can't support picking downloads provider files
+• Add support for daily and weekly data usage cycles
+• Add back OmniJaw as lock screen weather provider
+• Add back all OmniJaw related settings
+• Fix gaming macro showing unavailable color modes on some devices
+• Fix scrolling jank near the end of it
+• Fix emergency info crashing upon action
+• Fix QS settings long click action
+• Fix QS Internet dialog long click on mobile network action
+• Some visual fixes to lock screen charging indicator
+• Allow disabling time to full on keyguard
 • Few other minor changes
-
-Device:
-• Updated WFD stack for A16
-• Updated some device blobs from Nabu 
-• Included stock firmware
