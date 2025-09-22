@@ -1,10 +1,12 @@
 ROM:
-• Add system-wide support for DC Dimming (+ QS tile)
-• Make internet tile to be added by default on first boot
 • Add support for daily and weekly data usage cycles
+• Add back OmniJaw as lock screen weather provider
+• Add back all OmniJaw related settings
+• Fix gaming macro showing unavailable color modes on some devices
 • Fix scrolling jank near the end of it
+• Fix emergency info crashing upon action
+• Fix QS settings long click action
+• Fix QS Internet dialog long click on mobile network action
+• Some visual fixes to lock screen charging indicator
+• Allow disabling time to full on keyguard
 • Few other minor changes
-
-
-Device:
-• Improvments to reduce scrolling jank
