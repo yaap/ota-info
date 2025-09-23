@@ -1,4 +1,6 @@
 ROM:
+• Apply September security patches
+• Allow disabling time to full on keyguard
 • Add support for daily and weekly data usage cycles
 • Add back OmniJaw as lock screen weather provider
 • Add back all OmniJaw related settings
