@@ -1,21 +1,13 @@
 ROM:
-• Fix QS settings long click action
-• Fix QS Internet dialog long click on mobile network action
-• Some visual fixes to lock screen charging indicator
+• Apply September security patches
+• Allow disabling time to full on keyguard
 • Few other minor changes
 
 Device:
-• Update from CPH2581_15.0.0.850
-• Update all qti pineapple blobs (RIL, Vendor IMS, Radio, etc) to Asus WW-35.1210.1420.124
-• Add power-off alarm support
-• Implement fully stock dolby audio
-• Improve app open performance
-• Improve auto brightness and screen correction
-• Add toggle in Display for toggling adaptive frame rate (ltpo features)
+• Build with Lindroid support (for advanced users at this stage)
+• Improve fingerprint and app open performance
+• Improve interaction jank
 • Kernel:
-  - Merge 6.1.150
-  - Improve UDFPS on AOD
-  - Move high touch rate from 500hz to 250hz since stock uses 250hz and former is likely interpolated
-  - Remove old ADFR hack for new implementation allowing enabling more features
-  - Improve jitter/jank
+  - Updates for lindroid drm driver
+  - Merge 6.1.152
   - Misc
