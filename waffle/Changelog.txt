@@ -1,13 +1,11 @@
-ROM:
-• Apply September security patches
-• Allow disabling time to full on keyguard
-• Few other minor changes
+Rom: 
+• None
 
 Device:
-• Build with Lindroid support (for advanced users at this stage)
-• Improve fingerprint and app open performance
-• Improve interaction jank
-• Kernel:
-  - Updates for lindroid drm driver
-  - Merge 6.1.152
-  - Misc
+• Improve jank, jitter, and fod performance tremendously. 
+• Introduce kprofiles for modifying new boosting behaviors for app launch and frame commits.
+• Kernel (changes for above):
+ - Introduce a dcvs bus (L3, DDR, CPUBW) boosting driver
+ - Add predefined kick support to new cpu boosting driver
+ - Import and update/optimize KProfiles
+ - Implement pre commit frame boosting, covering none (battery), up to ~70% (balanced/default), or up to ~90% (performance) of entire commit cycle.
