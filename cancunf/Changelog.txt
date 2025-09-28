@@ -1,16 +1,239 @@
 ROM:
-• Disable Play Integrity spoofing for Full version since it no longer works (Microg still uses legacy checks).
-• Vanilla: add espeak-ng as a default text to speech provider.
-• Vanilla: add talkback support:
-  - Utilizes OSS talkback and espeak-ng.
-  - includes dual volume button gesture same as proprietary SetupWizard for visually impaired users.
+• Merged Android 16.
+- Known regressions:
+  - Removed LMO Freeform (broken for now).
+  - Hide lock screen weather provider switch for now.
+• Make USB tethering tile secure on lock screen.
+• Build using a newer clang + kotlinc.
+• Bring back freeform.
+• Fix locks screen clock animations.
+• Fix UHDR-specific brightness bug.
+• Fix our Bluetooth auto on toggle.
+• Enable Bluetooth auto turn on tomorrow toggle.
+• Disable all capitalized smart reply text.
+• Launcher3: Fix restart for some settings toggles.
+• Settings: Fix missing security hub.
+• Allow devices with working TEE to pass BASIC attestation by default.
+• Add Google Sans Flex font.
+• Improve UHDR display consistency across modes.
+• Enable Advanced Protection. (Google thing)
+• Allow enabling Desktop Mode. (Experimental dev setting)
+• Revert fix for lockscreen clock animations. (due to other breakages)
+• Settings: Fix some theming settings that had no default values.
+• Settings: Fix some custom sliders with no default value.
+• Launcher3: Replace close action with kill.
+• Launcher3: Toast the killed app name.
+• Add a toggle for PPU.
+• Add a dev option to load a custom keybox.
+• Fix prevent ringing gesture.
+• Settings: Make our custom slider follow AOSP's style.
+• Settings: Fix fingerprint enrollment page.
+• Recovery: Allow reading pstore logs.
+• YASR: Update target SDK and dependencies.
+• YASR: Use a top progress bar in all pages.
+• Add Smooth Display QS tile.
+• Fix clock animations during keyguard transitions.
+• Fix multi sim numbers not clickable in about page.
+• Fix oversized biometric prompt corner radius. (AOSP)
+• Refactor Gaming Macro and:
+  - Allow enabling Smooth Display.
+  - Fix three finger screenshot gesture toggle not applying.
+  - Save and restore some previous states more accurately.
+• YASR: Improve unavailable mic handling.
+• YASR: Only allow whitelisted (supported) device types.
+• YASR: Fixed a bug that made devices be gone on resume.
+• YASR: Updated dependencies.
+• Add a gesture to mute media by pressing both volume keys.
+• Add a toggle for key-combo screenshot gesture.
+• Add a tri-state toggle for customizing wake on charge.
+• Add an icon for NR_SA (5G Standalone) data connection.
+• Allow toggling charging sound and vibration separately.
+• Allow having percent inside the battery icon in collapsed QS with notch.
+• Settings: Fix default values in theming page.
+• Settings: Fix our custom slider always being continuous.
+• Settings: Fix some custom sliders missing minimum value.
+• Add some minor spoofing to PS so keybox is effective.
+• Fixed a rare edge case that'd crash SystemUI.
+• Fixed Launcher3 crashing when changing themes.
+• Fixed a few errors when performing A-only OTA.
+• Fix no deep sleep after charging.
+• Updater (OTA): Reflect we can't support picking downloads provider files.
+• Add system-wide support for DC Dimming (+ QS tile)
+• Make internet tile to be added by default on first boot
+• Add support for daily and weekly data usage cycles
+• Add back OmniJaw as lock screen weather provider
+• Add back all OmniJaw related settings
+• Fix gaming macro showing unavailable color modes on some devices
+• Fix scrolling jank near the end of it
+• Fix emergency info crashing upon action
+• Fix QS settings long click action
+• Fix QS Internet dialog long click on mobile network action
+• Some visual fixes to lock screen charging indicator
+• Apply September security patches
+• Allow disabling time to full on keyguard
+• Many other changes.
 
 Device:
-• [IMPORTANT] To be able to seamlessly update to Android 15 Firmware based YAAP 16, you must update to this build!
-• Drop ATCI service as it is useless.
-• Enable hide cutout emulations for full screen within games.
-• Silence HWUI logspam.
-• Fixed an issue where Google Lens crashed in Moto Camera.
-• Implement dynamic sensors HAL for peripherals that support head-tracking.
-• Fixed an issue where DriveDroid stopped working.
-• Add symlinks for UFS preloader boot regions to support A/B OTA updates.
+• Update blobs to V1TD35M.83-20-5.
+• Switch to AIDL imgtuner service.
+• Add dav1d software video decoder.
+• Update IMS patches ot V1TD35M.83-20-5.
+• Update blobs to V1TDS35M.83-20-5-3.
+• Add permissions for com.android.nfc_extras and com.nxp.mifare.
+• Switch to using phase offsets as durations for SurfaceFlinger to reduce jitter and improve vsync.
+• Drop vsync event props as they are not to be utilized with phase durations.
+• Unsignal buffer latching with AutoSingleLayer to reduce app jank while being unaffected by display freezes.
+• Enable GL comp backpressure to avoid jank due to HWC queue stuffing.
+• Update CarrierConfigOverlay to V1TDS35M.83-20-5-3.
+• Reduce max resolution for HEIF images to prevent HW overload issue.
+• Move kernel modules to a new DLKM vendor_ramdisk fragment to improve modularity.
+• Drop mtk_perf_common module as we don't need it.
+• Drop AEE and ATF modules as they are debugging modules.
+• Enable ELF checks for libimsma.
+• Drop BesLoudness as we don't need it.
+• Add permissions for com.mediatek.ims.config.xml.
+• Address more SEPolicy for wakeup nodes.
+• Patch mtkfusionrild to load libutils-v32 to fix RIL.
+• Switch to LZ4 compression for EROFS images to improve decompression speed substantially.
+• Add WifiResOverlay for G64Y (XT2431-2).
+• Ship full firmware within the ROM zip.
+• Label SEPolicy for persist.moto.vt.timegap.
+• Update VT system blobs from rothko A16 to fix VT.
+• Update AVB rollback index from V1TDS35M.83-20-5-3.
+• Install apex for clearkey service.
+• Switch to regular AIDL Wi-Fi HAL over the lazy HAL as we don't need to defer initialization of Wi-Fi.
+• Move to reference fastboot AIDL service.
+• Cleanup Lights AIDL HAL.
+• Build DisplayFeatures - A package that exposes toggles and QS tiles for HBM and CABC(page is located in display).
+• Update blobs and firmware to V1TDS35M.83-20-5-5.
+• Update AVB rollback index from V1TTDS35M.83-20-5-5.
+• Implement felicaDisabler() in MotoActions to disable FeliCa on non-Japan devices.
+• Grant required permissions for felicaDisabler().
+• Ship a prebuilt vendor_ramdisk fragment for dlkm to reduce build time.
+• Add Spanish and French Translations for DisplayFeatures.
+• Use OSS lib_driver_cmd_mt66xx to fix some crashes.
+• Bring back WPA3-SAE hotspot support.
+• Use new material switch in MotoActions to match with Settings.
+• Ship MediaTek GbaService implementation.
+• Enable RTT options found on MtkTeleService.
+• Set 4GB ZRAM for all RAM variants to provide an equally conservative experience.
+• Drop deprecated max_comp_streams attribute for ZRAM.
+• Set ramdisk type for DLKM vendor_ramdisk fragment.
+• Stop reserving space twice for journaling as we already do it in fstab.
+• Define rounded_corner_radius overlay to make biometric prompt be rounded.
+• Set biometric_dialog_corner_size to 155px to make the biometric prompt be even more rounded.
+• Rewrite Lights AIDL HAL to Rust.
+• Implement adjustable strength flashlight support.
+• Set SurfaceFlinger min uclamp to 30% to reduce janks.
+• Mark ACTION_UP events in TouchKeyHandler of MotoActions as handled to prevent a conflict with platform side actions.
+• Be efficient and accurate with wakelocks in TouchKeyHandler of MotoActions.
+• Switch to AIDL OSS Bluetooth service.
+• Decrease reserve_root value to 32768 to match Pixel behavior.
+• Set readahead_size_kb=128 to system, vendor, product, system_ext and data to avoid memory pressure.
+• Remove noflush_merge option from userdata as our UFS storage is not cheap.
+• Use HintManager for HWUI for better CPU scheduling.
+• Drop MTK RPS module.
+• Remove unused MTK audio codecs as AOSP's software codecs are objectively superior.
+• Disable Skia tracing by default to reduce jank.
+• Disable sf EGL image tracking as it is a surfaceflinger debugging feature.
+• Downscale task snapshots to 70% to save memory without a noticeable loss in quality.
+• Update blobs and firmware to V1TDS35M.83-20-5-6.
+• Update AVB rollback index from V1TDS35M.83-20-5-6.
+• Import Regulatory Info for XT2343-3.
+• Remove redundant usbotg actions from init.
+• Drop init.modem.rc as we have disabled RPS.
+• Remove leftover debugging connectivity services.
+• Stop changing dirty_writeback_centisecs with MediaTek's values.
+• Stop mmstat tracing.
+• Remove redundant engineering firmware dependencies.
+• Remove MediaTek gauge and power actions from init.
+• Stop waiting for hwserivcemanager.ready to be true as it is a relic from a prehistoric era.
+• Stop writing to race_marker just for knowing fstab mounting stage as bootprof handles that.
+• Stop starting inexistent services.
+• Stop setting permissions for inexistent files and folders.
+• Stop creating unused folders on /data/vendor.
+• Drop perfmgr and dramboost writes.
+• Drop /sdcard symlink.
+• Kernel:
+  • Initial base over android12-5.10. (commit SHA: 070f0e34d716, kver: 5.10.240)
+  • Compiled with LLVM 12.0.5.
+  • Merge MMI-V1TDS35H.83-20-5-5 into the kernel.
+  • Backport Full LLVM support from android13-5.10.
+  • Generate a full defconfig and utilize it.
+  • Enable LLVM's Shadow Call Stack.
+  • Simplify kernel version.
+  • Enable BBRv1, Westwood+ and BIC congestion algorithms.
+  • Fix CFI violations in mtk_pinconf_set() and mtk_pinconf_get().
+  • Import backlight drivers from MMI-V1TDS35H.83-20-5-5 and build them inline.
+  • Import gpu drivers from MMI-V1TDS35H.83-20-5-5 and build them inline.
+  • Import fingerprint drivers from MMI-V1TDS35H.83-20-5-5 and build them inline.
+  • Import touchscreen drivers from MMI-V1TDS35H.83-20-5-5 and build them inline.
+  • Import connectivity drivers from MMI-V1TDS35H.83-20-5-5 and build them inline.
+  • Import sx937x and utag from MMI-V1TDS35H.83-20-5-5 and build them inline.
+  • Import mmi_{info,relay} drivers from MMI-V1TDS35H.83-20-5-5 and build them inline.
+  • Import NFC drivers from MMI-V1TDS35H.83-20-5-5 and build them inline.
+  • Import power drivers from MMI-V1TDS35H.83-20-5-5 and build them inline.
+  • Import sm5109c driver from MMI-V1TDS35H.83-20-5-5 and build them inline.
+  • Import sensors_class driver from MMI-V1TDS35H.83-20-5-5 and build them inline.
+  • Drop met_drv_v3 and Moto USB drivers.
+  • Build mt6855.dtb and utilize it.
+  • Switch to linear brightness scaling in backlight drivers.
+  • Force firmware to enable single & double tap gestures in NVT-TS.
+  • Implement single and double tap detection in NVT-TS.
+  • Enable all supported gestures by default in NVT-TS.
+  • Set single tap to report BTN_TRIGGER_HAPPY3 in NVT-TS.
+  • Enable ILI_SET_TOUCH_STATE to report touch states to firmware in ILITEK_TDDI.
+  • Implement single and double tap detection in ILITEK_TDDI.
+  • Enable all supported gestures by default in ILITEK_TDDI.
+  • Set single tap to report BTN_TRIGGER_HAPPY3 in ILITEK_TDDI.
+  • Drop focaltech_0flash_mmi_v2 driver as we don't use it at all.
+  • Disable MediaTek scheduler changes.
+  • Set schedutil as the default cpufreq governor.
+  • Implement up/down frequency transition rate limits in the schedutil cpufreq governor.
+  • Set performance as the default cpufreq governor to improve boot performance.
+  • Add NL80211_WPA_VERSION_3 enumeration to wlan driver to fix WPA3-SAE on A15 QPR1+ (modules).
+  • Backport Sony HID drivers from mainline.
+  • Implement UVC (DeviceAsWebcam) support in USB drivers.
+  • Switch to host cpio and tar binaries as utilising prebuilt binaries shipped by MTK BSP is redundant.
+  • Fix random Wi-Fi disconnection issues in connectivity drivers.
+  • Disable more MTK Scheduler drivers.
+  • Load NVT-TS firmware earlier.
+  • kramel: Implement _depmod() to generate AOSP-compatible vendor_ramdisk fragment and vendor_dlkm modules.
+  • kramel: Standardize and clean-up most of the code.
+  • Implement fs_config and file_contexts generation in _depmod().
+  • Set CONFIG_NR_CPUS to 8 as we are on a 8-core CPU device.
+  • Disable AEE and Hang Detect Monitor as they are useless debugging drivers.
+  • Stop building MediaTek DCM drivers for other platforms.
+  • Drop DVFSRC Helper for MET.
+  • Disable MediaTek's ATF Logger.
+  • Drop met_drv_v3 modules from vendor_dlkm list.
+  • Fix building with AEE disabled.
+  • Import LZ4 v1.10.0 from upstream.
+  • Import arm64 V8 ASM lz4 decompression algorithm.
+  • Update assembly instructions of lz4armv8 from Huawei kernel drop.
+  • Use ARM64 v8 ASM to accelrate lz4 decompression in crypto, IncFS and EROFS.
+  • Update drivers from MMI-V1TDC35H.44-20-15.
+  • Backport support to make $(LLVM) more flexible.
+  • Build Image.gz and mediatek/mt6855.dtb targets by default.
+  • Implement high brightness mode (HBM) support.
+  • Implement content aware brightness control (CABC) support.
+  • kramel: Copy LZ4-compressed CPIO archive to prebuilt kernel tree.
+  • Disable redundant flashlight drivers.
+  • Copy max torch duty to userspace.
+  • Implement a FLASH_IOC_GET_CURRENT_TORCH_DUTY ioctl.
+  • kramel: Allow updating modules.load.recovery in platform(default) vendor_ramdisk fragment.
+  • Disable MTK RPS (Receive-Packet Steering) because we don't need MTK's network load balancer as the scheduler can handle the load balancing on its own.
+  • Disable MTK RPS in gen4m.
+  • Let scheduler handle cpu boosting in gen4m.
+  • Disable CPU boosting from wlan by default.
+  • Disable unneeded debug cruft such as KASAN, KFENCE, CFI, SCS, UBSAN, PAGE_EXTENSION, PAGE_OWNER, PAGE_PINNER, DEBUG_MEMORY_INIT as GKIs are tested against these debuggers as such we do not need to keep them enabled on production builds.
+  • Enable TTL/HL fixation as some carriers offer lower data exclusively for tethering so allow bypassing it.
+  • Reduce an abundance of logspam treewide.
+  • Disable connectivity wakelocks.
+  • Queue delayed work on power efficient workqueues for connectivity.
+  • Disable all build-time spams.
+  • Disable IKHEADERS as it increases the kernel Image size by approximately 4MB.
+  • Silence warnings generated by DTC.
+  • Don't allow userspace to write to /dev/kmsg to silence userspace logging in dmesg.
+  • Use the stock GKI config for /proc/config.gz to pass VINTF checks.
+  • Disable MET tracing support in gen4m.
