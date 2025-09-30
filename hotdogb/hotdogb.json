@@ -1,8 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1753905600,
-      "filename": "YAAP-16-Vanilla-hotdogb-20250801.zip"
+      "datetime": 1759248026,
+      "filename": "YAAP-16-Vanilla-hotdogb-20250930.zip",
+      "payload": [
+        {
+          "offset": 4248,
+          "FILE_HASH": "eNhXMloFbGzd3ZMqPxDNW1ell5uAQ0IGkc/8eiM6OLc=",
+          "FILE_SIZE": "1514440136",
+          "METADATA_HASH": "1+NKbsQIw4Esa0aoJ+2F6J8alhgVSwoIbaX+P/DA2DM=",
+          "METADATA_SIZE": "173990"
+        }
+      ]
     }
   ]
 }
