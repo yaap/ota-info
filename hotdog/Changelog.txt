@@ -1,8 +1,8 @@
 ROM:
-• Fix QS settings long click action
-• Fix QS Internet dialog long click on mobile network action
-• Some visual fixes to lock screen charging indicator
+• Apply September security patches
+• Allow disabling time to full on keyguard
+• Add Roboto Flex font
 • Few other minor changes
 
 Device:
-• No changes
+• Fix A2DP offload and other audio issues
