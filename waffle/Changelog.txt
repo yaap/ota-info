@@ -1,6 +1,15 @@
 ROM:
-• Add Roboto Flex font
+• Allow automatically turning on mobile data when pressing the tile
+• Launcher3: Allow to always show page indicator dots
+• Launcher3: Add 4x6 and 4x7 grid sizes
+• Add Sony Sketch font
+• Add Rubik font
+• Vanilla: update microg
 
 Device:
+• Lockscreen udfps dim no longer shows up on screen record or screenshot
+• Update to CPH2581_15.0.0.863 (fw and blobs) and WW-35.1210.1420.150 (radio blobs)
 • Kernel:
-  - BUGFIX: Fix possible hangs/panics and other safety issues in new boosting drivers
+  - Merge 6.1.156
+  - Improve efficiency on balanced kprofile
+  - Lindroid: switch to the new rewritten driver
