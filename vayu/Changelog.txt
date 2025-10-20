@@ -1,26 +1,10 @@
 ROM:
-• Fix various bluetooth issues introduced in Android 16
-• Default disable Ultra HDR behaviors
-  - It is severely broken on all devices except those using proprietary solutions such as pixels
-  - Does not affect HDR video behaviors
-• Allow automatically turning on mobile data when pressing the tile
-• Launcher3: Allow to always show page indicator dots
-• Launcher3: Add 4x6 and 4x7 grid sizes
-• Add Sony Sketch font
-• Add Rubik font
-• Vanilla: update microg
+• Apply September security patches
+• Allow disabling time to full on keyguard
+• Add Roboto Flex font
+• Few other minor changes
 
 Device:
-• Optimize native executables for Cortex-A76 CPU
-• Switch to dot product CPU variant
-• sepolicy: Suppress/Ignore harmless denials
-• audio: Dont advertise some unsupported features
-• audio: Fix crackling noise while playing some sounds
-• audio: Fix issues with mic and wired headphones.
-• kernel: Align bpf with 5.4 kernel
-• kernel: Don't build irrelevant DTBs
-• kernel: Kill some logspams
-• kernel: Workaround for xiaomi thermal mitigation
-• kernel: Drop unneeded code
+• Uprev vendor.qti.hardware.bluetooth_audio@2.1-impl to 2.1
+• kernel: Revert "drivers: misc: power: implement usb2 fast charge mode"
 • Misc fixes and improvements
-
