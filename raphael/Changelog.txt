@@ -1,14 +1,16 @@
 ROM:
-• Apply September security patches
-• Allow disabling time to full on keyguard
-• Add support for daily and weekly data usage cycles
-• Add back OmniJaw as lock screen weather provider
-• Add back all OmniJaw related settings
-• Fix gaming macro showing unavailable color modes on some devices
-• Fix scrolling jank near the end of it
-• Fix emergency info crashing upon action
-• Fix QS settings long click action
-• Fix QS Internet dialog long click on mobile network action
-• Some visual fixes to lock screen charging indicator
-• Allow disabling time to full on keyguard
+• Fix various bluetooth issues introduced in Android 16
+• Default disable Ultra HDR behaviors
+  - It is severely broken on all devices except those using proprietary solutions such as pixels
+  - Does not affect HDR video behaviors
+• Allow automatically turning on mobile data when pressing the tile
+• Launcher3: Allow to always show page indicator dots
+• Launcher3: Add 4x6 and 4x7 grid sizes
+• Add Sony Sketch font
+• Add Rubik font
+• Add Roboto Flex font
+• Few other minor changes
+
+Device:
+* Add support for LIndroid
 • Few other minor changes
