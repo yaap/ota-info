@@ -1,11 +1,8 @@
 ROM:
-• Fix various bluetooth issues introduced in Android 16
-• Default disable Ultra HDR behaviors
-  - It is severely broken on all devices except those using proprietary solutions such as pixels
-  - Does not affect HDR video behaviors
+• Settings: Reflect that a gesture won't trigger ambient when ambient is disabled
 
-Device(op12):
-• Properly calculate SDR/HDR ratio map for better SDR dimming while viewing HDR material
-• Kernel: update Lindroid drm driver:
-  - utilize static key to disable perf stats by default
-  - optimize event dequeue performance
+Device: 
+• Switch to source built audio
+• Camera: improve OIS tuning (thanks to OCVM (UltraM8))
+• Camera: disable face detection auto exposure adjustment
+• Kernel: merge 6.1.157
