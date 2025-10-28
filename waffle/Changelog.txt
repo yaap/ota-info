@@ -1,8 +1,7 @@
 ROM:
-• Settings: Reflect that a gesture won't trigger ambient when ambient is disabled
+• Update certified props to pass PI (again).
+• Lindroid: update default rootfs, multi-display support (with external hotplugging)
 
-Device: 
-• Switch to source built audio
-• Camera: improve OIS tuning (thanks to OCVM (UltraM8))
-• Camera: disable face detection auto exposure adjustment
-• Kernel: merge 6.1.157
+Device:
+• Significant power efficiency and jank improvements
+• Kernel: updates for lindroid drm driver for multi-display support
