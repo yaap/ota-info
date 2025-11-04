@@ -1,7 +1,31 @@
 ROM:
-• Fix no deep sleep after charging.
-• Updater (OTA): Reflect we can't support picking downloads provider files.
+• Add system-wide support for DC Dimming (+ QS tile).
+• Make internet tile to be added by default on first boot.
+• Add support for daily and weekly data usage cycles.
+• Add back OmniJaw as lock screen weather provider.
+• Add back all OmniJaw related settings.
+• Fix gaming macro showing unavailable color modes on some devices.
+• Fix scrolling jank near the end of it.
+• Fix emergency info crashing upon action.
+• Fix QS settings long click action.
+• Fix QS Internet dialog long click on mobile network action.
+• Some visual fixes to lock screen charging indicator.
+• Apply September security patches.
+• Allow disabling time to full on keyguard.
+• Add Roboto Flex font
+• Add Roboto Flex font.
+• Allow automatically turning on mobile data when pressing the tile.
+• Launcher3: Allow to always show page indicator dots.
+• Launcher3: Add 4x6 and 4x7 grid sizes.
+• Add Sony Sketch font.
+• Add Rubik font.
+• Vanilla: update microg.
+• Fix various bluetooth issues introduced in Android 16.
+• Default disable Ultra HDR behaviors.
+  - It is severely broken on all devices except those using proprietary solutions such as pixels.
+  - Does not affect HDR video behaviors.
+• Settings: Reflect that a gesture won't trigger ambient when ambient is disabled.
+• Few other minor changes
 
 Device:
-• DisplayFeatures: Protect FpsService broadcast.
-• DisplayFeatures: Protect AFMScheduleService broadcast.
+• DisplayFeatures: Minor improvements.
