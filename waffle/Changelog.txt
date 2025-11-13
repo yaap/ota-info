@@ -1,7 +1,12 @@
 ROM:
-• Update certified props to pass PI (again).
-• Lindroid: update default rootfs, multi-display support (with external hotplugging)
+• Downgrade Aperture for bug fixes
 
 Device:
-• Significant power efficiency and jank improvements
-• Kernel: updates for lindroid drm driver for multi-display support
+• Improve auto brightness with a new ambient light correction implementation which reads stock next gen fusion correction values
+• Automatically disable eSIM with physical sim 2, fixing dual physical sim usage on eSIM variants
+• Audio: force NN models on voip input
+• Drop OpenEUICC on Vanilla (it hasn't worked since oos15):
+ - If you do not update GoogleEUICC it will work on vanilla. Otherwise, it depends on GMS. 
+• Kernel:
+ - Introduce an automatic esim power driver
+ - Lindroid driver updates
