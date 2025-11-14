@@ -1,9 +1,34 @@
 ROM:
-• Settings: Toast for weather provider switching
-• Settings: Improve Omnijaws related code
-• Fix emergency info crashing upon action
-• Few other minor changes
+• Fix various bluetooth issues introduced in Android 16
+• Default disable Ultra HDR behaviors
+  - It is severely broken on all devices except those using proprietary solutions such as pixels
+  - Does not affect HDR video behaviors
+• Allow automatically turning on mobile data when pressing the tile
+• Launcher3: Allow to always show page indicator dots
+• Launcher3: Add 4x6 and 4x7 grid sizes
+• Add Sony Sketch font
+• Add Rubik font
+• Vanilla: update microg
+• Settings: Reflect that a gesture won't trigger ambient when ambient is disabled
+• Downgrade Aperture for bug fixes
 
 Device:
-• Fix NFC
-• Fix Tap to wake responding slow sometimes
+• Remove obsolete SurfaceFlinger properties
+• Optimize native executables for Cortex-A76 CPU
+• Switch to dot product CPU variant
+• Set default pin amount for home app
+• Fix elfchecks for camera libs
+• Drop ppd
+• Remove unused entries from init and overlays
+• Set debug.sf.auto_latch_unsignaled to 0
+• Drop debug.sf.disable_client_composition_cac
+• audio: Dont advertise some unsupported features
+• audio: Fix crackling noise while playing some sounds
+• audio: Fix issues with mic and wired headphones.
+• kernel: Align bpf with 5.4 kernel
+• kernel: Don't ship irrelevant DTBs
+• kernel: Kill some logspams
+• kernel: Add Workaround for xiaomi thermal mitigation (for better charging speed)
+• kernel: Drop unneeded code
+• sepolicy: Suppress/Ignore harmless denials
+• Misc fixes and improvements
