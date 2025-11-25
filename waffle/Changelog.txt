@@ -1,8 +1,8 @@
-ROM:
-• Misc
+Rom:
+• Implement gestural navbar burn in protection
 
 Device:
-• Drop esim switching driver for now
-• Camera: improve logical lens switch
-• Camera: Support stabilization and various other video improvements thanks to Dmitry ZH
-• Misc improvements and cleanup
+• Improve ambient slice burn in protection
+• Kernel: merge new ACK, CLO, and 6.1.158 Linux kernel tags
+• Kernel: fix a major power regression
+• Kernel: fix some audio issues (lacking oplus adds)
