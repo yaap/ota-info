@@ -1,13 +1,28 @@
 ROM:
-• None
+• Merged Android 16 QPR1
+• Merged Android 16 QPR2 (and Dec/2025 security patches)
+• Add a toggle for screenshot sounds
+• Implement a new flashlight strength control tile, complete with primitive haptics and per-level control
+• Settings: Reflect that a gesture won't trigger ambient when ambient is disabled
+• Add a configurable blur radius slider for notification shade
+• Launcher: add configurable blur radius slider
+• OpenDelta: Support new A16's progress centric notifications
+• Downgrade Aperture for bug fixes
+
+Regressions compared to last release:
+• Smartspace has been dropped as a lockscreen weather provider
+  - You may use OmniJaws still
+• Left volume panel setting temporarily dropped
+• If the setting for it is removed, it's on purpose
 
 Device:
-• Fully merge oos16 blob and fw and kernel updated. 
- - We only released this update after fixing the fod unlock jank introduced on oos16 kernel side unlike the low standard LOS roms — so you will not have this regression like we did not previously. 
-• Fixed boot time regression.
-• Fixed torch brightness control (note oplus only gives us four levels). 
-• Kernel: Improve power efficiency and jitter consistency with new gpu pre commit boosting on balanced and performance kp: 
- - Also revert constant busy time boosting from earlier due to new implementation.
- - Remove powerhint, which was responsible for boosting gpu for expensive rendering — no longer needed.
-• Kernel: Fully fix FOD on AOD and doze fod performance. 
-• Kernel: FOD performance improvements.
+• Hook up ambient light sensor correction to sensor wrapper. 
+• Re-enabled oplus camera auto white balance due to user complaints. 
+• Kernel:
+  - Fixed max battery capacity reporting. 
+  - Fingerprint and touchpanel latency/performance improvements. 
+  - 6.1.159 merged
+  - Reclaim and deferred dmabuf free task-specific optimizations
+  - EEVDF backports/fixes
+  - CASS logic improvements for efficiency, performance, and latency improvements
+  - General efficiency and performance improvements
