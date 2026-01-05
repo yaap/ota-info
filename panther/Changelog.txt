@@ -1,78 +1,74 @@
 Changelog:
 ROM:
-• Merged Android 16
-• Make USB tethering tile secure on lock screen
-• Build using a newer clang + kotlinc
-• Disable Play Integrity spoofing for Full version since it no longer works (Microg still uses legacy checks)
-• Vanilla: add espeak-ng as a default text to speech provider
-• Vanilla: add talkback support:
-  - Utilizes OSS talkback and espeak-ng
-  - Includes dual volume button gesture same as proprietary SetupWizard for visually impaired users
-• Bring back freeform
-• Disable all capitalized smart reply text
-• Launcher3: Fix restart for some settings toggles
-• Fix Google UHDR-specific dim/brightness breakage which has existed on most devices (even pixels) since A15 QPR2
-• Allow devices with working TEE to pass BASIC attestation by default
-• Settings: Fix missing security hub
-• Enable Advanced Protection
-• Allow enabling Desktop Mode (Experimental dev setting)
-• Revert fix for lockscreen clock animations (due to other breakages)
-• Settings: Fix some theming settings that had no default values
-• Settings: Fix some custom sliders with no default value
-• Launcher3: Replace close action with kill
-• Launcher3: Toast the killed app name
-• Add a toggle for PPU
-• Add a dev option to load a custom keybox
-• Settings: Make our custom slider follow AOSP's style
-• Recovery: Allow reading pstore logs
-• YASR: Update target SDK and dependencies
-• YASR: Use a top progress bar in all pages
+• Merged Android 16 QPR1
+• Merged Android 16 QPR2 (and Dec/2025 security patches)
+• Vanilla: update microg
+• Fix emergency info crashing upon action
+• Fix QS settings long click action
+• Fix QS Internet dialog long click on mobile network action
+• Some visual fixes to lock screen charging indicator
+• Allow disabling time to full on keyguard
+• Add Roboto Flex font
+• Allow automatically turning on mobile data when pressing the tile
+• Launcher3: Allow to always show page indicator dots
+• Launcher3: Add 4x6 and 4x7 grid sizes
+• Add Sony Sketch font
+• Add Rubik font
+• Fix various bluetooth issues introduced in Android 16
+• Settings: Reflect that a gesture won't trigger ambient when ambient is disabled
+• Downgrade Aperture for bug fixes
+• Implement gestural navbar burn in protection
+• Add a toggle for screenshot sounds
+• Implement a new flashlight strength control tile, complete with primitive haptics and per-level control
+• Add a configurable blur radius slider for notification shade
+• Launcher: add configurable blur radius slider
+• OpenDelta: Support new A16's progress centric notifications
+• Smartspace has been dropped as a lockscreen weather provider
+  - You may use OmniJaws still
+• Left volume panel setting temporarily dropped
 • Few other minor changes
-• Fix prevent ringing gesture
-• Add Smooth Display QS tile
-• Fix clock animations during keyguard transitions
-• Fix multi sim numbers not clickable in about page
-• Fix oversized biometric prompt corner radius (AOSP)
-• Refactor Gaming Macro and:
-• Allow enabling Smooth Display
-• Fix three finger screenshot gesture toggle not applying
-• Save and restore some previous states more accurately
-• YASR: Improve unavailable mic handling
-• YASR: Only allow whitelisted (supported) device types
-• YASR: Fixed a bug that made devices be gone on resume
-• Add a gesture to mute media by pressing both volume keys
-• Add a toggle for key-combo screenshot gesture
-• Add a tri-state toggle for customizing wake on charge
-• Add an icon for NR_SA (5G Standalone) data connection
-• Allow toggling charging sound and vibration separately
-• Allow having percent inside the battery icon in collapsed QS with notch
-• Settings: Fix default values in theming page
-• Settings: Fix our custom slider always being continuous
-• Settings: Fix some custom sliders missing minimum value
-• Add some minor spoofing to PS so keybox is effective
-• Fix no deep sleep after charging
-• Fix a rare edge case that'd crash SystemUI
-• Fix Launcher3 crashing when changing themes
-• Fix a few errors when performing A-only OTA
-• Updater (OTA): Reflect we can't support picking downloads provider files
-• Add system-wide support for DC Dimming (+ QS tile)
-• Make internet tile to be added by default on first boot
-• Fix scrolling jank near the end of it
-• Add support for daily and weekly data usage cycles
-• Add back OmniJaw as lock screen weather provider
-• Add back all OmniJaw related settings
-• Fix gaming macro showing unavailable color modes on some device
-• Few other minor changes
+• Add blurs option to fine-tuned battery saver
+• Allow setting a wider range for battery saver schedule %
+• Fix non working toggles in fine-tuned battery saver
+• Fix charging sounds toggle title
 
 Device:
-• Merge tag 'aml_tz6_351400020'
-• pantah: Update firmware to 16 BP2A.250605.031.A2
-• pantah: Update configs and powerhint from BP2A
-• pantah: Update build description from BP2A.250805.005
-• pantah: Update proprietary blobs to 16 BP2A.250605.031.A2
-• pantah: Drop deprecated com.android.vndk.current.on_vendor
-• pantah: Set udfps touch handler to false
-• gs201: Update init scripts and task profiles from BP2A.250605.031.A2
-• gs201: Remove pixelstats
-• gs201: Update manifest for BP2A.250605.031.A2
-• gs201: Include missing sepolicies
+• Many many cleanups for the device trees themselves.
+• pantah: Update blobs and build description to BP4A.251205.006
+• pantah: sepolicy: Adapt for BP4A.251205.006
+• pantah: properties: BP4A.251205.006
+• pantah: SPL: BP4A.251205.006
+• pantah: Move device configuration to vendor
+• pantah: Relocate even more things to vendor
+• pantah: Add in missing bluetooth configurations
+• pantah: Rework sepolicy
+• pantah: Regenerate vintf
+• pantah: Switch to my own kernel
+• pantah: Shuffle & update product properties
+• pantah: Shuffle vendor properties
+• pantah: Set boot & vendor SPL
+• gs201: Update FCM for BP3A
+• gs201: powerstats: Update for BP3A
+• gs201: Bump vulkan to 1.4
+• gs201: Set missing properties from stock
+• gs201: Rework sepolicy
+• gs201: Move device configuration to vendor
+• gs201: Relocate even more things to vendor
+• gs201: Use prebuilt bluetooth_audio_policy_configuration_7_0.xml
+• gs201: overlay: Remove Dialer overlay
+• gs201: Conditionally enable AVB
+  - You can lock your bootloader now by flashing a custom pkmd key provided in the Telegram support group.
+• kernel: Upstream to 6.1.158
+• kernel: Change LOCALVERSION to syd
+• kernel: gs201_defconfig: Prepend -android14-11- before the actual name
+• kernel: gs201: ext: Remove unused sec touch driver
+• kernel: google-modules: power: Optimize parsing reboot commands
+• kernel: Disable CONFIG_SCSI_UFS_PIXEL_FIPS140
+• kernel: google-modules: focaltech: Avoid vla initializer in lptw proc handler
+• kernel: touch/goodix: Fix memory leak in brl_flash_read()
+• kernel: acpm_ipc: Disable logging bloat
+• kernel: edgetpu: janeiro: Remove telemetry
+• kernel: lwis: Fix UaF in lwis_client_enrolled_buffers_clear()
+• kernel: exynos-dm: Fix memory leaks in exynos_dm_topological_sort()
+• kernel: exynos-pd: Fix memory leak in exynos_pd_genpd_init()
+• kernel: pcie: exynos: Reduce logspam from PCIe Driver

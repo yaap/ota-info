@@ -2,67 +2,7 @@ Changelog:
 ROM:
 • Merged Android 16 QPR1
 • Merged Android 16 QPR2 (and Dec/2025 security patches)
-• Make USB tethering tile secure on lock screen
-• Build using a newer clang + kotlinc
-• Disable Play Integrity spoofing for Full version since it no longer works (Microg still uses legacy checks)
-• Vanilla: add espeak-ng as a default text to speech provider
-• Vanilla: add talkback support:
-  - Utilizes OSS talkback and espeak-ng
-  - Includes dual volume button gesture same as proprietary SetupWizard for visually impaired users
 • Vanilla: update microg
-• Bring back freeform
-• Disable all capitalized smart reply text
-• Launcher3: Fix restart for some settings toggles
-• Fix Google UHDR-specific dim/brightness breakage which has existed on most devices (even pixels) since A15 QPR2
-• Allow devices with working TEE to pass BASIC attestation by default
-• Settings: Fix missing security hub
-• Enable Advanced Protection
-• Allow enabling Desktop Mode (Experimental dev setting)
-• Revert fix for lockscreen clock animations (due to other breakages)
-• Settings: Fix some theming settings that had no default values
-• Settings: Fix some custom sliders with no default value
-• Launcher3: Replace close action with kill
-• Launcher3: Toast the killed app name
-• Add a toggle for PPU
-• Add a dev option to load a custom keybox
-• Settings: Make our custom slider follow AOSP's style
-• Recovery: Allow reading pstore logs
-• YASR: Update target SDK and dependencies
-• YASR: Use a top progress bar in all pages
-• YASR: Improve unavailable mic handling
-• YASR: Only allow whitelisted (supported) device types
-• YASR: Fixed a bug that made devices be gone on resume
-• Fix prevent ringing gesture
-• Add Smooth Display QS tile
-• Fix clock animations during keyguard transitions
-• Fix multi sim numbers not clickable in about page
-• Fix oversized biometric prompt corner radius (AOSP)
-• Refactor Gaming Macro and:
-  - Allow enabling Smooth Display
-  - Fix three finger screenshot gesture toggle not applying
-  - Save and restore some previous states more accurately
-• Add a gesture to mute media by pressing both volume keys
-• Add a toggle for key-combo screenshot gesture
-• Add a tri-state toggle for customizing wake on charge
-• Add an icon for NR_SA (5G Standalone) data connection
-• Allow toggling charging sound and vibration separately
-• Allow having percent inside the battery icon in collapsed QS with notch
-• Settings: Fix default values in theming page
-• Settings: Fix our custom slider always being continuous
-• Settings: Fix some custom sliders missing minimum value
-• Add some minor spoofing to PS so keybox is effective
-• Fix no deep sleep after charging
-• Fix a rare edge case that'd crash SystemUI
-• Fix Launcher3 crashing when changing themes
-• Fix a few errors when performing A-only OTA
-• Updater (OTA): Reflect we can't support picking downloads provider files
-• Add system-wide support for DC Dimming (+ QS tile)
-• Make internet tile to be added by default on first boot
-• Fix scrolling jank near the end of it
-• Add support for daily and weekly data usage cycles
-• Add back OmniJaw as lock screen weather provider
-• Add back all OmniJaw related settings
-• Fix gaming macro showing unavailable color modes on some device
 • Fix emergency info crashing upon action
 • Fix QS settings long click action
 • Fix QS Internet dialog long click on mobile network action
@@ -87,6 +27,10 @@ ROM:
   - You may use OmniJaws still
 • Left volume panel setting temporarily dropped
 • Few other minor changes
+• Add blurs option to fine-tuned battery saver
+• Allow setting a wider range for battery saver schedule %
+• Fix non working toggles in fine-tuned battery saver
+• Fix charging sounds toggle title
 
 Device:
 • Many many cleanups for the device trees themselves.
