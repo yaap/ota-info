@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1767598485,
-      "filename": "YAAP-16-Vanilla-cheetah-20260105.zip",
+      "datetime": 1767776090,
+      "filename": "YAAP-16-Vanilla-cheetah-20260107.zip",
       "payload": [
         {
           "offset": 4484,
-          "FILE_HASH": "payTS9+XeMu6iI5shIgp5LUPs5aXaPK9n3OHQuX4HZw=",
-          "FILE_SIZE": "1598390857",
-          "METADATA_HASH": "4C5YFUh4fvImhRT/2xsb9J7pLoLdQKabS9SY7g8U32g=",
-          "METADATA_SIZE": "127491"
+          "FILE_HASH": "XM53BUQsD8CPFSruw1PJE53EccKupkyIvdhVUIKDny8=",
+          "FILE_SIZE": "1600067107",
+          "METADATA_HASH": "tAxEhhd4IwSAq4iXWp8uqONVWicRujlUf/jIFE/YkDo=",
+          "METADATA_SIZE": "127661"
         }
       ]
     }
