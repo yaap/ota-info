@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1767594290,
-      "filename": "YAAP-16-Banshee-panther-20260105.zip",
+      "datetime": 1767776880,
+      "filename": "YAAP-16-Banshee-panther-20260107.zip",
       "payload": [
         {
           "offset": 4484,
-          "FILE_HASH": "gNU8TSNgltEOumqGeIMpsGFI5ymhuJH7lFRNgig1miQ=",
-          "FILE_SIZE": "2008987011",
-          "METADATA_HASH": "zNtR3yjaiCqq0uWVHj4poaTU0PnoO7f7+IyyNPVTV8c=",
-          "METADATA_SIZE": "156775"
+          "FILE_HASH": "CF23EOQqta+xXSpzCoK3yn6RRmXFinPxBtgxXqdZeA4=",
+          "FILE_SIZE": "2010734908",
+          "METADATA_HASH": "Xul/cEBvJT86RLUDBEggvQjYRxMHffreecSFuAPyDP4=",
+          "METADATA_SIZE": "156888"
         }
       ]
     }
