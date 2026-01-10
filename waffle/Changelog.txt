@@ -1,28 +1,26 @@
 ROM:
-• Merged Android 16 QPR1
-• Merged Android 16 QPR2 (and Dec/2025 security patches)
-• Add a toggle for screenshot sounds
-• Implement a new flashlight strength control tile, complete with primitive haptics and per-level control
-• Settings: Reflect that a gesture won't trigger ambient when ambient is disabled
-• Add a configurable blur radius slider for notification shade
-• Launcher: add configurable blur radius slider
-• OpenDelta: Support new A16's progress centric notifications
-• Downgrade Aperture for bug fixes
-
-Regressions compared to last release:
-• Smartspace has been dropped as a lockscreen weather provider
-  - You may use OmniJaws still
-• Left volume panel setting temporarily dropped
-• If the setting for it is removed, it's on purpose
+• Add back QPR2 Smartspace as a lockscreen weather provider
+• Add blurs option to fine-tuned battery saver
+• Allow setting a wider range for battery saver schedule %
+• Enable Expressive UI in GMS Setup Wizard
+• Fix non persisting toggles in fine-tuned battery saver
+• Fix broken toggles in fine-tuned battery saver
+• Fix charging sounds toggle title
+• Launcher: fix hide label toggle hiding popup labels
+• Launcher: drop configurable blur radius due to performance issues
 
 Device:
-• Hook up ambient light sensor correction to sensor wrapper. 
-• Re-enabled oplus camera auto white balance due to user complaints. 
+• Update OOS changes and blobs from 16.0.1.300 (including new patched camera blobs from Luffitys)
+• Update Asus radio from WW-36.0210.1420.27
+• Fixed no VOIP mic audio for up to 10-15 seconds
+• Fixed jank consistency regression
+• Efficiency: make uclamp boosting only effective for CASS hinting
+• Efficiency: allow display tasks on cpus0-1.
 • Kernel:
-  - Fixed max battery capacity reporting. 
-  - Fingerprint and touchpanel latency/performance improvements. 
-  - 6.1.159 merged
-  - Reclaim and deferred dmabuf free task-specific optimizations
-  - EEVDF backports/fixes
-  - CASS logic improvements for efficiency, performance, and latency improvements
-  - General efficiency and performance improvements
+- EEVDF/scheduler backports
+- CASS improvements, prime less gated and using EEVDF for packing and prefer idle hints
+- Fix kprofiles QS tile usage
+- Rework kprofiles and defaults entirely:
+  - Performance mode: now nearly equivalent to previous balanced mode, but also disables rcu lazy for worse efficiency but improved raw performance.
+  - Balanced (default): more efficient and lacks app open/task change boosting and reduces frame commit boosting. 
+  - Battery: no boosting, and has been extended to remove uclamp cass hints.
