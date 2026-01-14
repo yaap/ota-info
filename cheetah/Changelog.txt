@@ -1,13 +1,9 @@
 Changelog:
 ROM:
-• Add back QPR2 Smartspace as a lockscreen weather provider
-• Add blurs option to fine-tuned battery saver
-• Allow setting a wider range for battery saver schedule %
-• Enable Expressive UI in GMS Setup Wizard
-• Fix non persisting toggles in fine-tuned battery saver
-• Fix broken toggles in fine-tuned battery saver
-• Fix charging sounds toggle title
+• Resize some statusbar icons to better fit the rest
+• Fix setup wizard theme
+• Fix QS network traffic monitor on white theme
+• Fix all the remaining SmartSpace regressions
 
 Device:
-• Enabled Ultra HDR gainmap
-- HDR should work systemwide now.
+• None
