@@ -1,26 +1,17 @@
 ROM:
-• Add back QPR2 Smartspace as a lockscreen weather provider
-• Add blurs option to fine-tuned battery saver
-• Allow setting a wider range for battery saver schedule %
-• Enable Expressive UI in GMS Setup Wizard
-• Fix non persisting toggles in fine-tuned battery saver
-• Fix broken toggles in fine-tuned battery saver
-• Fix charging sounds toggle title
-• Launcher: fix hide label toggle hiding popup labels
-• Launcher: drop configurable blur radius due to performance issues
+• Resize some statusbar icons to better fit the rest
+• Improve network traffic monitor reliability and efficiency
+• Fix QS network traffic monitor on white theme
+• Fix setup wizard theme
+• Bring back left volume panel option
+• Fix connecting to some Bluetooth devices
 
 Device:
-• Update OOS changes and blobs from 16.0.1.300 (including new patched camera blobs from Luffitys)
-• Update Asus radio from WW-36.0210.1420.27
-• Fixed no VOIP mic audio for up to 10-15 seconds
-• Fixed jank consistency regression
-• Efficiency: make uclamp boosting only effective for CASS hinting
-• Efficiency: allow display tasks on cpus0-1.
+• Move to source built display composer:
+ - Stock color modes are retained
+ - Fingerprint dim is now more perceivably correct
+ - Screen wakeup is faster
+ - Variable refresh rate now uses new Android behavior
+• Enable adfr (ltpo) features always
 • Kernel:
-- EEVDF/scheduler backports
-- CASS improvements, prime less gated and using EEVDF for packing and prefer idle hints
-- Fix kprofiles QS tile usage
-- Rework kprofiles and defaults entirely:
-  - Performance mode: now nearly equivalent to previous balanced mode, but also disables rcu lazy for worse efficiency but improved raw performance.
-  - Balanced (default): more efficient and lacks app open/task change boosting and reduces frame commit boosting. 
-  - Battery: no boosting, and has been extended to remove uclamp cass hints.
+ - Merge Android common kernel
