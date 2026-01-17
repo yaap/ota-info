@@ -1,14 +1,14 @@
 {
   "response": [
     {
-      "datetime": 1768500453,
-      "filename": "YAAP-16-Banshee-waffle-20260115.zip",
+      "datetime": 1768658568,
+      "filename": "YAAP-16-Banshee-waffle-20260117.zip",
       "payload": [
         {
           "offset": 4855,
-          "FILE_HASH": "EPi1cwPG3DuWCBx3CD1FURC7Ml2/yLx8nt8kN6c6B3A=",
-          "FILE_SIZE": "3958376157",
-          "METADATA_HASH": "usJNXKh9xvr869Fn5g4d+W33DZC4RMbXsKBeafVkMPY=",
+          "FILE_HASH": "FKNRpOcDOjU/GQ9v3c4DwROwTpg6LBfI/KtBe1lrz0Y=",
+          "FILE_SIZE": "3958327973",
+          "METADATA_HASH": "MYKgU3+hm6rIysu2/hpxdqBXyaCvNZcqqr+Impcd7ZU=",
           "METADATA_SIZE": "173090"
         }
       ]
