@@ -1,17 +1,8 @@
 ROM:
-• Resize some statusbar icons to better fit the rest
-• Improve network traffic monitor reliability and efficiency
-• Fix QS network traffic monitor on white theme
-• Fix setup wizard theme
-• Bring back left volume panel option
-• Fix connecting to some Bluetooth devices
+• Launcher: Bring back add app icon to home screen toggle
+• On VRR devices (op12, pixel) do not downvote scroll to 80 and 60 fps during
+low velocity (absurd Google behavior)
+• Fix Vanilla setupwizard
 
 Device:
-• Move to source built display composer:
- - Stock color modes are retained
- - Fingerprint dim is now more perceivably correct
- - Screen wakeup is faster
- - Variable refresh rate now uses new Android behavior
-• Enable adfr (ltpo) features always
-• Kernel:
- - Merge Android common kernel
+• No changes
