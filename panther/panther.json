@@ -1,14 +1,14 @@
 {
   "response": [
     {
-      "datetime": 1768406689,
-      "filename": "YAAP-16-Vanilla-panther-20260114.zip",
+      "datetime": 1768638067,
+      "filename": "YAAP-16-Vanilla-panther-20260117.zip",
       "payload": [
         {
           "offset": 4484,
-          "FILE_HASH": "pMmsz9dXxCPzBADGlhic7YIcCBcc85gKAUkTqVeezUo=",
-          "FILE_SIZE": "1599267317",
-          "METADATA_HASH": "NUBRSEOlwGLFlcgof9D/AetvTR7PwKA5+3NL3jI+oYs=",
+          "FILE_HASH": "7pbuAfdktwPG0XH+obUKqXrF7GwZEQC/1LcGvJmRr5s=",
+          "FILE_SIZE": "1599264530",
+          "METADATA_HASH": "VQpe0uvfJ1AyqfIyGGZrsfXzkFIUNdN9SDkBYtN2ewY=",
           "METADATA_SIZE": "127485"
         }
       ]
