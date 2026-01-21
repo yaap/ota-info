@@ -1,8 +1,13 @@
 ROM:
-• Launcher: Bring back add app icon to home screen toggle
-• On VRR devices (op12, pixel) do not downvote scroll to 80 and 60 fps during
-low velocity (absurd Google behavior)
-• Fix Vanilla setupwizard
+• Fix QS network traffic monitor wrong tint on boot
+• Launcher: Add Pixel Search as QSB provider fallback
 
 Device:
-• No changes
+• Updates from OOS 16.0.3.500
+  - OOS users on any version now have no brick risk coming to YAAP
+  - You cannot downgrade to lower OOS versions without a brick
+• Fix touch gestures (V, Circle, etc)
+• Kernel:
+  - Updates from OOS 16.0.3.500
+  - Lindroid updates
+  - Upstream Android common kernel updates
