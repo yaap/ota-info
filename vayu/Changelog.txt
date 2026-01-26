@@ -1,34 +1,43 @@
 ROM:
-• Fix various bluetooth issues introduced in Android 16
-• Default disable Ultra HDR behaviors
-  - It is severely broken on all devices except those using proprietary solutions such as pixels
-  - Does not affect HDR video behaviors
-• Allow automatically turning on mobile data when pressing the tile
-• Launcher3: Allow to always show page indicator dots
-• Launcher3: Add 4x6 and 4x7 grid sizes
-• Add Sony Sketch font
-• Add Rubik font
-• Vanilla: update microg
+• Merged Android 16 QPR1
+• Merged Android 16 QPR2 (and Dec/2025 security patches)
+• Add a toggle for screenshot sounds
+• Implement a new flashlight strength control tile, complete with primitive haptics and per-level control
 • Settings: Reflect that a gesture won't trigger ambient when ambient is disabled
+• Add a configurable blur radius slider for notification shade
+• Launcher: add configurable blur radius slider
+• OpenDelta: Support new A16's progress centric notifications
 • Downgrade Aperture for bug fixes
+• Add back QPR2 Smartspace as a lockscreen weather provider
+• Add blurs option to fine-tuned battery saver
+• Allow setting a wider range for battery saver schedule %
+• Enable Expressive UI in GMS Setup Wizard
+• Fix non persisting toggles in fine-tuned battery saver
+• Fix broken toggles in fine-tuned battery saver
+• Fix charging sounds toggle title
+• Launcher: fix hide label toggle hiding popup labels
+• Launcher: drop configurable blur radius due to performance issues
+• Resize some statusbar icons to better fit the rest
+• Improve network traffic monitor reliability and efficiency
+• Fix QS network traffic monitor on white theme
+• Fix setup wizard theme
+• Bring back left volume panel option
+• Fix connecting to some Bluetooth devices
+• Launcher: Bring back add app icon to home screen toggle
+• On VRR devices (op12, pixel) do not downvote scroll to 80 and 60 fps during
+low velocity (absurd Google behavior)
+• Fix Vanilla setupwizard
+• Fix QS network traffic monitor wrong tint on boot
+• Launcher: Add Pixel Search as QSB provider fallback
 
 Device:
-• Remove obsolete SurfaceFlinger properties
-• Optimize native executables for Cortex-A76 CPU
-• Switch to dot product CPU variant
-• Set default pin amount for home app
-• Fix elfchecks for camera libs
-• Drop ppd
-• Remove unused entries from init and overlays
-• Set debug.sf.auto_latch_unsignaled to 0
-• Drop debug.sf.disable_client_composition_cac
-• audio: Dont advertise some unsupported features
-• audio: Fix crackling noise while playing some sounds
-• audio: Fix issues with mic and wired headphones.
-• kernel: Align bpf with 5.4 kernel
-• kernel: Don't ship irrelevant DTBs
-• kernel: Kill some logspams
-• kernel: Add Workaround for xiaomi thermal mitigation (for better charging speed)
-• kernel: Drop unneeded code
-• sepolicy: Suppress/Ignore harmless denials
-• Misc fixes and improvements
+• Opt out of speaker_layout_channel_mask field
+• Address some property denials
+• Patch blobs to depend on libtinyxml2-v34.so
+• Build libjxl from source
+• Remove unused fcm
+• Override kernel BPF version override to 5.4.299
+• fixup! vayu: props: Move some properties around
+• Kernel:
+- Backport close_range() and CLOSE_RANGE_CLOEXEC flag from android13-5.10 to fix an issue where hotspot and tethering doesn't work on Android 16 QPR2.
+- Backport epoll_pwait2() syscall from android13-5.15 to fix a massive logspam on Android 16 QPR2.
