@@ -1,8 +1,14 @@
 ROM:
-• Fix setup wizard crash on Vanilla
-• Launcher: Bring back add app icon to home screen toggle
-• On VRR devices (op12, pixel 7 pro) do not downvote scroll to 80 and 60 fps during low velocity (absurd Google behavior)
+• Fix QS network traffic monitor wrong tint on boot
+• Launcher: Add Pixel Search as QSB provider fallback
+• Launcher: Fix a permanent crash on boot
+• Settings: Restore missing protected IMEI & EID sumarries
+• Settings: Protect phone number and other sensitive info in more pages
 
 Device:
-• Fix all padding issues seen in QPR2
-• Set default color mode to Adaptive
+• Get rid of countless unwanted google services that run in the background
+• Hide disable VRR option for Pixel 7
+• kernel: Silence display brightness logspam
+• kernel: Silence update mode logspam in samsung driver
+• kernel: Block aoc debugging and logging services
+• kernel: Merge android14-6.1-lts (6.1.161)
