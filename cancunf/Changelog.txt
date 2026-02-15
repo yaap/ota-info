@@ -1,19 +1,90 @@
 ROM:
-• Add Roboto Flex font.
-• Allow automatically turning on mobile data when pressing the tile.
-• Launcher3: Allow to always show page indicator dots.
-• Launcher3: Add 4x6 and 4x7 grid sizes.
-• Add Sony Sketch font.
-• Add Rubik font.
-• Vanilla: update microg.
-• Fix various bluetooth issues introduced in Android 16.
-• Default disable Ultra HDR behaviors.
-  - It is severely broken on all devices except those using proprietary solutions such as pixels.
-  - Does not affect HDR video behaviors.
-• Settings: Reflect that a gesture won't trigger ambient when ambient is disabled.
-• Few other minor changes.
+• Downgrade Aperture for bug fixes
+• Implement gestural navbar burn in protection
+• Merged Android 16 QPR1.
+• Merged Android 16 QPR2. (and Dec/2025 security patches)
+• Add a toggle for screenshot sounds.
+• Implement a new flashlight strength control tile, complete with primitive haptics and per-level control.
+• Add a configurable blur radius slider for notification shade.
+• Launcher: add configurable blur radius slider.
+• OpenDelta: Support new A16's progress centric notifications.
+Regressions compared to last release:
+• Smartspace has been dropped as a lockscreen weather provider.
+  - You may use OmniJaws still.
+• Left volume panel setting temporarily dropped.
+• If the setting for it is removed, it's on purpose.
+• Add back QPR2 Smartspace as a lockscreen weather provider.
+• Add blurs option to fine-tuned battery saver.
+• Allow setting a wider range for battery saver schedule %.
+• Enable Expressive UI in GMS Setup Wizard.
+• Fix non persisting toggles in fine-tuned battery saver.
+• Fix broken toggles in fine-tuned battery saver.
+• Fix charging sounds toggle title.
+• Launcher: fix hide label toggle hiding popup labels.
+• Launcher: drop configurable blur radius due to performance issues.
+• Resize some statusbar icons to better fit the rest.
+• Improve network traffic monitor reliability and efficiency.
+• Fix QS network traffic monitor on white theme.
+• Fix setup wizard theme.
+• Bring back left volume panel option.
+• Fix connecting to some Bluetooth devices.
+• Fix setup wizard crash on Vanilla.
+• Launcher: Bring back add app icon to home screen toggle.
+• On VRR devices (op12, pixel 7 pro) do not downvote scroll to 80 and 60 fps during low velocity. (absurd Google behavior)
+• Fix QS network traffic monitor wrong tint on boot.
+• Launcher: Add Pixel Search as QSB provider fallback.
+• Fix blue color wrongly used in some places.
+• Fix printing service invisible UI when manually adding a printer.
+• Launcher: Fix a permanent crash on boot.
+• Settings: Restore missing protected IMEI & EID sumaries.
+• Settings: Protect phone number and other sensitive info in more pages.
+• Launcher: Bring back drawer blur radius setting.
+• Launcher: Remove blue tint from app drawer.
+• Launcher: Remove themed icons in drawer option. (has a severe performance penalty on bp4a)
+• Lindroid updates: using upstream rootfs with upstream Debian compositors now (tearing and flickering are being worked on).
 
 Device:
-• Update Wi-Fi HAL interfaces combination to match MediaTek BSP behaviour.
-• Remove Disable VRR toggle as it is redundant for us.
-• Kernel state at r2a1.
+• End INTERACTION hint on EXPENSIVE_RENDERING to improve fluidity.
+• Drop redundant props as they are unused on AOSP.
+• Drop phase durations as offsets as it is broken on Android 16 QPR1 on S GRF devices.
+• Drop framerate multi threshold as VSync takes care of framerate voting.
+• Raise the frequency of sampling regions in SurfaceFlinger to attain precise 120Hz for frame fluidity.
+• Allocate 6 buffers for SurfaceFlinger to use in FrameBufferSurface to prevent GC overhead.
+• Update blobs to V1TDS35M.83-20-5-7.
+• Convert MotoActions for M3E support.
+• Apply Expressive theme on MotoActions.
+• Enable blurs.
+• Switch to shared libs to MediaTek framework jars.
+• Update IMS patches for Android 16 QPR1.
+• Patch some blobs to depend on older libtinyxml2.
+• Bring back phase offsets from stock to improve the graphics rendering pipeline.
+• Remove references to TelephonyMetrics in IMS for Android 16 QPR2.
+• Update blobs to V1TDS35M.83-20-5-8.
+• Convert TapGestures for M3E support.
+• Remove setIconSpaceReserved on TapGestures.
+• Pin gsm0710muxd from bogota W1V036M.85.
+• Drop non-MT6855 VPUD blob.
+• Drop vpud binary as we utilize v3avpud.
+• Drop fpc_tee_test binary as it is utilized on factory firmware.
+• Drop non-MT6631 FM firmware.
+• Drop useless mali firmware.
+• Reduce QS blur radius to 23dp.
+• Reduce launcher blur radius to 15dp.
+• Tune up powerhint for blur.
+• Improve status bar padding for Android 16 QPR1.
+• Move IMS jars back to system_ext as we are on a modern device.
+• Switch to stub mediatek-common framework to drop unneeded IMS dependencies.
+• Allow games to use 120fps.
+• Build MediaTek WiFi lib to drop dependency on prebuilt libwifi-hal.so.
+• Update VT from bogota W1V036M.85.
+• Update blobs to V1TDS35M.83-20-5-9.
+• Stop setting iosched to bfq at init.
+• Drop mmi_relay as it is useless for us.
+• Tweak Media/Call volume steps.
+• Reorder Model Number activity in proper category on MotoActions.
+• Set group key for display settings IA on MotoActions.
+• Set group key for battery settings IA on MotoActions.
+• Set group key for display settings IA on DisplayFeatures.
+• Kernel:
+  - Kernel state at r2b3.
+  - Drop mmi_relay.
