@@ -1,8 +1,6 @@
 ROM:
-• Apply September security patches
-• Allow disabling time to full on keyguard
-• Add Roboto Flex font
-• Few other minor changes
+Too many to list — refer to YAAP Updates channel since last release
 
 Device:
-• Fix A2DP offload and other audio issues
+• Bringup to BP4A
+• Fix some bluetooth and audio issues
