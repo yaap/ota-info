@@ -1,13 +1,21 @@
 ROM:
-• Fix QS network traffic monitor wrong tint on boot
-• Launcher: Add Pixel Search as QSB provider fallback
+• Fix blue color wrongly used in some places
+• Fix printing service invisible UI when manually adding a printer
+• Launcher: Fix a permanent crash on boot
+• Settings: Restore missing protected IMEI & EID sumarries
+• Settings: Protect phone number and other sensitive info in more pages
+• Launcher: Bring back drawer blur radius setting
+• Launcher: Remove blue tint from app drawer
+• Launcher: Remove themed icons in drawer option (has a severe performance penalty on bp4a)
+• Launcher: Fix getting stuck in overview
+• Lindroid updates: using upstream rootfs with upstream Debian compositors now (tearing and flickering are being worked on)
+• Calculator: update to M3E
+• Deskclock (vanilla): update to M3E
+• Dialer (vanilla): update to M3E
+• Settings: update lottie videos
+• Disable FRP on vanilla builds
 
 Device:
-• Updates from OOS 16.0.3.500
-  - OOS users on any version now have no brick risk coming to YAAP
-  - You cannot downgrade to lower OOS versions without a brick
-• Fix touch gestures (V, Circle, etc)
-• Kernel:
-  - Updates from OOS 16.0.3.500
-  - Lindroid updates
-  - Upstream Android common kernel updates
+• Fix intermittent audio and BT issues
+• Override game frame rate
+• Revert to old cpu kick frequencies (used on performance kprofile)
