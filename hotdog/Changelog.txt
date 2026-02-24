@@ -1,6 +1,9 @@
 ROM:
-Too many to list — refer to YAAP Updates channel since last release
+• Fix hotspot speed setting being unavailable on some devices
+• Launcher: Update settings sliders to M3E
 
 Device:
-• Bringup to BP4A
-• Fix some bluetooth and audio issues
+!!This release also includes vanilla!!
+• Fix hotspot
+• Fix video recording
+• Device settings: Update to M3E (and fix weird colors)
