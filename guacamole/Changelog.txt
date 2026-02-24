@@ -1,8 +1,9 @@
 ROM:
-• Apply September security patches
-• Allow disabling time to full on keyguard
-• Add Roboto Flex font
-• Few other minor changes
+• Fix hotspot speed setting being unavailable on some devices
+• Launcher: Update settings sliders to M3E
 
 Device:
-• Fix A2DP offload and other audio issues
+!!This release also includes vanilla!!
+• Fix hotspot
+• Fix video recording
+• Device settings: Update to M3E (and fix weird colors)
