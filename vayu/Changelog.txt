@@ -1,43 +1,30 @@
 ROM:
-• Merged Android 16 QPR1
-• Merged Android 16 QPR2 (and Dec/2025 security patches)
-• Add a toggle for screenshot sounds
-• Implement a new flashlight strength control tile, complete with primitive haptics and per-level control
-• Settings: Reflect that a gesture won't trigger ambient when ambient is disabled
-• Add a configurable blur radius slider for notification shade
-• Launcher: add configurable blur radius slider
-• OpenDelta: Support new A16's progress centric notifications
-• Downgrade Aperture for bug fixes
-• Add back QPR2 Smartspace as a lockscreen weather provider
-• Add blurs option to fine-tuned battery saver
-• Allow setting a wider range for battery saver schedule %
-• Enable Expressive UI in GMS Setup Wizard
-• Fix non persisting toggles in fine-tuned battery saver
-• Fix broken toggles in fine-tuned battery saver
-• Fix charging sounds toggle title
-• Launcher: fix hide label toggle hiding popup labels
-• Launcher: drop configurable blur radius due to performance issues
-• Resize some statusbar icons to better fit the rest
-• Improve network traffic monitor reliability and efficiency
-• Fix QS network traffic monitor on white theme
-• Fix setup wizard theme
-• Bring back left volume panel option
-• Fix connecting to some Bluetooth devices
-• Launcher: Bring back add app icon to home screen toggle
-• On VRR devices (op12, pixel) do not downvote scroll to 80 and 60 fps during
-low velocity (absurd Google behavior)
-• Fix Vanilla setupwizard
-• Fix QS network traffic monitor wrong tint on boot
-• Launcher: Add Pixel Search as QSB provider fallback
+• Fix blue color wrongly used in some places
+• Fix printing service invisible UI when manually adding a printer
+• Launcher: Fix a permanent crash on boot
+• Settings: Restore missing protected IMEI & EID sumarries
+• Settings: Protect phone number and other sensitive info in more pages
+• Launcher: Bring back drawer blur radius setting
+• Launcher: Remove blue tint from app drawer
+• Launcher: Remove themed icons in drawer option (has a severe performance penalty on bp4a)
+• Launcher: Fix getting stuck in overview
+• Lindroid updates: using upstream rootfs with upstream Debian compositors now (tearing and flickering are being worked on)
+• Calculator: update to M3E
+• Deskclock (vanilla): update to M3E
+• Dialer (vanilla): update to M3E
+• Settings: update lottie videos
+• Disable FRP on vanilla builds
+• Fix hotspot speed setting being unavailable on some devices
+• Restore secure qs tiles toggle 
+• Disable and hide pseudo locales
+• Launcher: Update settings sliders to M3E
+• Launcher: Improve app drawer performance (fix Google's regression) 
+• Launcher: Allow icon customizations to apply to drawer
+• Launcher: Fix auto open keyboard closing on deleting text
+• Launcher: Customizable app drawer and recents opacity
+• Bring back added custom icon shapes (eg squircle)
 
 Device:
-• Opt out of speaker_layout_channel_mask field
-• Address some property denials
-• Patch blobs to depend on libtinyxml2-v34.so
-• Build libjxl from source
-• Remove unused fcm
-• Override kernel BPF version override to 5.4.299
-• fixup! vayu: props: Move some properties around
-• Kernel:
-- Backport close_range() and CLOSE_RANGE_CLOEXEC flag from android13-5.10 to fix an issue where hotspot and tethering doesn't work on Android 16 QPR2.
-- Backport epoll_pwait2() syscall from android13-5.15 to fix a massive logspam on Android 16 QPR2.
+• Move back to QCOM WFD
+• kernel: Merge https://github.com/LineageOS/android_kernel_qcom_sm8150
+• Add a refresh rate tile
