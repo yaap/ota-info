@@ -1,18 +1,18 @@
 ROM:
-• Fix hotspot speed setting being unavailable on some devices
-• Restore secure qs tiles toggle
-• Disable and hide pseudo locales
-• Launcher: Update settings sliders to M3E
-• Launcher: Improve app drawer performance (fix Google's regression)
-• Launcher: Allow icon customizations to apply to drawer
-• Launcher: Fix auto open keyboard closing on deleting text
-• Launcher: Customizable app drawer and recents opacity
-• Bring back added custom icon shapes (eg squircle)
-• Lindroid: fix gui elements z flickering
+• Applied March security patch patches
+• Add dedicated WiFi and Data QS tiles
+• Make chosen font affect more UI elements
+• Make lockscreen weather provider be a runtime toggle
+• Center the recents buttons
+• Settings: Move AOD schedule to the new AOD page
+• Settings: Use M3E in security hub
+• Settings: Stop animating dev options
+• Fix panic button on power menu
+• Update SmartSpace to CP1A.260305.018
+• Fix some translations
 
 Device:
-• Revert to prebuilt audio
- - Until per-device lvacfs issue is resolved
-• Fix a camera hal related to white balance
-• Kernel: performance and efficiency improvements (restore benchmarks also)
-• Kernel: update lindroid driver for vsync ioctl
+• Camera: OIS improvements, fix correction orientation
+• Stop Lindroid from breaking IR when used
+• Kernel: scheduler fixes and backports
+• Kernel: lindroid drm updates
