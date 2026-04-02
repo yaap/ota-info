@@ -1,14 +1,15 @@
 ROM:
-• Vanilla: fix webview and Vanadium
-• Vanilla: fix SetupWizard network selection crash
-• OmniJaws: add an inline view toggle for a modern smartspace-inspired layout
-• OTA App: Improve tile reliability and fix a crash
+• Add a text only status bar battery
+• OTA App: Improve reboot state reliability
+• Settings: Allow hiding account name from top level page
+• Settings: Move account preference to the bottom
+• Settings: Give custom ramping ringer settings their own page
+• Wireless Alerts: Add a toggle to enable led flash
+• Wireless Alerts: Add a toggle to handle in calls
+• Wireless Alerts: Add a toggle to show a notification
+• Wireless Alerts: Add a toggle for bottom dialog
+• Wireless Alerts: Improve UX of some toggles
+• Wireless Alerts: Enable more hidden settings and tweak some defaults
 
 Device:
-• Updates from CPH2573_16.0.5.702 and WW-36.0210.1420.39
-• Update Adreno graphics drivers from WW-36.0210.1420.39 (consistently newer than OOS')
-• Fix Bluetooth ringing behavior since prebuilt audio
-• Kernel: Merge ACK and 6.1.167
-• Kernel: Enable MGLRU and switch low memory killer to PSI window based operation
-
 • No changes
