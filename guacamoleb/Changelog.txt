@@ -1,24 +1,18 @@
 ROM:
-• Applied March security patch patches
-• Add dedicated WiFi and Data QS tiles
-• Restore secure qs tiles toggle
-• Make chosen font affect more UI elements
-• Make lockscreen weather provider be a runtime toggle
-• Center the recents buttons
-• Disable and hide pseudo locales
-• Settings: Move AOD schedule to the new AOD page
-• Settings: Use M3E in security hub
-• Settings: Stop animating dev options
-• Launcher: Update settings sliders to M3E
-• Launcher: Improve app drawer performance (fix Google's regression) 
-• Launcher: Allow icon customizations to apply to drawer
-• Launcher: Fix auto open keyboard closing on deleting text
-• Launcher: Customizable app drawer and recents opacity
-• Lindroid: fix gui elements z flickering
-• Update SmartSpace to CP1A.260305.018
-• Bring back added custom icon shapes (eg squircle)
-• Fix panic button on power menu
-• Fix some translations
+• Add a text only status bar battery
+• Vanilla: fix webview and Vanadium
+• OmniJaws: add an inline view toggle for a modern smartspace-inspired layout
+• OTA App: Improve tile reliability and fix a crash
+• OTA App: Improve reboot state reliability
+• Settings: Allow hiding account name from top level page
+• Settings: Move account preference to the bottom
+• Settings: Give custom ramping ringer settings their own page
+• Wireless Alerts: Add a toggle to enable led flash
+• Wireless Alerts: Add a toggle to handle in calls
+• Wireless Alerts: Add a toggle to show a notification
+• Wireless Alerts: Add a toggle for bottom dialog
+• Wireless Alerts: Improve UX of some toggles
+• Wireless Alerts: Enable more hidden settings and tweak some defaults
 
 Device:
-• Fix button hiding fingerprint sensor in setup wizard
+• No changes
