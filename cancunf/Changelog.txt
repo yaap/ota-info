@@ -1,25 +1,42 @@
 ROM:
-• Calculator: update to M3E.
-• Deskclock (vanilla): update to M3E.
-• Dialer (vanilla): update to M3E.
-• Settings: update lottie videos.
-• Disable FRP on vanilla builds.
-• Fix hotspot speed setting being unavailable on some devices.
-• Launcher: Update settings sliders to M3E.
-• Launcher: Improve app drawer performance. (fix Google's regression)
-• Launcher: Allow icon customizations to apply to drawer.
-• Launcher: Fix auto open keyboard closing on deleting text.
-• Launcher: Customizable app drawer and recents opacity.
-• Bring back added custom icon shapes. (eg squircle)
+• Applied March security patch patches.
+• Restore secure qs tiles toggle.
+• Disable and hide pseudo locales.
+• Add dedicated WiFi and Data QS tiles.
+• Make chosen font affect more UI elements.
+• Center the recents buttons.
+• Settings: Move AOD schedule to the new AOD page.
+• Settings: Use M3E in security hub.
+• Settings: Stop animating dev options.
+• Fix panic button on power menu.
+• Update SmartSpace to CP1A.260305.018.
+• Fix some translations.
+• Vanilla: fix webview and Vanadium.
+• Vanilla: fix SetupWizard network selection crash.
+• OmniJaws: add an inline view toggle for a modern smartspace-inspired layout.
+• Add a text only status bar battery.
+• OTA App: Improve tile reliability and fix a crash.
+• OTA App: Improve reboot state reliability.
+• Settings: Allow hiding account name from top level page.
+• Settings: Move account preference to the bottom.
+• Settings: Give custom ramping ringer settings their own page.
+• Wireless Alerts: Add a toggle to enable led flash.
+• Wireless Alerts: Add a toggle to handle in calls.
+• Wireless Alerts: Add a toggle to show a notification.
+• Wireless Alerts: Add a toggle for bottom dialog.
+• Wireless Alerts: Improve UX of some toggles.
+• Wireless Alerts: Enable more hidden settings and tweak some defaults.
 
 Device:
-• Import system NPU libs from V1TDS35M.83-20-5-9.
-• Drop MediaTek's task_profiles configuration.
-• Switch to OSS BT audio interfaces.
-• Switch to dummy libaedv.
-• Add EROFS compress hints for relevant partitions in super.
-• Drop ipsec_mon and netdagent HALs as they are redundant after killing RPS.
-• Apply dex2oat optimizations.
-• Rework powerhint based on Motorola's mtkpower hints.
-• Copy keystore permission for Keymint V1.
-• Stop building unneeded dependencies.
+• Fix a few missing carriers' APNs.
+• Update VT vendor stack from bogota W1V036M.85.
+• Drop OMX completely.
+• Drop rcu_expedited enablement at init.rc.
+• Don't include mediatek-common as a shared lib.
+• Switch to OSS memtrack service.
+• Use AOSP default Codec2/OMX ranks.
+• Remove software omx codec references.
+• Drop vendor.media.omx prop.
+• Update blobs and firmware to V1TDS35M.83-20-5-10.
+• Drop more redundant kernel modules.
+• Kernel state at r3a2.
