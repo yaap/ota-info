@@ -1,15 +1,10 @@
 ROM:
-• Add a text only status bar battery
-• OTA App: Improve reboot state reliability
-• Settings: Allow hiding account name from top level page
-• Settings: Move account preference to the bottom
-• Settings: Give custom ramping ringer settings their own page
-• Wireless Alerts: Add a toggle to enable led flash
-• Wireless Alerts: Add a toggle to handle in calls
-• Wireless Alerts: Add a toggle to show a notification
-• Wireless Alerts: Add a toggle for bottom dialog
-• Wireless Alerts: Improve UX of some toggles
-• Wireless Alerts: Enable more hidden settings and tweak some defaults
+• Applied April security patch patches
+• Updated APNs from LOS
+• Fix UltraHDR display issue since a15 qpr2, re enable UHDR for all
 
 Device:
-• No changes
+• Fix USB audio issues since moving to prebuilt audio
+• Kernel: ensure LMK triggers before any visible stalls occur (more stall sensitivity earlier)
+• Kernel: Scheduler backports and fixes
+• Kernel: fix possible high net stack latency on lazy rcu (non kp perf)
