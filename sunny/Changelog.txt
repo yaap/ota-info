@@ -1,23 +1,34 @@
 ROM:
-• Fix blue color wrongly used in some places.
-• Fix printing service invisible UI when manually adding a printer.
-• Launcher: Bring back drawer blur radius setting.
-• Launcher: Remove blue tint from app drawer.
-• Launcher: Remove themed icons in drawer option. (has a severe performance penalty on bp4a)
-• Lindroid updates: using upstream rootfs with upstream Debian compositors now (tearing and flickering are being worked on).
-• Calculator: update to M3E.
-• Deskclock (vanilla): update to M3E.
-• Dialer (vanilla): update to M3E.
-• Settings: update lottie videos.
-• Disable FRP on vanilla builds.
-• Disable and hide pseudo locales.
-• Fix hotspot speed setting being unavailable on some devices.
-• Launcher: Update settings sliders to M3E.
-• Launcher: Improve app drawer performance. (fix Google's regression)
-• Launcher: Allow icon customizations to apply to drawer.
-• Launcher: Fix auto open keyboard closing on deleting text.
-• Launcher: Customizable app drawer and recents opacity.
-• Bring back added custom icon shapes. (eg squircle)
+• Applied March security patch patches.
+• Applied April security patch patches.
+• Updated APNs from LOS.
+• Fix UltraHDR display issue since a15 qpr2, re enable UHDR for all.
+• Restore secure qs tiles toggle.
+• Add dedicated WiFi and Data QS tiles.
+• Make chosen font affect more UI elements.
+• Center the recents buttons.
+• Settings: Move AOD schedule to the new AOD page.
+• Settings: Use M3E in security hub.
+• Settings: Stop animating dev options.
+• Fix panic button on power menu.
+• Update SmartSpace to CP1A.260305.018.
+• Fix some translations.
+• Vanilla: fix webview and Vanadium.
+• Vanilla: fix SetupWizard network selection crash.
+• OmniJaws: add an inline view toggle for a modern smartspace-inspired layout.
+• Add a text only status bar battery.
+• OTA App: Improve tile reliability and fix a crash.
+• OTA App: Improve reboot state reliability.
+• Settings: Allow hiding account name from top level page.
+• Settings: Move account preference to the bottom.
+• Settings: Give custom ramping ringer settings their own page.
+• Wireless Alerts: Add a toggle to enable led flash.
+• Wireless Alerts: Add a toggle to handle in calls.
+• Wireless Alerts: Add a toggle to show a notification.
+• Wireless Alerts: Add a toggle for bottom dialog.
+• Wireless Alerts: Improve UX of some toggles.
+• Wireless Alerts: Enable more hidden settings and tweak some defaults.
 
 Device:
-• No changes.
+• Switch back to OSS AIDL camera provider.
+• Skip failed camera ids from initialization.
