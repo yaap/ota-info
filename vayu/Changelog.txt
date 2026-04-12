@@ -1,30 +1,30 @@
 ROM:
-• Fix blue color wrongly used in some places
-• Fix printing service invisible UI when manually adding a printer
-• Launcher: Fix a permanent crash on boot
-• Settings: Restore missing protected IMEI & EID sumarries
-• Settings: Protect phone number and other sensitive info in more pages
-• Launcher: Bring back drawer blur radius setting
-• Launcher: Remove blue tint from app drawer
-• Launcher: Remove themed icons in drawer option (has a severe performance penalty on bp4a)
-• Launcher: Fix getting stuck in overview
-• Lindroid updates: using upstream rootfs with upstream Debian compositors now (tearing and flickering are being worked on)
-• Calculator: update to M3E
-• Deskclock (vanilla): update to M3E
-• Dialer (vanilla): update to M3E
-• Settings: update lottie videos
-• Disable FRP on vanilla builds
-• Fix hotspot speed setting being unavailable on some devices
-• Restore secure qs tiles toggle 
-• Disable and hide pseudo locales
-• Launcher: Update settings sliders to M3E
-• Launcher: Improve app drawer performance (fix Google's regression) 
-• Launcher: Allow icon customizations to apply to drawer
-• Launcher: Fix auto open keyboard closing on deleting text
-• Launcher: Customizable app drawer and recents opacity
-• Bring back added custom icon shapes (eg squircle)
+• Applied March security patch patches
+• Applied April security patch patches
+• Add dedicated WiFi and Data QS tiles
+• Make chosen font affect more UI elements
+• Make lockscreen weather provider be a runtime toggle
+• Center the recents buttons
+• Settings: Move AOD schedule to the new AOD page
+• Settings: Use M3E in security hub
+• Settings: Stop animating dev options
+• Fix panic button on power menu
+• Update SmartSpace to CP1A.260305.018
+• Fix some translations
+• Add a text only status bar battery
+• OTA App: Improve reboot state reliability
+• Settings: Allow hiding account name from top level page
+• Settings: Move account preference to the bottom
+• Settings: Give custom ramping ringer settings their own page
+• Wireless Alerts: Add a toggle to enable led flash
+• Wireless Alerts: Add a toggle to handle in calls
+• Wireless Alerts: Add a toggle to show a notification
+• Wireless Alerts: Add a toggle for bottom dialog
+• Wireless Alerts: Improve UX of some toggles
+• Wireless Alerts: Enable more hidden settings and tweak some defaults
+• Updated APNs from LOS
+• Fix UltraHDR display issue since a15 qpr2, re enable UHDR for all
+• Fix volume dialog ringer drawer in landscape
 
 Device:
-• Move back to QCOM WFD
-• kernel: Merge https://github.com/LineageOS/android_kernel_qcom_sm8150
-• Add a refresh rate tile
+• fixup! BACKPORT: epoll: wire up syscall epoll_pwait2
