@@ -1,16 +1,82 @@
 ROM:
-• Fix various bluetooth issues introduced in Android 16
-• Default disable Ultra HDR behaviors
-  - It is severely broken on all devices except those using proprietary solutions such as pixels
-  - Does not affect HDR video behaviors
-• Allow automatically turning on mobile data when pressing the tile
-• Launcher3: Allow to always show page indicator dots
-• Launcher3: Add 4x6 and 4x7 grid sizes
-• Add Sony Sketch font
-• Add Rubik font
-• Add Roboto Flex font
-• Few other minor changes
+• Merged Android 16 QPR2 (and April security /2026 security patches)
+• Add a toggle for screenshot sounds
+• Implement a new flashlight strength control tile, complete with primitive haptics and per-level control
+• Add a configurable blur radius slider for notification shade
+• Lindroid: update default rootfs, multi-display support (with external hotplugging)
+• Lindroid updates: using upstream rootfs with upstream Debian compositors now (tearing and flickering are being worked on)
+• Lindroid: fix gui elements z flickering
+• Implement gestural navbar burn in protection
+• Add blurs option to fine-tuned battery saver
+• Allow setting a wider range for battery saver schedule %
+• Enable Expressive UI in GMS Setup Wizard
+• Fix non persisting toggles in fine-tuned battery saver
+• Fix broken toggles in fine-tuned battery saver
+• Resize some statusbar icons to better fit the rest
+• Improve network traffic monitor reliability and efficiency
+• Fix QS network traffic monitor on white theme
+• Fix setup wizard theme
+• Bring back left volume panel option
+• Fix connecting to some Bluetooth devices
+• On VRR devices (op12, pixel) do not downvote scroll to 80 and 60 fps during low velocity (absurd Google behavior)
+• Fix blue color wrongly used in some places
+• Settings: Restore missing protected IMEI & EID sumarries
+• Settings: Protect phone number and other sensitive info in more pages
+• Settings: update lottie videos
+• Settings: Move AOD schedule to the new AOD page
+• Settings: Use M3E in security hub
+• Settings: Allow hiding account name from top level page
+• Settings: Give custom ramping ringer settings their own page
+• Settings: Reflect that a gesture won't trigger ambient when ambient is disabled
+• Launcher: Remove blue tint from app drawer
+• Launcher: Remove themed icons in drawer option (has a severe performance penalty on bp4a)
+• Launcher: Fix getting stuck in overview
+• Launcher: Update settings sliders to M3E
+• Launcher: Improve app drawer performance (fix Google's regression) 
+• Launcher: Allow icon customizations to apply to drawer
+• Launcher: Fix auto open keyboard closing on deleting text
+• Launcher: Customizable app drawer and recents opacity
+• Launcher: fix hide label toggle hiding popup labels
+• Launcher: add configurable blur radius slider
+• Launcher: Add Pixel Search as QSB provider fallback
+• Launcher: Fix a permanent crash on boot
+• Calculator: update to M3E
+• Deskclock (vanilla): update to M3E
+• Dialer (vanilla): update to M3E
+• Disable FRP on vanilla builds
+• Fix hotspot speed setting being unavailable on some devices
+• Restore secure qs tiles toggle 
+• Bring back added custom icon shapes (eg squircle)
+• Add dedicated WiFi and Data QS tiles
+• Make chosen font affect more UI elements
+• Make lockscreen weather provider be a runtime toggle
+• Center the recents buttons
+• Fix panic button on power menu
+• Update SmartSpace to CP1A.260305.018
+• Fix some translations
+• Vanilla: fix webview and Vanadium
+• Vanilla: fix SetupWizard network selection crash
+• OmniJaws: add an inline view toggle for a modern smartspace-inspired layout
+• OTA App: Improve reboot state reliability
+• OTA App: Improve tile reliability and fix a crash
+• OpenDelta: Support new A16's progress centric notifications
+• Add a text only status bar battery
+• Wireless Alerts: Add a toggle to enable led flash
+• Wireless Alerts: Add a toggle to handle in calls
+• Wireless Alerts: Add a toggle to show a notification
+• Wireless Alerts: Add a toggle for bottom dialog
+• Wireless Alerts: Improve UX of some toggles
+• Wireless Alerts: Enable more hidden settings and tweak some defaults
+• Updated APNs from LOS
+• Fix UltraHDR display issue since a15 qpr2, re enable UHDR for all
 
 Device:
-* Add support for LIndroid
-• Few other minor changes
+* Moved to AOSP WFD
+* Enable proximity sensor for doze.
+* Overhauled brightness logic (no more bouncy auto brightness)
+* Reduced AOD battery drain
+* Improved QDCM color profiles
+* Switched back to MIUI thermals
+* Modernized powerhint & introduced ADPF-based boosts
+* Fixed PD fast charger detection
+* Other minor optimizations & fixes
