@@ -1,0 +1,8 @@
+ROM:
+• Fix volume dialog ringer drawer in landscape
+• Applied April security patch patches
+• Updated APNs from LOS
+• Fix UltraHDR display issue since a15 qpr2, re enable UHDR for all
+
+Device:
+• Initial official build

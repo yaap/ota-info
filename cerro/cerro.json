@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1777089665,
+      "filename": "YAAP-16-Banshee-cerro-20260425.zip",
+      "payload": [
+        {
+          "offset": 4629,
+          "FILE_HASH": "koUfrile5BFJX5d+CBd/tj7zM0rn3Bf9ZmMDU2th/8Q=",
+          "FILE_SIZE": "3047197959",
+          "METADATA_HASH": "7a96giXyqcm8Sqd18XdVuJfXEhOHWwpaR7RFidiEXRI=",
+          "METADATA_SIZE": "205583"
+        }
+      ]
+    }
+  ]
+}
