@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1777093924,
+      "filename": "YAAP-16-Vanilla-cerro-20260425.zip",
+      "payload": [
+        {
+          "offset": 4629,
+          "FILE_HASH": "8w+BizwrHJUXpkdDvxHUS2tlzt3wFOt2fatCrAa+xm0=",
+          "FILE_SIZE": "2650947255",
+          "METADATA_HASH": "fFY/+n2+nfh4dKoYnM7XPZSTKjha0RYI9mSlkJ24+80=",
+          "METADATA_SIZE": "177325"
+        }
+      ]
+    }
+  ]
+}
