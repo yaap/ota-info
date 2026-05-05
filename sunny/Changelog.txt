@@ -1,34 +1,8 @@
 ROM:
-• Applied March security patch patches.
-• Applied April security patch patches.
-• Updated APNs from LOS.
-• Fix UltraHDR display issue since a15 qpr2, re enable UHDR for all.
-• Restore secure qs tiles toggle.
-• Add dedicated WiFi and Data QS tiles.
-• Make chosen font affect more UI elements.
-• Center the recents buttons.
-• Settings: Move AOD schedule to the new AOD page.
-• Settings: Use M3E in security hub.
-• Settings: Stop animating dev options.
-• Fix panic button on power menu.
-• Update SmartSpace to CP1A.260305.018.
-• Fix some translations.
-• Vanilla: fix webview and Vanadium.
-• Vanilla: fix SetupWizard network selection crash.
-• OmniJaws: add an inline view toggle for a modern smartspace-inspired layout.
-• Add a text only status bar battery.
-• OTA App: Improve tile reliability and fix a crash.
-• OTA App: Improve reboot state reliability.
-• Settings: Allow hiding account name from top level page.
-• Settings: Move account preference to the bottom.
-• Settings: Give custom ramping ringer settings their own page.
-• Wireless Alerts: Add a toggle to enable led flash.
-• Wireless Alerts: Add a toggle to handle in calls.
-• Wireless Alerts: Add a toggle to show a notification.
-• Wireless Alerts: Add a toggle for bottom dialog.
-• Wireless Alerts: Improve UX of some toggles.
-• Wireless Alerts: Enable more hidden settings and tweak some defaults.
+• Fix volume dialog ringer drawer in landscape.
+• Set the correct default for tether offload setting.
+• Applied May security patch patches.
 
 Device:
-• Switch back to OSS AIDL camera provider.
-• Skip failed camera ids from initialization.
+• Patch com.vidhance.node.eis.so with libui-v34.
+• Enable camera override format from reserved for high framerate video.
