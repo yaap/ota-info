@@ -1,10 +1,11 @@
 ROM:
-• Applied April security patch patches
-• Updated APNs from LOS
-• Fix UltraHDR display issue since a15 qpr2, re enable UHDR for all
+• Applied May security patches
+• Fix volume dialog ringer drawer in landscape
+• Set the correct default for tether offload setting
 
 Device:
-• Fix USB audio issues since moving to prebuilt audio
-• Kernel: ensure LMK triggers before any visible stalls occur (more stall sensitivity earlier)
-• Kernel: Scheduler backports and fixes
-• Kernel: fix possible high net stack latency on lazy rcu (non kp perf)
+• Kernel: merge 6.1.170 and scheduler backports/fixes
+• Utilize super steady video stabilization in Aperture (shipped camera app) 
+• Improve camera performance, reduce frame drops
+• Correctly build for armv9.2a
+• Update display hal to latest qcom tag
