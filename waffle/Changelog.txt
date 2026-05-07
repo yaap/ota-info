@@ -1,6 +1,9 @@
 ROM:
-• Misc
+• Implement fix for "Tiny UDP Cannon" VPN bypass
+• Fix IME getting stuck (fix from pixel)
+• Fix setting DAVx as contacts account
+• Fix multi-profile files access
+• Launcher: standardize all apps search bar height
 
 Device:
-• Fix UDFPS-related brightness flash on screen off
-• Kernel: implement an improved FIE, improve performance and efficiency
+• Reduce jank
