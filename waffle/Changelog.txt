@@ -1,9 +1,6 @@
 ROM:
-• Implement fix for "Tiny UDP Cannon" VPN bypass
-• Fix IME getting stuck (fix from pixel)
-• Fix setting DAVx as contacts account
-• Fix multi-profile files access
-• Launcher: standardize all apps search bar height
+• None
 
 Device:
-• Reduce jank
+• Kernel: revert changes which made schedutil too interactive, to further improve jank
+• Add full <60hz oplus anchor refresh rates to surfaceflinger for ARR, disable oplus ADFR
