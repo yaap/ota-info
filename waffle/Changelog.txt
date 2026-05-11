@@ -2,5 +2,13 @@ ROM:
 • None
 
 Device:
-• Kernel: revert changes which made schedutil too interactive, to further improve jank
-• Add full <60hz oplus anchor refresh rates to surfaceflinger for ARR, disable oplus ADFR
+• Correctly theme the alert slider dialog
+• Rework top-app min clamps
+• Add back an expensive rendering gpu hint
+• Improve adaptive refresh rate
+• Kernel: Merge 6.1.172
+• Kernel: FIE improvements
+• Kernel: rework kprofiles:
+  - Do not disable lazy rcu on performance kprofile (benchmark cost is no more)
+  - Rework app/activity launch boosting on balanced/perf kprofiles
+  - Extend dcvs bus boost driver to internal calls (for app launch/transition boosting)
