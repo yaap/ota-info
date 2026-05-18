@@ -1,14 +1,10 @@
-ROM:
-• None
+Rom (OP12): 
+• Fix decrease of refresh rate and target frame rate on ARR devices during overscroll stretch animations and other redraws (yet another fix to Google's ARR implementation)
+• Fix PermissionController crash
 
-Device:
-• Correctly theme the alert slider dialog
-• Rework top-app min clamps
-• Add back an expensive rendering gpu hint
-• Improve adaptive refresh rate
-• Kernel: Merge 6.1.172
-• Kernel: FIE improvements
-• Kernel: rework kprofiles:
-  - Do not disable lazy rcu on performance kprofile (benchmark cost is no more)
-  - Rework app/activity launch boosting on balanced/perf kprofiles
-  - Extend dcvs bus boost driver to internal calls (for app launch/transition boosting)
+
+Device (OP12):
+• Fix and bring back OpenEUICC on vanilla builds
+• Implement a fully functional Dolby (default off) using unmodified stock Dolby config
+• Kernel: merge 6.1.173
+• Kernel: FIE improvements and interactivity improvements
