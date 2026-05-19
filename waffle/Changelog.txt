@@ -1,10 +1,9 @@
-Rom (OP12): 
-• Fix decrease of refresh rate and target frame rate on ARR devices during overscroll stretch animations and other redraws (yet another fix to Google's ARR implementation)
-• Fix PermissionController crash
+ROM: 
+• Launcher3 & Quickstep: Optimizations to Google code in areas found introducing animation jank
 
-
-Device (OP12):
-• Fix and bring back OpenEUICC on vanilla builds
-• Implement a fully functional Dolby (default off) using unmodified stock Dolby config
-• Kernel: merge 6.1.173
-• Kernel: FIE improvements and interactivity improvements
+Device:
+• Improve jitter with proper SF durations tuned for frame boosted 120hz targets
+• Kernel: Improve efficiency on all kprofiles (step back and further tune earlier changes)
+• Kernel: Implement direct reclaim and high order allocation optimizations for critical tasks
+• Kernel: Merge ACK
+• Kernel: Misc
