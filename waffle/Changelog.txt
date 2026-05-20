@@ -1,9 +1,5 @@
 ROM: 
-• Launcher3 & Quickstep: Optimizations to Google code in areas found introducing animation jank
+• None
 
 Device:
-• Improve jitter with proper SF durations tuned for frame boosted 120hz targets
-• Kernel: Improve efficiency on all kprofiles (step back and further tune earlier changes)
-• Kernel: Implement direct reclaim and high order allocation optimizations for critical tasks
-• Kernel: Merge ACK
-• Kernel: Misc
+• BUGFIX: Revert a change that was to deal with symptoms of accidentally dropping sf durations 3 weeks ago to resolve effiency losses in some usage
