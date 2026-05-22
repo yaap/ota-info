@@ -1,5 +1,6 @@
 ROM: 
-• None
+• Disable USAP pool to workaround high usap drain for some users
 
 Device:
-• BUGFIX: Revert a change that was to deal with symptoms of accidentally dropping sf durations 3 weeks ago to resolve effiency losses in some usage
+• Further improve efficiency on defaults
+• Temporarily remove Dolby until necessary patching and testing is done for a rare crash
