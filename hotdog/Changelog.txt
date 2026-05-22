@@ -1,18 +1,17 @@
 ROM:
-• Add a text only status bar battery
-• Vanilla: fix webview and Vanadium
-• OmniJaws: add an inline view toggle for a modern smartspace-inspired layout
-• OTA App: Improve tile reliability and fix a crash
-• OTA App: Improve reboot state reliability
-• Settings: Allow hiding account name from top level page
-• Settings: Move account preference to the bottom
-• Settings: Give custom ramping ringer settings their own page
-• Wireless Alerts: Add a toggle to enable led flash
-• Wireless Alerts: Add a toggle to handle in calls
-• Wireless Alerts: Add a toggle to show a notification
-• Wireless Alerts: Add a toggle for bottom dialog
-• Wireless Alerts: Improve UX of some toggles
-• Wireless Alerts: Enable more hidden settings and tweak some defaults
+• Applied April security patch patches
+• Updated APNs from LOS
+• Launcher: standardize all apps search bar height
+• Implement fix for "Tiny UDP Cannon" VPN bypass
+• Set the correct default for tether offload setting
+• Disable USAP pool to workaround high usap drain for some users
+• Fix UltraHDR display issue since a15 qpr2, re enable UHDR for all
+• Fix volume dialog ringer drawer in landscape
+• Fix IME getting stuck (fix from pixel)
+• Fix setting DAVx as contacts account
+• Fix multi-profile files access
+• Fix decrease of refresh rate and target frame rate on ARR devices during overscroll stretch animations and other redraws (yet another fix to Google's ARR implementation)
+• Fix PermissionController crash
 
 Device:
 • No changes
