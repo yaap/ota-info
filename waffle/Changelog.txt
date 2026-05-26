@@ -1,6 +1,9 @@
 ROM: 
-• Disable USAP pool to workaround high usap drain for some users
+• Update certified props
+• Support overriding display headroom for HDR from device
 
 Device:
-• Further improve efficiency on defaults
-• Temporarily remove Dolby until necessary patching and testing is done for a rare crash
+• Updates from OOS 16.0.7.200
+• Give Ultra HDR more headroom, to solve dimming at higher brightness on 8bit hdr
+• Kernel: significantly improve/regain efficiency
+• Kernel: Merge 6.1.174
