@@ -1,9 +1,10 @@
-ROM: 
-• Update certified props
-• Support overriding display headroom for HDR from device
+ROM:
+• Implement an option for making navbar gesture handle invisible
+• MD3 theme files app (DocumentsUI) 
+• Lindroid: halt vblanks and rendering when app is in background
 
 Device:
-• Updates from OOS 16.0.7.200
-• Give Ultra HDR more headroom, to solve dimming at higher brightness on 8bit hdr
-• Kernel: significantly improve/regain efficiency
-• Kernel: Merge 6.1.174
+• Fix playback of media with >2 channel audio over bluetooth
+• Stop reporting severe thermal state when there is none
+• Kernel: efficiency: improve prime cpu avoidance and further pack on low power cores
+• Kernel: efficiency: only precommit frame boost on performance kprofile
