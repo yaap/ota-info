@@ -1,10 +1,10 @@
 ROM:
-• Implement an option for making navbar gesture handle invisible
-• MD3 theme files app (DocumentsUI) 
-• Lindroid: halt vblanks and rendering when app is in background
+• Implement option to change notification shade opacity
+• Fix ARR power regression with a more targeted overscroll effect refresh rate fix
+• Fix circle to search with navbar handle invisible
+• Aperture: rebase and update
+• Lindroid: implement power mode support
 
 Device:
-• Fix playback of media with >2 channel audio over bluetooth
-• Stop reporting severe thermal state when there is none
-• Kernel: efficiency: improve prime cpu avoidance and further pack on low power cores
-• Kernel: efficiency: only precommit frame boost on performance kprofile
+• Kernel: merge 6.1.175
+• Additional efficiency improvements including re-enabling ADFR for static image power consumption improvement
