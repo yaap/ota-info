@@ -1,9 +1,11 @@
 ROM:
-• Implement option to change notification shade opacity
-• Fix ARR power regression with a more targeted overscroll effect refresh rate fix
-• Aperture: rebase and update
-• Lindroid: implement power mode support
+• OmniJaws: use a split view for inline mode, showing all non date and weather slices in a secondary location
+• Gapps: set CredentialManager as default password manager
+• SurfaceFlinger: always show refresh rate in overlay even when idle (removes dashes)
+• SurfaceFlinger: do not vote any refresh rate change on status bar item updates
+• SurfaceFlinger: allow utilizing as low as minimum configured refresh rate for idle
+• SurfaceFlinger: minimize intermediate refresh rate switches
 
 Device:
-• Kernel: merge 6.1.175
-• Additional efficiency improvements including re-enabling ADFR for static image power consumption improvement
+• Kernel: optimize critical task spawned workqueues (improves camera open performance)
+• Utilize 10hz as display idle rate
