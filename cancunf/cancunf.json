@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1778006519,
-      "filename": "YAAP-16-Vanilla-cancunf-20260506.zip",
+      "datetime": 1780746517,
+      "filename": "YAAP-16-Vanilla-cancunf-20260606.zip",
       "payload": [
         {
           "offset": 4465,
-          "FILE_HASH": "5/I3kNJ8bqT9BcI6GIIADfV81Rosm6gG25ps5eXltT8=",
-          "FILE_SIZE": "2008269804",
-          "METADATA_HASH": "v887/EBoThFY7u4F/hO4s0Oi9hBd2aVsSG64OVBM5fQ=",
-          "METADATA_SIZE": "89861"
+          "FILE_HASH": "1Xomaf9C4sfQHVA9Mu7O9oQQBSUgIk3kLlEvxlXU6hI=",
+          "FILE_SIZE": "2014384313",
+          "METADATA_HASH": "QSnlyUVFZJMdfqwbw7nA+j+kmxls94JgBugmMrXMeno=",
+          "METADATA_SIZE": "90142"
         }
       ]
     }

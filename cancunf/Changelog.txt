@@ -1,12 +1,45 @@
 ROM:
-• Set the correct default for tether offload setting.
-• Applied May security patch patches.
+• Implement fix for "Tiny UDP Cannon" VPN bypass.
+• Fix IME getting stuck. (fix from pixel)
+• Fix setting DAVx as contacts account.
+• Fix multi-profile files access.
+• Launcher: standardize all apps search bar height.
+• Fix decrease of refresh rate and target frame rate on ARR devices during overscroll stretch animations and other redraws. (yet another fix to Google's ARR implementation)
+• Fix PermissionController crash.
+• Launcher3 & Quickstep: Optimizations to Google code in areas found introducing animation jank.
+• Disable USAP pool to workaround high usap drain for some users.
+• Update certified props.
+• Support overriding display headroom for HDR from device.
+• Implement an option for making navbar gesture handle invisible.
+• MD3 theme files app. (DocumentsUI)
+• Lindroid: halt vblanks and rendering when app is in background.
+• Implement option to change notification shade opacity.
+• Fix ARR power regression with a more targeted overscroll effect refresh rate fix.
+• Fix circle to search with navbar handle invisible.
+• Aperture: rebase and update.
+• Lindroid: implement power mode support.
+• OmniJaws: use a split view for inline mode, showing all non date and weather slices in a secondary location.
+• Gapps: set CredentialManager as default password manager.
+• SurfaceFlinger: always show refresh rate in overlay even when idle. (removes dashes)
+• SurfaceFlinger: do not vote any refresh rate change on status bar item updates.
+• SurfaceFlinger: allow utilizing as low as minimum configured refresh rate for idle.
+• SurfaceFlinger: minimize intermediate refresh rate switches.
 
 Device:
-• Enable DeviceAsWebcam support on cancunf.
-• Import UVC resolution from stock and reduce streaming_maxpacket.
-• Remove references to Google C2 codecs.
-• Use current strength level when enabling torch with ChopChop gesture.
-• Convert TorchAction class to a singleton so as to not instantiate on every gesture trigger.
-• Cleanup redundant and duplicated SEPolicy rules.
-• Kernel state at r3b1.
+• Drop remnants of FPC1020.
+• Drop remnants of egisfp.
+• Rewrite fingerprint init script.
+• Drop fingerprint ident binaries.
+• Rewrite insmod script.
+• Update blobs and firmware to V1TDS35H.83-20-5-11.
+• Cleanup MTK connectivity modules load init triggers.
+• Set ro.vendor.soc.* from init instead of props.
+• Cleanup duplicate sensor permissions.
+• Remove unused touchrec folder.
+• Remove Moto Modem RFS logs script.
+• Drop Moto wireless accessories permissions.
+• Drop Moto shutdown logging script.
+• Drop Moto kpgather/kpreadwrite binaries.
+• Drop Moto pstore_annotate script.
+• Drop Moto bootperf.rc.
+• Kernel state at r3b3.
