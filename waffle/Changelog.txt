@@ -1,11 +1,9 @@
 ROM:
-• OmniJaws: use a split view for inline mode, showing all non date and weather slices in a secondary location
-• Gapps: set CredentialManager as default password manager
-• SurfaceFlinger: always show refresh rate in overlay even when idle (removes dashes)
-• SurfaceFlinger: do not vote any refresh rate change on status bar item updates
-• SurfaceFlinger: allow utilizing as low as minimum configured refresh rate for idle
-• SurfaceFlinger: minimize intermediate refresh rate switches
+• Show location indicator for coarse location requests as well as precise
+• Fix status bar burn in protection
+• Fix AOD burn in protection requiring SystemUI restart post boot (Google bug)
 
 Device:
-• Kernel: optimize critical task spawned workqueues (improves camera open performance)
-• Utilize 10hz as display idle rate
+• Kernel: multitasking improvements with a hybrid vmpressure/psi window low memory killer
+ - Improves responsiveness of kills (also with small boost in high pressure)
+ - Reduces false kills
