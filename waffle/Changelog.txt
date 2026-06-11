@@ -1,9 +1,9 @@
 ROM:
-• Show location indicator for coarse location requests as well as precise
-• Fix status bar burn in protection
-• Fix AOD burn in protection requiring SystemUI restart post boot (Google bug)
+• None
 
 Device:
-• Kernel: multitasking improvements with a hybrid vmpressure/psi window low memory killer
- - Improves responsiveness of kills (also with small boost in high pressure)
- - Reduces false kills
+• Now the first/only rom on a newer oplus device to have thermal mitigations and battery protections:
+ - Implemented a 9 level raw battery-led thermal mitigation strategy beginning at ~38C battery with small mitigations.
+ - Tie in gpu, ddr, and additional clusters outside of big+/prime as battery temperature increases to minimize runoff or contribution when we are not the main thermal contributor.
+ - For additional protection, implement skin temperature thermal mitigations (4 levels).
+ - Additionally add per component temperature mitigations well lower than the previous thermal die limits.
