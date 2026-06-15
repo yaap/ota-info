@@ -2,8 +2,8 @@ ROM:
 • None
 
 Device:
-• Now the first/only rom on a newer oplus device to have thermal mitigations and battery protections:
- - Implemented a 9 level raw battery-led thermal mitigation strategy beginning at ~38C battery with small mitigations.
- - Tie in gpu, ddr, and additional clusters outside of big+/prime as battery temperature increases to minimize runoff or contribution when we are not the main thermal contributor.
- - For additional protection, implement skin temperature thermal mitigations (4 levels).
- - Additionally add per component temperature mitigations well lower than the previous thermal die limits.
+• Significantly improve our thermal mitigations to use 9 levels with skin sensor and allow cpu cooling devices to be referenced and used:
+ - Minimizes battery heat runoff more effectively
+ - Allows dropping mitigations earlier when trending downward (not contributing as much heat)
+ - This is still the only rom with any thermal protections/mitigations on waffle (or any newer oplus device)
+• Kernel: efficiency improvement
