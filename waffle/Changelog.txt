@@ -1,9 +1,10 @@
 ROM:
-• None
+• Aperture: support fixing hdr video colors on oplus devices
+• Misc
 
 Device:
-• Significantly improve our thermal mitigations to use 9 levels with skin sensor and allow cpu cooling devices to be referenced and used:
- - Minimizes battery heat runoff more effectively
- - Allows dropping mitigations earlier when trending downward (not contributing as much heat)
- - This is still the only rom with any thermal protections/mitigations on waffle (or any newer oplus device)
-• Kernel: efficiency improvement
+• Further improve per-cluster thermal mitigations
+• Camera fixes and improvements including:
+ - Fixed high camera service load during camera usage (incl video calls)
+ - Improved lens switch performance
+ - Fixed a crash when quickly switching between 0.6x and >=3.1x on logical video recording
