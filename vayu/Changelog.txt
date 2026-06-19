@@ -1,30 +1,35 @@
 ROM:
-• Applied March security patch patches
-• Applied April security patch patches
-• Add dedicated WiFi and Data QS tiles
-• Make chosen font affect more UI elements
-• Make lockscreen weather provider be a runtime toggle
-• Center the recents buttons
-• Settings: Move AOD schedule to the new AOD page
-• Settings: Use M3E in security hub
-• Settings: Stop animating dev options
-• Fix panic button on power menu
-• Update SmartSpace to CP1A.260305.018
-• Fix some translations
-• Add a text only status bar battery
-• OTA App: Improve reboot state reliability
-• Settings: Allow hiding account name from top level page
-• Settings: Move account preference to the bottom
-• Settings: Give custom ramping ringer settings their own page
-• Wireless Alerts: Add a toggle to enable led flash
-• Wireless Alerts: Add a toggle to handle in calls
-• Wireless Alerts: Add a toggle to show a notification
-• Wireless Alerts: Add a toggle for bottom dialog
-• Wireless Alerts: Improve UX of some toggles
-• Wireless Alerts: Enable more hidden settings and tweak some defaults
-• Updated APNs from LOS
-• Fix UltraHDR display issue since a15 qpr2, re enable UHDR for all
+• Applied May security patches
 • Fix volume dialog ringer drawer in landscape
+• Set the correct default for tether offload setting
+• Show location indicator for coarse location requests as well as precise
+• Fix status bar burn in protection
+• Disable USAP pool to workaround high usap drain for some users
+• Launcher3 & Quickstep: Optimizations to Google code in areas found introducing animation jank
+• Fix decrease of refresh rate and target frame rate on ARR devices during overscroll stretch animations and other redraws (yet another fix to Google's ARR implementation)
+• Fix PermissionController crash
+• Implement fix for "Tiny UDP Cannon" VPN bypass
+• Fix IME getting stuck (fix from pixel)
+• Fix setting DAVx as contacts account
+• Fix multi-profile files access
+• Launcher: standardize all apps search bar height
+• Implement an option for making navbar gesture handle invisible
+• MD3 theme files app (DocumentsUI)
+• Lindroid: halt vblanks and rendering when app is in background
+• Implement option to change notification shade opacity
+• Fix ARR power regression with a more targeted overscroll effect refresh rate fix
+• Fix circle to search with navbar handle invisible
+• Aperture: rebase and update
+• Lindroid: implement power mode support
+• OmniJaws: use a split view for inline mode, showing all non date and weather slices in a secondary location
+• Gapps: set CredentialManager as default password manager
+• SurfaceFlinger: always show refresh rate in overlay even when idle (removes dashes)
+• SurfaceFlinger: do not vote any refresh rate change on status bar item updates
+• SurfaceFlinger: allow utilizing as low as minimum configured refresh rate for idle
+• SurfaceFlinger: minimize intermediate refresh rate switches
+• Fix AOD burn in protection requiring SystemUI restart post boot (Google bug)
+• Aperture: support fixing hdr video colors on oplus devices
+• Misc
 
 Device:
-• fixup! BACKPORT: epoll: wire up syscall epoll_pwait2
+• Merge LineageOS qcom sm8150 kernel changes
