@@ -1,10 +1,8 @@
 ROM:
-• Aperture: support fixing hdr video colors on oplus devices
-• Misc
+• None
 
 Device:
-• Further improve per-cluster thermal mitigations
-• Camera fixes and improvements including:
- - Fixed high camera service load during camera usage (incl video calls)
- - Improved lens switch performance
- - Fixed a crash when quickly switching between 0.6x and >=3.1x on logical video recording
+• Kernel: fix possible slow out of memory scenario
+• Kernel: improve interactivity and efficiency
+• Kernel: fingerprint improvements
+• Kernel: tweak thermal mitigation curves for more peak performance headroom and improved passively cooled gaming performance
