@@ -1,14 +1,5 @@
 ROM:
-• Lindroid: move to a more efficient/lower latency ASurfaceControl composer, which allows for hw overlay promotion
-  - Will need to update inside rootfs or use new rootfs for a tear-free experience
+• None
 
 Device:
-• Updates from OOS 16.0.8.300
-• Camera: use stock video opmode in all video cases for improved video processing and output
-  - On Aperture and Gcam configs, now has improved stabilization as well
-• Kernel: fix a significant power regression introduced after April build
-• Kernel: kprofile improvements to adapt to power regression fix:
-  - Bring back minor 1ms frame precommit boosting on balanced kprofile
-  - Improve performance kprofile frame precommit boosting
-  - Battery kprofile is still no boosting for as good of battery life as possible
-  - All other efficiency improvements implemented since April build (including small task packing) are kept
+• Without losing power consumption improvements, reduce jitter and improve UI performance particularly on balanced (default) and performance kprofiles
