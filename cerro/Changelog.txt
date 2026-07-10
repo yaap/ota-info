@@ -1,32 +1,9 @@
 ROM:
-• Applied May security patches
-• Fix volume dialog ringer drawer in landscape
-• Set the correct default for tether offload setting
-• Implement fix for "Tiny UDP Cannon" VPN bypass
-• Fix IME getting stuck (fix from pixel)
-• Fix setting DAVx as contacts account
-• Fix multi-profile files access
-• Launcher: standardize all apps search bar height
-• Fix decrease of refresh rate and target frame rate on ARR devices during overscroll stretch animations and other redraws (yet another fix to Google's ARR implementation)
-• Fix PermissionController crash
-• Launcher3 & Quickstep: Optimizations to Google code in areas found introducing animation jank
-• Disable USAP pool to workaround high usap drain for some users
-• Update certified props
-• Support overriding display headroom for HDR from device
-• Implement an option for making navbar gesture handle invisible
-• MD3 theme files app (DocumentsUI)
-• Implement option to change notification shade opacity
-• Fix ARR power regression with a more targeted overscroll effect refresh rate fix
-• Fix circle to search with navbar handle invisible
-• Aperture: rebase and update
-• OmniJaws: use a split view for inline mode, showing all non date and weather slices in a secondary location
-• Gapps: set CredentialManager as default password manager
-• SurfaceFlinger: always show refresh rate in overlay even when idle (removes dashes)
-• SurfaceFlinger: do not vote any refresh rate change on status bar item updates
-• SurfaceFlinger: allow utilizing as low as minimum configured refresh rate for idle
-• SurfaceFlinger: minimize intermediate refresh rate switches
+• Aperture: support fixing hdr video colors on oplus devices
+• Misc
 
 Device:
-• Kernel: implement an improved FIE, improve performance and efficiency
-• Kernel: FIE improvements
-• Kernel: efficiency: improve prime cpu avoidance and further pack on low power cores
+• Implement 9 (or so) level skin-thermal based mitigations.
+• Kernel: fetch latest changes
+• apply 10% uclamp boosting for SurfaceFlinger
+
