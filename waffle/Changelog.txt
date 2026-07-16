@@ -2,14 +2,10 @@ ROM:
 • None
 
 Device:
-• Add a passthrough charging toggle and qs tile
-• Enable perf mode for OpenDelta — next OTA will install faster
-• Kernel: bring back a proper FIE implementation and fix two power consumption mistakes. Additionally minimize overhead.
-• Kernel: CASS: in full load scenarios, allow using prime sooner if a task can only fit there (+~400 multi-core Geekbench points consistently and hackbench improved).
-• Kernel: disable dcvsh IRQs to stop lmh throttling from competing with our thermal throttling implementation. This regains a usable 3.3ghz prime core which was restricted fw level since around OOS16.
-• Kernel: improve wake from suspend performance.
-• Kernel: drop counter-productive idle packing
-• Kernel: EEVDF fixes
-• Kernel: Improve cold app open performance
-• Kernel: Add warm app launch boosts
-• Kernel: Add in-app transition boosts
+• Camera: Enable stock color correction system and lens wide
+• Implement a simple UIM2 switch kernel driver and toggle (esim<->physical sim2) for esim variants, which is superior to other solutions in a few ways:
+  - A small kernel driver which replaces oplus' without any userspace dependencies
+  - Does not have any additional proprietary dependencies
+• Kernel: Add kick boost on binder sync tx if from fg main thread to do small boosts on relayout, inflation, etc (the costliest parts of fragment launches)
+• Kernel: Merge 6.1.177 and android common kernel
+• Kernel: Small additional efficiency improvement
