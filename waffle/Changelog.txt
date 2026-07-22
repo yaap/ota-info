@@ -1,11 +1,9 @@
 ROM:
-• None
+• Vanilla: update shipped microg and companion
 
 Device:
-• Camera: Enable stock color correction system and lens wide
-• Implement a simple UIM2 switch kernel driver and toggle (esim<->physical sim2) for esim variants, which is superior to other solutions in a few ways:
-  - A small kernel driver which replaces oplus' without any userspace dependencies
-  - Does not have any additional proprietary dependencies
-• Kernel: Add kick boost on binder sync tx if from fg main thread to do small boosts on relayout, inflation, etc (the costliest parts of fragment launches)
-• Kernel: Merge 6.1.177 and android common kernel
-• Kernel: Small additional efficiency improvement
+• Kernel: improve app launch and benchmark performance (reduce performance cost of lazy rcu while keeping idle power consumption benefits)
+• Kernel: improve simple low memory killer by only triggering when reclaim struggles, which limits killing to only before memory pressure becomes user perceptible
+• Kernel: improve reclaim efficiency with newer kcompressd changes.
+• Kernel: improve power efficiency with a change targeting system background tasks
+• Kernel: reduce latency of performance-sensitive binder transactions (improves app/activity/fragment open performance, ui tasks, fingerprint, and much more)
