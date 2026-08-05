@@ -1,9 +1,13 @@
 ROM:
-• Vanilla: update shipped microg and companion
+• Enable app image startup cache
 
 Device:
-• Kernel: improve app launch and benchmark performance (reduce performance cost of lazy rcu while keeping idle power consumption benefits)
-• Kernel: improve simple low memory killer by only triggering when reclaim struggles, which limits killing to only before memory pressure becomes user perceptible
-• Kernel: improve reclaim efficiency with newer kcompressd changes.
-• Kernel: improve power efficiency with a change targeting system background tasks
-• Kernel: reduce latency of performance-sensitive binder transactions (improves app/activity/fragment open performance, ui tasks, fingerprint, and much more)
+• Updates from OOS 16.0.9.400
+• Improve blur performance with many expensive rendering hints
+• Improve dalvik tuning
+• Improve app open performance
+• Improve jitter consistency
+• Kernel: improve memory allocation performance for critical tasks
+• Kernel: implement per-cluster frequency headroom for improved power efficiency
+• Kernel: reduce unnecessary low memory kills from IO thrashing circumstances
+• Kernel: improve idle/sleep in some cases
