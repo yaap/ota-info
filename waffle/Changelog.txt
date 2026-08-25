@@ -1,13 +1,20 @@
 ROM:
-• Enable app image startup cache
+• Merged Android 17 (And all related security patches)
+• Add a shortcut for the new A17 bubbles in recents
+• Add an icon for each caffeine tile state
+• Add an icon for each AOD tile state
+• Improve QS tiles haptic feedbacks (vibrate for more changes)
+• Launcher3: Add a toggle to hide home screen contents in drawer
+• Launcher3: Add blur to home screen popup menus
+• Launcher3: Make drawer search bar follow drawer opacity
+• Settings: Reorganize gestures and system pages
+• Updated smartspace to latest pixel release
+• Updated locale picker
+• Split text to 2 lines in AOD tile
+• Removed auto-on tile dialog features (no longer needed for the new AOSP tiles)
+• Removed custom 3 button layout toggles (AOSP now has their own invert)
+• Many other small fixes and improvements we just don't recall
 
 Device:
-• Updates from OOS 16.0.9.400
-• Improve blur performance with many expensive rendering hints
-• Improve dalvik tuning
-• Improve app open performance
-• Improve jitter consistency
-• Kernel: improve memory allocation performance for critical tasks
-• Kernel: implement per-cluster frequency headroom for improved power efficiency
-• Kernel: reduce unnecessary low memory kills from IO thrashing circumstances
-• Kernel: improve idle/sleep in some cases
+• Improve Ultra HDR and mixed HDR viewing
+
