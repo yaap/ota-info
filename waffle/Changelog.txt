@@ -1,20 +1,11 @@
 ROM:
-• Merged Android 17 (And all related security patches)
-• Add a shortcut for the new A17 bubbles in recents
-• Add an icon for each caffeine tile state
-• Add an icon for each AOD tile state
-• Improve QS tiles haptic feedbacks (vibrate for more changes)
-• Launcher3: Add a toggle to hide home screen contents in drawer
-• Launcher3: Add blur to home screen popup menus
-• Launcher3: Make drawer search bar follow drawer opacity
-• Settings: Reorganize gestures and system pages
-• Updated smartspace to latest pixel release
-• Updated locale picker
-• Split text to 2 lines in AOD tile
-• Removed auto-on tile dialog features (no longer needed for the new AOSP tiles)
-• Removed custom 3 button layout toggles (AOSP now has their own invert)
-• Many other small fixes and improvements we just don't recall
+• VRR: bring back accidentally dropped change in 17 merge to no vote on many layers
+• Improve screen off udfps unlock consistency (partial unlocks in 17 fixed)
+• Allow >5 background tasks after >6 hours
+• Improve Google bug of ultra hdr gainmaps clipping differently depending on interpolation
+• Settings: dynamic colors in enrollment screen
+• Settings: reverse-engineered expressive QR generator
+• Settings: backported new Google icon
 
 Device:
-• Improve Ultra HDR and mixed HDR viewing
-
+• Switch to vulkan backend (sdr dimming was fixed on 17 on it)
