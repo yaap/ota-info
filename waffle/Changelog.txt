@@ -1,11 +1,12 @@
 ROM:
-• VRR: bring back accidentally dropped change in 17 merge to no vote on many layers
-• Improve screen off udfps unlock consistency (partial unlocks in 17 fixed)
-• Allow >5 background tasks after >6 hours
-• Improve Google bug of ultra hdr gainmaps clipping differently depending on interpolation
-• Settings: dynamic colors in enrollment screen
-• Settings: reverse-engineered expressive QR generator
-• Settings: backported new Google icon
+• Update to and fix 17 doze/keyguard/udfps implementation:
+ - Fixes partial unlock issue
+ - Fixes first time secure app udfps unlock
+• Vanilla: fix needing to reset digital assistant app every boot (longstanding bug)
+• New logos by SaintJimmy
 
 Device:
-• Switch to vulkan backend (sdr dimming was fixed on 17 on it)
+• Update display and use source built libvmmem
+• Kernel: build with clang 22 and fix some scheduler issues
+• Kernel: merge ACK
+• Kernel: implement custom lazy preemption app open and foreground task optimizations based on vendor usage
