@@ -1,12 +1,6 @@
 ROM:
-• Update to and fix 17 doze/keyguard/udfps implementation:
- - Fixes partial unlock issue
- - Fixes first time secure app udfps unlock
-• Vanilla: fix needing to reset digital assistant app every boot (longstanding bug)
-• New logos by SaintJimmy
+• Fix and harden torch power gestures no matter digital assistant capabilities
+• Fix and ensure udfps layer order is correct
 
 Device:
-• Update display and use source built libvmmem
-• Kernel: build with clang 22 and fix some scheduler issues
-• Kernel: merge ACK
-• Kernel: implement custom lazy preemption app open and foreground task optimizations based on vendor usage
+• Fix minimum brightness udfps
