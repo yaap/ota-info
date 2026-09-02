@@ -1,6 +1,7 @@
 ROM:
-• Fix and harden torch power gestures no matter digital assistant capabilities
-• Fix and ensure udfps layer order is correct
+• Fix all known udfps dimming bugs (notif, qs, pin entry all in sync on keyguard now, and auth bp apps are always correct)
+• Backport mobile data confirmation dialog
+• Fix screen recorder edit crash without any available video editors installed
 
 Device:
-• Fix minimum brightness udfps
+• Revert off VK backend for improving jank
