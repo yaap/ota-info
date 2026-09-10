@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1788451414,
-      "filename": "YAAP-17-Calypso-waffle-20260903.zip",
+      "datetime": 1789068019,
+      "filename": "YAAP-17-Calypso-waffle-20260910.zip",
       "payload": [
         {
           "offset": 4721,
-          "FILE_HASH": "vAqEAvXFFAII20lAKjNNa5B0XAGIg8rtmyEQR/vodSA=",
-          "FILE_SIZE": "3885163276",
-          "METADATA_HASH": "N9X/h/+W1HdHVSWYpgpgoCUB0okAiNbdLjZI75KLGoY=",
-          "METADATA_SIZE": "189777"
+          "FILE_HASH": "YTetUbtkBHxKmvdSqCg2rsFZyXa+K6Z8OXwinVDrGsY=",
+          "FILE_SIZE": "3885486302",
+          "METADATA_HASH": "Kv70foz2ouDsO6SFdEpR1d8xdZKwTy5LwjeuLVs/rJE=",
+          "METADATA_SIZE": "189779"
         }
       ]
     }
