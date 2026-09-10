@@ -1,7 +1,7 @@
 ROM:
-• Fix all known udfps dimming bugs (notif, qs, pin entry all in sync on keyguard now, and auth bp apps are always correct)
-• Backport mobile data confirmation dialog
-• Fix screen recorder edit crash without any available video editors installed
+• Merge September 2026 security patches
 
 Device:
-• Revert off VK backend for improving jank
+• Improve fingerprint performance and post unlock performance
+• Give reclaim a chance in heavy order-0 bursts
+• Update from OOS 16.0.10.501
