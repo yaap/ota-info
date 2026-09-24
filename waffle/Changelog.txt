@@ -1,10 +1,7 @@
 ROM:
-• Certified props update
-• Allow dimming wallpaper on dark theme
-• [Vanilla] Messaging: Add mark as read notification shortcut
-• [Vanilla] Messaging: Allow selecting multiple messages for deletion
-• [Vanilla] Messaging: Tonemap ultra hdr images before MMS sending
-• [Vanilla] Dialer: Promote in call notification to status bar incall chip
+• Launcher3: improve alignment when labels are hidden
+• Launcher3: improve icon load performance
+• [Vanilla] DeskClock: promote timer to a status bar chip + misc other updates
 
 Device:
-• None
+• Allow applications to override video operation modes
