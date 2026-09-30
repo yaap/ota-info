@@ -1,7 +1,7 @@
 ROM:
-• Launcher3: improve alignment when labels are hidden
-• Launcher3: improve icon load performance
-• [Vanilla] DeskClock: promote timer to a status bar chip + misc other updates
+• Protect against yet another discovered android VPN leak
+• Hide developer options state from apps
 
 Device:
-• Allow applications to override video operation modes
+• Properly declare VRR, AVR, Qsync steps and support on waffle panel
+• Implement stock oplus face unlock support (weak auth) 
