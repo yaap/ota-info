@@ -1,16 +1,16 @@
 {
   "response": [
     {
-      "datetime": 1790776782,
-      "filename": "YAAP-17-Vanilla-waffle-20260930.zip",
-      "url": "https://downloads.yaaprom.org/waffle/vanilla/YAAP-17-Vanilla-waffle-20260930.zip",
-      "sha256url": "https://downloads.yaaprom.org/waffle/vanilla/YAAP-17-Vanilla-waffle-20260930.zip.sha256sum",
+      "datetime": 1790865632,
+      "filename": "YAAP-17-Vanilla-waffle-20261001.zip",
+      "url": "https://downloads.yaaprom.org/waffle/vanilla/YAAP-17-Vanilla-waffle-20261001.zip",
+      "sha256url": "https://downloads.yaaprom.org/waffle/vanilla/YAAP-17-Vanilla-waffle-20261001.zip.sha256sum",
       "payload": [
         {
           "offset": 4721,
-          "FILE_HASH": "+4c/74jiBNrGXzT1NSnAElydrd1wMxJVZ8dZyi+St9U=",
-          "FILE_SIZE": "3399063827",
-          "METADATA_HASH": "C+uppkDnc1a3JHF05ddKxiKZC9slJoES/haLDNWHGts=",
+          "FILE_HASH": "mVn+Z25L+KexYclufa39n0Dca7mLl6u8oDUf5HkPYgM=",
+          "FILE_SIZE": "3399220586",
+          "METADATA_HASH": "1QG6YM48nRsLDrZntMq3RCEnSXTCOgvhVSLBi1/G0t8=",
           "METADATA_SIZE": "169352"
         }
       ]

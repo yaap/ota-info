@@ -1,7 +1,6 @@
 ROM:
-• Protect against yet another discovered android VPN leak
-• Hide developer options state from apps
+• None
 
 Device:
-• Properly declare VRR, AVR, Qsync steps and support on waffle panel
-• Implement stock oplus face unlock support (weak auth) 
+• Implement next-gen fusionlight light sensor correction for automatic brightness
+• Fix brightness change jank since disabling pixelworks
