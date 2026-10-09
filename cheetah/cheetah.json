@@ -1,15 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1769645688,
-      "filename": "YAAP-16-Vanilla-cheetah-20260129.zip",
+      "datetime": 1791575386,
+      "filename": "YAAP-17-Vanilla-cheetah-20261009.zip",
+      "url": "https://downloads.yaaprom.org/cheetah/vanilla/YAAP-17-Vanilla-cheetah-20261009.zip",
+      "sha256url": "https://downloads.yaaprom.org/cheetah/vanilla/YAAP-17-Vanilla-cheetah-20261009.zip.sha256sum",
       "payload": [
         {
-          "offset": 4484,
-          "FILE_HASH": "I4VW7eUx3MacOrBL4E4FNX733b6H5jobIZNsiX7+FJo=",
-          "FILE_SIZE": "1599281401",
-          "METADATA_HASH": "FYwdFsZRcs1QyIAh2+Sy5itdQDC37eORnjo7i/jjrVk=",
-          "METADATA_SIZE": "127711"
+          "offset": 4607,
+          "FILE_HASH": "4Q+xojw1nxN3YBI3zMLtN0Kn3U/NsJtkjTv626W6PxQ=",
+          "FILE_SIZE": "1727247805",
+          "METADATA_HASH": "lPf0d58LCXiGF7kfWnYKXyMqM9RpRZSWeQzjKE7xv18=",
+          "METADATA_SIZE": "133503"
         }
       ]
     }
