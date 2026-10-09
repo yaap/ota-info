@@ -1,14 +1,145 @@
 ROM:
-• Fix QS network traffic monitor wrong tint on boot
-• Launcher: Add Pixel Search as QSB provider fallback
-• Launcher: Fix a permanent crash on boot
-• Settings: Restore missing protected IMEI & EID sumarries
-• Settings: Protect phone number and other sensitive info in more pages
+• Merged Android 17 (CP2A.260605.016).
+• October 2026 security patch.
+• New YAAP boot logo, Setup Wizard and YASP logos by SaintJimmy.
+• Boot animation: Request a high priority EGL context.
+• Add a toggle to show battery as text only.
+• Restore the panic button in the power menu.
+• Add a shade scrim opacity setting.
+• Add a setting to hide the gesture navigation handle.
+• Lockscreen weather: Add a modern OmniJaws layout, with an optional split layout.
+• Implement the modern smartspace style and update smartspace to CP2A.
+• Implement a reverse-engineered Pixel mobile data confirmation dialog.
+• Show the location indicator for approximate location access too.
+• QS: The Wi-Fi tile now turns Wi-Fi off when it's on, and the separate Wi-Fi/mobile data tiles and tile auto-on behaviour are gone.
+• QS: AOD and Caffeine tiles show an icon for each state, and the AOD tile shows its state in the secondary label.
+• QS: Long pressing the Caffeine tile at infinite stops it.
+• QS: Vibrate on every active state change and on every long press.
+• Fix the UDFPS screen flash when going to sleep, and other UDFPS and doze issues.
+• Fix AOD burn-in protection needing a SystemUI restart.
+• Fix the flashlight tile on devices without adjustable strength.
+• Fix torch power button gestures on Android 17.
+• Fix the volume panel dismissing when a Bluetooth device connects.
+• Fix the assistant gesture resetting without GMS.
+• Screen record: Hide the edit button when no video editor is installed.
+• Backport the fix for stuck IME input from the May 2026 Pixel update.
+• Backport the 17 QPR1 fix for widgets disappearing after reboot.
+• Reduce system_server overhead by throttling user activity binder calls and no longer pulling dma-buf stats.
+• Increase the HWUI shader cache for fewer fling stalls.
+• Keep expensive rendering hints across blur cache hits.
+• SurfaceFlinger: Improve adaptive refresh rate idle handling, and stop the status bar and other layers from voting.
+• SurfaceFlinger: Always show the render rate in the refresh rate overlay.
+• Enable the app image startup cache and disable the USAP pool.
+• Re-enable Ultra HDR, and use the largest SDR/HDR ratio for gainmap headroom.
+• Show up to 30 tasks in recents.
+• PixelPropsUtils: Fix spoofing on Android 17, and stop spoofing the initial SDK.
+• Deactivate FRP on Vanilla builds.
+• Never show pseudo locales.
+• Allow DAVx5 and Google Contacts as the default contacts account.
+• Add missing permission groups to the permission controller.
+• Disable the QUIC connection close power optimization that bypassed VPNs.
+• Disable unprivileged hardware keepalives.
+• Fix an out-of-bounds crash when filtering auxiliary cameras.
+• Update APNs from LineageOS.
+• Ship Vanadium as dual-arch.
+• Vanilla: Update microG to v0.3.16.
+• Update the Inter font to v4.1 and Roboto to v3.016.
+• Bring back the legacy icon shapes.
+• Launcher: Optimize all apps and recents. Fewer per-frame allocations, preinflated icons, list diffing on a background thread, and hardware layers only when needed.
+• Launcher: Fix a CPU drain caused by stack trace collection.
+• Launcher: Add an option to hide homescreen contents behind the drawer.
+• Launcher: The search bar now follows the drawer opacity.
+• Launcher: Add blur to the homescreen popup menu and more surfaces, and bring back the configurable blur radius.
+• Launcher: Add a Bubble shortcut to the task menu.
+• Launcher: Bring back the old icon shapes, and enable icon customizations for the drawer.
+• Launcher: Align icons vertically when labels are hidden.
+• Launcher: Allow rotation by default.
+• Launcher: Remove the blue tint and the all apps themed icons option.
+• Launcher: Center the overview action buttons, and move the search bar closer to the drawer handle.
+• Launcher: Fix overview-to-home animation hangs and recents bugs on third-party launchers.
+• Settings: Give AOD schedule and custom ramping ringer their own pages, and rearrange the System page.
+• Settings: Allow hiding the account name on the main page, and move the account entry to the bottom.
+• Settings: Restore the secure QS tiles toggle.
+• Settings: Allow custom notification vibration intervals of 50ms.
+• Settings: Add the expressive Wi-Fi QR code generator.
+• Settings: Backport the new Settings app icon, and use dynamic colors in biometric enrollment.
+• Settings: Stop force-enabling the hotspot speed setting, and restore Wi-Fi country code checks.
+• Settings: Update the locale picker from CP2A.
+• Cell broadcasts: Add toggles for the alert tone, LED flash, alerts during calls, the bottom dialog and notifications.
+• Messaging: Add a "Mark as read" notification action, multi-select deletion and predictive back.
+• Messaging: Newest notifications now show on top, and notifications are kept when the app opens.
+• Messaging: Fix dark theme backgrounds, and tonemap Ultra HDR images before sending them over MMS.
+• Clock: Migrate to Material 3 Expressive.
+• Clock: Show the timer and stopwatch as status bar chips, with metric-style notifications.
+• Dialer: Show the in-call notification as a status bar chip, and only show the RTT button when it's enabled.
+• Calendar: Update Etar to 1.0.55.
+• Camera: Update CameraX to 1.7.0-alpha01 and media3 to 1.10.0.
+• OpenDelta: Point downloads to the new server, and fix version mismatch handling.
+• OpenDelta: More reliable pending reboot checks and tile service binding.
 
 Device:
-• Get rid of countless unwanted google services that run in the background
-• Hide disable VRR option for Pixel 7
-• kernel: Silence display brightness logspam
-• kernel: Silence update mode logspam in samsung driver
-• kernel: Block aoc debugging and logging services
-• kernel: Merge android14-6.1-lts (6.1.161)
+• Bringup to Android 17.
+• Update blobs and firmware to CP3A.261005.002.A1.
+• Merge the gs201 common tree into a single pantah device tree.
+• Import common properties, cmdline and bootconfig updates from LineageOS.
+• Use stock prebuilt power, thermal, USB and health HALs, as hardware/google/pixel went private.
+• Build ANGLE from source instead of shipping prebuilt libs.
+• Declare the 2026-03-01 dEQP level for GLES and Vulkan.
+• Update the VINTF product matrix for Android 17 HAL versions.
+• Always enable eSIM packages.
+• Parts: Drop the Google Services Framework dependency.
+• Bring back blurs during app launch.
+• Show the actual ROM build number in About phone instead of the firmware's.
+• Let mmd set up zram like stock:
+  - Compress with lz77eh on the Emerald Hill hardware engine instead of software lz4.
+  - Use 50% of RAM, and write idle pages back to storage with daily write limits.
+• Fix the AIDL Dolby codec service failing to register.
+• Actually drop twoshay, memtrack, dumpstate, dmd and pixelstats, which sixteen still shipped.
+• Drop wifi_diagnostic and the remaining wifi debugging tools.
+• Silence HWC denial logspam.
+• Kernel:
+  - Huge thanks to Sultan Alsawaf (kerneltoast). Most of the scheduler, power and driver work here comes from his kernel.
+  - Merge android14-6.1-lts (6.1.177).
+  - Import google-modules and Pixel device trees from android16-qpr1.
+  - Update the Mali GPU driver to r54p3 for the Android 17 GPU blobs.
+  - Improve Mali DVFS utilization accuracy.
+  - Replace Google's vendor scheduler with CASS (Capacity Aware Superset Scheduler).
+  - Introduce a new CPU energy model measured with freqbench.
+  - schedutil: Ignore the rate limit when scaling up, and lower it to 2ms.
+  - schedutil: Use the frequency just below the target when the two are close.
+  - schedutil: Run frequency changes on the CPU that asks for them. Idle CPUs woken just to change frequency went from 45 to 0 per 30 seconds, and changes no longer wait up to 220us for a sleeping CPU to wake up.
+  - Reduce the PELT half-life from 32ms to 16ms, so load changes are picked up faster.
+  - Revert Google's PELT multiplier and TEO util-awareness.
+  - Disable TTWU_QUEUE and cache-hot buddy, and set migration cost to zero to make use of the shared L3.
+  - Don't migrate a lone task to a bigger CPU for no reason, or keep tasks on big CPUs for throughput.
+  - Compile out NUMA code and resolve scheduler features at compile time.
+  - Reject idle entry when a reschedule is already pending.
+  - Fix ADPF performance hints failing on UI threads. Hundreds of failed hint calls went to none.
+  - Stop the power HAL from retrying writes to missing Pixel scheduler files and from spamming logd.
+  - Emerald Hill zram: Overhaul the request queue, wait on interrupts instead of polling, use a real-time compression thread and a 4096-page hardware FIFO.
+  - Disable proactive compaction and watermark boosting.
+  - Enable lazy RCU and power efficient workqueues by default.
+  - Wi-Fi: Process packets in a real-time thread instead of a tasklet, and stop pinning it to CPU0.
+  - Wi-Fi: Cut the OOB wakelock timeout from 500ms to 100ms, and drop a wakelock timeout from the unlock path.
+  - Wi-Fi: Disable debug bloat, logging and packet logging.
+  - Modem: Stop tpmon from boosting CPU, INT and memory frequencies or setting CPU affinity, and stop pinning its workers to CPU2.
+  - Display: Stop busy waiting for CGC DMA, sleep idle while waiting, and don't count flip waits as CPU load.
+  - Display: Disable heavy DMA debug IRQs and stub out debug prints.
+  - Memory bus: Port Google's zuma fix so PM QoS updates no longer reset the frequency governor's sampling. Its sampling timer went from 136 to 62 runs a minute at idle.
+  - Memory bus: Keep the frequency governor thread on its timer's CPU. Wakeups that pulled in another idle CPU went from 67 of 68 to none.
+  - ACPM: Don't busy wait when sending data from process context.
+  - Align the softlockup and hardlockup watchdog timers, so all CPUs wake up for them together once every 4 seconds. That's 120 interrupts at 15 moments a minute instead of 183 at 75.
+  - Turn off the CAN bus statistics timer, which woke a CPU up 60 times a minute for a bus phones don't have.
+  - Make the KFENCE sampling timer deferrable, so it no longer wakes up idle CPUs.
+  - Always use LSE atomics and hardware CRC32.
+  - Avoid dynamic memory allocation in SELinux, BPF and prctl hot paths.
+  - Speed up mbcache entry creation and sync_file ioctls.
+  - Give the thermal IRQ worker maximum real-time priority.
+  - Reduce the freezer timeout to 1 second.
+  - Use BBR for TCP congestion control.
+  - Switch the IOVA allocator to the vendor hooks.
+  - Stop Google's metrics from hooking IRQs, context switches and perf events.
+  - Disable UFS command logging and stats collection, and Mali Pixel stats.
+  - Stop building test modules.
+  - Silence logspam in AOC audio, CS35L41, WM ADSP, haptics, camera (LWIS), PCIe, I2C, display, binder and Wi-Fi drivers. The idle kernel log went from 295 to 5 lines per 30 seconds.
+  - Fix memory leaks, out-of-bounds accesses and probe errors in Wi-Fi, battery, charger, haptics, touch, MFC, BCL, BTS, gvotable and regulator drivers.
