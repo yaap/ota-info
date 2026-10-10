@@ -1,15 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1769648077,
-      "filename": "YAAP-16-Banshee-cheetah-20260129.zip",
+      "datetime": 1791576733,
+      "filename": "YAAP-17-Calypso-cheetah-20261009.zip",
+      "url": "https://downloads.yaaprom.org/cheetah/YAAP-17-Calypso-cheetah-20261009.zip",
+      "sha256url": "https://downloads.yaaprom.org/cheetah/YAAP-17-Calypso-cheetah-20261009.zip.sha256sum",
       "payload": [
         {
-          "offset": 4484,
-          "FILE_HASH": "Xg3QmPnWurbI9kk15Azqokna0OqCw+S9K/yGmvI4tzw=",
-          "FILE_SIZE": "2010613228",
-          "METADATA_HASH": "2Js7QvRPNyxlVwyTYVsjcVGVyWvcVKRZD6ViszyDMuA=",
-          "METADATA_SIZE": "157166"
+          "offset": 4607,
+          "FILE_HASH": "g9SKgKzpXMEVoJG6+W9hsD1FvnyEQRxo3lSYViukblk=",
+          "FILE_SIZE": "2119921025",
+          "METADATA_HASH": "wcnf+KHVy2TmbUd+cxhJhg95mS3hh5oXhMzVFc7QJLk=",
+          "METADATA_SIZE": "161204"
         }
       ]
     }
