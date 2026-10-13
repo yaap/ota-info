@@ -1,17 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1791574194,
-      "filename": "YAAP-17-Calypso-panther-20261009.zip",
-      "url": "https://downloads.yaaprom.org/panther/YAAP-17-Calypso-panther-20261009.zip",
-      "sha256url": "https://downloads.yaaprom.org/panther/YAAP-17-Calypso-panther-20261009.zip.sha256sum",
+      "datetime": 1791927607,
+      "filename": "YAAP-17-Calypso-panther-20261013.zip",
+      "url": "https://downloads.yaaprom.org/panther/YAAP-17-Calypso-panther-20261013.zip",
+      "sha256url": "https://downloads.yaaprom.org/panther/YAAP-17-Calypso-panther-20261013.zip.sha256sum",
       "payload": [
         {
-          "offset": 4607,
-          "FILE_HASH": "ljVeb7ItVK2Avs2fr22gnmGeTUCF2aZCtf23a8ejG/U=",
-          "FILE_SIZE": "2119273546",
-          "METADATA_HASH": "qVs7cgN22ob5i0QWt4rIN/lKi2/I5xoEcjBKiKjmgKk=",
-          "METADATA_SIZE": "161032"
+          "offset": 4641,
+          "FILE_HASH": "PoecgyUObNW0OFJrNCEibawihxaB7o5dPQ+mYbM3yLc=",
+          "FILE_SIZE": "2407341135",
+          "METADATA_HASH": "A4UPWow/4Knsf8sISq0tN5Iu53qVn/qzIzSOToHUB4k=",
+          "METADATA_SIZE": "175556"
         }
       ]
     }
