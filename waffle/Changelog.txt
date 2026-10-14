@@ -1,6 +1,15 @@
 ROM:
-• None
+• Merge October security patches
+• Gapps: update Google apps to 17
+• Make custom user-set fonts affect more elements
+• Fixed theme picker font apply bug
+• Fixed a possible custom vibration settings crash
+• Vanilla: fix a possible Dialer crash
+• Vanilla: update Vanadium
+• Update certified properties
+• Misc
 
 Device:
-• Implement next-gen fusionlight light sensor correction for automatic brightness
-• Fix brightness change jank since disabling pixelworks
+• Improve multi tasking
+• Improve efficiency
+• Improve auto brightness screen correction
