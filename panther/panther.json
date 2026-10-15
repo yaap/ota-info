@@ -1,17 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1791925003,
-      "filename": "YAAP-17-Vanilla-panther-20261013.zip",
-      "url": "https://downloads.yaaprom.org/panther/vanilla/YAAP-17-Vanilla-panther-20261013.zip",
-      "sha256url": "https://downloads.yaaprom.org/panther/vanilla/YAAP-17-Vanilla-panther-20261013.zip.sha256sum",
+      "datetime": 1792045187,
+      "filename": "YAAP-17-Vanilla-panther-20261015.zip",
+      "url": "https://downloads.yaaprom.org/panther/vanilla/YAAP-17-Vanilla-panther-20261015.zip",
+      "sha256url": "https://downloads.yaaprom.org/panther/vanilla/YAAP-17-Vanilla-panther-20261015.zip.sha256sum",
       "payload": [
         {
           "offset": 4607,
-          "FILE_HASH": "WSFdfwVkoGP1NzdzAZKy/3SJoBgypnDvTJsoZPo3FT0=",
-          "FILE_SIZE": "1936104081",
-          "METADATA_HASH": "3jndlmmFc6/jq8PKuQCvnMRjZgBnaD5+TEjE+xiNvzc=",
-          "METADATA_SIZE": "143091"
+          "FILE_HASH": "nQSABRsOAC7VmCt2fU0dccsjbj+IZMMcezmkVSYpmcI=",
+          "FILE_SIZE": "1935551738",
+          "METADATA_HASH": "kELk5Nz3hKt2d/THjTx0pDf0OI5Vd6De/JiiaV98Rt4=",
+          "METADATA_SIZE": "142979"
         }
       ]
     }
