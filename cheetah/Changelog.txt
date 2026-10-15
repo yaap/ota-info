@@ -1,25 +1,10 @@
 ROM:
-• Dialer: Add primary color for the in-call UI
-• Dialer: Fix a call log crash with dark theme and white text
-• Dialer: Fix the call recording button showing the wrong state
-• Settings: Add safeguards to gaming mode
-• Settings: Allow conversation vibration intervals of 50ms
-• Fix Google Photos Unblur and other Pixel-only features
-• Fix missing Material 3 Expressive fonts in Settings, notifications and other system text
-• ThemePicker: Apply font changes instantly instead of after reopening
-• Update GApps to Android 17 (CP1A)
+• StatusBar: Fix the battery percentage getting clipped when it's shown as text only
+• Fix apps forking at the highest real-time priority, which left their threads running ahead of SurfaceFlinger and touch input
+• Fix apps losing their saved shaders on launch, which made their first frames stutter
+• Drop the unused IORap property
+• Update Vanadium to 155.0.8059.79
 
 Device:
-• Ship the stock Google Camera instead of Aperture
-• Add AICore and Google SettingsIntelligence from the stock blobs
-• Use the stock Device Personalization Services instead of the Pixel 5 one
-• kernel: Upstream to Linux 6.12 (android16-6.12, 6.12.93)
-  - EEVDF scheduler, replacing CFS, with better latency for interactive tasks
-  - Per-VMA locking, so page faults in apps with many threads no longer wait on one lock
-  - EROFS decompression on per-CPU threads for lower-latency system file reads
-  - Two years of upstream bug fixes, security fixes and driver updates
-  - See all changes since 6.1: https://kernelnewbies.org/LinuxVersions
-• kernel: Replace CASS with Google's Pixel vendor scheduler, ported to EEVDF
-• kernel: Carry over the zram, Wi-Fi, modem, display, ACPM, watchdog and timer optimizations from 6.1
-• kernel: Carry over the logspam cuts and the memory leak, out-of-bounds and probe fixes from 6.1
-• kernel: Silence PCIe link-up logspam
+• kernel: Fix PPS fast chargers getting stuck at "Connected, but not charging"
+• kernel: Fix USB-C wired earphones and DACs playing no sound
