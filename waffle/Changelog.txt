@@ -1,15 +1,10 @@
 ROM:
-• Merge October security patches
-• Gapps: update Google apps to 17
-• Make custom user-set fonts affect more elements
-• Fixed theme picker font apply bug
-• Fixed a possible custom vibration settings crash
-• Vanilla: fix a possible Dialer crash
-• Vanilla: update Vanadium
-• Update certified properties
-• Misc
+• None
 
 Device:
-• Improve multi tasking
-• Improve efficiency
-• Improve auto brightness screen correction
+• Migrate to an open source fingerprint hal:
+  - Must re enroll fingerprint due to template changes
+  - Improves performance and reliability considerably
+  - Dropped many more proprietary bits (like oplus touch) which were only used by old proprietary fingerprint hal
+  - Uses more AOSP fingerprint functionality for reduced latency
+• Kernel: merge android common kernel
