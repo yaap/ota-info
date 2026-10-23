@@ -1,10 +1,10 @@
 ROM:
-• None
+• Fix cutoff battery text in quick settings
 
 Device:
-• Migrate to an open source fingerprint hal:
-  - Must re enroll fingerprint due to template changes
-  - Improves performance and reliability considerably
-  - Dropped many more proprietary bits (like oplus touch) which were only used by old proprietary fingerprint hal
-  - Uses more AOSP fingerprint functionality for reduced latency
+• Fix possible auto brightness ping-pong
+• Add an open source reimplementation of oplus touch:
+  - Fixes edge mistouch detection
+  - Fixes legacy screen off touchscreen gestures
+  - Note: new open source fingerprint implementation still does not use it
 • Kernel: merge android common kernel
