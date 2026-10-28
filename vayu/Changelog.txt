@@ -1,35 +1,62 @@
 ROM:
-• Applied May security patches
-• Fix volume dialog ringer drawer in landscape
-• Set the correct default for tether offload setting
-• Show location indicator for coarse location requests as well as precise
-• Fix status bar burn in protection
-• Disable USAP pool to workaround high usap drain for some users
-• Launcher3 & Quickstep: Optimizations to Google code in areas found introducing animation jank
-• Fix decrease of refresh rate and target frame rate on ARR devices during overscroll stretch animations and other redraws (yet another fix to Google's ARR implementation)
-• Fix PermissionController crash
-• Implement fix for "Tiny UDP Cannon" VPN bypass
-• Fix IME getting stuck (fix from pixel)
-• Fix setting DAVx as contacts account
-• Fix multi-profile files access
-• Launcher: standardize all apps search bar height
-• Implement an option for making navbar gesture handle invisible
-• MD3 theme files app (DocumentsUI)
-• Lindroid: halt vblanks and rendering when app is in background
-• Implement option to change notification shade opacity
-• Fix ARR power regression with a more targeted overscroll effect refresh rate fix
-• Fix circle to search with navbar handle invisible
-• Aperture: rebase and update
-• Lindroid: implement power mode support
-• OmniJaws: use a split view for inline mode, showing all non date and weather slices in a secondary location
-• Gapps: set CredentialManager as default password manager
-• SurfaceFlinger: always show refresh rate in overlay even when idle (removes dashes)
-• SurfaceFlinger: do not vote any refresh rate change on status bar item updates
-• SurfaceFlinger: allow utilizing as low as minimum configured refresh rate for idle
-• SurfaceFlinger: minimize intermediate refresh rate switches
-• Fix AOD burn in protection requiring SystemUI restart post boot (Google bug)
-• Aperture: support fixing hdr video colors on oplus devices
-• Misc
+• Vanilla: update shipped microg and companion
+• Enable app image startup cache
+• Merged Android 17 (And all related security patches)
+• Add a shortcut for the new A17 bubbles in recents
+• Add an icon for each caffeine tile state
+• Add an icon for each AOD tile state
+• Improve QS tiles haptic feedbacks (vibrate for more changes)
+• Launcher3: Add a toggle to hide home screen contents in drawer
+• Launcher3: Add blur to home screen popup menus
+• Launcher3: Make drawer search bar follow drawer opacity
+• Settings: Reorganize gestures and system pages
+• Updated smartspace to latest pixel release
+• Updated locale picker
+• Split text to 2 lines in AOD tile
+• Removed auto-on tile dialog features (no longer needed for the new AOSP tiles)
+• Removed custom 3 button layout toggles (AOSP now has their own invert)
+• Many other small fixes and improvements we just don't recall
+• VRR: bring back accidentally dropped change in 17 merge to no vote on many layers
+• Improve screen off udfps unlock consistency (partial unlocks in 17 fixed)
+• Allow >5 background tasks after >6 hours
+• Improve Google bug of ultra hdr gainmaps clipping differently depending on interpolation
+• Settings: dynamic colors in enrollment screen
+• Settings: reverse-engineered expressive QR generator
+• Settings: backported new Google icon
+• Update to and fix 17 doze/keyguard/udfps implementation:
+ - Fixes partial unlock issue
+ - Fixes first time secure app udfps unlock
+• Vanilla: fix needing to reset digital assistant app every boot (longstanding bug)
+• New logos by SaintJimmy
+• Fix and harden torch power gestures no matter digital assistant capabilities
+• Fix and ensure udfps layer order is correct
+• Fix all known udfps dimming bugs (notif, qs, pin entry all in sync on keyguard now, and auth bp apps are always correct)
+• Backport mobile data confirmation dialog
+• Fix screen recorder edit crash without any available video editors installed
+• Certified props update
+• Allow dimming wallpaper on dark theme
+• [Vanilla] Messaging: Add mark as read notification shortcut
+• [Vanilla] Messaging: Allow selecting multiple messages for deletion
+• [Vanilla] Messaging: Tonemap ultra hdr images before MMS sending
+• [Vanilla] Dialer: Promote in call notification to status bar incall chip
+• Launcher3: improve alignment when labels are hidden
+• Launcher3: improve icon load performance
+• [Vanilla] DeskClock: promote timer to a status bar chip + misc other updates
+• Protect against yet another discovered android VPN leak
+• Hide developer options state from apps
+• Gapps: update Google apps to 17
+• Make custom user-set fonts affect more elements
+• Fixed theme picker font apply bug
+• Fixed a possible custom vibration settings crash
+• Vanilla: fix a possible Dialer crash
+• Vanilla: update Vanadium
+• Update certified properties
+• Fix cutoff battery text in quick settings
 
 Device:
-• Merge LineageOS qcom sm8150 kernel changes
+• Ship MiuiCamera on Gapps build
+• Switch back to AOSP WFD
+• Enable wifiSaeUpgrade
+• kernel: remove non existent disp_rdump_memory
+• kernel: fix refresh rate changes on splash and screen off/on
+• Misc Fixes and Improvements
