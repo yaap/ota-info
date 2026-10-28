@@ -1,8 +1,10 @@
 {
   "response": [
     {
-      "datetime": 1781799014,
-      "filename": "YAAP-16-Banshee-vayu-20260618.zip"
+      "datetime": 1793204302,
+      "filename": "YAAP-17-Calypso-vayu-20261028.zip",
+      "url": "https://downloads.yaaprom.org/vayu/YAAP-17-Calypso-vayu-20261028.zip",
+      "sha256url": "https://downloads.yaaprom.org/vayu/YAAP-17-Calypso-vayu-20261028.zip.sha256sum"
     }
   ]
 }
