@@ -1,10 +1,14 @@
 ROM:
-• Fix cutoff battery text in quick settings
+• Fix a possible Wallpaper Dim crash
+• Fix a possible settings crash
 
 Device:
-• Fix possible auto brightness ping-pong
-• Add an open source reimplementation of oplus touch:
-  - Fixes edge mistouch detection
-  - Fixes legacy screen off touchscreen gestures
-  - Note: new open source fingerprint implementation still does not use it
-• Kernel: merge android common kernel
+• Implement stock-inspired userspace mistouch suppression
+• Implement configurable touchpanel grip and mistouch suppression (Display settings):
+  - 3 (default) is fully stock mapping
+  - 0 disables userspace and kernel mitigations entirely
+  - >3 is more protective than stock, <3 is less protective than stock
+• Switch to threaded vulkan renderer
+• Kernel: fix two possible crashes
+• Fix colorspace and stock mode render intents
+• Improve fingerprint performance and fix a few bugs
