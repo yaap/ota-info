@@ -1,15 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1783690654,
-      "filename": "YAAP-16-Vanilla-cerro-20260710.zip",
+      "datetime": 1793566535,
+      "filename": "YAAP-17-Vanilla-cerro-20261101.zip",
+      "url": "https://downloads.yaaprom.org/cerro/vanilla/YAAP-17-Vanilla-cerro-20261101.zip",
+      "sha256url": "https://downloads.yaaprom.org/cerro/vanilla/YAAP-17-Vanilla-cerro-20261101.zip.sha256sum",
       "payload": [
         {
-          "offset": 4629,
-          "FILE_HASH": "gmINA56f6eCuND8Re5pAbDVkCqy/M1WCJ1prhMWn614=",
-          "FILE_SIZE": "2665296879",
-          "METADATA_HASH": "ecdU0IotgLln3sq5Qha6BJaaCOjIhm46/bjIztreXco=",
-          "METADATA_SIZE": "179095"
+          "offset": 4721,
+          "FILE_HASH": "NtgyhXuoY5PcoLujIdsRwvo66d2OPNWI9VHxzx9wxaY=",
+          "FILE_SIZE": "2763894766",
+          "METADATA_HASH": "MBwB44zIEoVAGHxZ6i/+SVfYHvGx1xxuVBRh8Vx5lUE=",
+          "METADATA_SIZE": "187792"
         }
       ]
     }
