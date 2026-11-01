@@ -1,9 +1,80 @@
 ROM:
-• Aperture: support fixing hdr video colors on oplus devices
-• Misc
+• Vanilla: update shipped microg and companion
+• Enable app image startup cache
+• Merged Android 17 (And all related security patches)
+• Add a shortcut for the new A17 bubbles in recents
+• Add an icon for each caffeine tile state
+• Add an icon for each AOD tile state
+• Improve QS tiles haptic feedbacks (vibrate for more changes)
+• Launcher3: Add a toggle to hide home screen contents in drawer
+• Launcher3: Add blur to home screen popup menus
+• Launcher3: Make drawer search bar follow drawer opacity
+• Settings: Reorganize gestures and system pages
+• Updated smartspace to latest pixel release
+• Updated locale picker
+• Split text to 2 lines in AOD tile
+• Removed auto-on tile dialog features (no longer needed for the new AOSP tiles)
+• Removed custom 3 button layout toggles (AOSP now has their own invert)
+• Many other small fixes and improvements we just don't recall
+• VRR: bring back accidentally dropped change in 17 merge to no vote on many layers
+• Improve screen off udfps unlock consistency (partial unlocks in 17 fixed)
+• Allow >5 background tasks after >6 hours
+• Improve Google bug of ultra hdr gainmaps clipping differently depending on interpolation
+• Settings: dynamic colors in enrollment screen
+• Settings: reverse-engineered expressive QR generator
+• Settings: backported new Google icon
+• Update to and fix 17 doze/keyguard/udfps implementation:
+ - Fixes partial unlock issue
+ - Fixes first time secure app udfps unlock
+• Vanilla: fix needing to reset digital assistant app every boot (longstanding bug)
+• New logos by SaintJimmy
+• Fix and harden torch power gestures no matter digital assistant capabilities (17 fixes) 
+• Fix and ensure udfps layer order is correct (17 fixes) 
+• Fix all known udfps dimming bugs (notif, qs, pin entry all correctly in sync on keyguard now) 
+• Backport mobile data confirmation dialog
+• Fix screen recorder edit crash without any available video editors installed
+• Merge September 2026 security patches
+• Certified props update
+• Allow dimming wallpaper on dark theme
+• [Vanilla] Messaging: Add mark as read notification shortcut
+• [Vanilla] Messaging: Allow selecting multiple messages for deletion
+• [Vanilla] Messaging: Tonemap ultra hdr images before MMS sending
+• [Vanilla] Dialer: Promote in call notification to status bar incall chip
+• Launcher3: improve alignment when labels are hidden
+• Launcher3: improve icon load performance
+• [Vanilla] DeskClock: promote timer to a status bar chip + misc other updates
+• Protect against yet another discovered android VPN leak
+• Hide developer options state from apps
+• Merge October security patches
+• Gapps: update Google apps to 17
+• Make custom user-set fonts affect more elements
+• Fixed theme picker font apply bug
+• Fixed a possible custom vibration settings crash
+• Vanilla: fix a possible Dialer crash
+• Vanilla: update Vanadium
+• Update certified properties
+• Fix cutoff battery text in quick settings
+• Fix a possible Wallpaper Dim crash
+• Fix a possible settings crash
 
 Device:
-• Implement 9 (or so) level skin-thermal based mitigations.
-• Kernel: fetch latest changes
-• apply 10% uclamp boosting for SurfaceFlinger
-
+• Kernel: bring back a proper FIE implementation and fix two power consumption mistakes. Additionally minimize overhead.
+• Kernel: CASS: in full load scenarios, allow using prime sooner if a task can only fit there (+~400 multi-core Geekbench points consistently and hackbench improved).
+• Kernel: disable dcvsh IRQs to stop lmh throttling from competing with our thermal throttling implementation.
+• Kernel: drop counter-productive idle packing
+• Kernel: EEVDF fixes
+• Kernel: improve app launch and benchmark performance (reduce performance cost of lazy rcu while keeping idle power consumption benefits)
+• Kernel: improve reclaim efficiency with newer kcompressd changes.
+• Kernel: improve power efficiency with a change targeting system background tasks
+• Improve jitter consistency
+• Kernel: implement per-cluster frequency headroom for improved power efficiency
+• Kernel: improve idle/sleep in some cases
+• Use source built libvmmem
+• Kernel: build with clang 22 and fix some scheduler issues
+• Kernel: implement custom lazy preemption app open and foreground task optimizations based on vendor usage
+• Give reclaim a chance in heavy order-0 bursts
+• Update from NebulaAIOS2.0.3_NX721J
+• Allow applications to override video operation modes
+• Improve multi tasking (back to lmkD it is)
+• Improve efficiency
+• Upstream kernel

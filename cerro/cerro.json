@@ -1,15 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1783691662,
-      "filename": "YAAP-16-Banshee-cerro-20260710.zip",
+      "datetime": 1793536345,
+      "filename": "YAAP-17-Calypso-cerro-20261101.zip",
+      "url": "https://downloads.yaaprom.org/cerro/YAAP-17-Calypso-cerro-20261101.zip",
+      "sha256url": "https://downloads.yaaprom.org/cerro/YAAP-17-Calypso-cerro-20261101.zip.sha256sum",
       "payload": [
         {
-          "offset": 4629,
-          "FILE_HASH": "aMGjqyM9KyxFjc95OjLOIlBYK4pjcDHFBSb26CQ3aQI=",
-          "FILE_SIZE": "3059812987",
-          "METADATA_HASH": "OqWQKE47I2FNBMj6qX1FQLMwF+KLrxMxs4gtbkwWD7c=",
-          "METADATA_SIZE": "207235"
+          "offset": 4755,
+          "FILE_HASH": "gATiCoMxm3YcCv6jBZOT+m50oRffQiSHXpv6pceTiEo=",
+          "FILE_SIZE": "3172197866",
+          "METADATA_HASH": "BZRewBOC/4KkgWUmXxFa3CIjcgWxqgJBfPTZt+W8VD8=",
+          "METADATA_SIZE": "215164"
         }
       ]
     }
