@@ -2,4 +2,9 @@ ROM:
 • None
 
 Device:
-• Update qcom telephony components (Resolves issues with calls)
+• Fix automatic KProfiles mode
+• Introduce more boosting:
+  - In-app boosting
+  - Tweak existing (app-open/transition) boosts
+• switch to armv9-2a + kryo785 compiler optimizations
+
