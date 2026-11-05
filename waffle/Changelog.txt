@@ -1,14 +1,23 @@
 ROM:
-• Fix a possible Wallpaper Dim crash
-• Fix a possible settings crash
+• Merge November security patches
+• Vanilla: app updates
+• Use Canvas for editing images opposed to old Gallery2 editor
+• Enable ambient aod support (no remaining bugs)
+• Use m3e fonts on keyguard
+• Qcom 10bit HEIC support
+• Display settings: add color temperature and saturation sliders
+• Fix smartspace unified layout when a notification appears
+• Launcher: fix widget padding
+• Settings: fixup preference order under sound page
 
 Device:
-• Implement stock-inspired userspace mistouch suppression
-• Implement configurable touchpanel grip and mistouch suppression (Display settings):
-  - 3 (default) is fully stock mapping
-  - 0 disables userspace and kernel mitigations entirely
-  - >3 is more protective than stock, <3 is less protective than stock
-• Switch to threaded vulkan renderer
-• Kernel: fix two possible crashes
-• Fix colorspace and stock mode render intents
-• Improve fingerprint performance and fix a few bugs
+• Open source audio:
+  - Fully functional LVACFS for mic processing (even tri/quad camcorder modes now supported) 
+  - Uses stock configs now
+  - Has speaker protection fully implemented
+  - Improved input processing
+• Open source charger hal
+• Open source OplusSensors hal
+• Fix fingerprint color mode differing
+• Improve perceived brightness with lockscreen fingerprint usage
+• Fix touchpanel showing up as a game controller
