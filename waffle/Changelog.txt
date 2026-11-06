@@ -1,23 +1,6 @@
 ROM:
-• Merge November security patches
-• Vanilla: app updates
-• Use Canvas for editing images opposed to old Gallery2 editor
-• Enable ambient aod support (no remaining bugs)
-• Use m3e fonts on keyguard
-• Qcom 10bit HEIC support
-• Display settings: add color temperature and saturation sliders
-• Fix smartspace unified layout when a notification appears
-• Launcher: fix widget padding
-• Settings: fixup preference order under sound page
+• Bugfix: fix the expanded volume panel after November ASB
+• Bugfix: fix fingerprint dim application to correctly match brightness
 
 Device:
-• Open source audio:
-  - Fully functional LVACFS for mic processing (even tri/quad camcorder modes now supported) 
-  - Uses stock configs now
-  - Has speaker protection fully implemented
-  - Improved input processing
-• Open source charger hal
-• Open source OplusSensors hal
-• Fix fingerprint color mode differing
-• Improve perceived brightness with lockscreen fingerprint usage
-• Fix touchpanel showing up as a game controller
+• None
