@@ -1,6 +1,9 @@
 ROM:
-• Bugfix: fix the expanded volume panel after November ASB
-• Bugfix: fix fingerprint dim application to correctly match brightness
+• Memory allocator contention reduction
+• Memory allocator performance improvement
+• Vanilla: update Dialer to material design 3 UI
 
 Device:
-• None
+• Restore touchDaemon for fixing mistouch and palm detection
+• Fix ringers, timers, and alarms not playing if bt audio connected
+• Kernel: Merge Linux Kernel 6.1.192, patch a Qualcomm CVE, update PSI to upstream rtpoll
