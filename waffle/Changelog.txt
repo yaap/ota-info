@@ -1,9 +1,6 @@
 ROM:
-• Memory allocator contention reduction
-• Memory allocator performance improvement
-• Vanilla: update Dialer to material design 3 UI
+• Show udfps dimming for more doze states
 
 Device:
-• Restore touchDaemon for fixing mistouch and palm detection
-• Fix ringers, timers, and alarms not playing if bt audio connected
-• Kernel: Merge Linux Kernel 6.1.192, patch a Qualcomm CVE, update PSI to upstream rtpoll
+• Increase AOD brightness on both levels
+• Kernel: Fix panic with usb gadgets
